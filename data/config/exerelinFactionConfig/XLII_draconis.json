@@ -3,7 +3,7 @@
     "playableFaction":true,
     "corvusCompatible":true,
 
-    "rebelFleetSuffix":"Treasonists",
+    "rebelFleetSuffix":"叛乱者",
 
     "directoryUseShortName":true,
     
@@ -29,23 +29,23 @@
         "moraleDamageTakenMult":0.75
     },
 
-    "asteroidMiningFleetName":"Mining Flotilla",
+    "asteroidMiningFleetName":"采矿船队",
     "miningVariantsOrWings":["XLII_alsafi_Hybrid", "XLII_yunu_Elite"],
 
-    "responseFleetName":"Quick Reaction Force",
-    "defenceFleetName":"Defense Fleet",
-    "invasionFleetName":"Invasion Fleet",
-    "invasionSupportFleetName":"Support Fleet",
-    "stationName":"SATCOM",
+    "responseFleetName":"快速反应部队",
+    "defenceFleetName":"防卫舰队",
+    "invasionFleetName":"入侵舰队",
+    "invasionSupportFleetName":"支援舰队",
+    "stationName":"通信总站",
 
     "factionIdForHqResponse":"XLII_intelligence_office",
 	"specialForcesSizeMult":2.0,
     "specialForcesNamerClass":"levianeer.draconis.data.campaign.intel.specialforces.namer.DraconisRomanNumeralNamer",
 
 	"vengeanceFleetSizeMult":2.0,
-    "vengeanceLevelNames":["AIO Surveillance Detachment","AIO Interdiction Group","AIO Strike Battlegroup"],
-    "vengeanceFleetNames":["AIO Surveillance Detachment","AIO Interdiction Group","AIO Strike Battlegroup"],
-    "vengeanceFleetNamesSingle":["an AIO Surveillance Detachment","an AIO Interdiction Group","an AIO Strike Battlegroup"],
+    "vengeanceLevelNames":["AIO监视分遣队","AIO封锁支队","AIO打击战斗群"],
+    "vengeanceFleetNames":["AIO监视分遣队","AIO封锁支队","AIO打击战斗群"],
+    "vengeanceFleetNamesSingle":["一支AIO监视分遣队","一支AIO封锁支队","一支AIO打击战斗群"],
 
     "startShipsSolo":[
         ["XLII_thuban_Standard"],

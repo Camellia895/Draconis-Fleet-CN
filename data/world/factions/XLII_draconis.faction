@@ -14,11 +14,11 @@
 	
 	"showInIntelTab":true,
 	
-	"displayName":"Draconis Alliance",
-		"displayNameWithArticle":"the Draconis Alliance",
+	"displayName":"德拉科尼斯同盟",
+		"displayNameWithArticle":"德拉科尼斯同盟",
 		
-	"displayNameLong":"Draconis Defence Alliance",
-		"displayNameLongWithArticle":"the Draconis Defence Alliance",
+	"displayNameLong":"德拉科尼斯防卫同盟",
+		"displayNameLongWithArticle":"德拉科尼斯防卫同盟",
 	
 	"logo":"graphics/factions/draconis.png",
 		"crest":"graphics/factions/crest_draconis.png",
@@ -200,13 +200,13 @@
 	
 	"ranks":{
 		"ranks":{
-			"factionLeader":{"name":"Fleet Admiral"},
+			"factionLeader":{"name":"舰队元帅"},
 		},
 		"posts":{
 			"factionLeader":{"name":"Fleet Admiral"},
-			"patrolCommander":{"name":"Commander"},
-			"fleetCommander":{"name":"Rear Admiral"},
-			"baseCommander":{"name":"Chief of Base Operations"}
+			"patrolCommander":{"name":"指挥官"},
+			"fleetCommander":{"name":"海军少将"},
+			"baseCommander":{"name":"基地运作长"}
 		},
 	},
 	
@@ -231,20 +231,20 @@
 	},
 	
 	"fleetTypeNames":{
-		"trade":"Commerce Fleet",
-		"tradeLiner":"Transit Convoy",
-		"tradeSmuggler":"Shadow Convoy",
-		"smallTrader":"Supply Convoy",
+		"trade":"商贸船队",
+		"tradeLiner":"转运船队",
+		"tradeSmuggler":"影子船队",
+		"smallTrader":"补给船队",
 		
-		"patrolSmall":"Picket Squadron",
-		"patrolMedium":"Patrol Fleet",
-		"patrolLarge":"Battlegroup",
+		"patrolSmall":"哨戒中队",
+		"patrolMedium":"巡逻舰队",
+		"patrolLarge":"战斗群",
 		
-		"shadowFleet":"Shadow Fleet",
+		"shadowFleet":"影子舰队",
 		
-		"inspectionFleet":"Inspection Fleet",
-		"taskForce":"Task Force",
+		"inspectionFleet":"检察舰队",
+		"taskForce":"特遣舰队",
 		
-		"foodReliefFleet":"Relief Division",
+		"foodReliefFleet":"救济分舰队",
 	}
 }

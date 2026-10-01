@@ -1,36 +1,36 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
 #Core Functions,,,,,,,,,,,,,,,,,,,
-Draconis Hull,XLII_draconishull,,,Draconis,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_DraconisHull,Hidden hullmod for managing the special properties of Draconis ships. Description created in script.,,,graphics/hullmods/XLII_crest_draconis.png
-Forty Second Battlegroup,XLII_fortysecond,,,XLII Battlegroup,codex_require_related,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_FortySecond,Hidden hullmod for managing the special properties of XLII Defence Fleet ships. Description created in script.,,,graphics/hullmods/XLII_crest_draconis_2.png
-Howler ECM Suite,XLII_fortysecond_mk2,,,XLII Battlegroup,codex_require_related,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_FortySecondMk2,Hidden hullmod for managing the special properties of XLII Defence Fleet ships. Description created in script.,,,graphics/icons/missions/spysat.png
+德拉科尼斯舰体,XLII_draconishull,,,德拉科尼斯,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_DraconisHull,用于管理德拉科尼斯舰船特殊属性的隐藏船插。描述由脚本生成。,,,graphics/hullmods/XLII_crest_draconis.png
+第42战斗群,XLII_fortysecond,,,第42战斗群,codex_require_related,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_FortySecond,用于管理第42防卫舰队舰船特殊属性的隐藏船插。描述由脚本生成。,,,graphics/hullmods/XLII_crest_draconis_2.png
+咆哮电子战套件,XLII_fortysecond_mk2,,,第42战斗群,codex_require_related,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_FortySecondMk2,用于管理第42防卫舰队舰船特殊属性的隐藏船插。描述由脚本生成。,,,graphics/icons/missions/spysat.png
 ,,,,,,,,,,,,,,,,,,,
 #Built-In Buffs,,,,,,,,,,,,,,,,,,,
-Autoflare Dispenser,XLII_autoflarelauncher,,,Draconis,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_AutoFlareLauncher,Description created in script.,Automatically fires countermeasures when missiles are detected.,,graphics/hullmods/XLII_countermeasures.png
-Missile Control Matrix,XLII_missileuplink,,,Draconis,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_MissileGuidanceUplink,"Features an onboard missile autoforge that periodically makes ammo for the twin large missile weapons.
+自动诱饵撒布器,XLII_autoflarelauncher,,,德拉科尼斯,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_AutoFlareLauncher,描述由脚本生成。,侦测到导弹时自动发射反制弹药。,,graphics/hullmods/XLII_countermeasures.png
+导弹控制矩阵,XLII_missileuplink,,,德拉科尼斯,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_MissileGuidanceUplink,"舰载导弹自动锻造装置会定期为两座大型导弹武器补充弹药。
 
-Additionally, all missiles have their hitpoints increased by %s.",Increases missile health; slowly regenerates ammo for large missile weapons.,,graphics/hullmods/missile_autofactory.png
-Targeting Systems,XLII_overburdenedsystems,,,Draconis,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_OverburdenedSystems,"An advanced built-in data-link system, optimized for quick targeting at the expense of range. Increases missile weapon ammo regeneration and charge rate by %s, but reduces missile range by %s.",Decreases missile weapon range but increases ammo capacity.,,graphics/hullmods/XLII_missileuplink.png
-Advanced Ballistic FCS,XLII_advancedweaponsystems,,,Draconis,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_AdvancedWeaponSystems,"This ship has an experimental hull-integrated ballistic computer, linking all weapons through a compact targeting array that consumes significant internal volume. Increases the range of ballistic weapons by %s.",Increases ballistic weapon range.,,graphics/hullmods/assault_package.png
-Adaptive Flux Matrix,XLII_dynamicfluxbuff,,,Draconis,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_DynamicFluxBuff,"Experimental flux-feedback matrix that routes rising flux levels into offensive and defensive systems. Increases damage dealt by %s at low flux, scaling linearly to a maximum of %s at high flux. Provides damage reduction starting at %s and scaling to a maximum of %s.
+此外，所有导弹的结构值提高 %s。",提高导弹结构值；缓慢再生大型导弹武器弹药。,,graphics/hullmods/missile_autofactory.png
+瞄准系统,XLII_overburdenedsystems,,,德拉科尼斯,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_OverburdenedSystems,一套内建式先进数据链系统，为快速瞄准而优化，代价是射程。导弹武器的弹药再生与装填速度提高 %s，但导弹射程降低 %s。,降低导弹武器射程，但提高弹药容量。,,graphics/hullmods/XLII_missileuplink.png
+先进弹道火控,XLII_advancedweaponsystems,,,德拉科尼斯,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_AdvancedWeaponSystems,该舰装有实验性的舰体一体化弹道计算机，通过一座紧凑瞄准阵列联动全部武器——为此占用了可观的舰内空间。弹道武器射程提高 %s。,提高弹道武器射程。,,graphics/hullmods/assault_package.png
+自适应幅能矩阵,XLII_dynamicfluxbuff,,,德拉科尼斯,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_DynamicFluxBuff,"实验性幅能反馈矩阵，将攀升的幅能导入攻防系统。低幅能时造成的伤害提高 %s，随幅能线性攀升，高幅能时最高可达 %s。自 %s 起提供伤害减免，最高可达 %s。
 
-The unstable feedback loop interferes with ship systems, increasing system cooldown by %s.",Increases ship systems effectiveness as flux rises.,,graphics/hullmods/distributed_fire_control.png
-Monofilament Tow Cable,XLII_tow_cable,,,Draconis,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_TowCable,"Stabilises the fleet's drive bubble, increasing the maximum burn of the fleet by %s. The effect of multiple stabilisers is cumulative.",Reduces fleetwide fuel use.,,graphics/hullmods/monofilament_cable.png
-Improved Subsystems,XLII_improvedsystems,,,Draconis,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_ImprovedSystems,Enhanced power routing and mechanical redundancies developed to help sustain excessive system usage. Increases the maximum number of ship system charges by %s and reduces system cooldown by %s.,Increases ship sysetm charges.,,graphics/hullmods/XLII_improved_subsystems.png
-Incomprehensible Horrors,XLII_incomprehensiblehorrors,,,Draconis,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_IncomprehensibleHorrors,"Autonomous repair systems embedded in the ship's modular armor plates, activated via the ship system. Regenerates up to %s of maximum hull integrity over the duration. Healing scales with remaining intact armor modules; each destroyed module reduces total regeneration by %s.
+不稳定的反馈回路会干扰舰船系统，系统冷却时间延长 %s。",幅能升高时提升舰船系统效能。,,graphics/hullmods/distributed_fire_control.png
+单丝拖缆,XLII_tow_cable,,,德拉科尼斯,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_TowCable,稳定舰队的航行泡，使舰队最大巡航速度提高 %s。多台稳定装置的效果可叠加。,降低舰队燃料消耗。,,graphics/hullmods/monofilament_cable.png
+改进型子系统,XLII_improvedsystems,,,德拉科尼斯,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_ImprovedSystems,强化供电线路并增设机械冗余，专为支撑系统的超负荷使用而开发。舰船系统充能次数上限提高 %s，系统冷却时间缩短 %s。,增加舰船系统充能次数。,,graphics/hullmods/XLII_improved_subsystems.png
+不可名状之恐怖,XLII_incomprehensiblehorrors,,,德拉科尼斯,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_IncomprehensibleHorrors,"嵌入舰体模块化装甲板中的自主修复系统，通过舰船系统激活。持续期间最多可再生 %s 的最大船体值。修复量随完好的装甲模块数量而变化；每损失一个模块，总再生量降低 %s。
 
-Additionally reduces ship system cooldown by %s and prevents engine flameouts from damage.
+此外，舰船系统冷却时间缩短 %s，并可防止因受损导致的引擎熄火。
 
-If all armor modules are destroyed, no hull regeneration occurs.",Regenerates hull when system active; scales with intact modules.,,graphics/icons/skills/hypercognition.png
-Headache ECM Suite,XLII_headacheecm,,,Draconis,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_HeadacheECMSuite,Hidden hullmod for managing the Headache ECM Suite aura. Description created in script.,,,graphics/icons/missions/spysat.png
-Overclock Core,XLII_overclockcore,,,Draconis,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_OverclockCore,"Gives all point-defense weapons the ability to identify - and ignore - decoy flares. In addition, all weapons get the best possible target leading, regardless of combat readiness and all damage to missiles and fighters is increased by %s.",,,graphics/icons/codex/manual_energy_weapons.png
-Flux Reactive Armor,XLII_fluxreactivearmor,,,Draconis,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_FluxReactiveArmor,Description created in script.,,,graphics/icons/codex/manual_flux.png
-Emergency Recall,XLII_emergencyrecall,,,Draconis,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_EmergencyRecall,"When this fighter would be destroyed, it is instead recalled to its carrier bay for the first time each deployment.",Recalls fighter to carrier bay on lethal damage.,,graphics/hullmods/quantum_disruptor.png
-Adaptation Field,XLII_adaptation,,,Draconis,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_AdaptationField,Hidden hullmod for prewar prototype ships. Description created in script.,,,graphics/icons/codex/manual_shields.png
-Discharge Coil Array,XLII_phaseshuntcoils,,,Draconis,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_PhaseShuntCoils,Description created in script.,,,graphics/icons/codex/manual_venting.png
+若所有装甲模块全部损毁，则不再进行船体再生。",系统激活时再生船体；效果随完好模块数量变化。,,graphics/icons/skills/hypercognition.png
+头痛电子战套件,XLII_headacheecm,,,德拉科尼斯,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_HeadacheECMSuite,用于管理头痛电子战套件力场的隐藏船插。描述由脚本生成。,,,graphics/icons/missions/spysat.png
+超频核心,XLII_overclockcore,,,德拉科尼斯,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_OverclockCore,使所有点防御武器能够识别——并无视——诱饵曳光弹。此外，所有武器都能获得最优提前量瞄准，不受战备状态影响，且对导弹与战机的伤害提高 %s。,,,graphics/icons/codex/manual_energy_weapons.png
+幅能反应装甲,XLII_fluxreactivearmor,,,德拉科尼斯,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_FluxReactiveArmor,描述由脚本生成。,,,graphics/icons/codex/manual_flux.png
+紧急召回,XLII_emergencyrecall,,,德拉科尼斯,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_EmergencyRecall,当该战机即将被摧毁时，它会在每次部署中的第一次改为被召回母舰机库。,战机受致命伤时召回母舰机库。,,graphics/hullmods/quantum_disruptor.png
+适应力场,XLII_adaptation,,,德拉科尼斯,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_AdaptationField,战前原型舰专用隐藏船插。描述由脚本生成。,,,graphics/icons/codex/manual_shields.png
+放电线圈阵列,XLII_phaseshuntcoils,,,德拉科尼斯,,,10000,,TRUE,,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_PhaseShuntCoils,描述由脚本生成。,,,graphics/icons/codex/manual_venting.png
 ,,,,,,,,,,,,,,,,,,,
 #Commissioned Crews,,,,,,,,,,,,,,,,,,,
-Alliance Trained Crews,CHM_XLII_draconis,,,Draconis,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.CHM_XLII_draconis,"Draconis Alliance crews are trained in emissions discipline and signal masking, reducing the ship's detection range by %s.",Reduces detection range by 10%.,,graphics/hullmods/crest_draconis.png
+同盟精练船员,CHM_XLII_draconis,,,德拉科尼斯,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.CHM_XLII_draconis,德拉科尼斯同盟的船员受过排放纪律与信号遮蔽训练，舰船的被侦测距离降低 %s。,被侦测距离降低10%。,,graphics/hullmods/crest_draconis.png
 ,,,,,,,,,,,,,,,,,,,
 #Hidden,,,,,,,,,,,,,,,,,,,
-Phase Torpedo Array Automod,XLII_phasetorparray_automod,,,Draconis,,,10000,,TRUE,TRUE,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_PhaseTorpedoArrayAutomod,Hidden hullmod for ensuring charges are always even when gaining additional charges for symmetrical torpedo spawning.,Phase Torpedo Array system charges rounded to even numbers.,,graphics/icons/skills/hypercognition.png
+相位鱼雷阵列自动改装,XLII_phasetorparray_automod,,,德拉科尼斯,,,10000,,TRUE,TRUE,0,0,0,0,levianeer.draconis.data.scripts.hullmods.XLII_PhaseTorpedoArrayAutomod,用于确保对称鱼雷发射时充能数始终为偶数的隐藏船插。,相位鱼雷阵列系统充能数取整为偶数。,,graphics/icons/skills/hypercognition.png
 ,,,,,,,,,,,,,,,,,,,

@@ -2,10 +2,10 @@
     "playableFaction":false,
     "corvusCompatible":true,
     "spawnAsFactionId":"XLII_draconis",
-    "rebelFleetSuffix":"Treasonists",
+    "rebelFleetSuffix":"叛乱者",
     "startRelationships":{"XLII_draconis":1},
     
-    "responseFleetName":"Quick Reaction Force",
+    "responseFleetName":"快速反应部队",
     
     "morality":"amoral",
     

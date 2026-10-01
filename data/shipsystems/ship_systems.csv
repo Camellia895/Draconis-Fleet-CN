@@ -1,35 +1,35 @@
 name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
 #Ship,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Evasion Protocol,XLII_evasionprotocol,,,,,,0.075,,2,0.125,0.1,1,0.1,0.75,,,,,,,,,,,,movement,graphics/icons/hullsys/XLII_evasionprotocol.png
-Breach Jammer,XLII_eam_suite,1,,,,,,,,,0.5,,0.5,,TRUE,,,,,,,,,,,offensive,graphics/icons/hullsys/XLII_eam_suite.png
-Pulsar Jammer,XLII_esw_suite,,,,,,0.25,,,,0.5,12,0.5,18,,,,,,,,,,,,,graphics/icons/hullsys/XLII_esw_suite.png
-Blackout Jammer,XLII_ecm_suite,1,,,,,,,2,0.05,0.1,0.1,0.1,3,,,,,,,,,,,,,graphics/icons/hullsys/XLII_ecm_suite.png
-Apostate Jammer,XLII_signal_hijack,1,,,,,,,,,0.25,3,0.25,12,,,,,,,,,,,,,graphics/icons/hullsys/XLII_ecm_suite.png
-Excalibur Strike,XLII_mrm_strike,,,,,,,,,,0,0.05,0.2,2,,,,,,,,,,,,offensive,graphics/icons/hullsys/drone_pd_high.png
-Emergency Power,XLII_safety_overrides,,,,,,,0.001,,,1,5,1,10,,,,,,,,,,TRUE,,movement,graphics/icons/hullsys/skimmer_degraded.png
-Emergency Repairs,XLII_emergency_repairs,1,,,,,,,2,,0.5,9,0.5,16,,,,,,,,,,,,defensive,graphics/icons/hullsys/incursion_mode.png
-Time Slip,XLII_temporalshell,1,,,,,0.25,,,,4,7,2,12,,,,,,,,,,,,movement,graphics/icons/hullsys/temporal_shell.png
-Time Dash,XLII_temporaldash,,,,,,,,2,0.075,0.5,1.5,0.5,0,,,,,,,,,,,,movement,graphics/icons/hullsys/temporal_shell.png
-Phase Cloak,XLII_phase_shunt,,,,,,,,,,0.5,,0.5,2,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,movement,graphics/icons/hullsys/phase_cloak.png
-Decoy Launcher,XLII_flarelauncher,,,,,,0.1,,,,,,,5,,,,,,,,,,,,defensive,graphics/icons/hullsys/flare_launcher.png
-Assault Drones,XLII_drone_assault,,,,,,,,12,0.2,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
-Lidar Array,XLII_lidararray,1,,,,,,,,,3.25,5,1,10,,,,,,,,,,,,offensive,graphics/icons/hullsys/lidar_barrage.png
-Phase Torpedo Array,XLII_phasetorparray,,,,,,0.1,,4,0.2,0.25,,0.25,0,,,,,,,,,,,,offensive,graphics/icons/hullsys/XLII_phase_torpedo.png
-Devastator Mode,XLII_missilebarrage,1,,,,,,,,,0.25,,0.25,0,TRUE,,,,,,,,,,,offensive,graphics/icons/hullsys/XLII_phase_torpedo.png
-Flux Cycler,XLII_flux_cycler,,,,,,,,,,0.75,3,0.75,12,,,,,,,,,,,,defensive,graphics/icons/hullsys/fortress_shield.png
-Plasma Jets,XLII_plasmajets,,,,,,,,,,0.5,6,0.5,5,,,,,,,,,,,,movement,graphics/icons/hullsys/plasma_jets.png
-Combat Burn,XLII_plasma_burn,1,,,,,,,,,1,,1,0,TRUE,,,,,,TRUE,TRUE,,,,movement,graphics/icons/hullsys/combat_burn.png
-Transverse Shunt,XLII_phaseteleporter,,,,,,,,2,0.1,0.2,,0.2,0.5,,,,TRUE,,,,,,,,movement,graphics/icons/hullsys/teleport.png
-Orion Drive,XLII_orion_drive,,,,,,,,2,0.4,0,0.001,0,1,,,,,,,,,,,,movement,graphics/icons/hullsys/orion_drive.png
-Capacitance Core,XLII_capacitance_core,,,,,,,,,,1,9,1,12,,,,,,,,,,,,offensive,graphics/icons/hullsys/energy_lash.png
-Shunt Drive,XLII_shunt_drive,,,,,,,,,,0.5,2,0.5,5,,,,,,,,,,,,movement,graphics/icons/hullsys/plasma_jets.png
+回避规程,XLII_evasionprotocol,,,,,,0.075,,2,0.125,0.1,1,0.1,0.75,,,,,,,,,,,,movement,graphics/icons/hullsys/XLII_evasionprotocol.png
+破壁干扰阵,XLII_eam_suite,1,,,,,,,,,0.5,,0.5,,TRUE,,,,,,,,,,,offensive,graphics/icons/hullsys/XLII_eam_suite.png
+脉冲星干扰阵,XLII_esw_suite,,,,,,0.25,,,,0.5,12,0.5,18,,,,,,,,,,,,,graphics/icons/hullsys/XLII_esw_suite.png
+黑障干扰阵,XLII_ecm_suite,1,,,,,,,2,0.05,0.1,0.1,0.1,3,,,,,,,,,,,,,graphics/icons/hullsys/XLII_ecm_suite.png
+叛道干扰阵,XLII_signal_hijack,1,,,,,,,,,0.25,3,0.25,12,,,,,,,,,,,,,graphics/icons/hullsys/XLII_ecm_suite.png
+断钢剑打击,XLII_mrm_strike,,,,,,,,,,0,0.05,0.2,2,,,,,,,,,,,,offensive,graphics/icons/hullsys/drone_pd_high.png
+应急动力,XLII_safety_overrides,,,,,,,0.001,,,1,5,1,10,,,,,,,,,,TRUE,,movement,graphics/icons/hullsys/skimmer_degraded.png
+应急维修,XLII_emergency_repairs,1,,,,,,,2,,0.5,9,0.5,16,,,,,,,,,,,,defensive,graphics/icons/hullsys/incursion_mode.png
+时间滑移,XLII_temporalshell,1,,,,,0.25,,,,4,7,2,12,,,,,,,,,,,,movement,graphics/icons/hullsys/temporal_shell.png
+时间突进,XLII_temporaldash,,,,,,,,2,0.075,0.5,1.5,0.5,0,,,,,,,,,,,,movement,graphics/icons/hullsys/temporal_shell.png
+相位斗篷,XLII_phase_shunt,,,,,,,,,,0.5,,0.5,2,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,movement,graphics/icons/hullsys/phase_cloak.png
+诱饵发射器,XLII_flarelauncher,,,,,,0.1,,,,,,,5,,,,,,,,,,,,defensive,graphics/icons/hullsys/flare_launcher.png
+强击无人机,XLII_drone_assault,,,,,,,,12,0.2,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+雷达阵列,XLII_lidararray,1,,,,,,,,,3.25,5,1,10,,,,,,,,,,,,offensive,graphics/icons/hullsys/lidar_barrage.png
+相位鱼雷阵列,XLII_phasetorparray,,,,,,0.1,,4,0.2,0.25,,0.25,0,,,,,,,,,,,,offensive,graphics/icons/hullsys/XLII_phase_torpedo.png
+毁灭模式,XLII_missilebarrage,1,,,,,,,,,0.25,,0.25,0,TRUE,,,,,,,,,,,offensive,graphics/icons/hullsys/XLII_phase_torpedo.png
+幅能循环器,XLII_flux_cycler,,,,,,,,,,0.75,3,0.75,12,,,,,,,,,,,,defensive,graphics/icons/hullsys/fortress_shield.png
+等离子喷射,XLII_plasmajets,,,,,,,,,,0.5,6,0.5,5,,,,,,,,,,,,movement,graphics/icons/hullsys/plasma_jets.png
+战斗冲刺,XLII_plasma_burn,1,,,,,,,,,1,,1,0,TRUE,,,,,,TRUE,TRUE,,,,movement,graphics/icons/hullsys/combat_burn.png
+横向跃迁,XLII_phaseteleporter,,,,,,,,2,0.1,0.2,,0.2,0.5,,,,TRUE,,,,,,,,movement,graphics/icons/hullsys/teleport.png
+猎户驱动,XLII_orion_drive,,,,,,,,2,0.4,0,0.001,0,1,,,,,,,,,,,,movement,graphics/icons/hullsys/orion_drive.png
+电容核心,XLII_capacitance_core,,,,,,,,,,1,9,1,12,,,,,,,,,,,,offensive,graphics/icons/hullsys/energy_lash.png
+分流驱动,XLII_shunt_drive,,,,,,,,,,0.5,2,0.5,5,,,,,,,,,,,,movement,graphics/icons/hullsys/plasma_jets.png
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Fighter,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Time Dash,XLII_temporaldash_fighter,,,,,,,,2,0.075,0.5,1.5,0.5,0,,,,,,,,,,,,movement,graphics/icons/hullsys/temporal_shell.png
-Blackout Jammer (Fighter),XLII_ecm_suite_Fighter,1,,,,,,,2,0.05,0.1,0.1,0.1,3,,,,,,,,,,,,,graphics/icons/hullsys/XLII_ecm_suite.png
-War Emergency Power,XLII_wing_timedilation,,,,,,,,,,0.5,2,0.5,3,,,,,,,,,,,,movement,graphics/icons/hullsys/infernium_injector.png
-War Emergency Power,XLII_wing_timedilation_ii,,,,,,,,,,0.75,4,0.75,3,,,,,,,,,,,,movement,graphics/icons/hullsys/infernium_injector.png
+时间突进,XLII_temporaldash_fighter,,,,,,,,2,0.075,0.5,1.5,0.5,0,,,,,,,,,,,,movement,graphics/icons/hullsys/temporal_shell.png
+黑障干扰阵（战机）,XLII_ecm_suite_Fighter,1,,,,,,,2,0.05,0.1,0.1,0.1,3,,,,,,,,,,,,,graphics/icons/hullsys/XLII_ecm_suite.png
+战时应急功率,XLII_wing_timedilation,,,,,,,,,,0.5,2,0.5,3,,,,,,,,,,,,movement,graphics/icons/hullsys/infernium_injector.png
+战时应急功率,XLII_wing_timedilation_ii,,,,,,,,,,0.75,4,0.75,3,,,,,,,,,,,,movement,graphics/icons/hullsys/infernium_injector.png
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #WIP,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Ammo Selector,XLII_ammo_selector,,,,,,,,,,0.05,0.1,0.05,1.5,,,,,,,,,,,,offensive,graphics/icons/hullsys/ammo_feeder.png
+弹药选择器,XLII_ammo_selector,,,,,,,,,,0.05,0.1,0.05,1.5,,,,,,,,,,,,offensive,graphics/icons/hullsys/ammo_feeder.png
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,

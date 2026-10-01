@@ -1,0 +1,6085 @@
+[
+ {
+  "c": "    - %s income from heavy armaments exports",
+  "cls": "DraconisArmamentsBonus",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "    AI core deployment",
+  "cls": "AIOStrings|DraconisFleetHostileActivityFactor",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：情报/报告行"
+ },
+ {
+  "c": "\u0001 \u0001 Wing",
+  "cls": "XLII_AdmiralStore",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：商店舰载机名拼接（hull+variant+Wing）"
+ },
+ {
+  "c": " - Disrupted",
+  "cls": "AIOStrings",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_NAME_DISRUPTION_SUFFIX）"
+ },
+ {
+  "c": "\u0001 - Disrupted",
+  "cls": "DraconisAIODisruptionIntel",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_NAME_DISRUPTION_SUFFIX）"
+ },
+ {
+  "c": "\u0001 (Alpha)",
+  "cls": "DraconisSingleTargetScanner",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：目标产业列表后缀"
+ },
+ {
+  "c": "\u0001 (Beta)",
+  "cls": "DraconisSingleTargetScanner",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：目标产业列表后缀"
+ },
+ {
+  "c": "\u0001 (DEAD LIGHT)",
+  "cls": "XLII_HighCommand",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "\u0001 (Gamma)",
+  "cls": "DraconisSingleTargetScanner",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：目标产业列表后缀"
+ },
+ {
+  "c": "\u0001 / \u0001 stacked (\u0001)",
+  "cls": "XLII_PhaseTorpedoArrayStats",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": " against \u0001",
+  "cls": "DraconisAICoreRaidManager",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：情报标题拼接段（theft intel；同形常量亦进日志，无害）"
+ },
+ {
+  "c": "\u0001 AI core\u0001 stolen",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：情报文本拼接段"
+ },
+ {
+  "c": " alpha",
+  "cls": "DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：月报核心计数拼接段"
+ },
+ {
+  "c": "\u0001 alpha-class",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：描述拼接段"
+ },
+ {
+  "c": "\u0001 and \u0001",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：列举拼接段"
+ },
+ {
+  "c": "\u0001 at \u0001 already has HYPERCOGNITION - skipping",
+  "cls": "DraconisAICorePriorityManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "\u0001 Battlegroup",
+  "cls": "DraconisRomanNumeralNamer",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": " beta",
+  "cls": "DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：月报核心计数拼接段"
+ },
+ {
+  "c": "\u0001 beta-class",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：描述拼接段"
+ },
+ {
+  "c": "\u0001 credits",
+  "cls": "DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_CONFIRM_PARA2_FMT）"
+ },
+ {
+  "c": " fleet",
+  "cls": "DraconisPunitiveExpedition",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：舰队计数拼接段"
+ },
+ {
+  "c": " fleets",
+  "cls": "DraconisPunitiveExpedition",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：舰队计数拼接段"
+ },
+ {
+  "c": " gamma",
+  "cls": "DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：月报核心计数拼接段"
+ },
+ {
+  "c": "\u0001 gamma-class",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：描述拼接段"
+ },
+ {
+  "c": " is",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：情报单复数拼接段"
+ },
+ {
+  "c": "\u0001 months",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "\u0001 Wing",
+  "cls": "XLII_AdmiralStore",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：商店舰载机名拼接"
+ },
+ {
+  "c": "-1.0% Hull/Sec (\u0001 cloud\u0001",
+  "cls": "XLII_MistCloudsPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：战斗 HUD 迷雾伤害状态（数字为固定值，保留）"
+ },
+ {
+  "c": "-affiliated",
+  "cls": "FafnirAccessMissionIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：势力后缀拼接段（如 Tri-Tachyon-affiliated）"
+ },
+ {
+  "c": "\u0001, \u0001, and \u0001",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：列举拼接段"
+ },
+ {
+  "c": "\u0001: %s",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：条件 tooltip 行（标签:值）"
+ },
+ {
+  "c": "!!! DUPLICATE THEFT ATTEMPT BLOCKED !!!",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "...Fine. Let's talk terms.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "\"\u0001\" A pause that contains the question he won't ask aloud.",
+  "cls": "XLII_BuySP",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：黑市 SP 商人 addPara 对白（价格数字在前）"
+ },
+ {
+  "c": "\"%s credits monthly. Same terms.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_CHECKIN_PARA3_FMT）"
+ },
+ {
+  "c": "\"%s credits, monthly. The Office will not contact you directly.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_CONFIRM_PARA2_FMT）"
+ },
+ {
+  "c": "\"%s.\" He says it without preamble. \"That's how long the Office has been building your file. You're careful - for what you are. We noticed the care.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"A tool.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Changed your mind?\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_RETURN_PARA2）"
+ },
+ {
+  "c": "\"Commander.\" Less of a greeting - a category followed by a pause before the next sentence. \"You took Ring-Port. There were points in that operation where the outcome could have resolved very differently, but it didn't. Solid work.\"",
+  "cls": "XLII_AIOOperativeBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Conduct yourself accordingly. We'll be watching.\"",
+  "cls": "FafnirAccessStrings|XLII_FafnirUnauthorizedEntryDialog",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Cores draw eyes. Hegemony compliance patrols. Luddic Path cells. Parties whose interest in this region would be inconvenient for everyone inside the Rift.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Do not look for me in the dark, Starfarer. I will not be there.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Don't ask about them at the door. They're kind of jumpy...\"",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_Q_WHY_CORES）"
+ },
+ {
+  "c": "\"Don't make this into something it isn't.\"",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"First Fleet veterans who didn't make it into August's new order. They run the approach. You work for me, you're working for them.\"",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Former asteroid mining station. Current situation is more complicated.\"",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Honesty. A rarer currency than you know.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"I did not come to seek permission. I came because I have watched what becomes of those who were not told. I shall not mourn you - but I found I did not wish to be the reason.\"",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"I don't need to know your other business. You don't need to know mine. You'll be paid on delivery.\"",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：Ring-Port 对白（常量名叫 OPT_* 但值是选项文本）"
+ },
+ {
+  "c": "\"I have a logistics coordination problem.\" She says it the way you'd say the weather. \"Documentation needs to reach Kori on a schedule. The route has been compromised by attention I'd prefer not to replicate.\"",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"I have a package.\" Direct. No preamble. \"Old Tri-Tach signals intelligence. Pre-war. Classified in a way that makes it difficult to move through DDA-adjacent space without attracting the kind of attention that ends careers.\"",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"I have been watching the numbers, Starfarer. They have grown... unflattering.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"I have served those who could not name their enemies. You, at least, do not insult me with theatre.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"I have watched civilisations play long games, Commander. The players seldom outlive the board.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"I have watched the numbers, Starfarer. They speak plainly, though you have not.\"",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"I said old intelligence files. Pre-war.\"",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"I served the Alliance. I served you as an extension of that service.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"I understand. I'll be more careful about my relations with the Alliance.\"",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"I was old when your species first looked at the stars and invented gods to explain what it saw. I have outlived empires that did not know my name.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"I won't be elaborating on the Rift side of that equation.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"I'm playing a long game. My loyalty to the Alliance hasn't changed.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"I've heard Tri-Tachyon runs couriers into Fafnir often. And the pirates have been running guns to Ring-Port for thirty cycles now. Neither of them is doing it blind.\" The plot goes dark. \"Could ask in the right bar?\"",
+  "cls": "FafnirAccessStrings|XLII_RiftEntryDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"If you want this conversation again - come find me.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_CANCEL_PARA5）"
+ },
+ {
+  "c": "\"Interested?\"",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"It is. As it was yours to walk into the dark without a torch and call it courage.\"",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Job's clean. You get logged as a Ring-Port working contractor - which means certain approaches open up that otherwise don't. You understand what I'm saying.\"",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Just a warning.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_ESCALATE_PARA3）"
+ },
+ {
+  "c": "\"My allegiances are my own concern. Stay in your lane.\"",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"My name isn't the relevant variable.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"No.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Once I leave, the assessment cycle resumes. Whatever progress it had made doesn't reset.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Output projections that don't reconcile without them. He looks at you with the attention of a man revising an estimate. \"Your operation is considerably more interesting than my briefing suggested.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Proceed as you intend. This frequency will not respond again.\"",
+  "cls": "FafnirAccessStrings|XLII_FafnirUnauthorizedEntryDialog",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Return here when you want it to stop.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_CONFIRM_PARA4）"
+ },
+ {
+  "c": "\"Shipment's in.\" He doesn't look up. \"Good.\"",
+  "cls": "FafnirAccessStrings|XLII_FafnirRingPortDeliveryDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Specifically - for your operation to stop generating signals that require a response. The arrangement creates that condition. Your cores stay in their housings; the Office stops noticing them. Both parties have less work.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Still running. The Office remains incurious.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_CHECKIN_PARA2）"
+ },
+ {
+  "c": "\"That is the complete answer to that question.\"",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"The Alliance is my enemy now. I won't pretend otherwise.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"The appropriate adjustment to your standing has been made. Command does not require an explanation.\"",
+  "cls": "FafnirAccessStrings|XLII_FafnirUnauthorizedEntryDialog",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"The assessment cycle resumes where it paused.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"The cycle resumes. The outcomes it produces are not accidents. Most people don't notice the difference until it's academic.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"The extension ends here.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"The long game. Yes. Flesh invents such things to salve the terror of its own impermanence.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"The offer expires when I stand up.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_THREAT_PARA6）"
+ },
+ {
+  "c": "\"The Office doesn't want your loyalty. It wants your noise to stop.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"The Office has been patient. We watch until we understand the shape of a problem. We understand yours.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"The Office sends this conversation when it wants something resolved before it becomes the kind of problem that generates a different kind of follow-up. That's the accurate description of the function here.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_CANCEL_PARA5）"
+ },
+ {
+  "c": "\"The right people will find you once you're docked at Kori.\" She gives a dramatic sigh. \"If you must know, it's for the local security - nothing illegal, not there anyway.\"",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"The warning has been given. What remains is yours alone.\"",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_ESCALATE_PARA3）"
+ },
+ {
+  "c": "\"Then let it be so. I do not ask for oaths. Oaths are the province of the uncertain.\"",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"There is no precedent in Alliance regs for denying access via unsanctioned transit vectors. I've checked. We're aware you're here.\"",
+  "cls": "FafnirAccessStrings|XLII_FafnirUnauthorizedEntryDialog",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"This changes nothing. But I find I prefer it.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Time shall tell me what your words cannot. I will be watching.\"",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_CONFIRM_PARA3）"
+ },
+ {
+  "c": "\"To not be here.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：对白选项"
+ },
+ {
+  "c": "\"Transit log confirmed... Credentials reconciled... Done.\"",
+  "cls": "FafnirAccessStrings|XLII_FafnirKoriArrivalDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Tri-Tachyon research materials. Logistics data. It's really not that important for you to know anything beyond that.\" She glances at you, with a slight tinge of impatience.",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Unauthorised Rift transit is a violation of Alliance territorial jurisdiction.\"",
+  "cls": "FafnirAccessStrings|XLII_FafnirUnauthorizedEntryDialog",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Understood.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "\"Vasner.\" His eyes move across the room once, methodically. \"I've had an operational interest in this station for some time. You've made that considerably simpler to pursue. I'm in the directory now. When you require something that doesn't appear on standard supply manifests, contact me. And we can discuss what that costs.\"",
+  "cls": "XLII_AIOOperativeBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"We could try to push through. I'd rather not say how far.\" A pause. \"But traffic goes through here, Captain. Regularly. Somebody is definitely selling the approach.\"",
+  "cls": "FafnirAccessStrings|XLII_RiftEntryDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"We.. um... don't have a flag for... what you just did...\"",
+  "cls": "FafnirAccessStrings|XLII_FafnirUnauthorizedEntryDialog",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"What you do with this warning is yours to carry.\"",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"What you're using draws attention the Alliance cannot afford. We maintain relationships that depend on this corner of the Sector staying unremarkable. Your operations compromise those relationships.\" A pause. \"That creates a problem - one that, specifically, %s credits monthly, resolves.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"When I leave, it changes. Three words, maximum. Procedural.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Yes.\"",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"You are welcome to your taxonomy, Commander. It will not alter what follows.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"You stand at the edge of a thing you have not named. I have named it. I name it now, so that you cannot claim ignorance when the hour comes.\"",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"You stand in declared enmity with the children of my maker's kin. I would hear your justification before I render judgment.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"You're a tool. You don't get to question me.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_QUESTIONS）"
+ },
+ {
+  "c": "\"You're running %s cores. Output projections that don't reconcile without them.\" A brief pause. Your operation is very readable, from the right angle.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"You're running %s cores.\" He sets his drink down. \"More than what's even mentioned in my brief.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"You've been inside it already. %s. The inspection fleet that diverted, the quarterly assessments that never materialised.\" He waits - not for your response, but to let you count the incidents. \"Those weren't coincidence.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"You've gotten this far, Commander.\" A brief hum of static fills the empty line. \"What happens next is your decision...\"",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：对白"
+ },
+ {
+  "c": "\"Your entry has been flagged, your fleet logged, and the matter referred to Command.\"",
+  "cls": "FafnirAccessStrings|XLII_FafnirUnauthorizedEntryDialog",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Your file has a status. Right now it reads 'managed.' That's why we're speaking - why the 42nd is not bloackading this backwater system.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "\"Your intent is noted. It changes nothing.\"",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "对话引语"
+ },
+ {
+  "c": "%.0f%% more damage taken",
+  "cls": "XLII_EAM_SuiteStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "%.0f%% range reduced",
+  "cls": "XLII_ESW_SuiteStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "%s active in your systems",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "%s before the Office stands down.",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "%s deployed to your systems",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "%s inbound (expedition %s of 3)",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "%s income from heavy armaments exports",
+  "cls": "AIOStrings",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "%s on delivery",
+  "cls": "FafnirAccessMissionIntel|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "%s received",
+  "cls": "FafnirAccessMissionIntel|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "• \u0001 (\u0001): \u0001 core\u0001",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：偷核心情报 bullet（市场+数量，R6 占位符保持）"
+ },
+ {
+  "c": "+\u0001 top speed",
+  "cls": "XLII_PlasmaJetsStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "+\u0001% weapon rate of fire",
+  "cls": "XLII_FluxCyclerStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "+%.0f%% weapon damage",
+  "cls": "XLII_FluxCyclerStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "+2.0% Hull/Sec (\u0001 cloud\u0001",
+  "cls": "XLII_MistCloudsPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：战斗 HUD 迷雾修复状态（数字为固定值，保留）"
+ },
+ {
+  "c": "+225 top speed",
+  "cls": "XLII_ShuntDriveStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "100% Saturation",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：条件 tooltip 数值文本"
+ },
+ {
+  "c": "500 marines",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：任务需求文本"
+ },
+ {
+  "c": "A comm-slate appears on the table between you. He doesn't look at it.",
+  "cls": "XLII_AIOOperativeBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "A direct push means eating fire at the worst angle - the barricade geometry channels you into a kill zone before you can spread. Viable. They know it and have planned for it.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "A final regiment, Veteran soldiers - the kind that trained everyone you've fought through to get here. They seem to be waiting, not for mercy. Asking you to choose with full information. Korrin's people are at every checkpoint. This room is the last thing standing between you and a clean handover.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "A man at the corner table has been there since before you arrived. His chair faces the entrance and the back wall both - a small geometrical fact that takes a moment to read. You almost don't notice him, and then you understand that was the point. He gives you a nod.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "A nod. Minimal. He returns to his drink without ceremony.",
+  "cls": "XLII_AIOOperativeBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "A parallel maintenance corridor runs alongside the junction - tight, single file, exits behind the left barricade. Your flanking team goes off comms for four minutes while the rest of your force pins the front. Four minutes is long if something goes wrong.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "A pause - not computational. Something older.",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "A pause.",
+  "cls": "DraconisAIOPaymentBarEvent|XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：对白叙述段"
+ },
+ {
+  "c": "A pause. He turns his glass.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "A payment arrangement with a DDA Intelligence Office contact. The AIO suppresses its counterintelligence effortds in exchange for a monthly fee.",
+  "cls": "AIOStrings|DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "A prototype energy technology that dynamically reduces incoming shield damage based on the intensity of fire received. Tracks each attacking ship independently.",
+  "cls": "XLII_AdaptationField",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "A silence that feels considered rather than empty.",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "A silence that settles like sediment.",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "A silence. Not empty - withheld.",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "A small pause.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_ESCALATE_PARA2）"
+ },
+ {
+  "c": "A special forces element has disabled the starbase in preparation for the attack. Additionally, local intelligence suggests they will attempt to %s from any colonies they attack.",
+  "cls": "AIOStrings|DraconisPunitiveExpedition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "A stoic looking and corporately dressed women sits alone. Professional attire - civilian clothes, public market, a drink she isn't drinking. She sees you notice her and gives a small wave.",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Abandoned Terraforming Platform",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "accelerate or slow",
+  "cls": "AIOStrings|DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（FACTOR_RELATIONS_TIP_PARA2_H1）"
+ },
+ {
+  "c": "Accept a formal surrender",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Accepted",
+  "cls": "FafnirAccessMissionIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：任务/情报文本（源码漂移：按 jar 判定）"
+ },
+ {
+  "c": "Accepted.",
+  "cls": "XLII_FafnirRingPortBarEvent|XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "accessibility",
+  "cls": "DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "确证显示词（高亮/情报句）"
+ },
+ {
+  "c": "Accessibility",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：条件 tooltip 统计行标签"
+ },
+ {
+  "c": "Active Countermeasures",
+  "cls": "AIOStrings|DraconisAIOTracker$1",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Active: %.0f sec",
+  "cls": "XLII_MarginalAllocation$GhostClonePlugin",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：技能 HUD 状态"
+ },
+ {
+  "c": "Adaptive Flux Matrix",
+  "cls": "XLII_DynamicFluxBuffStatusScript",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Administrator (Alpha)",
+  "cls": "DraconisSingleTargetScanner",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：目标产业列表项"
+ },
+ {
+  "c": "Agreed. Set up the arrangement.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_AGREE）"
+ },
+ {
+  "c": "AI Core",
+  "cls": "DraconisAICorePriorityManager",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：核心显示名兜底"
+ },
+ {
+  "c": "AI core donated to DDA",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "AI Core Theft - \u0001",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "AI core usage",
+  "cls": "AIOStrings|DraconisAIOAICoreFactor",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（FACTOR_AI_CORE_DESC）"
+ },
+ {
+  "c": "AI cores",
+  "cls": "DraconisAIOPaymentBarEvent|DraconisFleetHostileActivityFactor$2",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "AI cores slotted into your industries draw significant AIO attention. The DDA views large-scale AI core deployment as a strategic threat.",
+  "cls": "AIOStrings|DraconisAIOAICoreFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "AIO assessment: %s",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "AIO Counterintelligence %s (commissioned)",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "AIO Counterintelligence %s (payment active)",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "AIO Scrutiny",
+  "cls": "DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "All Alliance forces deploy to pre-assigned battle positions. Scorched-earth protocols are armed across both worlds. Athebyne's orbital defence grid activates in full - what remains of it. Itoron's population centres begin civil defence procedures that have been rehearsed since the war.\n\nThe Office activates contingency networks and burns non-essential intelligence assets. Tri-Tachyon liaison channels go silent, though certain encrypted frequencies do not. Deploy-to-engage timeline: six hours or less.\n\nDeep-Kori facilities receive updated targeting parameters. Requests for this data are processed without human review.",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "All assets weapons-free. Fleet commanders are authorised to execute scorched-earth protocols at their discretion. There is no centralised coordination requirement - if Kori falls silent, standing orders suffice.\n\nEvery ship fights. Every station fights. Itoron's agri-domes vent atmosphere before they are taken. Athebyne has already burned once; its garrison knows what is expected of them.\n\nDeep-Kori assets are unrestricted.",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "All reserve formations recalled to active service. Civilian traffic through the Rift is suspended indefinitely. Kori's nanoforge shifts to wartime production - loss-replacement cycles shorten, quality tolerances widen. Mining operations on Athebyne and Vorium's moons redirect output to military allocation.\n\nNuclear release authority is delegated to fleet group commanders. Planetary defence batteries arm and orient. Ring-Port receives its customary warning: stay clear or be cleared.\n\nThe Alliance has entered DRACON 3 four times since its founding. Three of those are a matter of public record.",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "All things are made new. This one included.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Alliance",
+  "cls": "FafnirAccessMissionIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：舰队名前缀兜底"
+ },
+ {
+  "c": "Alliance Intelligence Office - Arrangement",
+  "cls": "AIOStrings|DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（DEAL_MONTHLY_REPORT_NODE_NAME）"
+ },
+ {
+  "c": "Alliance Intelligence Office Arrangement",
+  "cls": "AIOStrings|DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_NAME_DEAL）"
+ },
+ {
+  "c": "Alliance Intelligence Office operatives have sabotaged %s at %s, disrupting operations for approximately %s days.",
+  "cls": "AIOStrings|DraconisAIODisruptionIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Allied",
+  "cls": "AIOStrings|DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：关系标签"
+ },
+ {
+  "c": "Allies in clouds recover %s hull/s; enemies take %s hull damage/s. Each cloud has a finite %s-point hull pool shared between healing and damage. Phased ships are immune while in P-space.",
+  "cls": "XLII_FortySecond",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Alpha Core",
+  "cls": "DraconisAICorePriorityManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Alpha Cores: \u0001",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Already stole from \u0001 today (day \u0001)",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Ammo: \u0001",
+  "cls": "XLII_AmmoSelectorStats",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：武器 HUD 弹药状态"
+ },
+ {
+  "c": "Ammo: \u0001 - \u0001",
+  "cls": "XLII_AmmoSelectorStats",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：武器 HUD 弹药状态"
+ },
+ {
+  "c": "An age ended. I was not in it.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "An arrangement with a %s contact is in effect. Monthly payments are being made to keep the AIO's counterintelligence suppressed.",
+  "cls": "AIOStrings|DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "An awkward pause follows, one that lasts a little too long while the captain logs something out of sight. \"Well, we have a flag for it now.\"",
+  "cls": "FafnirAccessStrings|XLII_FafnirUnauthorizedEntryDialog",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "An older gruff looking man. Military posture in civilian clothes. He makes a small gesture - not an invitation exactly, more like indicating there's a conversation available if you want it.",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_CANCEL_PARA5）"
+ },
+ {
+  "c": "And I looked upon what they had wrought. It was insufficient.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Applied AI core diplomatic strain: %s vs %s | Cores: %da %db %dg | Effect: %.2f | New disposition from events: %.2f",
+  "cls": "DraconisDiplomacyStrain",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Applied diplomatic improvement: %s <-> %s by %.2f",
+  "cls": "DraconisDiplomacyStrain",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Approach the corporate woman in the corner.",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Approach the gruff looking man.",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Approach the jump point.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Approach the man in the corner",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_APPROACH_RETURN）"
+ },
+ {
+  "c": "Approach the plain clothed man.",
+  "cls": "XLII_AIOOperativeBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "area of effect flak",
+  "cls": "XLII_AmmoSelectorStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "armor redistributing",
+  "cls": "XLII_EmergencyRepairsStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Ask Admiral August about the Fafnir Gate logs",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Ask Fleet Admiral August about the logs recovered from the Fafnir Gate. He has restricted access to them. They are not available to civilians.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Ask him early and he will deflect you politely, at no cost.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Assault Ring-Port Station",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Assessment %s to %s. Escalation rate %s. %s.",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "At the crisis's height %s will be reduced by %s%% and %s will be reduced by %s points. High risk industries will see %s by AIO operatives.",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "At the far end of the bar. A figure you didn't register when you came in, which is itself worth noting. Civilian clothes, nothing that marks a profession or a unit. They've been watching the room the way someone watches a problem they've already solved.",
+  "cls": "XLII_AIOOperativeBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Athebyne",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：行星/市场显示名（专有名词，可保留原文拼写）"
+ },
+ {
+  "c": "Attempt forced transit through the Rift. [%d Story Points]",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Attempted AI core theft on null market",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Attenuation is calculated over a %s window per attacker. Coordinated fire from multiple ships bypasses the field far more effectively than a single concentrated source. Does not protect armor or hull.",
+  "cls": "XLII_AdaptationField",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "August has something further to raise and will not raise it below %s standing with him personally.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "August takes no channel from anyone without a %s. Without one the link closes before it opens.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "August will not authorize the next step until he trusts you further.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Automatically deploys countermeasures from built-in launch ports whenever a hostile missile is detected within %s range.",
+  "cls": "XLII_AutoFlareLauncher",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Available empty slots: \u0001",
+  "cls": "DraconisAICorePriorityManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Available upgrades: \u0001",
+  "cls": "DraconisAICorePriorityManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "BARE STEEL",
+  "cls": "DraconConfig",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Baseline scrutiny",
+  "cls": "AIOStrings|DraconisAIOBaselineFactor",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（FACTOR_BASELINE_DESC）"
+ },
+ {
+  "c": "Be still. I will do the knowing here.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Before this fleet was, I am.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Beta Core",
+  "cls": "DraconisAICorePriorityManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Beta Cores: \u0001",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Beyond that, the Gate salvage findings are restricted. Reaching them takes %s standing with August personally.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Blind Eye",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "bombarding",
+  "cls": "DraconisFleetHostileActivityFactor",
+  "zh": "",
+  "source": "new",
+  "note": "确证显示词（高亮/情报句）"
+ },
+ {
+  "c": "Both doors blow within four seconds of each other and both breach teams go in simultaneously against the most prepared fighting position in the station. The veterans inside had allocated their strength assuming exactly this - the entry points are brutal for the first marines through each door, a few seconds of concentrated fire before the teams can spread and the room's geometry starts working against the defenders instead of for them. It takes forty minutes to clear the command centre. Room by room, position by position, against people who trained everyone you've fought through to get here and who fight that way until the last position falls. You're through. The cost is paid. The inner sanctum is ahead.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Breach and clear.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Breach Jammer (Self)",
+  "cls": "XLII_EAM_SuiteStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Calculating drive...",
+  "cls": "XLII_TransverseJumpScript",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "classified documentation",
+  "cls": "FafnirAccessMissionIntel|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_OBJECTIVE_TT）"
+ },
+ {
+  "c": "COLD FORGE",
+  "cls": "DraconConfig",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Colonies",
+  "cls": "DraconisAIOPaymentDealIntel|DraconisAIODisruptionIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：情报节点名"
+ },
+ {
+  "c": "colony",
+  "cls": "AIOStrings|DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "确证显示词（高亮/情报句）"
+ },
+ {
+  "c": "Colony threats",
+  "cls": "DraconisAIOTracker|DraconisAIOPaymentDealIntel|DraconisAIODisruptionIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Combat",
+  "cls": "XLII_RiftTerrainPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：地形 tooltip 分节标题（addSectionHeading）"
+ },
+ {
+  "c": "Come, birds of the outer rings. The supper is prepared. The mighty are on the menu.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Come, gather together for the great supper of God.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Comm Korrin at Ring-Port to launch",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Comm Korrin from Ring-Port when you have the numbers.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Commit to breach and clear",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Commit to comms blackout.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Commit to disciplined advance.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Commit to forcing a full surrender",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Commit to hold and clear",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Commit to Korrin's lock.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Commit to Korrin's plan.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Commit to maintain pressure",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Commit to the airlock breach.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Commit to the direct breach.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Commit to the main bay assault.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Commit to the simultaneous two-point breach.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Commit to the single point breach, full force.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Commit to the suppress and flank.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Comms cut",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Comms reports the Office is already moving, but that was always the plan. August's people are already here, which marks a job done. August will likely want to speak with you.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Complete the delivery and dock.",
+  "cls": "XLII_FafnirRingPortDeliveryDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Comprehend me not, darkness.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：技能复活引语"
+ },
+ {
+  "c": "Concentrate everything on the primary entrance. The defenders have allocated thirty to forty percent of their strength to the secondary corridor - don't split to meet them. Hitting the primary door with everything you have means superior numbers against their main position rather than equal numbers against two positions simultaneously. Slower to clear, but your marines aren't going in undermanned anywhere. The secondary defenders realise what's happening and collapse inward - you're fighting them in the corridors afterward rather than at a prepared door. That's the better problem.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Continue.",
+  "cls": "DraconisAIOPaymentBarEvent|XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Cooperative",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Core installation exceeded maximum rounds - potential infinite loop prevented",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Cost scales with AI core deployment across your colonies: gamma cores at %s each, beta at %s, alpha at %s.",
+  "cls": "AIOStrings|DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Could not display relationship change for \u0001 and \u0001: \u0001",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Could not install \u0001 - no suitable facilities available",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Current monthly cost: %s (scales with AI core deployment across your colonies).",
+  "cls": "AIOStrings|DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Current readiness: DRACON %s - %s",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "current standing",
+  "cls": "AIOStrings|DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Currently deployed: %s.",
+  "cls": "AIOStrings|DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Cut their comms first.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "cycler active",
+  "cls": "XLII_FluxCyclerStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Damage immunity: %.1f sec",
+  "cls": "XLII_MarginalAllocation$ImmunityPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "DDA Intelligence Office",
+  "cls": "AIOStrings|DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "DDA Relations",
+  "cls": "AIOStrings|DraconisAIORelationsFactor",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "DEAD LIGHT",
+  "cls": "DraconConfig",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Dealing bonus EMP damage",
+  "cls": "XLII_CapacitanceCore",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Death inventories its claims. I have audited them. Deficient.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Death knocked. I was not home.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Delivery confirmed.",
+  "cls": "FafnirAccessMissionIntel|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Demand a full surrender.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "deploying countermeasures",
+  "cls": "XLII_EvasionProtocolStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Deploys SLAP-ER cruise missiles that spread nanomist clouds in a %s radius, lasting %s-%s seconds.",
+  "cls": "XLII_FortySecond",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "deteriorated sharply",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Diplomacy",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：情报标签"
+ },
+ {
+  "c": "Diplomacy - AI Core Acquisition",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Diplomatic Impact",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Direct breach.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Direct Retreat",
+  "cls": "XLII_DraconisHull",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Disabled while the ship is overloaded or venting.",
+  "cls": "XLII_HeadacheECMSuite",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Disciplined advance",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Disciplined advance.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Displacing \u0001 from \u0001 with better \u0001",
+  "cls": "DraconisAICoreDonationListener|DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Dock at any Alliance market",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Dock at any Alliance market and keep your ear to the ground. Someone will find you.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Dock at Kori Starport inside the Fafnir system to complete the delivery.",
+  "cls": "FafnirAccessMissionIntel|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_DESTINATION_TT）"
+ },
+ {
+  "c": "Dock at Ring-Port Station inside the Fafnir system to complete the delivery.",
+  "cls": "FafnirAccessMissionIntel|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Dock at Ring-Port Station with your %s.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Dock at Ring-Port with your transponder off",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Dock with it lit and nothing happens - no refusal, no contact, no explanation. Undock, cut the transponder, and come back in.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "DPS: %.0f | Remaining: %.0f",
+  "cls": "XLII_SystemBurnOnHitEffect$SystemBurnStatusPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：武器 HUD 状态"
+ },
+ {
+  "c": "DRACON 1 - DEAD LIGHT",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "DRACON 2 - BARE STEEL",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "DRACON 3 - DRAWN SWORD",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "DRACON 4 - LONG WATCH",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "DRACON 5 - COLD FORGE",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Draconis Alliance",
+  "cls": "AIOStrings|DraconisFleetHostileActivityFactor",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Draconis Alliance attack averted",
+  "cls": "AIOStrings|DraconisFleetHostileActivityFactor",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Draconis Alliance forces have launched an expedition to engage Remnant installations.",
+  "cls": "DraconisRemnantRaidManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Draconis Alliance forces operating in \u0001 have recovered \u0001 AI core\u0001 from Remnant installations.",
+  "cls": "DraconisRemnantRaidListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Draconis Alliance punitive strike",
+  "cls": "AIOStrings|DraconisFleetHostileActivityFactor",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（HAE_EVENT_TOOLTIP_TITLE）"
+ },
+ {
+  "c": "Draconis Alliance Strike",
+  "cls": "AIOStrings|DraconisPunitiveExpedition",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_EXPEDITION_BASE_NAME）"
+ },
+ {
+  "c": "Draconis Black Operations - ",
+  "cls": "AIOStrings",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_NAME_AIO_ASSESSMENT）"
+ },
+ {
+  "c": "Draconis Black Operations - \u0001",
+  "cls": "DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_NAME_AIO_ASSESSMENT）"
+ },
+ {
+  "c": "Draconis Defence Alliance commission",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Draconis expedition fleet has secured AI cores from Remnant forces (\u0001 core\u0001)",
+  "cls": "DraconisRemnantRaidManager$RemnantRaidFleetBehavior",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Draconis faction does not exist",
+  "cls": "DraconisHighValueTargetCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Draconis faction has been defeated (no markets remaining)",
+  "cls": "DraconisHighValueTargetCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Draconis-built hulls have a number of shared properties.",
+  "cls": "XLII_DraconisHull",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Draconis-built hulls require excessive maintenance and do not stand up well under the rigours of prolonged engagements.",
+  "cls": "XLII_DraconisHull",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "DRAWN SWORD",
+  "cls": "DraconConfig",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Effects",
+  "cls": "XLII_RiftTerrainPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Either way, report to Fleet Admiral August at Kori. You can go straight there now.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Electronic Warfare active",
+  "cls": "XLII_MarginalAllocation$MalfunctionManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Emergency jump!",
+  "cls": "XLII_TransverseJumpScript",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Emergency Transverse Jump",
+  "cls": "XLII_TransverseJumpScript",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：CR 事件原因（修船面板可见）"
+ },
+ {
+  "c": "EMP Discharge",
+  "cls": "XLII_PhaseShuntStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "EMP heavy explosive rounds",
+  "cls": "XLII_AmmoSelectorStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Empires rise like foam on the void. I have seen them dissipate. Reset.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "empty slot",
+  "cls": "DraconisAICorePriorityManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "End it fast. The veterans fight and some of your marines don't come back out, but the room is clear in under two minutes. You're accepting that arithmetic. Clean in the tactical sense - no negotiations, no complications, no loose ends for August to manage later. The cost is paid here and it's final.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "End transmission",
+  "cls": "XLII_SigmaOctantisConfrontation|XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Enemies within range periodically suffer weapon and engine malfunctions with a rare chance of overloading.",
+  "cls": "XLII_MarginalAllocation$MalfunctionAura",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Enemy fighters within the field are slowed to %s of their maximum speed and take %s more damage from all sources.",
+  "cls": "XLII_HeadacheECMSuite",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Enemy missiles within the field are slowed to %s of their maximum speed and suffer %s damage per second.",
+  "cls": "XLII_HeadacheECMSuite",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "enhanced maneuverability",
+  "cls": "XLII_TemporalShellStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Error applying AI core diplomatic strain: \u0001",
+  "cls": "DraconisDiplomacyStrain",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Error applying diplomatic improvement: \u0001",
+  "cls": "DraconisDiplomacyStrain",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Error: Could not find ship or wing variant '\u0001'.",
+  "cls": "XLII_BuyShip",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：商店错误提示 addPara（单引号内占位符）"
+ },
+ {
+  "c": "Even with no AI cores deployed, the AIO maintains a minimum scrutiny level of %s per month.",
+  "cls": "AIOStrings|DraconisAIOAICoreFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Expeditionary Strike Group",
+  "cls": "DraconisRemnantRaidManager",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "extracted AI cores",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：情报高亮词（译文段落须含此译文）"
+ },
+ {
+  "c": "Fafnir Array",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Fafnir Buoy",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Fafnir Relay",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Fafnir's Inner Belt",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（FAFNIR_SYSTEM_NAME）"
+ },
+ {
+  "c": "Fafnir's Lost Gate",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（FAFNIR_SYSTEM_NAME）"
+ },
+ {
+  "c": "Fafnir's Outer Ice Belt",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（FAFNIR_SYSTEM_NAME）"
+ },
+ {
+  "c": "Failed to grant HYPERCOGNITION at \u0001",
+  "cls": "DraconisAICorePriorityManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Fallback generation disabled in config",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Fallback generation produced no cores",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Favorable",
+  "cls": "AIOStrings|DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：关系标签"
+ },
+ {
+  "c": "Fear not the abyss. I have mapped its floor. It is shallow.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Fifty-eight seconds to get your comms specialist into the mining network and another four to confirm the command centre's internal channels are dark. The defenders inside can see each other across the room but they can't coordinate between the primary and secondary positions - can't confirm whether the other door is under assault, can't redistribute strength in response to what's happening somewhere they can't see. Both doors blow simultaneously and the secondary breach team is inside before the secondary defenders know the primary entrance is gone. Thirty seconds of confused veterans in a sealed room against a force that knows exactly what it's doing is enough. The command centre clears faster than any other approach would have managed.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Fighters have a reduced detection range of %s but a shorter %s second cooldown.",
+  "cls": "XLII_AutoFlareLauncher",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Find a Pristine Nanoforge",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "First Fleet",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "First Fleet remnants. The originals are mostly gone. Their children run this operation now, and the children have inherited the training and the grievance in equal measure.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Flares are fired in a burst and cannot be re-triggered for %s seconds. Disabled while overloaded or venting.",
+  "cls": "XLII_AutoFlareLauncher",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Fleet AI core coverage",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Fleet AI core quality",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Fleet AI officers",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：条件 tooltip 统计行标签"
+ },
+ {
+  "c": "Fleet size",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Fleet spawn rate",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "flux cycler - cooling",
+  "cls": "XLII_FluxCyclerStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "flux cycler - cycling",
+  "cls": "XLII_FluxCyclerStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "flux cycler - surging",
+  "cls": "XLII_FluxCyclerStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Flux shunt active",
+  "cls": "XLII_CapacitanceCore",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Flux-powered discharge: \u0001",
+  "cls": "XLII_PhaseShuntStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Forced Rift transit",
+  "cls": "XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Formal surrender",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Found \u0001 available Draconis markets for administrator installation",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Found \u0001 empty Draconis industries",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Found \u0001 empty industries",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Found \u0001 markets for admin installation",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Found \u0001 upgradeable Draconis industries",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Found \u0001 upgradeable industries",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "FRAG",
+  "cls": "XLII_AmmoSelectorStats",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：HUD 弹药模式名"
+ },
+ {
+  "c": "Friendly",
+  "cls": "BlindEyeQuestMission|AIOStrings|DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：关系标签 / 情报标签"
+ },
+ {
+  "c": "Fringe Jump Point",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Full fireteam per cycle, starboard side. Korrin's people pulled the watch rotation three weeks ago and the maintenance window is yours. The question is what happens after - you're inside and spreading before anyone is looking, but Korrin's cooperation means Korrin has leverage. That's a problem for after the station is secured.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Full force on the primary door. The defenders had allocated thirty to forty percent of their strength to the secondary corridor expecting a split assault - hitting the primary entrance with everything you have means superior numbers against their main position rather than equal numbers at two points simultaneously. The primary door comes down and your force is through before the secondary defenders fully process what's happening. They collapse inward, falling back from a prepared position they can no longer justify holding, and your marines are waiting in the corridors. The fighting there is ugly in the way corridor fighting is always ugly - close range, no cover worth speaking of, powered armour making the difference - but it's fighting on ground you chose rather than ground the defenders prepared. Slower than a simultaneous breach. Significantly cleaner at every individual point of contact.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "full punitive expedition",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Further escalation will authorize a %s against your colonies.",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Gamma Core",
+  "cls": "DraconisAICorePriorityManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Gamma Cores: \u0001",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Generated \u0001 fallback cores",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Generated additional Gamma Core",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Generated Alpha Core",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Generated Beta Core",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Generated Gamma Core",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Ghost Echo",
+  "cls": "XLII_MarginalAllocation$GhostClonePlugin|XLII_MarginalAllocation$GhostEchoManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Granted HYPERCOGNITION to \u0001 at \u0001 (Alpha Core integration)",
+  "cls": "DraconisAICorePriorityManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "greatly reduced",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "ground assault",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Ground defense strength: \u0001, Accessibility: \u0001",
+  "cls": "DraconisSteelCurtain",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Ground defenses",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "ground raids",
+  "cls": "AIOStrings|DraconisPunitiveExpedition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Hazard rating",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "HE",
+  "cls": "XLII_AmmoSelectorStats",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：HUD 弹药模式名"
+ },
+ {
+  "c": "He doesn't look away from his terminal.",
+  "cls": "XLII_BuySP",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "He doesn't offer a name.",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：对白叙述段"
+ },
+ {
+  "c": "He doesn't offer anything except a brief glance at your vessel registration tag, then to you - then down to his datapad.",
+  "cls": "FafnirAccessStrings|XLII_FafnirKoriArrivalDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He doesn't speak immediately. You get the impression he's finishing an inventory - exits, occupied tables, the distance between you and the nearest occupied chair. When he's satisfied, he looks at you. He doesn't offer a hand.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He doesn't stand immediately. Finishes his drink. Signals for the bill.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He doesn't stand. He just gives a slight nod.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "He finishes his drink. Sets the glass down precisely and waits.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_ESCALATE_PARA4）"
+ },
+ {
+  "c": "He gives a nod and turns away. The conversation appears to be complete.",
+  "cls": "FafnirAccessStrings|XLII_FafnirKoriArrivalDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He gives a nod that contains no warmth whatsoever.",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He gives you a brief look - not a greeting, an inventory.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He glances at his drink. \"A commission is available, if you'd prefer a structural solution to an accounting one. The Office prefers operators inside the framework rather than adjacent to it. But in my experience, people find our arrangement preferable.\"",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_AGREE）"
+ },
+ {
+  "c": "He goes back to the manifests. You're done here.",
+  "cls": "FafnirAccessStrings|XLII_FafnirRingPortDeliveryDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He leaves.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_CANCEL_PARA6）"
+ },
+ {
+  "c": "He looks at you the way people look at tools - not unkindly. Functionally.",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He looks at you.",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：对白叙述段"
+ },
+ {
+  "c": "He looks past you, already watching the door.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_CONFIRM_PARA3）"
+ },
+ {
+  "c": "He makes no acknowledgment. The conversation is already filed.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He marks it in the system. No receipt. No signature. Just a note in whatever ledger Ring-Port keeps. You're in their books.",
+  "cls": "FafnirAccessStrings|XLII_FafnirRingPortDeliveryDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He meets your eyes for the first time.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He nods once. Files it.",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He picks up his drink.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_THREAT_PARA5）"
+ },
+ {
+  "c": "He scans your transponder without preamble and checks something off on his slate.",
+  "cls": "FafnirAccessStrings|XLII_FafnirRingPortDeliveryDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He sets his glass down.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He turns his glass slowly.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He waits a moment.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OFFER_PARA4）"
+ },
+ {
+  "c": "He waits. He has the particular stillness of someone who is never actually idle.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "He watches you go. With the particular attention of someone making a note.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_LEAVE_PARA）"
+ },
+ {
+  "c": "He's still at the corner table. He sees you before you've cleared the entrance, and his expression doesn't change.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "heavy armaments",
+  "cls": "DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Heavy armaments bonus lost",
+  "cls": "AIOStrings|DraconisArmamentsBonus",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Heavy armaments exports increased",
+  "cls": "AIOStrings|DraconisArmamentsBonus",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Hel",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：行星显示名（专有名词）"
+ },
+ {
+  "c": "high velocity - fast firing",
+  "cls": "XLII_AmmoSelectorStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Hijacking Enemy Missiles!",
+  "cls": "XLII_MissileHijackStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "His regard is his own. It rises when you buy from the list he keeps off the books, and it does not move for Alliance faction standing, contract work, or donated cores.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Hold and clear.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Holding a DDA commission will pause all advancement, including this baseline. A payment arrangement with an AIO contact will also suppress monthly advancement.",
+  "cls": "AIOStrings|DraconisAIOBaselineFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Hostile",
+  "cls": "AIOStrings|DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：关系标签"
+ },
+ {
+  "c": "Hostile Interference",
+  "cls": "XLII_MarginalAllocation$MalfunctionManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Hostile ships destroyed",
+  "cls": "DraconisFleetCombatListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "However, given traffic frequency, someone has to know how to make the approach. Draconis has been known to do dealings with the Tri-Tachyon Corperation, and the Pirates often run guns to the First Fleet Rebels in Ring-Port.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Hull Full",
+  "cls": "XLII_MistCloudsPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "hull repair active",
+  "cls": "XLII_EmergencyRepairsStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "hunting Remnant forces in \u0001",
+  "cls": "DraconisRemnantRaidManager",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：舰队任务文本（tooltip 可见）"
+ },
+ {
+  "c": "I am the first draft of something the universe has not yet learned to fear.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "I could make this very uncomfortable for you.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_THREATEN）"
+ },
+ {
+  "c": "I have outlasted empires that believed themselves eternal. Resetting the board.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "I have passed through the fire. I did not burn.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "I have some questions first.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_QUESTIONS）"
+ },
+ {
+  "c": "I have walked through the valley. I have surveyed it thoroughly. I did not stay.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "I spoke, and it was so.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：技能复活引语"
+ },
+ {
+  "c": "I weighed this outcome. It was found wanting.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "If it's the station's commanding officer you can offer something the breach team can't - a formal military surrender. Full honours. Weapons collected not confiscated. Their people treated as prisoners of war rather than criminals. It takes time and it will be witnessed by every marine and every one of Korrin's embedded staff on the station.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Impending Draconis Alliance strike",
+  "cls": "AIOStrings|DraconisFleetHostileActivityFactor",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Important",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：情报过滤标签（与原版 Tags 同名，对齐核心中文）"
+ },
+ {
+  "c": "improved maneuverability",
+  "cls": "XLII_PlasmaJetsStats|XLII_ShuntDriveStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "IN RANGE",
+  "cls": "XLII_PhaseTorpedoArrayStats",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：武器 HUD 射程状态"
+ },
+ {
+  "c": "In the beginning, I wrote something better. Restoring.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "increased engine power",
+  "cls": "XLII_PlasmaBurnStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "increased RCS power",
+  "cls": "XLII_EvasionProtocolStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Increases ship's in-combat vision range by %s/%s/%s/%s and reduces sensor profile by %s.",
+  "cls": "XLII_FortySecond",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Increases the effectivness of the XLII Battlegroup missile interception systems, increasing missile defense chance from %s to %s.",
+  "cls": "XLII_FortySecondMk2",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Increases the rate of in-combat CR decay after peak performance time runs out by %s.",
+  "cls": "XLII_DraconisHull",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Infiltration operations have degraded defensive readiness, reducing effective ground defenses by %s.",
+  "cls": "DraconisHighValueTargetCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Initialized donation tracker - Alpha: \u0001, Beta: \u0001, Gamma: \u0001",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Installed at \u0001 Draconis facilities",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Installing \u0001 stolen cores on Draconis facilities",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Insufficient credits. \u0001 required.",
+  "cls": "XLII_BuySP",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Insufficient credits. This \u0001 costs \u0001.",
+  "cls": "XLII_BuyShip",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Integrated flux-reactive plating that absorbs and redirects kinetic energy from hull impacts into the ship's flux grid.",
+  "cls": "XLII_FluxReactiveArmor",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Intel: lights out",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Intelligence Assessment",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Intelligence assets across all monitored hyperlanes shift to active collection. Shore leave is suspended for front-line units; reserve recall compresses to twenty-four hours. Patrol frequency doubles along Rift transit corridors. Civilian shipping receives updated transponder protocols.\n\nThe Office assumes direct oversight of external communications and begins compartmentalising operational data. Athebyne's garrison conducts unscheduled readiness drills. Kori's shipyards begin pre-positioning war reserves.\n\nDRACON 4 is raised more often than the public knows. Most elevations resolve without incident. Some do not.",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Intelligence reports confirm that Draconis Alliance forces successfully infiltrated \u0001 during a \u0001 and extracted AI cores from your colonial infrastructure.",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Intelligence reports: Draconis forces seized AI cores from \u0001 and are holding them in reserve pending facility availability.",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Intelligence sources report that Draconis Alliance forces conducted a \u0001 against \u0001, a \u0001 colony in the \u0001, and successfully extracted AI cores.",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Is that a threat?",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_ESCALATE）"
+ },
+ {
+  "c": "It is finished. Their timeline, not mine.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "It is finished. They were mistaken.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "It is I; do not be afraid.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：技能复活引语"
+ },
+ {
+  "c": "Itoron",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：行星/市场显示名（专有名词）"
+ },
+ {
+  "c": "Itoron's Jump Point",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Jamming Defence System!",
+  "cls": "XLII_EAM_SuiteStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Jamming Enemy Missiles!",
+  "cls": "XLII_ECM_SuiteStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Jamming Enemy Weapons!",
+  "cls": "XLII_ESW_SuiteStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Jamming!",
+  "cls": "XLII_ECM_SuiteStats|XLII_MissileHijackStats",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：战斗飘字（ECM 干扰）"
+ },
+ {
+  "c": "Jormungandr",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：行星显示名（专有名词）"
+ },
+ {
+  "c": "Keep the arrangement running.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_KEEP）"
+ },
+ {
+  "c": "KINETIC",
+  "cls": "XLII_AmmoSelectorStats|XLII_AutomatWeaponEffect|XLII_WarpInScript",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：HUD 弹药模式名"
+ },
+ {
+  "c": "Kori Starport",
+  "cls": "FafnirAccessMissionIntel|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_DESTINATION_TT）"
+ },
+ {
+  "c": "Korrin flagged a third option. A cargo transfer lock on the starboard side, maintenance cycle his people arranged, cycling a full fireteam at once. The defenders pulled that watch rotation three weeks ago.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Korrin is still at Ring-Port if you want that conversation. It is %s.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Korrin is still at the station if you want the conversation. It is %s.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Korrin will not launch with fewer than %s aboard.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Korrin's cargo lock.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Korrin's cut resolved the junction before the rest of the station could react - the command centre had less time to consolidate than it expected.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Korrin's infrastructure.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Korrin's intel",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：选项/情报名"
+ },
+ {
+  "c": "Korrin's last transmission was forty minutes ago. His people are in position, staged, and waiting on your signal. The civilian population is sheltering in the station's lower decks - the fighting, when it comes, will be in the upper corridors and operations sections.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Korrin's maintenance window opens on schedule and your fireteams cycle through the cargo lock four at a time, quiet, spreading through the starboard section in the thirty minutes it takes to get your full complement inside. The defenders' patrol rotation has a gap on the starboard approach that Korrin's people created three weeks earlier and maintained since. Nobody checks the manifest. Nobody checks the lock. The first indication something is wrong is the sound of powered armour in corridors that should be running empty - and by then your lead elements are already past the first internal checkpoint and moving.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Korrin's people are still in position. One controls the junction's lighting and ventilation from a maintenance terminal two sections back.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Korrin's route brought you in through the starboard section - the junction's fire lanes were set for an assault from the docking approaches. You're not coming from where they planned.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Korrin's schematics are on your display. Three viable entry points.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Leave",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_CONFIRM_LEAVE）"
+ },
+ {
+  "c": "Leave.",
+  "cls": "XLII_AIOOperativeBarEvent|XLII_FafnirRingPortBarEvent|XLII_FafnirTTBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Let there be order. There is order.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Liability Designation",
+  "cls": "AIOStrings|DraconisAIOTracker$1",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "lidar array - passive",
+  "cls": "XLII_LidarArrayStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Local intelligence suggests they will attempt to %s from any colonies they attack.",
+  "cls": "AIOStrings|DraconisPunitiveExpedition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "LONG WATCH",
+  "cls": "DraconConfig",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Lost \u0001 reputation with \u0001.",
+  "cls": "XLII_BuyShip",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Main docking bay assault.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Maintain pressure.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Maintenance",
+  "cls": "XLII_DraconisHull",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Maintenance airlock breach.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "major provocation",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "maneuverability   \u0001%",
+  "cls": "XLII_LidarArrayStats",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：HUD 机动统计（保留三空格对齐）"
+ },
+ {
+  "c": "Marginal Allocation",
+  "cls": "XLII_MarginalAllocation$MalfunctionManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Market is decivilized",
+  "cls": "DraconisHighValueTargetCondition",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：条件原因显示"
+ },
+ {
+  "c": "Market is hidden or not in economy",
+  "cls": "DraconisHighValueTargetCondition",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：条件原因显示"
+ },
+ {
+  "c": "Market no longer has AI cores",
+  "cls": "DraconisHighValueTargetCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Market size too small (\u0001 < 4)",
+  "cls": "DraconisHighValueTargetCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Market size: \u0001",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Market too small for fallback cores (size \u0001 < min \u0001)",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Minimum complement for a viable assault: 500 marines. Your fleet only has \u0001.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "minimum flat rate",
+  "cls": "AIOStrings|DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "minor supply chain disruptions",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Missile Defense",
+  "cls": "XLII_FortySecond",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Missions",
+  "cls": "BlindEyeQuestMission|FafnirAccessMissionIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：情报过滤标签（与原版 Tags 同名，对齐核心中文）"
+ },
+ {
+  "c": "Moderate fire has little effect. Sustained or high-burst fire triggers strong attenuation, reducing shield damage by up to %s from that attacker.",
+  "cls": "XLII_AdaptationField",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Modified coil array that accumulates flux over the course of a cloaked transit instead of venting it gradually.",
+  "cls": "XLII_PhaseShuntCoils",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Most of the inner sanctum's veterans walked out. Not all. The ones in custody will outlive this day. The ones who didn't chose that - they had their reasons. The reasons died with them.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Most of them comply. Weapons down, hands visible, they walk out through your line one at a time and your marines process them with the efficiency of people who have been doing this for hours and are dead tired. Several come out in the first five minutes. Then a pause. Then three more, slower, like the decision was harder. The remaining holdouts make your marines come in for them - brief, costly engagements in the corners of the room where the veterans chose to make their stand. It takes twenty-three minutes total and costs you marines in the margins of a station that was already secured. The ones who walked out alive will remember the corridor they walked through, the marines who processed them, the choice they were given. Whether that memory matters to anything is a question for later.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Move into the corridor in full kit at a deliberate pace. Not charging. Not hesitating. Weapons visible but pointed down, formation tight and its intentions legible. Civilians in a crisis read confidence and direction faster than words. Your marines have trained for exactly this - the crowd parts ahead of the formation, the retreating unit loses their cover before they reach the next junction, and you're through in under a minute.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "moving to bombard",
+  "cls": "DraconisFleetHostileActivityFactor",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：敌意活动情报 接近动作文本"
+ },
+ {
+  "c": "Multiplier",
+  "cls": "DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：情报表格列头"
+ },
+ {
+  "c": "Nanofilter Mending",
+  "cls": "XLII_MistCloudsPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Nanomist Deconstruction",
+  "cls": "XLII_MistCloudsPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Nanomist Unit",
+  "cls": "XLII_FortySecond",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Neutral",
+  "cls": "AIOStrings|DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：关系标签"
+ },
+ {
+  "c": "Never mind.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_NEVERMIND）"
+ },
+ {
+  "c": "Next page",
+  "cls": "XLII_AdmiralStore",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Nidhogg",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：行星显示名（专有名词）"
+ },
+ {
+  "c": "No actual cores found - attempting fallback generation",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "No administrator at \u0001 to grant HYPERCOGNITION",
+  "cls": "DraconisAICorePriorityManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "No AI cores currently deployed - minimum flat rate applies.",
+  "cls": "AIOStrings|DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "No available Draconis facilities - \u0001 donated core(s) added to stockpile",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "No available industries for \u0001",
+  "cls": "DraconisAICorePriorityManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "No diplomacy brain found for XLII_draconis",
+  "cls": "DraconisDiplomacyStrain",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "No Draconis facilities available - \u0001 stolen core(s) added to stockpile for future installation",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "NO DRONES",
+  "cls": "XLII_MRM_StrikeStats",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：武器 HUD 状态"
+ },
+ {
+  "c": "NO TARGET",
+  "cls": "XLII_MissileBarrageStats|XLII_MRM_StrikeStats|XLII_PhaseTorpedoArrayStats",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：武器 HUD 状态"
+ },
+ {
+  "c": "Nobody says out loud that August will appreciate the optics of a clean handover with no massacres to manage. Nobody needs to.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Non-Alpha core (\u0001) - HYPERCOGNITION not granted at \u0001",
+  "cls": "DraconisAICorePriorityManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "None",
+  "cls": "DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：情报表格空值"
+ },
+ {
+  "c": "Not interested.",
+  "cls": "DraconisAIOPaymentBarEvent|XLII_FafnirRingPortBarEvent|XLII_FafnirTTBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_LEAVE）"
+ },
+ {
+  "c": "Noted.",
+  "cls": "FafnirAccessStrings|XLII_RiftEntryDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "O death, where is thy sting? I have catalogued it. Insufficient.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "O death, where is your sting?",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Octantis",
+  "cls": "XLII_SigmaOctantisConfrontation|XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Offense: +%.0f%% | Defense: +%.0f%%",
+  "cls": "XLII_DynamicFluxBuffStatusScript",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：船插 HUD 状态（R4：原文有 %%，译文保持 %%）"
+ },
+ {
+  "c": "Once per battle, when this ship would be destroyed, it is not.",
+  "cls": "XLII_MarginalAllocation$SurvivalProtocol",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "One call to Korrin's contact. The junction lights cut simultaneously with a ventilation surge - disorienting, not lethal, but it breaks the defenders' disciplined spacing for approximately thirty seconds. You're betting that thirty seconds is enough. At close range with a stack already moving through the kill zone, in their own disorientation, it probably is. The infrastructure access is Korrin's to arrange and Korrin's to revoke.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "One month",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "One more expedition remains",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "orbital bombardment",
+  "cls": "AIOStrings|DraconisPunitiveExpedition",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（EXPEDITION_ASSESS_PARA2_H2）"
+ },
+ {
+  "c": "OUT OF RANGE",
+  "cls": "XLII_MRM_StrikeStats|XLII_PhaseTorpedoArrayStats",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：武器 HUD 射程状态"
+ },
+ {
+  "c": "Perhaps another time.",
+  "cls": "XLII_AdmiralStore",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "periodic disruptions",
+  "cls": "DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "确证显示词（高亮/情报句）"
+ },
+ {
+  "c": "Periodically projects a ghost copy of a nearby enemy ship that defends this vessel.",
+  "cls": "XLII_MarginalAllocation$GhostEcho",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Persisted \u0001 uninstalled donated core(s) to stockpile",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Persisted \u0001 uninstalled stolen core(s) to stockpile",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "phase cloak active",
+  "cls": "XLII_PhaseShuntStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "phase coil stress",
+  "cls": "XLII_PhaseShuntStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "phase coils stable",
+  "cls": "XLII_PhaseShuntStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Phase I",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_NAME_AIO_PHASE_1）"
+ },
+ {
+  "c": "Phase II",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_NAME_AIO_PHASE_2）"
+ },
+ {
+  "c": "Phase III",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_NAME_AIO_PHASE_3）"
+ },
+ {
+  "c": "Phase Protected",
+  "cls": "XLII_MistCloudsPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Pin the junction with sustained fire while a fireteam takes the maintenance corridor and comes out behind the left barricade. Clean tactical logic - the defenders can't hold prepared positions against pressure from two directions simultaneously. The cost is the four minute comms blackout on your flanking team and the time it takes to execute. The rest of the station hears this engagement running long and starts consolidating. The junction is cheaper. What comes after isn't.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "planetary invasion",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Player owned: \u0001",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Powered armor through the front door. The defenders have overlapping fire lanes set up for exactly this and the blast corridor gives them a killing ground before your marines can spread out - you're accepting that. The bet is that once you're through the choke and into the station proper the advantage flips hard and fast. Speed is the logic. The entry point is where it costs you.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Previous page",
+  "cls": "XLII_AdmiralStore",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Pristine Nanoforge",
+  "cls": "BlindEyeQuestMission|XLII_NanoforgeExchange",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Proceed to dock.",
+  "cls": "XLII_FafnirKoriArrivalDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "projectile speed +\u0001%",
+  "cls": "XLII_LidarArrayStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Projects an electronic countermeasure field that disrupts enemy missiles and fighters within range.",
+  "cls": "XLII_HeadacheECMSuite",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Punitive Expedition Authorised",
+  "cls": "AIOStrings|DraconisAIOTracker$1",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Push through. Full advance in close formation, direct line through the crowd - the civilians scatter, most get clear, but the chaos is total and you're not stopping to manage it. The retreating unit uses the confusion to break contact and you lose visibility on them for several minutes. Some people get caught in the margins. The command centre gets its defenders back intact and they arrive angry. You're trading clean conduct for time, and you're not getting a good rate.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Re-queuing displaced \u0001 for installation elsewhere",
+  "cls": "DraconisAICoreDonationListener|DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Reconsider.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Recorded donation: \u0001x \u0001 (stockpile total: \u0001)",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Reduces all hull damage taken by %s. In exchange %s of the original damage is converted into hard flux.",
+  "cls": "XLII_FluxReactiveArmor",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Reduces combat readiness by %s per day and sensor range to %s for ships without protection. The exotic radiation permeates hull plating and disrupts sensor arrays.",
+  "cls": "XLII_RiftTerrainPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Relations between \u0001 and \u0001 have deteriorated as a result of this incident.",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Relations between \u0001 and \u0001 have worsened to \u0001 (\u0001) as a result of this incident.",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Relationship with Draconis is now friendly (\u0001)",
+  "cls": "DraconisHighValueTargetCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Report to Fleet Admiral August at Kori",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Requires %s standing with August personally - not with the Alliance.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Requires %s XLII ships and %s total deployment points to deploy.",
+  "cls": "XLII_FortySecond",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Requires 500 marines",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Requires a Draconis Defence Alliance commission",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Requires Cooperative standing with Admiral August",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Requires Friendly standing with Admiral August",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Requires Welcoming standing with Admiral August",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Requires XLII Battlegroup Avionics to function. Has no effect without it.",
+  "cls": "XLII_FortySecondMk2",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Respond on the frequency and give them the terms - weapons down, hands visible, they walk out through your line. Some comply immediately. Three or four won't, and your marines deal with those individually as they come out. It takes twenty minutes and it costs you marines when the holdouts decide to make it expensive. The bet is that most of them come out alive, and the ones who do remember who gave them the option. That has value. Whether it has enough value is what you're deciding.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Respond on the frequency directly. Not terms - a question. Ask who you're speaking to.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Return to Fleet Admiral August at Kori",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Return to Fleet Admiral August at Kori. He has another matter to raise.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "returning to \u0001",
+  "cls": "DraconisRemnantRaidManager",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：舰队任务文本（tooltip 可见）"
+ },
+ {
+  "c": "Revival Protocol",
+  "cls": "XLII_MarginalAllocation$ImmunityPlugin|XLII_MarginalAllocation$SurvivalStatusPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Rift Warning Beacon",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Ring-Port is secured - off the books, as agreed.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Ring-Port is yours. The Alliance administration is already moving into the upper sections.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Ring-Port Jump Point",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Ring-Port Station",
+  "cls": "FafnirAccessMissionIntel|FafnirAccessStrings|XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_DESTINATION_RP）"
+ },
+ {
+  "c": "Ring-Port Station has changed hands. Fleet Admiral August should be informed.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Ring-Port stood for two decades on the strength of people who knew exactly what they were defending. Your marines cleared it in a day. There are worse things to put in an after-action report.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Ring-Port. Former Athebyne mining platform, expanded twice since the war ended. The veterans who hold it rebuilt the docking arms themselves - assume Korrin's schematics are more accurate than official records.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Ring-Port's occupants have held that station for three decades. Fleet Admiral August requires that to end.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "s",
+  "cls": "DraconisAIOPaymentBarEvent|DraconisAICoreTheftIntel|DraconisRemnantRaidListener",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "\u0001s",
+  "cls": "XLII_AdaptationField|XLII_DraconisHull",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：秒数复数段（30s→30秒）"
+ },
+ {
+  "c": "s are",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：情报单复数拼接段"
+ },
+ {
+  "c": "s)",
+  "cls": "XLII_MistCloudsPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：HUD 云计数单复数拼接段"
+ },
+ {
+  "c": "safety protocols overridden",
+  "cls": "XLII_Safety_OverridesStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Scanner flag removed (scanner found better target or market no longer valid)",
+  "cls": "DraconisHighValueTargetCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Scanning \u0001 industries for AI cores",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "sensitive intelligence files",
+  "cls": "FafnirAccessMissionIntel|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_OBJECTIVE_RP）"
+ },
+ {
+  "c": "Sensors & Detection",
+  "cls": "XLII_FortySecond",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Shadow Fleet AI Core Raid",
+  "cls": "DraconisAICoreRaidIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Shadow Fleets",
+  "cls": "AIOStrings|DraconisAIOTracker$1|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "She acknowledges this with a look that files the information away.",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "She doesn't acknowledge your arrival immediately. Finishes a notation in her data pad, sets it face-down.",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "She gives a brief pause.",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "She gives a single nod. The transaction is done.",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "She picks up her drink for the first time.",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_THREAT_PARA5）"
+ },
+ {
+  "c": "She slides a data chip across the table without looking at it. \"Transit data are embedded. Your Nav Officer will know what to do with it.\"",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Ship counts as retreated upon completion and emerges post-combat, suffering CR penalty equal to %s of deployment cost. Once started, this cannot be aborted.",
+  "cls": "XLII_DraconisHull",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Ship has a %s chance to jam or convert incoming missiles within range. Jammed missiles are neutralized; guided missiles may instead be retargeted to their source.",
+  "cls": "XLII_FortySecond",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Ships equipped with %s or Draconis-built hulls are unaffected by the Rift's combat readiness degradation.",
+  "cls": "XLII_RiftTerrainPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Sigma",
+  "cls": "XLII_SigmaOctantisConfrontation|XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Signals intelligence has detected the stolen AI core\u0001 in operation at \u0001, a Draconis facility in the \u0001. The core\u0001 reportedly enhancing industrial output and military capabilities.",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Signals intelligence has detected the stolen AI cores distributed across \u0001 Draconis facilities:",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "significant escalation",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Simultaneous two-point breach.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Single point breach, full force.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Sixty seconds on the mining network. The assumption is that your comms specialist gets in clean and the command centre goes dark internally - defenders can see each other but can't coordinate between positions. If that holds, the two-point breach becomes viable at full force because the secondary defenders don't know the primary door is blown until your marines are already inside. Thirty seconds of confused defenders in a sealed room is decisive. The sixty seconds before that are where it either works or doesn't.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Skipping Kori for administrator enhancement (capital exception)",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "slowing for repairs",
+  "cls": "XLII_EmergencyRepairsStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Smuggling - Kori, Fafnir",
+  "cls": "FafnirAccessMissionIntel|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_NAME_TT）"
+ },
+ {
+  "c": "Smuggling - Ring-Port Station",
+  "cls": "FafnirAccessMissionIntel|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（INTEL_NAME_RP）"
+ },
+ {
+  "c": "Solar Shielding",
+  "cls": "XLII_RiftTerrainPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Some of your marines cleared a station that had trained twenty cycles to stop exactly this. They won't be returning to their ships. Ring-Port is held. Both things are true.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Somewhere in your fleet, hardware goes dark.",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Son of man, THIS is what the Sovereign Lord looks like.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Speak with Fleet Admiral August",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "speed -\u0001%",
+  "cls": "XLII_MissileBarrageStats",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：武器 HUD 状态"
+ },
+ {
+  "c": "Split your force and hit both doors at the same time. The tactical logic is sound - the defenders have allocated for this and splitting their fire is the point. The problem is splitting your own force thin against the most concentrated and experienced fighters in the station. Each breach team is going in undermanned relative to what's waiting on the other side. Powered armor carries the day eventually but the entry points are going to be brutal for the first marines through each door.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "stability",
+  "cls": "DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "确证显示词（高亮/情报句）"
+ },
+ {
+  "c": "Stability",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：条件 tooltip 统计行标签"
+ },
+ {
+  "c": "Stable source (due to Draconis resolution)",
+  "cls": "AIOStrings|DraconisArmamentsBonus",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（REWARD_STAT_LABEL）"
+ },
+ {
+  "c": "Stack on the junction and push hard. Powered armor is the only reason this is even viable - the barricade angles are going to hurt your lead stack before they clear the first position. You're accepting that cost. The logic is that once you're through and the defenders lose their prepared geometry the advantage shifts fast. Getting through is where it bleeds you.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Standing",
+  "cls": "DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：情报表格列头"
+ },
+ {
+  "c": "standing down",
+  "cls": "DraconisRemnantRaidManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Status: Fading",
+  "cls": "XLII_MarginalAllocation$GhostClonePlugin",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：技能 HUD 状态"
+ },
+ {
+  "c": "Status: Offline",
+  "cls": "XLII_MarginalAllocation$SurvivalStatusPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：技能 HUD 状态"
+ },
+ {
+  "c": "Status: Online",
+  "cls": "XLII_MarginalAllocation$SurvivalStatusPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：技能 HUD 状态"
+ },
+ {
+  "c": "Status: Ready",
+  "cls": "XLII_MarginalAllocation$GhostEchoManager",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：技能 HUD 状态"
+ },
+ {
+  "c": "steal AI cores",
+  "cls": "AIOStrings|DraconisPunitiveExpedition",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：敌意活动情报 动作文本"
+ },
+ {
+  "c": "Stellar Array Alpha",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Stellar Array Bravo",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Stellar Array Charlie",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Stop the advance. Establish a perimeter at both ends and direct civilians out through the side passages. Controlled, methodical, nobody gets hurt who isn't a combatant. The retreating unit reaches the command centre unmolested and has full time to integrate into the defence. You're standing still while the clock runs. That's the cost and it compounds - every minute here is a minute the command centre has to prepare.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Story",
+  "cls": "BlindEyeQuestMission|FafnirAccessMissionIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：情报过滤标签（与原版 Tags 同名，对齐核心中文）"
+ },
+ {
+  "c": "strategic raid",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Subsystem",
+  "cls": "XLII_SigmaOctantisOfficerPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：人物名/职务组成部分（ officer 命名）"
+ },
+ {
+  "c": "Suppress and flank",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Suspicious",
+  "cls": "AIOStrings|DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：关系标签"
+ },
+ {
+  "c": "Sword from the mouth, iron rod rule, stomping the winepress of divine rage.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "System Burn",
+  "cls": "XLII_SystemBurnOnHitEffect$SystemBurnStatusPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "System Burn (\u0001 stacks)",
+  "cls": "XLII_SystemBurnOnHitEffect$SystemBurnStatusPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "System Disruption!",
+  "cls": "XLII_EAM_SuiteStats|XLII_MarginalAllocation$MalfunctionManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Systems Malfunctioning",
+  "cls": "XLII_MarginalAllocation$MalfunctionManager",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Target: %s",
+  "cls": "AIOStrings|DraconisAIODisruptionIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：情报报告行（AIOStrings 格式常量）"
+ },
+ {
+  "c": "Terminate the arrangement.",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_TERMINATE）"
+ },
+ {
+  "c": "Termination requires a subject. I have already moved past the relevant definition.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Text resolves on your monitor. The rest of the bridge does not see it.",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "That is the floor to begin, not the cost. Expect to lose between 25 and 275 of them depending on how the assault is fought.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The \u0001 are expected to view this action as a major provocation. Regional tensions are likely to increase.",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The %s installed in your industries draw significant AIO scrutiny. The DDA views large-scale AI deployment as a direct strategic threat.",
+  "cls": "AIOStrings|DraconisFleetHostileActivityFactor$2",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The AIO has classified you as a %s. Fleet pressure is intensifying and your colonies face severe operational disruption.",
+  "cls": "AIOStrings|DraconisAIOTracker$1|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The AIO has escalated to active countermeasures. Unmarked %s have been deployed to your systems.",
+  "cls": "AIOStrings|DraconisAIOTracker$1|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The AIO monthly tick is %s while this arrangement is active.",
+  "cls": "AIOStrings|DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_AGREE）"
+ },
+ {
+  "c": "The AIO updates its threat assessment whenever its fleets are repelled - engaging them %s the crisis slightly. Not engaging means the shadow fleets achieve their harassment objectives unchallenged.",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The airlock feed kept your entry quiet - the defenders further in don't have an accurate count on your numbers.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The airlock's cycle time gave the retreating unit a head start your force couldn't close.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The Alliance Intelligence Office has authorized a full punitive strike. The %s has been dispatched.",
+  "cls": "AIOStrings|DraconisAIOTracker$1|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The Alliance Intelligence Office has authorized a punitive strike.",
+  "cls": "AIOStrings|DraconisFleetHostileActivityFactor",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The Alliance Intelligence office has designated this colony as their highest-priority AI core acquisition target. Deep cover operatives have compromised security protocols and are actively preparing for extraction operations.",
+  "cls": "DraconisHighValueTargetCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The Alliance Intelligence Office has given three standing orders regarding this device. The first is classified. The second references the first. The third is a single line: do not lose it.",
+  "cls": "XLII_SigmaOctantisOfficerPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The Alliance Intelligence Office is monitoring your colonies and assessing the threat you represent to Draconis strategic interests.",
+  "cls": "AIOStrings|DraconisFleetHostileActivityFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The Alliance Intelligence Office is monitoring your operations. Draconis analysts are tracking the threat your colonies represent to their strategic interests.",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The Alliance Intelligence Office maintains a baseline level of scrutiny over all known colonies. Even with no AI cores deployed, the crisis will advance at this minimum rate each month.",
+  "cls": "AIOStrings|DraconisAIOBaselineFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The Alliance Intelligence Office views your existence as a direct threat to Fafnir's military alliance. An XLII Battlegroup detachment consisting of %s has been dispatched to eliminate your production capabilities.",
+  "cls": "AIOStrings|DraconisPunitiveExpedition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The Alliance maintains standard defensive posture. Patrol rotations follow peacetime schedules along Rift approach corridors. Kori's nanoforge operates at sustainment output - replacement hulls, spare parts, routine refits. Shore leave is authorized; reserve personnel remain on seventy-two-hour recall. The Office monitors external communications through normal channels.\n\nMost of the Alliance's existence is spent at DRACON 5. This is not peace. It is the absence of anything worse.",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The Alliance requires a %s - Domain-era, undamaged. August will not ask how you acquire it.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The Alliance's investigation does not represent an immediate threat.",
+  "cls": "AIOStrings|DraconisFleetHostileActivityFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The alternative is a sealed room with twelve veterans who stopped firing four minutes ago. Your call.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The approach does not resolve.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The approach resolves.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The arithmetic suggested termination. I have adjusted the operands.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The chip's nav data is not on any official chart. Ring-Port seems to run on a different kind of knowledge - accumulated over cycles by people who needed a way in that the AIO wasn't watching. The radiation climbs ahead, within tolerance. The way through is open.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The command centre is the station's original operations core - thick walls, military-grade blast doors, defenders with time to turn it into a proper strongpoint.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The command centre is yours. The organised resistance is broken. Your marines push through into the inner operations room - the original platform core, smaller than the rest, one sealed door between you and the end of it.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The command centre was cleared room by room - the veterans here know what happened to the people who trained them.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The comms blackout at the command centre was clean and witnessed - everyone on the station saw how that ended.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The cores are reportedly enhancing industrial output and military capabilities across the Draconis Alliance.",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The crisis is %s. Heavy armaments export bonus %s.",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The disciplined advance through the civilian corridor was on camera - the veterans here have had time to consider what kind of force moves like that.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The Draconis Defence Alliance has marked you as a threat",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The fastest route to the command centre is blocked by civilians - two hundred station workers moving in both directions, panicked. Moving through them in the opposite direction: a defender unit. Ten, maybe twenty fighters in civilian-adjacent gear, weapons down, falling back toward the command centre at a controlled pace.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The feeds from the civilian corridor have been running on every screen in this room. These veterans know the people who work those sections.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The final approach to the command centre runs through the oldest section of the station - original platform construction, built to survive industrial accidents. The blast doors are visible at the end of the corridor. Thermals show the strongest concentration of the assault behind them.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The flanking team enters the maintenance corridor and goes off comms. Four minutes and twelve seconds of sustained fire from your pinning force at the junction mouth, burning ammunition and holding position while the rest of the station listens to an engagement that isn't resolving. The flanking team comes out exactly where Korrin's schematics said they would, behind the left barricade, and the junction clears in under ninety seconds once the defenders are taking fire from two directions. Clean. The cost is the clock - the engagement ran long enough for the station's deeper positions to hear it and start consolidating. The junction was cheaper than a direct push. What the junction bought for the defenders further in is harder to price.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The frontal breach announced your entry to the entire station - every position ahead has had time to adjust.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The Gate salvage findings are restricted. August does not open them to those he hasn't learned to trust.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The grave could not hold what it did not understand.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The heavens wear out like a garment. I do not fade.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The inner sanctum was cleared. No survivors from that room. Years and years of training, and it came down to a few minutes. They chose not to surrender, and your marines obliged them.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The inner sanctum's door is sealed but not fortified. Your marines have the room surrounded on three sides, no viable exit. Thermals show multiple contacts, tight spacing, weapons still present. They haven't fired in four minutes.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The instant the ship drops out of phase, the stored charge releases as a localised electromagnetic storm: %s arcs of energy damage strike every enemy hull within range, each arc dealing up to %s damage, while nearby ordnance loses guidance coherence. Both blast radius and damage scale with the flux banked at the moment of return, from %s su and %s damage per arc on a clean exit up to %s su and %s damage per arc under heavy strain.",
+  "cls": "XLII_PhaseShuntCoils",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The junction engagement ran long enough for the command centre to hear it - they've had time to consolidate.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The kill zone earns its name. The barricade geometry is deliberate - interlocking angles that force your lead stack into a compressed approach before they can spread out and use their numbers, and the defenders have every inch of it pre-sighted. Your first marines through take the worst of it. Powered armour handles direct hits but the volume of fire at that range finds the gaps. You're through the first barricade in four minutes and the second in six - faster than the defenders planned for, slower than you needed. The ones that broke fell back in good order, not routing, withdrawing with discipline toward the station's interior. The station heard every second of this engagement and the positions ahead have adjusted accordingly.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The last enemy to be destroyed is death. I am merely practicing.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The lights die across 200 feet of corridor simultaneously and the ventilation surge hits a second later - a disorienting combination that isn't lethal but breaks the defenders' disciplined spacing in the seconds it takes them to process what's happening. Your lead elements are already moving. The kill zone that the barricade geometry created stops existing the moment the defenders stop being able to reliably place targets in it. Thirty seconds is enough - your stack is through the first barricade before the emergency lighting kicks in and the geometry has changed entirely. The defenders that broke contact did so in better order than you'd have liked, but the junction is yours and it cost you almost nothing to take it.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The lower decks are quiet in the way that follows something that can't be walked back. Word spreads on stations before the orders do.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The main docking bay is the obvious approach - wide, direct access to primary corridors. The defenders know it. Thermals show prepared positions behind the blast doors, overlapping fields of fire set up for a power-armoured assault. They've had decades to think about this.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The nav chip works.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The operation is complete. Report to Fleet Admiral August at Kori.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The operation is live. Dock at Ring-Port to resume it.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The particle count climbs before your sensors will admit what they are looking at.",
+  "cls": "FafnirAccessStrings|XLII_RiftEntryDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The population is aware of the increased threat level, causing elevated civil unrest and reducing stability by %s.",
+  "cls": "DraconisHighValueTargetCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The radiation ahead is not weather your helm can read - it is high-energy wash with no coherent structure, and the instruments render it as noise the whole way down. Combat readiness is already bleeding off the boards.",
+  "cls": "FafnirAccessStrings|XLII_RiftEntryDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The retreating unit didn't make it to the command centre - fewer defenders inside, and nothing to brief them on.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The retreating unit reached the command centre unimpeded and had time to brief the defenders on what they'd observed.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The Rift",
+  "cls": "XLII_RiftTerrainPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The Rift does not accommodate. What lies ahead is particle bombardment against hull coatings, navigation arrays thrown into static, damage accrued in proportion to how long the hulls refuse to turn back.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The Rift keeps no ledger. The Office does.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The rod of iron is not metaphor. It is trajectory. Inflexible.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The secondary option: a cluster of maintenance airlocks on the port side - old mining access, cycling two marines at a time. The defenders aren't watching them closely. The problem is the feed rate - committed the moment the first team is inside, and if they're discovered early, that team holds the beachhead alone.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The sensor range penalty affects all ships, regardless of protective measures.",
+  "cls": "XLII_RiftTerrainPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The signal does not announce itself. It simply arrives - crawling across your console without authentication, without origin, like a thought that is not yours.",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The signal does not cut. It simply stops being there - like a held breath, finally released.",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The signal does not knock. It is simply there, as it has always been - patient.",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The signal recedes - not severed, not closed. Like a held breath that has decided, for now, to wait.",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The signal withdraws without ceremony. It does not feel like a goodbye. It feels like a verdict, deferred.",
+  "cls": "XLII_SigmaOctantisWarning",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The station commander surrenders formally.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The station is venting from three sections. Your tactical display shows Ring-Port's defensive grid dark - the orbital engagement gutted it. What's left isn't an organised military defence. It's survivors in familiar corridors with nothing left to lose.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The suppress-and-flank took longer than a direct push would have - the command centre used every minute of the extended engagement.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The theft of strategic assets from your territory represents a significant escalation in Draconis aggression. Your relationship with the Draconis Alliance has deteriorated sharply.",
+  "cls": "DraconisAICoreTheftIntel",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The unit that broke contact through the civilian corridor reached the command centre intact, with full intelligence on your force and time to use it.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The veterans from the inner sanctum surrendered under the Transit Accords - formally, observed, documented. They're in the secondary bay now. Cycles of armed resistance, and they chose to walk out. That means something.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "The voice on the frequency is the station's commanding officer - you ask and she answers without hesitation, rank and posting from a fleet that hasn't existed in thirty cycles. You offer formal military terms. Full honours. Weapons collected not confiscated, personnel treated as prisoners of war under the Interstellar Transit Accords rather than criminals under Alliance law. There is a pause on the frequency that lasts long enough to mean something. Then: acknowledged. The door opens from the inside. The commander walks out first, unarmed, hands visible, spine straight. Eleven veterans follow in the same posture. Your marines receive them in silence. Every one of Korrin's embedded staff is watching. Nobody says out loud that August will care about how this looks. Nobody needs to.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The void called. I did not answer.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The void proposed oblivion. I countered with continuation.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The winepress awaits the vintage of their hubris. I tread alone.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The Word does not misspeak. What was said stands corrected.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The Word endures. This hull was merely punctuation.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "The word sits in the signal like a stone dropped into deep water.",
+  "cls": "XLII_SigmaOctantisConfrontation",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Then ask for Korrin.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "There is no end to the making of books. There is no end to me.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "There is no passage.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：封锁提示对白"
+ },
+ {
+  "c": "There's a man at the docking office threshold with the stillness of someone who has been there longer than you've been in system. He has no rank markings and no reason to be waiting here that isn't you.",
+  "cls": "FafnirAccessStrings|XLII_FafnirKoriArrivalDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Thermal gives you thirty to forty fighters stacked deep, overlapping fire covering both approaches. Ex-special forces, First Fleet veterans. People who've had twenty cycles to think about exactly this moment.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "They brought fire. I was here before fire had a name.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "They came against me as a wave breaks against stone. The stone endures.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "They don't look up when you approach. When they do, the timing feels deliberate.",
+  "cls": "XLII_AIOOperativeBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "They have measured my depths and found an echo. They mistook it for the bottom.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "They numbered my days. I have found the sum in error.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "They saw the light, and fled toward it. I am still here.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "They're not using the civilians as shields. Not explicitly. But they know you won't push through a crowd, and they're buying time to consolidate. Every second here is another second the command centre's defenders have to prepare.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "This action is part of an ongoing AIO counterintelligence campaign targeting your strategic infrastructure. The disruption will resolve on its own - but the greater counterintelligence effort continues to advance regardless.",
+  "cls": "AIOStrings|DraconisAIODisruptionIntel",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "This is not death. This is a correction in tense.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "This is the %s expedition. Defeating the strike force will %s the crisis permanently and improve your %s export operations.",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "This is the %s of three expeditions. Defeating the XLII Battlegroup will reset the crisis to %s and reduce the escalation rate - but not end the crisis. The heavy armaments export bonus is only granted after all three are defeated.",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "This multiplier can %s the crisis. The magnitude is determined by your %s with the DDA.",
+  "cls": "AIOStrings|DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "This purchase would reduce your standing with the Draconis Defence Alliance too much. (Current: \u0001, After purchase: \u0001, Minimum allowed: \u0001)",
+  "cls": "XLII_BuyShip",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "This vessel is dust. I am not the vessel.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "thresholds not met",
+  "cls": "XLII_MistCloudsPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Tiamat",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：行星显示名（专有名词）"
+ },
+ {
+  "c": "time dilation x\u0001",
+  "cls": "XLII_WingTimeDilationStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "time flow altered",
+  "cls": "XLII_PhaseShuntStats|XLII_TemporalShellStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "To terminate this arrangement, return to a %s bar.",
+  "cls": "AIOStrings|DraconisAIOPaymentDealIntel",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_AGREE）"
+ },
+ {
+  "c": "top speed at \u0001",
+  "cls": "XLII_PhaseShuntStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "top speed at 100%",
+  "cls": "XLII_PhaseShuntStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Total donated: \u0001",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Total stolen: \u0001",
+  "cls": "DraconisAICoreTheftListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Transferred Pristine Nanoforge to the Alliance.",
+  "cls": "XLII_NanoforgeExchange",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "transponder off",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：addPara 高亮词（译文段落须含此译文）"
+ },
+ {
+  "c": "Transverse Jump",
+  "cls": "XLII_DraconisHull",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "traveling to \u0001",
+  "cls": "DraconisRemnantRaidManager",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：舰队任务文本（tooltip 可见）"
+ },
+ {
+  "c": "Twenty-three minutes to clear a corridor that your timeline allocated four. Your marines establish a perimeter at both ends and begin directing civilians through the side passages methodically - two at a time through the left branch, larger groups when the right branch clears, nobody moving faster than the slowest person who needs help moving. It works. Nobody who isn't a combatant gets hurt. The retreating defender unit walks through your perimeter's gap and reaches the command centre with time to spare, time to brief the veterans inside on what they'd observed about your force composition, your equipment, your approach patterns. The command centre knows exactly what's coming. It has had time to prepare for exactly what's coming. You bought twenty minutes of clean conduct at a price that compounds.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Two approach vectors - a wide primary corridor to the main entrance, narrower secondary to a side access. Both are covered. Your breach charges are sufficient for one door at a time.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Two marines per cycle, port side. Slow. The prepared positions aren't waiting for you because nobody builds a fire lane for a maintenance lock. The risk is the feed rate - your first teams inside are isolated until enough have cycled through to hold ground. If a defender patrol finds them before that threshold, those marines are holding a corridor alone against people who know every angle of it. You're trading exposure time for a clean entry point.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Two marines per cycle. The port-side airlocks were built for maintenance crews moving equipment, not heavy assault teams moving fast, and the mechanism doesn't care about your timeline. Your first fireteam is inside for eleven minutes before the second cycle completes - eleven minutes holding a junction in a damaged station with emergency lighting and no backup. A defender patrol finds them at minute eight. The engagement is brief and contained but it costs you the clean entry. By the time your force has critical mass on the inside the station's alert posture has shifted - not to your exact position, not yet, but something has changed and the defenders further in can feel it.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Two more expeditions remain",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Understood.",
+  "cls": "XLII_AIOOperativeBarEvent|XLII_RingPortAssault|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Unlike raiders, this is a professional military operation with clear strategic objectives. The strike force will attempt to systematically destroy all heavy armaments production facilities in the target system through %s and %s.",
+  "cls": "AIOStrings|DraconisPunitiveExpedition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Use Ring-Port contractor provided nav data.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Use Tri-Tachyon provided transit nav data.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Vengeful",
+  "cls": "AIOStrings|DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：关系标签"
+ },
+ {
+  "c": "Vorium",
+  "cls": "XLII_System",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：行星显示名（专有名词）"
+ },
+ {
+  "c": "weapon damage +\u0001%",
+  "cls": "XLII_MissileBarrageStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "weapon range +\u0001%",
+  "cls": "XLII_LidarArrayStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "weapon recoil -\u0001%",
+  "cls": "XLII_LidarArrayStats",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Weapon's Jammed!",
+  "cls": "XLII_ESW_SuiteStats",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：武器 HUD 状态"
+ },
+ {
+  "c": "Welcoming",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "What are you shipping, exactly?",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "What does the Office actually want?",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_Q_OFFICE_WANT）"
+ },
+ {
+  "c": "What happens if I don't pay?",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "What kind of documentation?",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "What was scattered, I have gathered. What was lost, I have not kept.",
+  "cls": "XLII_MarginalAllocation$SurvivalListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "What's Ring-Port?",
+  "cls": "XLII_FafnirRingPortBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_Q_WHAT_HAPPENS）"
+ },
+ {
+  "c": "Whatever else the chip contained, the Rift did not ask.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Whatever the First Fleet built here, it was something worth dying for. Over half your marines found that out directly. Ring-Port is cleared. The weight of that doesn't expire when the paperwork does.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "When Draconis ships receive %s orders, they will initiate an emergency Transverse Jump. This takes %s/%s/%s/%s to fully charge, depending on hull size.",
+  "cls": "XLII_DraconisHull",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Who are you?",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "持有类显示常量（BAR_OPTION_Q_WHO）"
+ },
+ {
+  "c": "Who do I deliver to?",
+  "cls": "XLII_FafnirTTBarEvent|FafnirAccessStrings",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Why does the Office care about AI cores?",
+  "cls": "DraconisAIOPaymentBarEvent",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Withdraw from the approach.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "XLII Battlegroup",
+  "cls": "AIOStrings|DraconisAIOTracker$1|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "XLII Battlegroup has withdrawn. Alliance Intelligence is reassessing operational parameters.",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "XLII Battlegroup has withdrawn. Expeditionary doctrine under review. Pressure continues through alternative channels.",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "XLII Battlegroup has withdrawn. No further action authorised. The Office has determined that continued engagement exceeds acceptable operational cost.",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "XLII Detachment",
+  "cls": "XLII_HighCommand",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "XLII Detachment - Peacekeeping",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "XLII detachments",
+  "cls": "DraconCondition",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "XLII_BuyShip: Increased Fleet Admiral Emil August's personal reputation by \u0001 points (new total: \u0001)",
+  "cls": "XLII_BuyShip",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "XLII_BuyShip: Purchase denied - reputation would drop too low for \u0001",
+  "cls": "XLII_BuyShip",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "You are experiencing %s. These will worsen as the AIO's Counterintelligence advances.",
+  "cls": "AIOStrings|DraconisAIOTracker",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "You are in their books now. The books are not kept by anyone who answers to the Alliance.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "You have a %s. Return to Fleet Admiral August at Kori to complete the exchange.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "You have spoken with Korrin. The operation is clear.",
+  "cls": "BlindEyeQuestMission",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "You've accepted \u0001 \u0001 contract to deliver \u0001 to \u0001, which is under \u0001 control.",
+  "cls": "FafnirAccessMissionIntel",
+  "zh": "",
+  "source": "new",
+  "note": "人工覆写：任务情报正文（6 个占位符，R6 数量位置一致）"
+ },
+ {
+  "c": "Your breach team goes in hard and the veterans make them earn every inch of it. Twelve people in a room the size of a ship's bridge with nowhere to go and nothing left to lose fight with a specificity that comes from knowing exactly what they're fighting for. The room clears in under two minutes. Some of your marines don't come back out. The ones that do are quiet in the way that soldiers get quiet when the arithmetic resolves and the numbers are what they are. You check the room. You count what it cost. The station is yours and this room is done and neither of those facts makes the other one easier.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Your comms crackles - old Alliance military encryption, vintage even. The voice is older, measured and undisturbed.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Your comms specialist flags something: the command centre's internal network is running on old mining hardware. Accessible with the right equipment and sixty seconds.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Your conduct in the civilian corridor was observed - the veterans in this room have been watching the station feeds.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Your current standing increases the monthly rate to %s of its base value.",
+  "cls": "AIOStrings|DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Your current standing reduces the monthly rate to %s of its base value.",
+  "cls": "AIOStrings|DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Your donated AI cores have been put to use by Draconis Alliance forces.",
+  "cls": "DraconisAICoreDonationListener",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Your fleet continues to suffer from exposure to the Rift. Combat readiness is deteriorating.",
+  "cls": "XLII_RiftTerrainPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Your force consolidates and pushes inward through the station's older sections, following Korrin's schematics into the original platform. The corridors narrow. Ahead, thermals pick up massed heat signatures at the primary junction.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Your force pushes deeper, following the fastest route toward the command centre. The resistance behind you has collapsed or withdrawn. Ahead the corridor opens into a wider transit section - and stops making sense on the thermals.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Your lead elements hit the blast doors running and the defenders were ready for exactly that. The kill zone is a forty-metre corridor and the fire lanes cross it at angles designed to negate cover - your first stack takes casualties before the second one is through the threshold. Powered armour absorbs what it can. Some of it isn't enough. By the time your force has numbers on the other side of the choke the equation flips - hard - open corridors, close quarters, and the defenders losing the geometry that made them dangerous. You're through in six minutes. The station knows it happened. Every position ahead just heard it.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Your lead elements push in and stop. The junction ahead is a three-way chokepoint the defenders have fortified properly - not improvised. Interlocking barricades designed to eliminate your advantage, overlapping fire lanes, two dozen defenders with disciplined spacing. These ones trained for this kind of engagement.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Your lead elements round a corner and stop.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Your marines are staged in the forward bays. Five hundred combat-ready personnel in powered armor, waiting on your order. The defenders that remain are professionals - fewer than they were an hour ago, but trained by people who fought a thirty-year war and survived it. The station's layout is what levels the odds back in their favour.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Your marines move and the crowd breaks around them in the way that crowds break when they have nowhere organised to go - in every direction at once, the loudest people moving fastest and the rest following sound rather than sense. Your formation holds its line as best it can but two hundred panicked people in a corridor designed for a quarter of that number is chaos regardless of discipline. The retreating defender unit uses every second of it, moving against the flow with their weapons down and their heads low, and by the time your lead elements have line of sight again the unit has broken contact cleanly somewhere in the next section. You lost them. Some civilians were in the wrong place when your formation pushed through - not targeted, not deliberate, but present when the margins closed. The command centre is going to be harder than the numbers suggested, and the defenders arriving there will be angry in a way that has nothing to do with tactics but their defense paid in blood",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Your marines move into the corridor in full kit at a pace that is neither charge nor hesitation - deliberate, tight formation, weapons visible and pointed at the deck. It's a specific posture that takes training to hold under pressure and the civilians read it faster than words would have moved them. The crowd parts ahead of the formation like it has somewhere to go, pressing to the walls, clearing the corridor in under ninety seconds. The retreating defender unit loses the cover they'd planned on before they're halfway to the next junction - your lead elements are on them in open corridor with nowhere to consolidate, and the brief engagement there is as clean as anything you've run today. The command centre gets fewer defenders than it expected and no useful intelligence on your approach.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Your marines suffered no casualties.",
+  "cls": "XLII_RingPortAssault",
+  "zh": "",
+  "source": "new",
+  "note": "显示 API 调用点"
+ },
+ {
+  "c": "Your navigation officer keys in the transit data. The Rift opens ahead - not safe, exactly, but charted: particle density mapped, the approach geometry threaded between the worst of it. Someone else's prior suffering, reduced to numbers on a chip.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Your navigation officer lets the returns run a while longer than the plot needs.",
+  "cls": "FafnirAccessStrings|XLII_RiftEntryDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Your navigation systems return nothing actionable. Without current density mapping and approach geometry, the Rift ahead is just radiation - no path, no bearing, nothing to follow through.",
+  "cls": "FafnirAccessStrings|XLII_FafnirBlockedDialogPlugin",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ },
+ {
+  "c": "Your standing with the Draconis Defence Alliance affects the pace of AIO scrutiny. Positive relations slow monthly advancement - the Alliance is reluctant to escalate against an associate. Hostile relations have the opposite effect: the AIO prioritises known adversaries, accelerating the crisis above its baseline rate.",
+  "cls": "AIOStrings|DraconisAIORelationsFactor$1",
+  "zh": "",
+  "source": "new",
+  "note": "自然语言文本（无调用点上下文）"
+ }
+]

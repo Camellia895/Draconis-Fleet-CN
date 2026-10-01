@@ -1,0 +1,560 @@
+{
+  "sections": [
+    {
+      "out": "sec_01_data_csv",
+      "rules": [
+        {
+          "kind": "csv",
+          "file": "data/hullmods/hull_mods.csv",
+          "idCol": "id",
+          "fields": [
+            {
+              "col": "name",
+              "note": "船插名"
+            },
+            {
+              "col": "tech/manufacturer",
+              "note": "设计类型/制造商（须与 designTypeColors 键一致，R16）"
+            },
+            {
+              "col": "desc",
+              "note": "船插描述（装备界面/百科）"
+            },
+            {
+              "col": "short",
+              "note": "效果短述"
+            },
+            {
+              "col": "sModDesc",
+              "note": "S修饰版描述"
+            }
+          ]
+        },
+        {
+          "kind": "csv",
+          "file": "data/hulls/ship_data.csv",
+          "idCol": "id",
+          "fields": [
+            {
+              "col": "name",
+              "note": "舰船显示名（0.95a+ 引擎以该列为准）"
+            },
+            {
+              "col": "designation",
+              "note": "舰级分类（取值见 glossary §3 标准译法）"
+            },
+            {
+              "col": "tech/manufacturer",
+              "note": "设计类型/制造商（R16 三通道之一）"
+            }
+          ]
+        },
+        {
+          "kind": "csv",
+          "file": "data/hulls/wing_data.csv",
+          "idCol": "id",
+          "fields": [
+            {
+              "col": "role desc",
+              "note": "舰载机角色描述"
+            }
+          ]
+        },
+        {
+          "kind": "csv",
+          "file": "data/shipsystems/ship_systems.csv",
+          "idCol": "id",
+          "fields": [
+            {
+              "col": "name",
+              "note": "舰船系统名"
+            }
+          ]
+        },
+        {
+          "kind": "csv",
+          "file": "data/weapons/weapon_data.csv",
+          "idCol": "id",
+          "fields": [
+            {
+              "col": "name",
+              "note": "武器名"
+            },
+            {
+              "col": "tech/manufacturer",
+              "note": "设计类型/制造商（R16）"
+            },
+            {
+              "col": "primaryRoleStr",
+              "note": "武器 tooltip 角色覆写"
+            },
+            {
+              "col": "speedStr",
+              "note": "tooltip 覆写：速度"
+            },
+            {
+              "col": "trackingStr",
+              "note": "tooltip 覆写：追踪"
+            },
+            {
+              "col": "turnRateStr",
+              "note": "tooltip 覆写：转向"
+            },
+            {
+              "col": "accuracyStr",
+              "note": "tooltip 覆写：精度"
+            },
+            {
+              "col": "customPrimary",
+              "note": "tooltip 主文案覆写"
+            },
+            {
+              "col": "customPrimaryHL",
+              "note": "tooltip 主文案高亮段"
+            },
+            {
+              "col": "customAncillary",
+              "note": "tooltip 次要文案覆写"
+            },
+            {
+              "col": "customAncillaryHL",
+              "note": "tooltip 次要文案高亮段"
+            }
+          ]
+        },
+        {
+          "kind": "csv",
+          "file": "data/strings/descriptions.csv",
+          "idCol": "id",
+          "fields": [
+            {
+              "col": "text1",
+              "note": "图鉴描述段1"
+            },
+            {
+              "col": "text2",
+              "note": "图鉴描述段2"
+            },
+            {
+              "col": "text3",
+              "note": "图鉴描述段3"
+            },
+            {
+              "col": "text4",
+              "note": "图鉴描述段4"
+            },
+            {
+              "col": "text5",
+              "note": "图鉴描述段5"
+            }
+          ]
+        },
+        {
+          "kind": "csv",
+          "file": "data/campaign/commodities.csv",
+          "idCol": "id",
+          "fields": [
+            {
+              "col": "name",
+              "note": "商品名"
+            },
+            {
+              "col": "desc",
+              "note": "商品描述"
+            }
+          ]
+        },
+        {
+          "kind": "csv",
+          "file": "data/campaign/industries.csv",
+          "idCol": "id",
+          "fields": [
+            {
+              "col": "name",
+              "note": "工业设施名"
+            },
+            {
+              "col": "desc",
+              "note": "工业设施描述"
+            }
+          ]
+        },
+        {
+          "kind": "csv",
+          "file": "data/campaign/market_conditions.csv",
+          "idCol": "id",
+          "fields": [
+            {
+              "col": "name",
+              "note": "市场条件名"
+            },
+            {
+              "col": "desc",
+              "note": "市场条件描述"
+            }
+          ]
+        },
+        {
+          "kind": "csv",
+          "file": "data/campaign/special_items.csv",
+          "idCol": "id",
+          "fields": [
+            {
+              "col": "name",
+              "note": "特殊物品名"
+            },
+            {
+              "col": "tech/manufacturer",
+              "note": "设计类型"
+            },
+            {
+              "col": "desc",
+              "note": "特殊物品描述"
+            }
+          ]
+        },
+        {
+          "kind": "csv",
+          "file": "data/characters/skills/skill_data.csv",
+          "idCol": "id",
+          "fields": [
+            {
+              "col": "name",
+              "note": "技能名"
+            },
+            {
+              "col": "description",
+              "note": "技能描述"
+            },
+            {
+              "col": "author",
+              "note": "技能作者行（技能详情显示）"
+            }
+          ]
+        },
+        {
+          "kind": "csv",
+          "file": "data/config/exerelin/corvus_spawnpoints.csv",
+          "idCol": "faction",
+          "fields": [
+            {
+              "col": "system",
+              "note": "Nexerelin 出生点显示名（human name）"
+            }
+          ]
+        },
+        {
+          "kind": "csv",
+          "file": "data/hulls/ship_data.csv",
+          "idCol": "id",
+          "fields": [
+            {
+              "col": "logistics n/a reason",
+              "note": "后勤不可用原因（舰队后勤界面显示）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "out": "sec_02_structured",
+      "rules": [
+        {
+          "kind": "hullNames",
+          "dirs": [
+            "data/hulls",
+            "data/hulls/skins"
+          ]
+        },
+        {
+          "kind": "variantDisplayNames",
+          "dir": "data/variants"
+        },
+        {
+          "kind": "factionFile",
+          "file": "data/world/factions/XLII_draconis.faction",
+          "id": "XLII_draconis",
+          "displayKeys": [
+            "displayName",
+            "displayNameWithArticle",
+            "displayNameLong",
+            "displayNameLongWithArticle",
+            "description"
+          ],
+          "ranks": true,
+          "fleetTypeNames": true
+        },
+        {
+          "kind": "factionFile",
+          "file": "data/world/factions/XLII_fortysecond.faction",
+          "id": "XLII_fortysecond",
+          "displayKeys": [
+            "displayName",
+            "displayNameWithArticle",
+            "displayNameLong",
+            "displayNameLongWithArticle",
+            "description"
+          ],
+          "ranks": true,
+          "fleetTypeNames": true
+        },
+        {
+          "kind": "factionFile",
+          "file": "data/world/factions/XLII_intelligence_office.faction",
+          "id": "XLII_intelligence_office",
+          "displayKeys": [
+            "displayName",
+            "displayNameWithArticle",
+            "displayNameLong",
+            "displayNameLongWithArticle",
+            "description"
+          ],
+          "ranks": true,
+          "fleetTypeNames": true
+        }
+      ]
+    },
+    {
+      "out": "sec_03_rules_missions",
+      "rules": [
+        {
+          "kind": "rulesCsv",
+          "file": "data/campaign/rules.csv"
+        },
+        {
+          "kind": "missionDir",
+          "dir": "data/missions",
+          "descriptorKeys": [
+            "title",
+            "description",
+            "difficulty"
+          ],
+          "missionText": true
+        }
+      ]
+    },
+    {
+      "out": "sec_05_misc",
+      "rules": [
+        {
+          "kind": "tips",
+          "file": "data/strings/tips.json"
+        },
+        {
+          "kind": "shipNames",
+          "file": "data/strings/ship_names.json"
+        },
+        {
+          "kind": "jsonObjects",
+          "file": "data/config/custom_entities.json",
+          "valueKeys": [
+            {
+              "key": "defaultName",
+              "note": "实体兜底显示名（星图/图鉴）"
+            },
+            {
+              "key": "nameInText",
+              "note": "行文中的小写名称"
+            }
+          ]
+        },
+        {
+          "kind": "jsonObjects",
+          "file": "data/config/planets.json",
+          "valueKeys": [
+            {
+              "key": "name",
+              "note": "行星显示名"
+            }
+          ]
+        },
+        {
+          "kind": "jsonObjects",
+          "file": "data/config/modFiles/magicBounty_data.json",
+          "valueKeys": [
+            {
+              "key": "job_name",
+              "note": "悬赏任务名"
+            },
+            {
+              "key": "job_description",
+              "note": "悬赏任务描述（保留 ==高亮== 与 $变量 标记）"
+            },
+            {
+              "key": "job_comm_reply",
+              "note": "接单对话回复"
+            },
+            {
+              "key": "job_intel_success",
+              "note": "完成情报"
+            },
+            {
+              "key": "job_intel_failure",
+              "note": "失败情报"
+            },
+            {
+              "key": "job_intel_expired",
+              "note": "过期情报"
+            },
+            {
+              "key": "job_difficultyDescription",
+              "note": "难度描述"
+            },
+            {
+              "key": "job_pick_option",
+              "note": "接单选项文本"
+            },
+            {
+              "key": "fleet_name",
+              "note": "悬赏舰队名"
+            },
+            {
+              "key": "fleet_flagship_name",
+              "note": "旗舰名"
+            },
+            {
+              "key": "target_first_name",
+              "note": "目标名"
+            },
+            {
+              "key": "target_last_name",
+              "note": "目标姓"
+            },
+            {
+              "key": "target_rank",
+              "note": "目标军衔（显示）"
+            },
+            {
+              "key": "target_post",
+              "note": "目标职务（显示）"
+            }
+          ]
+        },
+        {
+          "kind": "jsonScalars",
+          "file": "data/config/exerelinFactionConfig/XLII_draconis.json",
+          "id": "XLII_draconis",
+          "fields": [
+            {
+              "path": "rebelFleetSuffix",
+              "note": "叛军舰队后缀"
+            },
+            {
+              "path": "asteroidMiningFleetName",
+              "note": "采矿舰队名"
+            },
+            {
+              "path": "responseFleetName",
+              "note": "响应舰队名"
+            },
+            {
+              "path": "defenceFleetName",
+              "note": "防御舰队名"
+            },
+            {
+              "path": "invasionFleetName",
+              "note": "入侵舰队名"
+            },
+            {
+              "path": "invasionSupportFleetName",
+              "note": "入侵支援舰队名"
+            },
+            {
+              "path": "stationName",
+              "note": "空间站名"
+            }
+          ]
+        },
+        {
+          "kind": "jsonScalars",
+          "file": "data/config/exerelinFactionConfig/XLII_fortysecond.json",
+          "id": "XLII_fortysecond",
+          "fields": [
+            {
+              "path": "rebelFleetSuffix",
+              "note": "叛军舰队后缀"
+            },
+            {
+              "path": "asteroidMiningFleetName",
+              "note": "采矿舰队名"
+            },
+            {
+              "path": "responseFleetName",
+              "note": "响应舰队名"
+            },
+            {
+              "path": "defenceFleetName",
+              "note": "防御舰队名"
+            },
+            {
+              "path": "invasionFleetName",
+              "note": "入侵舰队名"
+            },
+            {
+              "path": "invasionSupportFleetName",
+              "note": "入侵支援舰队名"
+            },
+            {
+              "path": "stationName",
+              "note": "空间站名"
+            }
+          ]
+        },
+        {
+          "kind": "jsonScalars",
+          "file": "data/config/exerelinFactionConfig/XLII_intelligence_office.json",
+          "id": "XLII_intelligence_office",
+          "fields": [
+            {
+              "path": "rebelFleetSuffix",
+              "note": "叛军舰队后缀"
+            },
+            {
+              "path": "asteroidMiningFleetName",
+              "note": "采矿舰队名"
+            },
+            {
+              "path": "responseFleetName",
+              "note": "响应舰队名"
+            },
+            {
+              "path": "defenceFleetName",
+              "note": "防御舰队名"
+            },
+            {
+              "path": "invasionFleetName",
+              "note": "入侵舰队名"
+            },
+            {
+              "path": "invasionSupportFleetName",
+              "note": "入侵支援舰队名"
+            },
+            {
+              "path": "stationName",
+              "note": "空间站名"
+            }
+          ]
+        },
+        {
+          "kind": "jsonObjects",
+          "file": "data/world/factions/default_fleet_type_names.json",
+          "valueKeys": [
+            {
+              "key": "shadowFleet",
+              "note": "特殊舰队类型显示名"
+            }
+          ]
+        },
+        {
+          "kind": "modInfo"
+        },
+        {
+          "kind": "changelog",
+          "file": "changelog.md",
+          "id": "changelog",
+          "note": "版本历史（.md 格式）；保留版本号/日期/项目符号；低优先级"
+        }
+      ]
+    }
+  ]
+}

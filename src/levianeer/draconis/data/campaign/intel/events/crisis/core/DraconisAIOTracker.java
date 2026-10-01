@@ -272,9 +272,9 @@ public class DraconisAIOTracker extends BaseEventIntel {
         float stabT = Math.max(0f, Math.min((trackerValue - 15f) / 10f, 1f));
         float stabPenalty = stabT * maxStab;
 
-        market.getAccessibilityMod().modifyFlat(DEBUFF_MOD_ID, -accessPenalty, "AIO Scrutiny");
+        market.getAccessibilityMod().modifyFlat(DEBUFF_MOD_ID, -accessPenalty, "AIO 审视");
         if (stabPenalty > 0f) {
-            market.getStability().modifyFlat(DEBUFF_MOD_ID, -stabPenalty, "AIO Scrutiny");
+            market.getStability().modifyFlat(DEBUFF_MOD_ID, -stabPenalty, "AIO 审视");
         } else {
             market.getStability().unmodify(DEBUFF_MOD_ID);
         }
@@ -769,11 +769,11 @@ public class DraconisAIOTracker extends BaseEventIntel {
             LabelAPI debuffLabel = info.addPara(
                     AIOStrings.WATCHING_PARA3_FMT,
                     opad, n,
-                    "accessibility", stringAccess,
-                    "stability", String.valueOf(Math.round(maxStab)), "periodic disruptions");
+                    "通行度", stringAccess,
+                    "稳定度", String.valueOf(Math.round(maxStab)), "周期性中断");
             debuffLabel.setHighlight(
-                    "accessibility", stringAccess + "%",
-                    "stability", String.valueOf(Math.round(maxStab)), "periodic disruptions");
+                    "通行度", stringAccess + "%",
+                    "稳定度", String.valueOf(Math.round(maxStab)), "周期性中断");
             debuffLabel.setHighlightColors(n, n, n, n);
         } else if (stageId == Stage.ACTIVE_MEASURES) {
             info.addPara(AIOStrings.ACTIVE_PARA1_FMT, opad, fc, AIOStrings.ACTIVE_PARA1_HIGHLIGHT);
@@ -787,8 +787,8 @@ public class DraconisAIOTracker extends BaseEventIntel {
             if (defeats >= 2) {
                 LabelAPI label = info.addPara(
                         AIOStrings.INVASION_FINAL_FMT,
-                        opad, h, "final", "end", "heavy armaments");
-                label.setHighlight("final", "end", "heavy armaments");
+                        opad, h, "final", "end", "重型军火");
+                label.setHighlight("final", "end", "重型军火");
                 label.setHighlightColors(fc, Misc.getPositiveHighlightColor(), Misc.getPositiveHighlightColor());
             } else {
                 int resetFloor = Math.round(getSetting(

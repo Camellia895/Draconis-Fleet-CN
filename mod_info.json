@@ -1,13 +1,13 @@
 {
   "id":"levianeer_draconis",
-  "name":"Draconis Fleet",
+  "name":"德拉科尼斯舰队",
   "author":"Levianeer",
   "version":{
     "major":0,
     "minor":7,
     "patch":9
   },
-  "description":"The Draconis Defence Alliance holds the remote Fafnir system under permanent military governance. Their doctrine emphasises fast hulls, guided munitions, and layered point defence: a fleet built for isolation and no retreat.",
+  "description":"德拉科尼斯防卫同盟以永久军政体制统治着偏远的法夫纳星系。其教义强调高速舰体、制导弹药与分层点防御：一支为孤立与绝不后退而生的舰队。",
   "gameVersion":"0.98a-RC8",
   "dependencies":[
     {

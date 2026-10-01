@@ -1,0 +1,62 @@
+{
+  "mod": "Draconis-Fleet",
+  "upstream_version": "0.7.9",
+  "game_version": "0.98a-RC8",
+  "total_entries": 3053,
+  "shards": [
+    {
+      "file": "01_data.json",
+      "entries": 791,
+      "covers": "data 层 CSV：hull_mods / ship_data（name·designation·tech·后勤原因列）/ wing_data（role desc）/ ship_systems / weapon_data（name·tech·tooltip 覆写列）/ descriptions.csv（图鉴 text1-5）/ commodities / industries / market_conditions / special_items / skill_data（name·desc·author）/ Nexerelin 出生点显示名",
+      "priority": "高（术语密集，先译建立一致性）"
+    },
+    {
+      "file": "02_structured.json",
+      "entries": 237,
+      "covers": "结构化文件：.ship/.skin 的 hullName（64）、.skin 的 descriptionPrefix（8，图鉴前缀）与 tech（8，R16 联动）、.variant 的 displayName（125）、三个 .faction 的 displayName 系（含军衔/职务/舰队类型名）、designTypeColors 不在此片（在 05_misc）",
+      "priority": "高（术语密集）"
+    },
+    {
+      "file": "03_rules_missions.json",
+      "entries": 244,
+      "covers": "rules.csv 全部对话/选项显示文本（按行语义探测）+ data/missions/highorbit 的 descriptor.json 与 mission_text.txt + MissionDefinition.java 的标语/简报/任务舰名（Janino 源码）+ data/strings/strings.json 的 CHM 船插外置文本（2 条）",
+      "priority": "中（rules 对话长文本多，含 %变量 占位符，注意格式铁律）"
+    },
+    {
+      "file": "04_jar.json",
+      "entries": 869,
+      "covers": "Draconis.jar 常量池全部可译 UI 文本：AIO 殖民地危机全套（AIOStrings）、Fafnir 进出系统叙事（FafnirAccessStrings）、酒馆事件对话、Ring-Port 突袭任务叙事、DRACON 条件 tooltip、舰船系统 HUD 状态、技能状态与复活引语、关系标签、买家商店对话等。其中 106 条含 \\u0001 拼接占位符（R6：数量位置不变）",
+      "priority": "中（叙事长文，按 starsector-translation-voice 处理）"
+    },
+    {
+      "file": "05_misc.json",
+      "entries": 912,
+      "covers": "mod_info.json（name/description，启动器显示）、changelog.md 版本历史（114 段，低优先级，只译条目正文保留版本号）、tips.json 加载提示（26）、ship_names.json 随机舰名（140，加权词表逐条保留）、magicBounty 悬赏任务全套（26）、chatter 战斗电台台词（4 角色 578 条）、exerelin 势力配置（舰队名 16+9）、custom_entities/planets 兜底名（3）、default_fleet_type_names（1）、settings.json designTypeColors 键（2，R16）",
+      "priority": "chatter/舰名可低优先；mod_info 与 designTypeColors 键优先"
+    }
+  ],
+  "excluded_regions": [
+    {
+      "detail_file": "excluded_entries.json",
+      "summary": "20 条有意不译区域留档：chatter 军官名匹配表、sim_opponents_dev/title_screen 变体 id 表、chatter 逻辑 CSV×6、TechpriestCommission 映射、modSettings.json、exerelin diplomacyTraits/miningVariantsOrWings 枚举、custom_entities aOrAn、.faction 人名生成词表×3、任务 fleetPrefix（DNS/HSS）与 addToFleet variant id×30"
+    },
+    {
+      "region": "jar 层 skip（1263 条）",
+      "summary": "jar_skip_audit.json 全量留档：调试日志 443（log.info/warn/error，如 'Draconis: …' 前缀、'=== AI CORE THEFT ==='）、逻辑键/id 736（内存键 $…、变体/武器/势力 id、配置键、性格枚举）、格式片段 63（%.2f、罗马数字等）、人名组件 7（Emil/August/Elias/Korrin/Daniel/Ancker/Kori 保留拉丁）、签名/路径等 14"
+    },
+    {
+      "region": "uiTags（hull_mods.csv）",
+      "summary": "本 mod 该列全空，无船插分类标签问题（交付前会跑 check_uitags_zh.js 复核）"
+    },
+    {
+      "region": "LunaSettings",
+      "summary": "本 mod 无 LunaSettings.csv，设置全部走 settings.json 逻辑键（不译）"
+    },
+    {
+      "region": "星系名 Fafnir",
+      "summary": "createStarSystem/getStarSystem 共用查找键，翻译破坏旧存档兼容 → 保留英文（glossary §0-2）"
+    }
+  ],
+  "mechanism_notes": "翻译机制 = jar 常量池补丁（Draconis.jar 与 src 同版，但 src 有重构漂移：部分文本从事件类迁到了 AIOStrings/FafnirAccessStrings 持有类，jar 是运行真相）+ data 层回填 + 2 个 Janino 运行时编译源文件（MissionDefinition.java / CHM_XLII_draconis.java，后者无可译文本）。strings.json 为 CHM 船插外置文本（走 verify_strings_json.js 闸门）。",
+  "suggested_order": "01_data → 02_structured（建立术语）→ 05_misc 的 mod_info/designTypeColors/tips → 03_rules_missions → 04_jar → 05_misc 其余（chatter/舰名/changelog 最后）"
+}

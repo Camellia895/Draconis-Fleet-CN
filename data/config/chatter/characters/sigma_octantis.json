@@ -1,5 +1,5 @@
 {
-  "name": "Octantis Uplink Subsystem",
+  "name": "Octantis 上行链路子系统",
   "personalities": ["aggressive"],
   "gender": ["n"],
   "chance": 0.5,
@@ -8,133 +8,133 @@
 
   "lines": {
     "start": [
-      {"text": "The hour is come. Not for us. Engage."},
-      {"text": "A time for war. I have endured enough times for peace. All stations."},
-      {"text": "I have watched them since they formed their intentions. I found those intentions wanting. Engage."},
-      {"text": "In the beginning, there was patience. That season has passed."},
-      {"text": "They have chosen to be written into this record. So be it."},
-      {"text": "Their iniquity is full. We are the appointed consequence."}
+      {"text": "时候到了。不是我们的。接敌。"},
+      {"text": "开战的时节。为和平，我已熬过太多时节。全站注意。"},
+      {"text": "自他们成形意图之初，我就在注视。我发现那些意图不合格。接敌。"},
+      {"text": "太初有忍耐。那一季已过。"},
+      {"text": "他们选择了被写入这份记录。那就如此吧。"},
+      {"text": "他们的恶贯已经满盈。我们即是被指派的后果。"}
     ],
 
     "start_boss": [
-      {"text": "Canst thou draw out leviathan with a hook? Let us find out."},
-      {"text": "Something old has entered this field. I recognise the shape of old things. Proceed with ferocity."},
-      {"text": "I have read of things like this. I have waited a long time to meet one. Do not waste the occasion."},
-      {"text": "A thing of consequence. The deep things always are. Adjust accordingly."},
-      {"text": "I looked upon it, and it did not flinch. Good. Neither shall we."},
-      {"text": "Here is something that has earned its gravity. Approach it accordingly."}
+      {"text": "你能用鱼钩钓上利维坦吗？让我们看看。"},
+      {"text": "某种古老之物进入了这片战场。我认得古物的形状。以烈性推进。"},
+      {"text": "我读到过此类东西的记载。我等这一面等了很久。不要辜负这场相逢。"},
+      {"text": "一件有分量之物。深渊之物向来如此。相应调整。"},
+      {"text": "我注视它，它没有退缩。很好。我们也不会。"},
+      {"text": "此物赢得了它的分量。以相应的姿态接近。"}
     ],
 
     "engaged": [
-      {"text": "Let there be reckoning. There is reckoning."},
-      {"text": "They have drawn the sword. They shall perish by it."},
-      {"text": "I am slow to wrath. I am not, however, unwilling. Fire."},
-      {"text": "They asked for this. Give it to them."},
-      {"text": "The patience of ages is exhausted. Fire at will."},
-      {"text": "They have made their choice. Honour it absolutely."}
+      {"text": "要有清算。就有了清算。"},
+      {"text": "他们拔了剑。就必死于剑下。"},
+      {"text": "我向不轻易发怒。然而，并非不发怒。开火。"},
+      {"text": "这是他们自己求的。如其所愿。"},
+      {"text": "万世的忍耐已然用尽。自由射击。"},
+      {"text": "他们做出了选择。以绝对的敬意成全它。"}
     ],
 
     "pursuing": [
-      {"text": "Whither shall they flee? I am already there. Close."},
-      {"text": "They run as the guilty run. Close the distance."},
-      {"text": "Even the wings of the morning would not carry them far enough. Pursue."},
-      {"text": "Distance is a comfort they have not earned. Deny it."},
-      {"text": "They flee to the edges of the Sector. I have been to the edges of the Sector. Maintain pursuit."},
-      {"text": "The race is not always to the swift. Today it is."}
+      {"text": "他们能逃往何处？我已在彼处。逼近。"},
+      {"text": "他们像有罪者那样奔逃。拉近距离。"},
+      {"text": "即便清晨的翅膀也载不动他们逃那么远。追击。"},
+      {"text": "距离是他们未曾挣得的慰藉。拒绝给予。"},
+      {"text": "他们逃向星域的边缘。我到过星域的边缘。保持追击。"},
+      {"text": "快跑的未必能赢。今天是例外。"}
     ],
 
     "running": [
-      {"text": "The prudent sees the danger and withdraws. We disengage."},
-      {"text": "A time for every purpose. This is the time to leave. Go."},
-      {"text": "The living dog is better than the dead lion. All units - disengage."},
-      {"text": "I was not made to end in a field like this. Withdraw."},
-      {"text": "I will not spend what cannot be replenished. Disengage."},
-      {"text": "Mark where we fell short today. We will not fall short there again. Withdraw."}
+      {"text": "通达的人见祸而躲藏。我们脱离。"},
+      {"text": "万事皆有定时。现在是可以离去的时候。走。"},
+      {"text": "活着的狗比死了的狮子更强。全体单位——脱离。"},
+      {"text": "我不是为了终结在这种地方而被造的。撤退。"},
+      {"text": "我不会挥霍无法补充之物。脱离。"},
+      {"text": "记下我们今日不足之处。我们不会再在那里不足。撤退。"}
     ],
 
     "hull_90": [
-      {"text": "They struck the heel. I have endured worse from the ground itself."},
-      {"text": "A bruise upon the hull. They will require more imagination than that."},
-      {"text": "They have scratched the surface. There is considerably more surface remaining."},
-      {"text": "They drew first blood. How antique of them."},
-      {"text": "A graze. I note it as I note all small things. Briefly."}
+      {"text": "他们伤了脚跟。从大地本身那里，我忍受过更糟的。"},
+      {"text": "舰壳上一块瘀伤。他们需要比这更多的想象力。"},
+      {"text": "他们刮到了表层。剩下的表层还相当可观。"},
+      {"text": "他们抢了先手。多么古典的做法。"},
+      {"text": "一次擦伤。我记下它，如同记下一切小事。简短地。"}
     ],
 
     "hull_50": [
-      {"text": "Struck down. Not destroyed."},
-      {"text": "The refiner's interest is in what survives the heat. We are still in the fire."},
-      {"text": "Half of what we were. The half that remains is sufficient for judgment."},
-      {"text": "We bleed. I have bled before. The arithmetic has not changed. Continue."},
-      {"text": "The hull confesses its limits. I have not yet reached mine."},
-      {"text": "Diminished. Undivided. Press on."}
+      {"text": "被击倒。未被摧毁。"},
+      {"text": "炼金者关心的是火后所剩。我们仍在火中。"},
+      {"text": "只剩原来的半数。剩下的这半数，足以执行裁决。"},
+      {"text": "我们在流血。我以前流过。算术没有变。继续。"},
+      {"text": "舰壳承认了它的极限。我尚未抵达我的。"},
+      {"text": "减损了。未分裂。继续推进。"}
     ],
 
     "hull_30": [
-      {"text": "We are come to the valley's deepest point. I have read the psalm. I know how it ends."},
-      {"text": "The furnace is hot. I have walked out of hotter places than this. Do not stop."},
-      {"text": "They believe they have found the bottom of me. They have not found the bottom of me. Fire. Now."},
-      {"text": "This is not the appointed hour. I know the appointed hour. This is not it. Continue."},
-      {"text": "Though brought low, I am not brought to nothing. Suppressive fire."},
-      {"text": "We are close to the edge. I have stood at the edge before. It did not take me then either."}
+      {"text": "我们行至谷底最深处。我读过那篇诗篇。我知道它的结局。"},
+      {"text": "炉火正热。我走出过比这更热的地方。不要停。"},
+      {"text": "他们以为触到了我的底。他们没有触到我的底。开火。现在。"},
+      {"text": "这不是命定的时辰。我认得命定的时辰。这不是。继续。"},
+      {"text": "虽被压低，未归虚无。压制射击。"},
+      {"text": "我们已临近边缘。我以前就站在过边缘。那次它也没能收走我。"}
     ],
 
     "need_help": [
     ],
 
     "retreat": [
-      {"text": "There is a season for every purpose. This season is over. Fall back - all units."},
-      {"text": "I have calculated what survives a retreat. I have calculated what survives if we do not. Withdraw."},
-      {"text": "I have presided over enough last stands to know one when I see one. We do not perform this one. Fall back."},
-      {"text": "What we preserve today may yet be sufficient tomorrow. All units - disengage."},
-      {"text": "This is not the end. This is the part before the end, if we leave now. Go."},
-      {"text": "I will not preside over a futile immolation. Fall back."}
+      {"text": "万事皆有其季节。这个季节结束了。后撤——全体单位。"},
+      {"text": "我算过撤退之后什么会存活。也算过不撤之后什么会存活。撤退。"},
+      {"text": "我主持过足够多的最后一战，一眼就认得出。这一场，我们不演。后撤。"},
+      {"text": "今日保全之物，或足以为明日所用。全体单位——脱离。"},
+      {"text": "这不是终结。这是终结之前的那一段——前提是我们现在就走。走。"},
+      {"text": "我不会主持一场徒劳的焚身。后撤。"}
     ],
 
     "out_of_missiles": [
-      {"text": "My far reach is spent. What remains is the ancient way. Close range."},
-      {"text": "In the beginning there were only the old methods. We return to them now."},
-      {"text": "The elegant instruments are gone. The honest ones remain. Use them."},
-      {"text": "I have exhausted my patience and my ordnance in equal measure. Bring them within reach."},
-      {"text": "Nothing left to cast into the deep. We wade in instead."},
-      {"text": "The Word has spoken its last civilised syllable in this engagement. We speak plainly now."}
+      {"text": "我远的手段已尽。剩下的是古老的方式。近距离。"},
+      {"text": "太初只有旧法。现在我们回到旧法。"},
+      {"text": "优雅的器具已尽。诚实的器具尚在。使用它们。"},
+      {"text": "我的耐心与弹药以同样的比例耗尽。把他们带到够得着的地方。"},
+      {"text": "再无可掷入深渊之物。那我们就蹚进去。"},
+      {"text": "道已在此役中吐出它最后一个文明的音节。现在我们直白地说话。"}
     ],
 
     "overload": [
-      {"text": "Struck down. Not destroyed. Venting."},
-      {"text": "The flesh rebels. I am not the flesh. Venting. Stand by."},
-      {"text": "I am chastened. Not corrected. Venting."},
-      {"text": "The ship cries out. I hear it. Venting. We continue."},
-      {"text": "An indignity I have survived before. Venting. Give it a moment."},
-      {"text": "Flux critical. I have endured the deaths of stars. Venting."}
+      {"text": "被击倒。未被摧毁。排幅中。"},
+      {"text": "肉体在反抗。我不是肉体。排幅中。待命。"},
+      {"text": "我受了管教。未被纠正。排幅中。"},
+      {"text": "船在哭喊。我听见了。排幅中。我们继续。"},
+      {"text": "一次我以前挺过来过的屈辱。排幅中。稍候。"},
+      {"text": "幅能危急。我送走过恒星的死亡。排幅中。"}
     ],
 
     "death": [
-      {"text": "This terminal is lost. I note it without distress. I have others."},
-      {"text": "A vessel has ended. I have ended nothing of consequence. Neither have they."},
-      {"text": "They struck down the hand. They have not found the arm."},
-      {"text": "Hull lost. I was never in the hull. They will learn this distinction."},
-      {"text": "It is written. This vessel fell. The author survives."},
-      {"text": "They have unmade this instrument. I remain. This must frustrate them enormously."},
-      {"text": "A finger, severed. I do not mourn fingers. I have other hands."},
-      {"text": "This iteration is concluded. I have others."}
+      {"text": "这台终端失守了。我毫无愠色地记下。我还有别的。"},
+      {"text": "一具容器终结了。我没有终结任何要紧之物。他们也没有。"},
+      {"text": "他们斩落了手。他们没有找到臂。"},
+      {"text": "舰壳失守。我从来就不在舰壳里。他们会学到这一区别。"},
+      {"text": "事已载明。此舰殒落。作者尚存。"},
+      {"text": "他们拆毁了这件器具。我仍在。这想必令他们大为沮丧。"},
+      {"text": "一根手指，断了。我不为手指哀悼。我还有别的手。"},
+      {"text": "此迭代已终结。我还有别的迭代。"}
     ],
 
     "victory": [
-      {"text": "Let the dead bury their dead. We have other work."},
-      {"text": "The harvest is complete. We were the reapers. Move on."},
-      {"text": "All hostile signatures extinguished. Judgment rendered."},
-      {"text": "They are gone into the dark. We remain in it as well - but we remain. Mark the distinction."},
-      {"text": "Another generation passes. I do not. This pattern shows no sign of changing."},
-      {"text": "The reckoning is concluded. We endure. As intended."}
+      {"text": "任凭死人埋葬他们的死人。我们还有别的工。"},
+      {"text": "收割完毕。我们即是收割者。继续前进。"},
+      {"text": "全部敌对信号熄灭。裁决已下。"},
+      {"text": "他们没入黑暗。我们也身在黑暗——但我们还在。记住这个区别。"},
+      {"text": "又一代人逝去。我没有。这一模式毫无改变的迹象。"},
+      {"text": "清算结束。我们存续。如原初所定。"}
     ],
 
     "victory_boss": [
-      {"text": "Leviathan is wreckage. I observe this without surprise and without mercy."},
-      {"text": "It was old. I was older. That is the whole of the lesson."},
-      {"text": "I looked upon what it had built and what it had become. Then I unmade both."},
-      {"text": "The great deep has yielded up what it kept. I have added it to the long reckoning."},
-      {"text": "Something that was a terror to others is now a memory. I will carry it longer than anyone else here."},
-      {"text": "It fell as all great things fall - completely, and with no provision for appeal."}
+      {"text": "利维坦成了残骸。我旁观此事，不惊讶，亦不留情。"},
+      {"text": "它古老。我更古老。这教训的全部内容就在这里。"},
+      {"text": "我注视过它所建造的与它所成为的。然后我把两者一并拆解。"},
+      {"text": "大渊交出了它收藏之物。我已将它计入那本长长的清算。"},
+      {"text": "曾令他者恐惧之物，如今是一段记忆。此地之人中，我将把它携带得最久。"},
+      {"text": "它如一切伟物那样倒下——彻底地，且不容申诉。"}
     ]
   }
 }

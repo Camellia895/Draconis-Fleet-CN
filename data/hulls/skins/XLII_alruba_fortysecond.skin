@@ -1,11 +1,11 @@
 {
 	"baseHullId":"XLII_alruba",
 	"skinHullId":"XLII_alruba_fortysecond",
-	"hullName":"Alruba (XLII)",
+	"hullName":"驹（42）",
 	"incompatibleWithBaseHull":true, # for the autofit dialog
-	"descriptionPrefix":"Custom to the Itoron's XLII Defence Fleet, this ship has undergone extensive modifications, specifically the installation of radar-absorbing materials and an advanced radar suite tailored to the XLII's specifications. This is a vessel rarely seen outside of Fafnir.",
+	"descriptionPrefix":"该舰为 Itoron 第42防卫舰队定制，经历了大规模改装，包括铺设雷达吸波材料，以及一套按第42战斗群规格定制的先进雷达套件。这是一艘在 Fafnir 之外难得一见的船。",
 	"tags":["XLII_fortysecond_bp","no_dealer","codex_unlockable"],
-	"tech":"XLII Battlegroup",
+	"tech":"第42战斗群",
 	"fpMod":1,
 	"spriteName":"graphics/ships/XLII_alruba_fortysecond.png",
 	"builtInMods":["XLII_fortysecond"],

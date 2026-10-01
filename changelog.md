@@ -1,1849 +1,1848 @@
-Version 0.7.9 (Save-compatible with 0.7.8)
+版本 0.7.9（存档兼容 0.7.8）
 
-NEW CONTENT:
-- NEW: Errakis-class Mk.II - sillier than ever :)
-- NEW: Stellar Array interactions - the three arrays orbiting Fafnir can now be surveyed.
-  - A separate survey at each array, in any order, each turning up a different piece of what they are.
-- NEW: Fafnir Approach Beacon - a warning beacon sits in hyperspace on the core-ward edge of the Rift.
-  - Carries an Alliance interdiction loop over the original pre-Collapse hazard signal.
-  - Appears in existing saves on load.
-- NEW: First entry into the Rift now opens a short scene pointing at the Tri-Tachyon and Ring-Port
-  channels that sell the Fafnir approach. Fires once, and only if you don't already have a way in.
+新内容：
+- 新增：天棒增十Mk.II——比以往更蠢了 :)
+- 新增：星辉阵列交互——环绕 Fafnir 的三座阵列现在可以勘测。
+  - 每座阵列一次独立勘测，顺序随意，各会揭示它们真相的一块碎片。
+- 新增：Fafnir 进近浮标——一座警示浮标位于裂隙核心向边缘的超空间中。
+  - 在大崩坏前的原始危险信号之上叠加了同盟封锁循环。
+  - 读取现有存档时自动出现。
+- 新增：首次进入裂隙现在会触发一段短场景，指向出售 Fafnir 进近航线的速子科技与环港
+  渠道。只触发一次，且仅当你还没有进去的路子。
 
-BALANCE CHANGES:
-- Rebalanced Tiangou:
-  - Removed Arquebus missiles.
-- Rebalanced Tianbang:
-  - Removed 1/2 Billhook missiles.
-- Rebalanced Alrakis-class:
-  - DP 32 -> 28.
-  - OP 175 -> 185.
-  - Hull 9000 -> 10000.
-  - Armor 850 -> 900.
-  - Min Crew 225 -> 200.
-  - Cost 135000 -> 120000.
-- Rebalanced Errakis-class:
-  - 2 x Medium Missile Mounts -> 2x Small Missile Mounts.
-  - Max flux 6300 -> 7000.
-  - Flux dissipation 380 -> 450.
-  - Shield arc 160 -> 180.
-  - Shield efficiency 1.3 -> 1.2.
-  - DP 14 -> 11.
-- Rebalanced Juni-class:
-  - Breach Jammer:
-    - Range increased 1800 -> 2000.
-    - Self-damage taken 25% -> 10%.
-    - Enemy damage taken 25% -> 35%.
-- Pulsar Jammer: no longer costs flux per second while active.
-- Rebalanced Misericorde Chaingun:
-  - Damage/shot 80 -> 120.
-  - Damage type Energy -> Fragmentation.
-  - Impact 25 -> 5.
-  - OP cost 22 -> 25.
-  - Flux/shot 35 -> 30.
-  - Spool up time 1.75 -> 2 seconds.
-  - Spool down time 1.75 -> 1 second.
-  - Now has a lower base accuracy.
-  - Gets more accurate as it spools up.
-- Rebalanced Razor Flak Cannon:
-  - Damage 20 -> 18.
-  - Flux 10 -> 4.
-  - Range 600 -> 700.
-  - Ammo/sec 200 -> 100.
-  - Reload size 20 -> 40.
-- Montante Autocannon:
-  - Flux 275 -> 205 (I forgor).
-- Flamberge Mass Driver: now an energy weapon, and fits hybrid mounts.
-- Rebalanced the shield-piercing EMP on the Shashka Mass Driver and Scimitar-class Torpedo:
-  - EMP damage on a pierce: flat 500 -> 150% of the weapon's base damage.
-  - Pierce chance now tracks the target's hard flux level directly, and respects shield-pierce modifiers.
-- Rebalanced Hankyu-class Torpedo (all variants):
-  - Blast radius 350 -> 175.
-  - Full-damage core radius 150 -> 75.
-- Draconis Intelligence Office fleets are far heavier than before:
-  - Officer quality 3 -> 7.
-  - Ship quality 2 -> 5.
-  - Fleet size 1 -> 5.
+平衡性调整：
+- 调整天狗：
+  - 移除火绳钩枪导弹。
+- 调整天棒：
+  - 移除 1/2 钩镰枪导弹。
+- 调整天棒增九级：
+  - DP 32 -> 28。
+  - OP 175 -> 185。
+  - 船体 9000 -> 10000。
+  - 装甲 850 -> 900。
+  - 最低船员 225 -> 200。
+  - 造价 135000 -> 120000。
+- 调整天棒增十级：
+  - 2 x 中型导弹挂点 -> 2 x 小型导弹挂点。
+  - 最大幅能 6300 -> 7000。
+  - 幅能散逸 380 -> 450。
+  - 护盾弧 160 -> 180。
+  - 护盾效率 1.3 -> 1.2。
+  - DP 14 -> 11。
+- 调整主计级：
+  - 破壁干扰阵：
+    - 射程提高 1800 -> 2000。
+    - 自身受伤 25% -> 10%。
+    - 敌方受伤 25% -> 35%。
+- 脉冲星干扰阵：激活期间不再每秒消耗幅能。
+- 调整仁慈刺链炮：
+  - 单发伤害 80 -> 120。
+  - 伤害类型 能量 -> 破片。
+  - 冲击 25 -> 5。
+  - OP 成本 22 -> 25。
+  - 单发幅能 35 -> 30。
+  - 预热时间 1.75 -> 2 秒。
+  - 冷却时间 1.75 -> 1 秒。
+  - 基础精度现在更低。
+  - 预热过程中精度逐渐提高。
+- 调整剃刀高射炮：
+  - 伤害 20 -> 18。
+  - 幅能 10 -> 4。
+  - 射程 600 -> 700。
+  - 弹药/秒 200 -> 100。
+  - 装填批量 20 -> 40。
+- 双手大剑自动炮：
+  - 幅能 275 -> 205（我记错了）。
+- 波纹剑质量驱动器：现为能量武器，可装入混合挂点。
+- 调整恰西克质量驱动器与弯月刀级鱼雷的穿盾电磁：
+  - 穿透时的电磁伤害：固定 500 -> 武器基础伤害的 150%。
+  - 穿透几率现在直接跟踪目标硬幅能水平，并尊重穿盾修正。
+- 调整半弓级鱼雷（全部变体）：
+  - 爆炸半径 350 -> 175。
+  - 全伤害核心半径 150 -> 75。
+- 德拉科尼斯情报局舰队比以前重得多：
+  - 军官质量 3 -> 7。
+  - 舰船质量 2 -> 5。
+  - 舰队规模 1 -> 5。
 
-MINOR IMPROVEMENTS:
-- Improved FX of the Hankyu, Halberd and Scimitar Torpedos.
-- Added FX to the Swordbreaker.
-- Fixed some Lore inconsistencies.
-- Draconis capital ships now hold their warp-in until the rest of their fleet has deployed, and arrive behind their own line instead of alongside the enemy.
-- A small number of Draconis capital ships now warp in wide of the enemy formation and close from the flank.
-- The three Fafnir stellar mirrors are now named Stellar Array Alpha, Bravo and Charlie instead of sharing one name.
-- Shaowei-class now shows up more often in Draconis medium combat fleet slots (0.1 -> 0.25).
-- Blind Eye and the Fafnir access contracts now put a location marker on the sector map for the
-  current objective.
+细节改进：
+- 改进了半弓、长戟与弯月刀鱼雷的特效。
+- 为破剑刃添加了特效。
+- 修正了一些设定不一致之处。
+- 德拉科尼斯主力舰现在会等其余舰队部署完毕后再跃入，并抵达己方战列后方，而非与敌人并肩出现。
+- 少数德拉科尼斯主力舰现在会从敌方阵形侧翼宽处跃入，自侧翼逼近。
+- 三座 Fafnir 太阳能镜现在分别命名为星辉阵列阿尔法、布拉沃与查理，不再共用一名。
+- 少尉级在德拉科尼斯中型战斗舰队槽位中的出现率提高（0.1 -> 0.25）。
+- 盲眼与 Fafnir 抵达合同现在会在星域地图上为当前目标放置
+  位置标记。
 
-BUG FIXES:
-- Fixed the DDA colony crisis being triggerable with zero AI cores installed.
-  - The Alliance Intelligence Office could previously be selected by the hostile activity system (invisibly, since its
-    bar row was already hidden at zero cores) and its baseline floor then drove the assessment to a punitive expedition
-    on its own. HAE selection now requires at least one AI core in a player industry or administrator, and with zero
-    cores installed the assessment holds its value instead of advancing.
-- Fixed Draconis capital ships warping in on top of other ships or stations, destroying them or themselves.
-  - Arrival points are now checked for clearance against every hull on the field, stations included, and rechecked at the moment of arrival.
-- Fixed capital ships being targetable and damageable while held off the map waiting to warp in.
-- Fixed Ghost Echo copies sometimes remaining as completely invisible ships that could still be targeted and damaged.
-- Fixed Ghost Echo copies of Draconis capital ships vanishing off the map for the first seconds of their existence.
-- Fixed Ghost Echo copies fading out four times faster than intended.
-- Fixed destroyed Ghost Echo copies being offered as recoverable salvage after the battle.
+错误修复：
+- 修复零 AI 核心也会触发 DDA 殖民地危机的问题。
+  - 此前敌对活动系统可以在玩家未使用任何 AI 核心时选中德拉科尼斯（该行在界面上本就隐藏，危机因此被暗中创建），
+    而基线保底会让同盟情报局的评估自行攀升至惩罚性远征。现在 HAE 选取要求玩家产业或管理者中至少植入一枚 AI 核心；
+    零核心时评估进度保持不变、不再推进。
+- 修复德拉科尼斯主力舰跃入时叠在其他舰船或空间站上、导致其自毁或毁他。
+  - 抵达点现在会对照场上每一具舰体（含空间站）检查净空，并在抵达瞬间复查。
+- 修复主力舰在图外等待跃入时可被瞄准和伤害。
+- 修复幽影回响副本有时残留为完全隐形的舰船、仍可被瞄准和伤害。
+- 修复德拉科尼斯主力舰的幽影回响副本存在的前几秒会消失在地图外。
+- 修复幽影回响副本消散速度是预期的四倍。
+- 修复被摧毁的幽影回响副本在战后作为可回收残骸出现。
 
-Version 0.7.8 (Save-compatible with 0.7.7)
+版本 0.7.8（存档兼容 0.7.7）
 
-BALANCE CHANGES:
-- Shaowei: added built-in Phase Field hullmod.
-- Rebalanced Shaowei:
-  - FP 22 -> 16.
-  - Armor rating 400 -> 600.
-  - Max flux 8000 -> 7500.
-  - Max speed 140 -> 105.
-  - Acceleration 90 -> 85.
-  - Deceleration 90 -> 60.
-  - Max turn rate 50 -> 40.
-  - Turn acceleration 60 -> 40.
-  - Phase upkeep 0.05 -> 0.04.
-  - Base value 100000 -> 90000.
-  - Peak CR time 300 -> 360.
-  - DP (deploy) 35 -> 20.
-  - DP (maintenance) 35 -> 20.
-- Rebalanced Jufeng-class:
-  - Shield arc 10 -> 30.
-- Rebalanced Sunsetter-class
-  - Hull 30000 -> 20000.
-  - Armor 1500 -> 1000.
-- Rebalanced Shangshu Strike Bomber:
-  - Number 2 -> 3.
-  - Refit 25 -> 20.
-- Rebalanced Cestus Gun Launcher
-  - Damage 300 -> 350.
-  - EMP damage 500 -> 350.
-  - Ammo 40 -> 80.
-- Rebalanced Hankyu-class Torpedo (all variants):
-  - Damage 3000 -> 2000.
-- Rebalanced Hankyu-class Torpedo (ship & pod variants):
-  - Proj hitpoints 750 -> 350.
-- Rebalanced Hankyu-class Torpedo Pod:
-  - Burst delay 0.1 -> 0.3.
-- Rebalanced Scimitar-class Torpedo:
-  - Hits on shields now arc.
-- Rebalanced Razor Flak Cannon:
-  - Damage 25 -> 20.
-  - OP 8 -> 9.
-  - Flux 2 -> 10.
-  - Added charges:
-    - Ammo 400.
-    - Ammo/sec 200.
-    - Reload size 20.
-- Montante Autocannon:
-  - Damage 325 -> 245.
-  - Chargedown 1 -> 0.75
-- Particle Burst Lance:
-  - Damage/sec 1250 -> 850.
-  - OP 9 -> 11.
-- Rebalanced Shashka Mass Driver:
-  - Hits on shields now arc.
-  - Type ENERGY -> HYBRID.
-  - Damage 1000 -> 1400.
-  - Range 700 -> 900.
-  - Chargeup 3 -> 2.
-  - Turn rate 14 -> 18.
-- Rebalanced Flamberge Mass Driver:
-  - Hits on shields now arc.
-  - Range 900 -> 1200.
-  - Flux 5000 -> 4000.
+平衡性调整：
+- 少尉：新增内置相位力场船插。
+- 调整少尉：
+  - FP 22 -> 16。
+  - 装甲值 400 -> 600。
+  - 最大幅能 8000 -> 7500。
+  - 极速 140 -> 105。
+  - 加速度 90 -> 85。
+  - 减速度 90 -> 60。
+  - 最大转向速率 50 -> 40。
+  - 转向加速度 60 -> 40。
+  - 相位维持 0.05 -> 0.04。
+  - 基础价值 100000 -> 90000。
+  - 峰值战备时间 300 -> 360。
+  - DP（部署）35 -> 20。
+  - DP（维护）35 -> 20。
+- 调整飓风级：
+  - 护盾弧 10 -> 30。
+- 调整落日级：
+  - 船体 30000 -> 20000。
+  - 装甲 1500 -> 1000。
+- 调整尚书打击轰炸机：
+  - 数量 2 -> 3。
+  - 整备 25 -> 20。
+- 调整拳刺炮弹发射器：
+  - 伤害 300 -> 350。
+  - 电磁伤害 500 -> 350。
+  - 弹药 40 -> 80。
+- 调整半弓级鱼雷（全部变体）：
+  - 伤害 3000 -> 2000。
+- 调整半弓级鱼雷（舰载与弹舱变体）：
+  - 弹丸结构值 750 -> 350。
+- 调整半弓级鱼雷弹舱：
+  - 连射间隔 0.1 -> 0.3。
+- 调整弯月刀级鱼雷：
+  - 命中护盾现在会产生电弧。
+- 调整剃刀高射炮：
+  - 伤害 25 -> 20。
+  - OP 8 -> 9。
+  - 幅能 2 -> 10。
+  - 新增弹药机制：
+    - 弹药 400。
+    - 弹药/秒 200。
+    - 装填批量 20。
+- 双手大剑自动炮：
+  - 伤害 325 -> 245。
+  - 收束 1 -> 0.75
+- 粒子爆发长枪：
+  - 伤害/秒 1250 -> 850。
+  - OP 9 -> 11。
+- 调整恰西克质量驱动器：
+  - 命中护盾现在会产生电弧。
+  - 类型 能量 -> 混合。
+  - 伤害 1000 -> 1400。
+  - 射程 700 -> 900。
+  - 蓄力 3 -> 2。
+  - 转向速率 14 -> 18。
+- 调整波纹剑质量驱动器：
+  - 命中护盾现在会产生电弧。
+  - 射程 900 -> 1200。
+  - 幅能 5000 -> 4000。
 
-MINOR IMPROVEMENTS:
-- Moved Fafnir system, hopefully a little out of the way of everything.
-  - It's kind of hard to find empty space, in space...
-- DRACON threat score's war factor now scales with diminishing returns per hostile faction, instead of a flat amount each.
-  - Should stop heavily-modded faction lists from permanently pinning DRACON at DEAD LIGHT.
-- Moved Shashka Mass Driver and Flamberge Mass Driver tooltip text.
+细节改进：
+- 挪动了 Fafnir 星系的位置，希望稍微离开各条要道一点。
+  - 在太空里找块空地，还真挺难的……
+- DRACON 威胁分的战争因子现在按敌对势力边际递减，不再是每家固定一份。
+  - 应该能防止重度 mod 的势力列表把 DRACON 永久钉死在死灯。
+- 挪动了恰西克质量驱动器与波纹剑质量驱动器的提示文本。
 
-Version 0.7.7 (Save-compatible with 0.7.6)
-NEW CONTENT:
-- NEW: Shashka Mass Driver - medium energy strike weapon.
+版本 0.7.7（存档兼容 0.7.6）
+新内容：
+- 新增：恰西克质量驱动器——中型能量打击武器。
 
-BALANCE CHANGES:
-- Rebalanced Draconis Hull:
-  - CR loss after Peak performance 25% -> 50%.
+平衡性调整：
+- 调整德拉科尼斯舰体：
+  - 峰值性能后 CR 损失 25% -> 50%。
 
-- Rebalanced Pojun:
-  - Max flux 8000 -> 7000.
-- Rebalanced Rastaban:
-  - Shield type: Front -> Omni.
-- Rebalanced Jufeng:
-  - Armor rating 750 -> 600.
-    - Armor Modules:
-      - Armor rating 1500 -> 750.
-      - Hhull 10000 -> 7500.
-- Rebalanced Juni:
-  - Armor rating 900 -> 700.
-  - Max speed 85 -> 90.
-  - Shield type: Front -> Omni.
-- Rebalanced Nushi:
-  - Armor rating 1000 -> 750.
-  - Max speed 85 -> 90.
-- Rebalanced Nushi Mk.II:
-  - Armor rating 1000 -> 750.
-  - Max speed 85 -> 90.
-- Rebalanced Alrakis:
-  - Armor rating 1100 -> 850.
-  - Flux dissipation: 625 -> 575.
-  - Max speed 65 -> 70.
-- Rebalanced Dziban:
-  - Armor rating 1100 -> 850.
-  - Max speed 60 -> 65.
-- Rebalanced Altais:
-  - Flux dissipation 1200 -> 1000.
-  - Armor rating 1000 -> 750.
-  - Max flux 20000 -> 17000.
-  - Max speed 60 -> 70.
-  - Shield type: Front -> Omni.
-- Rebalanced Tianlong:
-  - Armor rating 1000 -> 750.
-  - Max speed 75 -> 85.
-- Rebalanced Tianlong Mk.II:
-  - Armor rating 1000 -> 750.
-  - Max speed 75 -> 85.
-- Rebalanced Jufeng:
-  - Armor rating 1000 -> 750.
-  - Max speed 55 -> 60.
-- Rebalanced Kuma:
-  - Armor rating 1000 -> 750.
-  - Max flux 22000 -> 18000.
-  - Max speed 45 -> 50.
-- Rebalanced Alwaid:
-  - Armor rating 950 -> 700.
-  - Max speed 45 -> 55.
-- Rebalanced War Emergency Power (Thorne, Tianbang, Shangshu, Tiangou):
-  - Removed shield/armor/hull/EMP damage reduction while active; the system now only affects speed and time dilation.
-- Rebalanced Juza:
-  - Armor rating 1100 -> 850.
-  - Max speed 35 -> 40.
-  - Shield type: Front -> Omni.
-  - 2x medium mounts: Ballistic -> Hybrid.
-- Rebalanced Tiangou:
-  - Max flux 2500 -> 700.
-  - Flux dissipation 250 -> 220.
-  - FP 20 -> 9.
-  - DP 30 -> 21.
-  - Refit time 30 -> 24.
-- Rebalanced Claymore Railgun (Fighter):
-  - Flux/shot 850 -> 400.
-  - Chargedown 4.75 -> 5.75.
-  - Damage 500 -> 1000.
-- Rebalanced Tianbang:
-  - Max flux 2000 -> 700.
-  - FP 18 -> 9.
-  - DP 23 -> 22.
-- Rebalanced Thorne:
-  - Removed shield.
-  - Max flux 2000 -> 550.
-  - Flux dissipation 200 -> 130.
-  - Armor rating 125 -> 90.
-  - Max speed 500 -> 380.
-  - FP 12 -> 9.
-- Rebalanced Shangshu (Strategic Bomber):
-  - Max flux 1000 -> 700.
-  - FP 12 -> 9.
-  - DP 24 -> 21.
-- Rebalanced Aldibain:
-  - Max flux 1000 -> 500.
-- Rebalanced Eldsich:
-  - Hitpoints 350 -> 440.
-  - Armor rating 25 -> 60.
-- Rebalanced Tianyi:
-  - Now carries a built-in Blackout Jammer.
-  - No longer rapidly reforms or attacks at an angle.
-- Rebalanced Grumium (Bomber):
-  - Turn acceleration 60 -> 95.
-- Rebalanced Grumium (Fighter):
-  - Turn acceleration 60 -> 200.
-- Renamed Flamberge Coilgun -> Flamberge Mass Driver.
-- Rebalanced Flamberge Mass Driver:
-  - Chargedown 6 -> 9.
-- Rebalanced Micro Bardiche Launcher:
-  - Ammo 100 -> 50.
-  - Burst Delay: 0.3 -> 0.4.
-  - Chargedown 4 -> 5.
-  - Projectile speed 400 -> 325, launch speed 200 -> 400.
-  - Flight time 16 -> 12.
-- Rebalanced Bardiche MRM Launcher:
-  - Ammo 400 -> 200.
-  - Flight time 16 -> 12.
-  - Projectile speed 400 -> 325, launch speed 200 -> 400.
-  - Chargedown 5 -> 6.
-  - Burst Delay: 0.2 -> 0.3
-- Rebalanced Bardiche MLRS Launcher:
-  - Ammo 600 -> 300.
-  - Chargedown 6 -> 9.
-  - Flight time 16 -> 12.
-  - Burst Delay: 0.1 -> 0.2.
-  - Projectile speed 400 -> 325.
-- Rebalanced Naginata MLRS Launcher:
-  - Damage 2500 -> 1500.
-  - Impact 125 -> 75.
-  - Chargedown 25 -> 20.
-  - Burst Delay: 0.5 -> 0.35.
-  - Flight time 18 -> 14.
-  - Projectile speed 350 -> 400.
-  - Projectile hitpoints 350 -> 600.
-- Rebalanced Kestros Autocannon:
-  - Damage 40 -> 30.
-  - Flux/shot 20 -> 15.
-- Rebalanced Razor Flak Cannon:
-  - Turn rate 400 -> 90.
-- Rebalanced Estoc Flak Cannon:
-  - Turn rate 150 -> 160.
-- Rebalanced Rapier Autocannon:
-  - Damage 160 -> 150.
-  - Turn rate 60 -> 16.
-- Rebalanced Culverin Coilgun:
-  - Turn rate 20 -> 9.
-- Rebalanced Cestus Gun Launcher:
-  - Flight time 750 -> 500.
-  - Turn rate 20 -> 12.
-- Rebalanced Halberd-class Torpedo (all variants):
-  - Damage 5000 -> 4000.
-  - Halberd-class Torpedo Pod: Tracking 16 -> 14.
-- Rebalanced Hankyu-class Torpedo (all variants):
-  - Damage 4000 -> 3000.
-- Rebalanced Errakis:
-  - FP 11 -> 12.
-  - DP 12 -> 14.
-  - Max speed 75 -> 70.
-  - Acceleration 60 -> 55.
-  - Shield efficiency 1.2 -> 1.3.
-  - Shield arc 140 -> 160.
-- Rebalanced Pojun
-  - Max speed 100 -> 90.
-  - 2x medium hardpoint mounts: Composite -> Ballistic.
-  - 2x medium turret mounts: Ballistic -> Hybrid.
-  - Rebalanced Apostate Jammer:
-    - Reworked from an instant hijack into a dwell-based timer for each missiles.
-    - Duration 0.5 -> 3, cooldown 6 -> 12.
-    - Detection radius 1000 -> 1500 su.
-    - Enemy missiles must now stay continuously within the detection radius for a short duration before converting; leaving the radius at any point resets their progress.
-    - Added a target-lock marker on tracked missiles and an expanding/shrinking ring to show when the system's is about to start/end.
-- Rebalanced Estoc Flak Cannon:
-  - Min spread 0 -> 2.
-  - Spread/shot 5 -> 6.
-  - Spread decay/sec 5 -> 6.
-- Rebalanced Flux Reactive Armor:
-  - Now converts hull damage into Hard Flux instead of Soft Flux.
-  - No longer disabled while the ship is overloaded.
-  - Now converts 50% hull damage into 50% flux. Insead of 50% -> 25%.
-- Rebalanced Shaowei:
-  - Max flux 6000 -> 8000.
-- Rebalanced Yunu:
-  - Max flux 16000 -> 14000.
-  - Flux dissipation 800 -> 600.
-- Rebalanced Dziban:
-  - Flux dissipation 900 -> 700.
-- Rebalanced Tianlong:
-  - Armor rating 1250 -> 1000.
-  - Max flux 26000 -> 20000.
-  - Flux dissipation 1350 -> 800.
-- Rebalanced Tianlong Mk.II:
-  - Armor rating 1250 -> 1000.
-  - Max flux 26000 -> 20000.
-  - Flux dissipation 1350 -> 800.
-- Rebalanced Kuma:
-  - Max flux 28000 -> 22000.
-  - Flux dissipation 1100 -> 880.
-- Rebalanced Alwaid:
-  - Armor rating 1200 -> 950.
-  - Max flux 25000 -> 20000.
-  - Flux dissipation 1500 -> 950.
-- Rebalanced Alwaid Prototype:
-  - Armor rating 1250 -> 950.
-  - Max flux 30000 -> 20000.
-  - Flux dissipation 1200 -> 950.
-- Rebalanced Emergency Repairs:
-  - Charges 3 -> 2.
-  - Cooldown 12 -> 16.
+- 调整破军：
+  - 最大幅能 8000 -> 7000。
+- 调整天棒三：
+  - 护盾类型：前方 -> 全向。
+- 调整飓风：
+  - 装甲值 750 -> 600。
+    - 装甲模块：
+      - 装甲值 1500 -> 750。
+      - 船体 10000 -> 7500。
+- 调整主计：
+  - 装甲值 900 -> 700。
+  - 极速 85 -> 90。
+  - 护盾类型：前方 -> 全向。
+- 调整女史：
+  - 装甲值 1000 -> 750。
+  - 极速 85 -> 90。
+- 调整女史Mk.II：
+  - 装甲值 1000 -> 750。
+  - 极速 85 -> 90。
+- 调整天棒增九：
+  - 装甲值 1100 -> 850。
+  - 幅能散逸：625 -> 575。
+  - 极速 65 -> 70。
+- 调整双狼：
+  - 装甲值 1100 -> 850。
+  - 极速 60 -> 65。
+- 调整天厨一：
+  - 幅能散逸 1200 -> 1000。
+  - 装甲值 1000 -> 750。
+  - 最大幅能 20000 -> 17000。
+  - 极速 60 -> 70。
+  - 护盾类型：前方 -> 全向。
+- 调整天龙：
+  - 装甲值 1000 -> 750。
+  - 极速 75 -> 85。
+- 调整天龙Mk.II：
+  - 装甲值 1000 -> 750。
+  - 极速 75 -> 85。
+- 调整飓风：
+  - 装甲值 1000 -> 750。
+  - 极速 55 -> 60。
+- 调整天棒二：
+  - 装甲值 1000 -> 750。
+  - 最大幅能 22000 -> 18000。
+  - 极速 45 -> 50。
+- 调整龙首：
+  - 装甲值 950 -> 700。
+  - 极速 45 -> 55。
+- 调整战时应急功率（荆棘、天棒、尚书、天狗）：
+  - 移除激活期间的护盾/装甲/舰体/电磁减伤；系统现在只影响速度与时间膨胀。
+- 调整主宰：
+  - 装甲值 1100 -> 850。
+  - 极速 35 -> 40。
+  - 护盾类型：前方 -> 全向。
+  - 2x 中型挂点：弹道 -> 混合。
+- 调整天狗：
+  - 最大幅能 2500 -> 700。
+  - 幅能散逸 250 -> 220。
+  - FP 20 -> 9。
+  - DP 30 -> 21。
+  - 整备时间 30 -> 24。
+- 调整阔剑电磁炮（战机）：
+  - 单发幅能 850 -> 400。
+  - 收束 4.75 -> 5.75。
+  - 伤害 500 -> 1000。
+- 调整天棒：
+  - 最大幅能 2000 -> 700。
+  - FP 18 -> 9。
+  - DP 23 -> 22。
+- 调整荆棘：
+  - 移除护盾。
+  - 最大幅能 2000 -> 550。
+  - 幅能散逸 200 -> 130。
+  - 装甲值 125 -> 90。
+  - 极速 500 -> 380。
+  - FP 12 -> 9。
+- 调整尚书（战略轰炸机）：
+  - 最大幅能 1000 -> 700。
+  - FP 12 -> 9。
+  - DP 24 -> 21。
+- 调整少宰：
+  - 最大幅能 1000 -> 500。
+- 调整左枢：
+  - 结构值 350 -> 440。
+  - 装甲值 25 -> 60。
+- 调整天一：
+  - 现在内置黑障干扰阵。
+  - 不再快速重组或以角度攻击。
+- 调整天棒一（轰炸机）：
+  - 转向加速度 60 -> 95。
+- 调整天棒一（战机）：
+  - 转向加速度 60 -> 200。
+- 更名：波纹剑线圈炮 -> 波纹剑质量驱动器。
+- 调整波纹剑质量驱动器：
+  - 收束 6 -> 9。
+- 调整微型阔斧枪发射器：
+  - 弹药 100 -> 50。
+  - 连射间隔：0.3 -> 0.4。
+  - 收束 4 -> 5。
+  - 弹速 400 -> 325，发射速度 200 -> 400。
+  - 飞行时间 16 -> 12。
+- 调整阔斧枪中程导弹发射器：
+  - 弹药 400 -> 200。
+  - 飞行时间 16 -> 12。
+  - 弹速 400 -> 325，发射速度 200 -> 400。
+  - 收束 5 -> 6。
+  - 连射间隔：0.2 -> 0.3
+- 调整阔斧枪多管火箭发射器：
+  - 弹药 600 -> 300。
+  - 收束 6 -> 9。
+  - 飞行时间 16 -> 12。
+  - 连射间隔：0.1 -> 0.2。
+  - 弹速 400 -> 325。
+- 调整长刀多管火箭发射器：
+  - 伤害 2500 -> 1500。
+  - 冲击 125 -> 75。
+  - 收束 25 -> 20。
+  - 连射间隔：0.5 -> 0.35。
+  - 飞行时间 18 -> 14。
+  - 弹速 350 -> 400。
+  - 弹丸结构值 350 -> 600。
+- 调整投石索自动炮：
+  - 伤害 40 -> 30。
+  - 单发幅能 20 -> 15。
+- 调整剃刀高射炮：
+  - 转向速率 400 -> 90。
+- 调整突刺剑高射炮：
+  - 转向速率 150 -> 160。
+- 调整细剑自动炮：
+  - 伤害 160 -> 150。
+  - 转向速率 60 -> 16。
+- 调整长管炮线圈炮：
+  - 转向速率 20 -> 9。
+- 调整拳刺炮弹发射器：
+  - 飞行时间 750 -> 500。
+  - 转向速率 20 -> 12。
+- 调整长戟级鱼雷（全部变体）：
+  - 伤害 5000 -> 4000。
+  - 长戟级鱼雷弹舱：追踪 16 -> 14。
+- 调整半弓级鱼雷（全部变体）：
+  - 伤害 4000 -> 3000。
+- 调整天棒增十：
+  - FP 11 -> 12。
+  - DP 12 -> 14。
+  - 极速 75 -> 70。
+  - 加速度 60 -> 55。
+  - 护盾效率 1.2 -> 1.3。
+  - 护盾弧 140 -> 160。
+- 调整破军：
+  - 极速 100 -> 90。
+  - 2x 中型固定挂点：复合 -> 弹道。
+  - 2x 中型炮塔挂点：弹道 -> 混合。
+  - 调整叛道干扰阵：
+    - 从即时劫持改为对每枚导弹的驻留计时。
+    - 持续 0.5 -> 3，冷却 6 -> 12。
+    - 探测半径 1000 -> 1500 su。
+    - 敌方导弹现在必须连续留在探测半径内一小段时间才会被策反；中途离开半径即重置进度。
+    - 为被追踪的导弹添加锁定标记，并加入扩张/收缩圆环以显示系统即将开始/结束。
+- 调整突刺剑高射炮：
+  - 最小散布 0 -> 2。
+  - 每发散布 5 -> 6。
+  - 散布衰减/秒 5 -> 6。
+- 调整幅能反应装甲：
+  - 现在将舰体伤害转化为硬幅能，而非软幅能。
+  - 不再在舰船过载时禁用。
+  - 现在将 50% 舰体伤害转化为 50% 幅能。原为 50% -> 25%。
+- 调整少尉：
+  - 最大幅能 6000 -> 8000。
+- 调整御女：
+  - 最大幅能 16000 -> 14000。
+  - 幅能散逸 800 -> 600。
+- 调整双狼：
+  - 幅能散逸 900 -> 700。
+- 调整天龙：
+  - 装甲值 1250 -> 1000。
+  - 最大幅能 26000 -> 20000。
+  - 幅能散逸 1350 -> 800。
+- 调整天龙Mk.II：
+  - 装甲值 1250 -> 1000。
+  - 最大幅能 26000 -> 20000。
+  - 幅能散逸 1350 -> 800。
+- 调整天棒二：
+  - 最大幅能 28000 -> 22000。
+  - 幅能散逸 1100 -> 880。
+- 调整龙首：
+  - 装甲值 1200 -> 950。
+  - 最大幅能 25000 -> 20000。
+  - 幅能散逸 1500 -> 950。
+- 调整龙首原型：
+  - 装甲值 1250 -> 950。
+  - 最大幅能 30000 -> 20000。
+  - 幅能散逸 1200 -> 950。
+- 调整应急维修：
+  - 充能 3 -> 2。
+  - 冷却 12 -> 16。
   
-MINOR IMPROVEMENTS:
-- Removed redundant preamble from the Hankyu's and Daikyu's descriptions.
-- Improved the retreat Tranverse Jump FX.
-- Transverse Jump charge-up no longer penalises turn acceleration.
-- Renamed the Draconis XLII faction to the Draconis XLII Battlegroup.
-- Updated the Draconis Intelligence Office's faction logo and crest.
-
-BUG FIXES:
-- Fixed Flux Reactive Armor rounding down damage into sub 0 damage, making it effectively immortal to low hit-strength weapons.
-- Fixed Transverse Jump not refunding the Direct Retreat command point it consumes, effectively double-charging command points for retreating ships.
-- Fixed missiles hijacked by the Apostate Jammer or Fortysecond's ECM Suite sometimes getting stuck harmlessly still aiming at their original target instead of being disabled, when their guidance couldn't be redirected (Gorgon/Gazer/Dragon/Hydra etc).
-
-Version 0.7.6 (Save-compatible with 0.7.5)
-BALANCE CHANGES:
-- Juni: OP 130 -> 140.
-  - Breach Jammer: Range 1500 -> 1800.
-- Misericorde: Damage 70 -> 80.
-- Kestros Autocannon: EMP 40 -> 0.
-- Tianbang: Hitpoints 500 -> 600.
-- Tianbang: Armor rating 100 -> 150.
-- Tianbang: Max flux 2000 -> 1000.
-- Tianbang: Flux dissipation 200 -> 100.
-- Tiangou: Max flux: 3500 -> 2500.
-- Tiangou: Flux dissipation: 350 -> 250.
-- Tiangou: Hitpoints: 500 -> 600.
-- Thorne: Range: 6000 -> 4000.
-- Thorne: Max flux: 2500 -> 2000.
-- Thorne: Flux dissipation: 250 -> 200.
-
-MINOR IMPROVEMENTS:
-- The Colony Crisis can no longer trigger if commisioned.
-- Increased the Shadow Fleets spawn rate.
-- Improved the AI's use of the Breach Jammer, Blackout Jammer, Apostate Jammer ship systems.
-- Improved the Throne's sprite a little.
-
-BUG FIXES:
-- Shadow Fleets already spawned no longer progress the Crisis if commisioned.
-- Fixed the Fafnir TT Courier, Fafnir Ring-Port, AIO operative reveal, and AIO payment negotiation bar contacts sometimes failing to show up even when their conditions were met.
-  - These now reliably appear on your next bar visit once eligible, instead of depending on a random roll.
-- Fixed the Fafnir TT Courier and Ring-Port arrival acknowledgements sometimes never appearing at Kori/Ring-Port, permanently stalling those deliveries.
-  - This happened if you reached Fafnir without resolving the jump point credentials check (e.g. bypassing it) while still holding valid credentials. Existing saves stuck in this state will resolve it automatically the next time you dock at Kori/Ring-Port.
-
-Version 0.7.5 (Save-compatible with 0.7.4)
-BUG FIXES:
-- Fixed crash related to the Jufeng's armor plates having the wrong file dir.
-
-Version 0.7.4 (Save-compatible with 0.7.3)
-NEW CONTENT:
-- NEW: Jufeng-class Battlecruiser - a coilgun-focused capital built around a single Flamberge Coilgun.
-  - Carries 4x built-in Gundao MLRS Launchers, the Flamberge Coilgun and two applique armor modules.
-  - Shunt Drive ship system - a forward speed/acceleration surge.
-  - Heavily inspired by Navarchy of Tania's Black Hawk!
-- NEW: Pojun-class Heavy Destroyer - a successor to the Rastaban.
-  - Built-in flux-reactive armor and the Apostate Jammer system.
-  - Apostate Jammer (Signal Hijack) ship system - converts all enemy missiles within 1000 su to the player's control.
-- NEW: Flamberge Coilgun - large energy strike weapon; charges up a beam, then detonates on impact.
-- NEW: Gundao MLRS Launcher - large fragmentation suppression missile launcher, built into the Jufeng.
-
-BALANCE CHANGES:
-- Kuma: shield efficiency 1.2 -> 0.9, armor rating 45 -> 50, DP (deploy) & DP (maintenance) 45 -> 50, base value 450,000 -> 500,000.
-- Tianlong / Tianlong Mk.II: base value 500,000 -> 450,000.
-- Altais: base value 400,000 -> 325,000.
-- Hankyu-class Torpedo (all variants): ammo/reload 1000 -> 750.
-- Removed the req_military production tag from Errakis, Giausar, Shaobi, Shaowei, Eltanin, Juni, Nushi Mk.II, Alrakis, and Yunu - now buildable without a military market.
-- Reworked Fafnir brute-force jump point entry:
-  - SP cost 5 -> 3.
-  - Reputation penalty is now applied immediately at transit instead of via a 3-day grace-period hostility timer (removed).
-  - Transverse Jump reputation penalty floor -0.5 -> -0.25.
-
-MINOR IMPROVEMENTS:
-- Bardiche-family missiles no longer use a custom swarm AI; they now fly with standard missile guidance.
-- Bardiche missile trail now has a subtle glow.
-- Corrected Culverin flavor text (rail -> coil tolerances).
-
-Version 0.7.3 (Save-compatible with 0.7.2)
-BUG FIXES:
-- Fixed a bug with not being able to withdraw from Fafnir's Jump Points.
-  - (For real this time :sob:)
-
-Version 0.7.2 (Save-compatible with 0.7.1)
-MINOR IMPROVEMENTS:
-- Reduced SP cost to enter Fafnir for the first time. 10 -> 5.
-- Fixed some odd ship variants.
-
-BUG FIXES:
-- Fixed a bug with not being able to withdraw from Fafnir's Jump Points.
-
-Version 0.7.1 (Save-compatible with 0.7.0)
-MINOR IMPROVEMENTS:
-- Made the AI Core raids a little less common, and added some variation to their targets.
-
-Version 0.7.0
-- WARNING: Breaking change - NOT compatible with saves from 0.6.12 or earlier.
-  - Internal restructuring: Colony crisis system.
-  - Corrected Yunu hull ID: XLII_eltanin_mk2 -> XLII_yunu.
-  - Removed Tyl Drone Fighter.
-  - Reworked the Fafnir system.
-
-NEW CONTENT:
-- NEW: Portait artwork for each of the major characters.
-- NEW: Montante Autocannon - large kinetic autocannon (Uses old Fragarach sprite)
-- NEW: Naginata MLRS Launcher - large guided torpedo salvo launcher.
-  - Fires a burst of 3 guided torpedoes.
-- REWORK: Colony crisis, replacing the old crisis system.
-  - Threat score advances monthly based on AI core usage and DDA relations.
-  - Four phases: WATCHING (0-34) -> ACTIVE_MEASURES (35-64) -> LIABILITY (65-99) -> INVASION (100).
-  - Colony debuffs (accessibility and stability penalties) begin at WATCHING.
-  - Industry disruptions begin at tracker >= 25, scaling in severity toward 100.
-  - Shadow fleets spawn and scale during ACTIVE_MEASURES and above.
-  - At tracker = 100 a punitive expedition is dispatched; defeating it resets the tracker.
-    - Beating three strikes in a row completes the crisis and grants an armaments export bonus.
-      - Reward is WIP. Not really sure what to give at this stage.
-  - A deal is available from an Office intelligence agent at player colony bars.
-    - This will suppress the crisis, as long as you pay the monthly 'tithe'.
-    - Additionally, being commisioned also supresses the crisis.
-- NEW: Sigma Octantis skill - Can now clone enemy ships.
-  - "We call this a difficulty tweak."
-- NEW: Blind Eye questline - Short questline. (SUPER WIP - content subject to change.)
-    - Unlocks after reading the Fafnir Gate logs and discussing them with Fleet Admiral August.
-    - An AIO agent makes contact at Ring-Port and briefs you on a covert assault mission.
-    - Assault Ring-Port with marines to capture it for August's loyalist faction ahead of the AIO.
-- NEW: Alrakis-class Carrier - a cruiser-class battlecarrier.
-- NEW: Yinde-class Cruiser - an adanced highly mobile cruiser.
-- NEW: AIO Operative - a post-Blind Eye contact available at Ring-Port bar who can exchange credits for story points.
-  - Story point cost scale with purchase count per cycle, resetting each year.
-- NEW: Prototype Draconis ships - 7 new hulls. (WIP - not yet player-obtainable.)
-  - (Thuban, Rastaban, Giausar, Eltanin, Zhushi, Altais, Alwaid)
-  - Old sprites from the original mod concept, by popular demand.
-- NEW: Nuclear escalation - Draconis and the Forty Second upgrade to Daikyu weapons if the player fields 'nuclear arms'.
-    - Uses an opt-in system. Use nukes, they use nukes too!
-      - So it doesn't mess with the base game sandbox.
-  - NEW: Daikyu-class Torpedo Pod - medium nuclear torpedo launcher.
-  - NEW: Daikyu-class Torpedo Launcher - large nuclear torpedo launcher.
-- NEW: Tianbang-class Multirole Fighter - another multirole fighter
-  - NEW: Billhook-class Torpedo - a compact, unguided small-slot anti-fighter missile.
-  NEW: Tiangou-class Multirole Fighter - ANOTHER multirole fighter, but spicier.
-  - NEW: Claymore-class Railgun - a compact, railgun.
-- NEW: All Draconis Capital Ships now Transverse Jump into battle.
-  - Huge credit to the SEEKER mod, wouldn't even know where to begin making this without it as a reference.
-- NEW: Shangshu-class Bomber - a new DDA bomber wing.
-  - Carries the Scimitar-class Torpedo (high EMP vs shields) and a Guided version of the Annihilator Pod.
-- NEW: Tianlong Mk.II Battlecruiser - silly variant.
-- NEW: Misericorde Chaingun - a large ballistic, energy weapon.
-
-BALANCE CHANGES:
-- Trebuchet Cannon:
-  - Chargeup 0 -> 0.5s (to support new laser sight FX).
-  - Flux/shot 625 -> 650.
-  - Burst delay 0.2 -> 0.5s.
-  - Base value 5000 -> 3200.
-- Twin Spear Cannon:
-  - Range 1000 -> 900.
-  - Damage 400 -> 475.
-  - EMP damage 500 -> 475.
-  - OP 26 -> 26.
-  - Chargeup 0 -> 0.25.
-  - Chargedown 3 -> 0.25.
-  - And more...
-    - Overall a large change to function.
-    - Should fit into a more clear role.
-- Estoc Flak Cannon:
-  - Damage 20 -> 25.
-  - Projectile speed 1100 -> 990.
-  - Projectile hitpoints 10 -> 20.
-- Razor Flak Cannon:
-  - Range 450 -> 600.
-  - Damage 20 -> 25.
-  - Projectile speed 1100 -> 1250.
-- Cestus Gun Launcher:
-  - OP 13 -> 10.
-- Culverin Coilgun:
-  - OP 13 -> 11.
-- Longsword Autocannon:
-  - Damage 440 -> 400.
-  - Flux/shot 700 -> 400.
-- Mangonel Gun Launcher:
-  - Range 900 -> 700.
-  - Damage 1200 -> 600.
-  - EMP damage 350 -> 100.
-  - Flux/shot 1200 -> 750.
-  - Turn rate 12 -> 18.
-  - Added ammo/reload: 5 shots.
-- Mk.II Durendal Cannon:
-  - Range 1000 -> 900.
-- Fragarach Railgun:
-  - Damage 900 -> 1000.
-  - EMP damage 900 -> 1000.
-  - Flux/shot 1250 -> 1700.
-  - Chargeup 0 -> 1s.
-  - Chargedown 4 -> 3s.
-- Halberd-class Torpedo:
-  - Chargedown 20 -> 15.
-  - Flight time 9 -> 12.
-  - Removed DANGEROUS flag.
-- Halberd-class Torpedo Pod:
-  - Chargedown 10 -> 15.
-  - Flight time 9 -> 16.
-  - Removed DANGEROUS flag.
-- Falchion-class Torpedo:
-  - Damage 2000 -> 750.
-- Pulsar Jammer System:
-  - Cooldown 24 -> 18.
-- Flux Cycler System (Nushi):
-  - Reworked: Now is a 'damage absorption/buff' system.
-- Time Dash System (Asuia):
-  - Charge rate 0.1 -> 0.075.
-  - Charge-up 0.25 -> 0.5s.
-  - Charge-down 0.25 -> 0.5s.
-  - Cooldown 6 -> 0. (Only based on charges now)
-- Time Slip System (Sunsetter):
-  - Now drains 1 flux/sec while active.
-  - Added 0.25 f/u (base cap) cost per use.
-  - Charge-up 0.25 -> 4s; active duration 5.5 -> 7s; charge-down 0.25 -> 2s; cooldown 15 -> 12s.
-- Nushi:
-  - Hitpoints 6500 -> 8000.
-  - Armor rating 800 -> 1000.
-  - Flux dissipation 650 -> 675.
-  - Max speed 75 -> 85.
-  - Acceleration 80 -> 75.
-  - Deceleration 60 -> 55.
-  - Shield type FRONT -> OMNI (arc 360 -> 240).
-  - Shield efficiency 1.1 -> 1.0.
-  - DP 30 -> 22.
-- Nushi Mk.II:
-  - System changed: Plasma Jets -> Emergency Repairs.
-  - Hitpoints 6000 -> 8000.
-  - Armor rating 750 -> 1000.
-  - Flux dissipation 550 -> 525.
-  - Acceleration 80 -> 75.
-  - Deceleration 60 -> 55.
-  - Mass 1750 -> 1800.
-  - Shield type FRONT -> OMNI (arc 360 -> 240).
-  - Shield efficiency 1.0 -> 1.1.
-  - DP 25 -> 20.
-- Kuma:
-  - System changed: Fortress Shield -> Emergency Repairs.
-  - FP 30 -> 32.
-  - Ordnance points 270 -> 255.
-  - Deceleration 12 -> 10.
-  - Max turn rate 6 -> 4.
-  - Shield arc 240 -> 300.
-  - Shield efficiency 1.4 -> 1.2.
-  - DP 40 -> 45.
-  - Added built-in Advanced Targeting Core.
-- Yinde:
-  - FP 16 -> 18.
-  - DP 25 -> 26.
-- Yunu:
-  - Armor rating 850 -> 750.
-- Juza:
-  - Armor rating 1000 -> 1100.
-  - DP 35 -> 28.
-- Altais:
-  - DP 40 -> 35.
-- Dziban:
-  - FP 22 -> 20.
-- Tianlong:
-  - System changed: Combat Burn -> Capacitance Core.
-  - FP 24 -> 28.
-  - Max flux 21000 -> 26000.
-  - Flux dissipation 1000 -> 1350.
-  - Max speed 65 -> 75.
-  - Acceleration 30 -> 35.
-  - Deceleration 35 -> 45.
-  - Max turn rate 11 -> 16.
-  - Shield efficiency 1.1 -> 1.0.
-  - DP 45 -> 40.
-- Alwaid:
-  - Max flux 30000 -> 25000.
-  - Flux dissipation 1200 -> 1500.
-- Sunsetter:
-  - Max turn rate 40 -> 15.
-  - Turn acceleration 35 -> 20.
-  - Base value 1000000 -> 500000.
-- Sigma Octantis (AI core officer):
-  - Automated Ships deployment point multiplier 4x -> 1x.
-- XLII Fleet no longer partially inherits the full DDA ship blueprint pool; uses its own curated set.
-- Incomprehensible Horrors: hull restoration per activation 20% -> 10%.
-- Commissioned Crews - Alliance Trained Crews (hullmod): replaced CR loss reduction and ECCM bonus with flat -10% detection range.
-- REWORK: Asuia.
-  - Flux capacity 14000 -> 16000.
-  - Flux dissipation 700 -> 600.
-  - Ordnance points 105 -> 125.
-  - Shield type FRONT (260°) -> OMNI (270°).
-  - Shield upkeep 0.4 -> 0.5.
-  - Weapon layout overhauled: Durendal Mk.II replaced by built-in Koncerz Cannon; slots repositioned and types revised.
-- Phase Teleporter System:
-  - AI burst movement potential 750 -> 350.
-- Tianyi (EW Fighter):
-  - Flux dissipation 50 -> 100.
-  - Reclassified from ECM Fighter to EW Fighter.
-  - Tier 3 -> 2.
-- Arquebus SRM Launcher:
-  - Damage type Kinetic -> Energy.
-  - EMP damage 250 -> 125.
-  - Added anti-fighter and alternating fire mode.
-- Missile Control Matrix:
-  - Missile HP 1.5x -> 2x.
-- Draconis Wing Hull (hullmod) replaced by War Emergency Power ship system on all fighter wings.
-  - Was a passive time-dilation hullmod; now an active thruster-overdrive system.
-  - NEW: built-in fighter Overclock Core hullmod grants PD flare immunity, best-possible target leading, and bonus damage vs. missiles and fighters.
-- Sigma Octantis confrontation:
-  - Automated clone deploy cost multiplier 1x -> 2x.
-- Kestros Autocannon (fighter):
-  - Reworked as a point-defense burst weapon.
-  - Damage 25 -> 40. EMP damage 25 -> 40. Flux/shot 10 -> 20.
-  - Projectile speed 1200 -> 1250.
-  - Added PD and anti-fighter roles.
-- Halberd-class Torpedo (Fighter):
-  - Damage 5000 -> 6000.
-  - Changed from guided to unguided.
-- Particle Burst Lance:
-  - Damage/sec 1000 -> 1250.
-  - OP 13 -> 9.
-  - Flux/sec 1000 -> 850.
-  - Removed missile-pierce capability.
-- Aldibain:
-  - Reclassified from Heavy Fighter to Multirole Fighter.
-  - Gained War Emergency Power ship system.
-- Thorne:
-  - Reclassified from Heavy Interceptor to Interceptor.
-  - Gained War Emergency Power ship system.
-  - FP 12 -> 14. Wing count 1 -> 2.
-- Eldsich:
-  - Flux dissipation 50 -> 100.
-  - FP 8 -> 12.
-  - DP 20 -> 16.
-- Nodus (Strike Drone):
-  - FP 6 -> 8.
-- Grumium (base hull):
-  - Hitpoints 1500 -> 2000.
-  - Armor rating 150 -> 200.
-  - Flux dissipation 250 -> 100.
-- Grumium (Heavy Fighter, XLII variant):
-  - Flux dissipation 250 -> 100.
-  - FP 12 -> 10.
-  - Bomber wing: DP 16 -> 12. Wing count 2 -> 3.
-  - Fighter wing: DP 18 -> 14. Wing count 1 -> 2.
-- Shaobi:
-  - Removed COMBAT tag (now pure CARRIER).
-
-MINOR IMPROVEMENTS:
-- Completely overhauled Fragarach sprite, changed weapon function.
-  - New Montante Autocannon will use the old sprite.
-- Hopefully, improved the visual clarity of the AoE ship systems (Breach Jammer, Pulsar Jammer & Blackout Jammer).
-- Trebuchet Cannon now uses it's own weapon effect script instead of the Culverin's.
-- Added some more FXs to the Trebuchet Cannon, now has a cute little aiming laser.
-- Reworked the FXs for the Pulsar Jammer.
-  - "Your elemental power is GREEN."
-  - Tell me if this is too annoying, I'll tone it down.
-- Shadow fleet frequency reduced:
-  - Max concurrent patrols 12 -> 9.
-  - Spawn frequency multiplier 50 -> 45.
-    - Additionally, restricted to while the colony crisis is active.
-- Title screen ship pool expanded to include all standard ship classes.
-- Changed Itoron planet cloud texture.
-- Kori now has ambient radio chatter SFX.
-- Sunsetter bounty now accessible at lower DDA rep (1.0 -> 0.5) and player level (15 -> 10).
-- Sunsetter bounty now grants a small reputation reward and reduced preset fleet (4 Asuia ships -> 2).
-- DDA Nexerelin colony expedition frequency reduced.
-- Special forces and vengeance fleet size multipliers increased (1.5x -> 2.0x each).
-- Diplomacy stance updated: increased Tri-Tachyon friendliness; added Hegemony wariness.
-- Nodus reclassified as Bomber (was Fighter).
-- DDA fleet compositions updated: fleets are now generally larger and more numerous.
-- Kori radio chatter volume increased.
-- Adjusted AI scaler speed to match Extended Mode's intent game "length".
-  - Basically the AI core quality on Draconis ships will get better faster.
-- Updated Thorne's sprite.
-
-BUG FIXES:
-- Fixed Tianlong (XLII) variant not applying correctly.
-- Fixed SLAP-ER torpedo incorrectly applying Mist Cloud on-hit effect.
-- Fixed AI core theft not detecting AI core personas installed as market administrators.
-  - Real AI core admins were never stolen (this was a workaround while I figured out how to safely remove AI admins).
-- Fixed Draconis Remnant raid fleets generating AI cores when not actively on an expedition.
-
-Version 0.6.12 (Save-compatible with 0.6.11)
-BUG FIXES:
-- Fixed rules.csv stuff.
-
-Version 0.6.11 (Save-compatible with 0.6.10)
-BUG FIXES:
-- Fixed a bug where DraconisAICoreFleetInflater wouldn't spawn Octantis.
-  - No rest for the wicked. =w=
-
-Version 0.6.10 (Save-compatible with 0.6.8)
-MINOR IMPROVEMENTS:
-- Add Throne to some of the variants.
-
-BUG FIXES:
-- Fixed crash relating to the bad path in XLII_thorne.ship.
-
-Version 0.6.8 (Save-compatible with 0.6.7)
-NEW CONTENT:
-- NEW: Thorne-class Heavy Interceptor - a shielded single-craft wing.
-- NEW: Tianlong (XLII) - Forty-Second Battlegroup skin for the Tianlong battlecruiser.
-  - Replaces Autoflare Dispenser with Howler ECM Suite.
-- Tianlong (XLII) is now purchasable from Fleet Admiral Emil's ship shop.
-
-BALANCE CHANGES:
-- Arquebus SRM Launcher:
-  - Damage 50 -> 125.
-  - Added 250 EMP damage.
-  - Projectile speed 200 -> 500.
-  - Launch speed 150 -> 500.
-- Nodus (Strike Drone):
-  - Shield arc 200 -> 210.
-- Eldsich (Bomber):
-  - Shield arc 200 -> 210.
-- Tianyi (ECM Fighter):
-  - Shield arc 200 -> 210
-  - Base value 9000 -> 7500.
-- Marginal Allocation:
-  - Malfunction aura range 2000 -> 2500.
-
-MINOR IMPROVEMENTS:
-- Reworked Sigma Octantis hostile-rep system:
-  - Added early warning transmission at -0.25 Draconis rep. Sigma Octantis will contact the player to note that their standing is approaching a low threshold.
-  - Added 30-day grace period after the warning fires, giving the player time to course-correct before the core departure is locked in.
-  - Watchdog now operates in two phases: Phase 1 monitors reputation; Phase 2 (after going hostile) monitors fleet presence only.
-- Rewrote Sigma Octantis combat chatter - new tone with shorter, more ominous lines. Reduced talkativeness from 0.6 to 0.4.
-- Marginal Allocation forced overloads now display a purple visual effect and "System Disruption!" text.
-- Kestros projectile visual enhancement (wider projectile, brighter glow).
-
-BUG FIXES:
-- Fixed Marginal Allocation projecting multiple malfunction auras on ships with modules.
-  - Was spawning one aura per module; now correctly emits a single aura from the root ship.
-- Fixed Sigma Octantis watchdog being registered on fresh games before the nanoforge quest was complete.
-  - Could cause unnecessary background script overhead?.
-- Fixed Alsafi (Cargo) variant not being used in small trade fleet compositions.
-  - Was incorrectly using the tanker Alsafi instead.
-- Fixed Sigma Octantis combat chatter not triggering.
-  - Character was missing from character_factions.csv and officer name matching was misconfigured.
-
-Version 0.6.7 (Save-compatible with 0.6.6)
-BUG FIXES:
-- Fixed XLII Battlegroup at Kori spawning with really low FP.
-- Fixed small ordering issue in rules.csv.
-
-Version 0.6.6 (Save-compatible with 0.6.5)
-NEW CONTENT:
-- NEW: Sigma Octantis - A unique AI Core officer with a dedicated questline.
-  - Quest: earn sufficient standing with the Draconis Alliance to unlock a special dialogue
-    option with Fleet Admiral Emil. He'll ask you to procure a Pristine Nanoforge for the
-    Alliance. Deliver one and receive the Sigma Octantis Uplink as your reward.
-  - Unique skill: Marginal Allocation.
-  - Failure state: if your reputation with the Draconis Alliance drops to hostile or below
-    while Sigma Octantis is in your possession, it will confront you and permanently sever the
-    connection - the core is removed from your fleet, cargo, and all market storage and cannot
-    be recovered. (Console command it back if you want to keep it, this check is only made once).
-- NEW: Tianlong-class Battlecruiser - A fast battlecruiser with three large mounts in superfiring configuration.
-- NEW: Trebuchet Cannon - Large triple-barrel energy weapon.
-- NEW: Alsafi-class Cargo Freighter - A dedicated freighter variant of the Alsafi.
-  - Higher cargo capacity (400) than the base Alsafi.
-  - Much lower fuel capacity (80) - trades range for hauling power.
-
-BALANCE CHANGES:
-- General fleet-wide balance pass; most ships received adjustments to flux, armor, and shields.
-- Reclassified Alsafi as a dedicated Tanker:
-  - Reduced cargo: 200 -> 20.
-  - Increased fuel: 400 -> 800.
-  - Buffed max flux: 1750 -> 3600.
-  - Buffed flux dissipation: 105 -> 215.
-  - Increased OP: 65 -> 75.
-  - Increased CR to deploy: 15 -> 20.
-  - Increased DP: 4 -> 5.
-  - Reduced base value: 25,000 -> 20,000.
-- Rebalanced Aldhibah-class Frigate:
-  - Reduced flux dissipation: 280 -> 275.
-  - Reduced OP: 55 -> 50.
-  - Reduced max burn: 10 -> 9.
-- Rebalanced Alruba-class Gunship:
-  - Reduced armor: 500 -> 300.
-  - Reduced max flux: 4500 -> 3750.
-  - Reduced flux dissipation: 360 -> 300.
-  - Improved shield efficiency: 1.2 -> 1.0.
-- Rebalanced Alruba Mk.II-class Gunship:
-  - Increased FP: 8 -> 9.
-  - Reduced armor: 500 -> 300.
-  - Reduced max flux: 4700 -> 3750.
-  - Reduced flux dissipation: 380 -> 300.
-  - Improved shield efficiency: 1.1 -> 1.0.
-- Rebalanced Thuban-class Corvette:
-  - Reduced max flux: 5300 -> 4000.
-  - Reduced flux dissipation: 425 -> 320.
-  - Improved shield efficiency: 1.2 -> 1.1.
-  - Reduced max burn: 11 -> 10.
-- Rebalanced Errakis-class Missile Destroyer:
-  - Changed ship system: Maneuvering Jets -> Fast Missile Racks.
-  - Increased OP: 90 -> 95.
-  - Increased max speed: 70 -> 75.
-- Rebalanced Giausar-class Destroyer:
-  - Reduced max flux: 9000 -> 4500.
-  - Reduced flux dissipation: 540 -> 270.
-  - Reduced OP: 85 -> 60.
-- Rebalanced Rastaban-class Light Destroyer:
-  - Reduced max flux: 8700 -> 7000.
-  - Reduced flux dissipation: 525 -> 425.
-  - Reduced OP: 90 -> 80.
-  - Improved shield efficiency: 1.3 -> 1.2.
-- Rebalanced Shaobi-class Light Carrier:
-  - Increased hitpoints: 3000 -> 3500.
-  - Increased armor: 300 -> 330.
-  - Reduced max flux: 8000 -> 5000.
-  - Reduced flux dissipation: 480 -> 300.
-  - Reduced OP: 105 -> 90.
-  - Improved shield efficiency: 1.3 -> 1.2.
-- Rebalanced Shaowei-class Phase Destroyer:
-  - Increased hitpoints: 3500 -> 4500.
-  - Increased max flux: 5500 -> 6000.
-  - Reduced flux dissipation: 600 -> 500.
-  - Reduced OP: 95 -> 80.
-- Rebalanced Eltanin-class Light Cruiser:
-  - Increased flux dissipation: 400 -> 500.
-  - Reduced OP: 140 -> 125.
-  - Reduced max burn: 9 -> 8.
-- Rebalanced Juni-class Cruiser:
-  - Reduced armor: 1000 -> 900.
-  - Increased max flux: 12000 -> 14000.
-  - Reduced flux dissipation: 700 -> 650.
-  - Reduced OP: 155 -> 130.
-  - Increased acceleration: 35 -> 40.
-  - Increased deceleration: 25 -> 30.
-  - Reduced max burn: 8 -> 7.
-- Rebalanced Juza-class Heavy Cruiser:
-  - Reduced FP: 24 -> 22.
-  - Reduced hitpoints: 14000 -> 10000.
-  - Reduced max flux: 15000 -> 14500.
-  - Increased flux dissipation: 550 -> 725.
-  - Reduced OP: 175 -> 160.
-  - Reduced fuel/ly: 5 -> 4.
-  - Reduced max burn: 8 -> 7.
-  - Improved shield efficiency: 1.4 -> 1.2.
-- Rebalanced Nushi-class Cruiser:
-  - Downgraded one large ballistic turret to medium.
-  - Reduced FP: 22 -> 18.
-  - Reduced DP: 34 -> 30.
-  - Increased hitpoints: 5000 -> 6500.
-  - Increased armor: 750 -> 800.
-  - Increased max flux: 10000 -> 12000.
-  - Reduced OP: 135 -> 120.
-  - Reduced max speed: 90 -> 75.
-  - Reduced acceleration: 100 -> 80.
-  - Reduced deceleration: 80 -> 60.
-  - Reduced max turn rate: 30 -> 25.
-  - Reduced turn acceleration: 60 -> 35.
-  - Reduced max burn: 9 -> 8.
-  - Reduced shield efficiency: 0.8 -> 1.1.
-- Rebalanced Nushi Mk.II-class Cruiser:
-  - Reduced FP: 20 -> 16.
-  - Reduced DP: 28 -> 25.
-  - Increased hitpoints: 4800 -> 6000.
-  - Increased armor: 650 -> 750.
-  - Increased max flux: 11000 -> 12000.
-  - Reduced flux dissipation: 700 -> 550.
-  - Reduced OP: 145 -> 120.
-  - Reduced max speed: 90 -> 85.
-  - Reduced acceleration: 110 -> 80.
-  - Reduced deceleration: 90 -> 60.
-  - Reduced max turn rate: 40 -> 25.
-  - Reduced turn acceleration: 80 -> 35.
-  - Increased mass: 1600 -> 1750.
-  - Reduced max burn: 10 -> 8.
-  - Reduced shield efficiency: 0.7 -> 1.0.
-- Rebalanced Yunu-class Combat Freighter:
-  - Increased armor: 750 -> 850.
-  - Reduced max flux: 20000 -> 16000.
-  - Reduced flux dissipation: 1000 -> 800.
-  - Reduced OP: 190 -> 160.
-  - Reduced max burn: 9 -> 7.
-  - Reduced shield efficiency: 1.0 -> 1.4.
-- Rebalanced Altais-class Battlecruiser:
-  - Reduced FP: 26 -> 22.
-  - Reduced max burn: 8 -> 7.
-  - Reduced shield efficiency: 1.0 -> 1.1.
-- Rebalanced Alwaid-class Battlecarrier:
-  - Reduced FP: 36 -> 34.
-  - Reduced armor: 1500 -> 1200.
-  - Reduced max flux: 46500 -> 30000.
-  - Reduced flux dissipation: 1850 -> 1200.
-  - Reduced OP: 350 -> 320.
-  - Reduced max burn: 7 -> 6.
-- Rebalanced Dziban-class Battlecruiser:
-  - Reduced FP: 24 -> 22.
-  - Reduced armor: 1200 -> 1100.
-  - Reduced flux dissipation: 1100 -> 900.
-  - Reduced max burn: 8 -> 7.
-- Rebalanced Kuma-class Battleship:
-  - Reduced FP: 32 -> 30.
-  - Reduced base value: 500,000 -> 450,000.
-  - Reduced armor: 1200 -> 1000.
-  - Increased max flux: 22500 -> 28000.
-  - Reduced flux dissipation: 1600 -> 1100.
-  - Increased OP: 265 -> 270.
-  - Reduced max burn: 7 -> 6.
-  - Reduced shield efficiency: 1.2 -> 1.4.
-- Rebalanced Asuia-class Cruiser:
-  - Reduced max flux: 16000 -> 14000.
-  - Reduced flux dissipation: 800 -> 700.
-  - Reduced OP: 140 -> 105.
-  - Reduced max burn: 9 -> 8.
-- Rebalanced Grumium Heavy Bomber:
-  - Reduced op cost: 18 -> 16.
-- Rebalanced Grumium Heavy Fighter:
-  - Removed Ammofeed ship system.
-  - Changed wing formation: BOX -> V.
-  - Reduced op cost: 20 -> 18.
-- Rebalanced Mangonel Gun Launcher:
-  - Reduced flux/shot: 1500 -> 1200.
-- Rebalanced Twin Spear Cannon:
-  - Reduced chargedown: 4 -> 3.
-- Rebalanced Longsword Autocannon:
-  - Decreased Rarity: 0.5 -> 0.7.
-  - Reduced impact: 75 -> 50.
-  - Reduced ammo: 9 -> 6.
-  - Improved reload rate: 0.35 -> 0.5 ammo/sec.
-- Rebalanced Fragarach Railgun:
-  - Increased OP cost: 28 -> 30.
-  - Increased base value: 3,200 -> 4,200.
-  - Changed primary role tag: Anti Armor -> General.
-- Rebalanced Micro Bardiche Launcher:
-  - Increased range: 1000 -> 1500.
-- Rebalanced Bardiche MLRS Launcher:
-  - Reduced range: 2000 -> 1500.
-- Rebalanced Phase Torpedo Array (system weapon):
-  - Reduced damage: 2000 -> 1000.
-- Rebalanced Kestros Autocannon (fighter):
-  - Reduced range: 700 -> 600.
-  - Reduced flux/shot: 15 -> 10.
-  - Improved fire rate (chargedown: 0.125 -> 0.1).
-- Adjusted Jammer Suite ship system timing:
-  - Breach Jammer: Increased charge up/down: 0.1 -> 0.5.
-  - Pulsar Jammer: Added charge up/down: 0.5.
-  - Blackout Jammer: Added charge up/down: 0.1.
-
-FACTION CHANGES:
-- Increased combat freighter spawn probability in fleet compositions: 1.25 -> 1.5.
-- Updated fleet role assignments:
-  - Alsafi now properly assigned to tanker role.
-  - Alsafi (Cargo) now assigned to freighter role.
-  - Yunu removed from freighter role; kept as primary combat freighter.
-
-MINOR IMPROVEMENTS:
-- Changed Jormungandr so it stays opposite Vorium.
-- Improved Missile Barrage ship system status string formatting.
-- Updated Alsafi sprite to distinguish tanker variant.
-- Renamed "Auto Flare Launcher" hullmod to "Autoflare Dispenser".
-  - Increased detection range: 800 -> 900.
-  - Increased cooldown: 8 -> 12 sec.
-  - Updated hullmod icon.
-- Reworked Plasma Jets ship system timing:
-  - Faster activation (charge up: 1 -> 0.5).
-  - Doubled active duration: 3 -> 6.
-  - Faster deactivation (charge down: 3 -> 0.5).
-  - Reduced cooldown: 6 -> 5.
-- Improved Evasion Protocol flare countermeasures:
-  - Increased effect range: 300 -> 400.
-  - Increased effect chance: 0.3 -> 0.4.
-  - Reduced flare visual size.
-- Adjusted weapon sound effects (Fragarach pitch, Longsword volume).
-- Kestros Autocannon now uses a dedicated projectile and custom fire sound.
-- Updated Durendal Cannon muzzle flash visuals.
-- Refactored jammer suite ring visual effects for improved performance.
-- Reworked SLAP-ER mist cloud parameters (reduced radius and lifetime).
-
-Version 0.6.5 (Save-compatible with 0.6.4)
-NEW CONTENT:
-- NEW: Nushi Mk.II Cruiser - A supply-constrained variant of the Nushi.
-  - Swaps the two large mounts for medium mounts and the Flux Cycler for Plasma Jets.
-  - Faster and more agile than the original; more of a glass cannon.
-  - Plasma Jets ship system - Extreme top speed and maneuverability boost.
-- NEW: Culverin Coilgun - Medium ballistic weapon with HE and EMP damage.
-
-BALANCE CHANGES:
-- Rebalanced Giausar Destroyer:
-  - Added built-in hangar + assault drone wing.
-  - Changed ship system: Assault Drones -> Reserve Wing.
-  - Added built-in Defensive Targeting Array hullmod.
-- Rebalanced Assault Drone:
-  - Changed built-in hullmod: Point Defense AI -> Terminator Core.
-- Rebalanced Nushi Cruiser:
-  - Reduced max speed: 95 -> 90.
-  - Increased DP: 32 -> 34.
-- Rebalanced Juza Heavy Cruiser:
-  - Increased FP: 18 -> 24.
-  - Increased DP: 32 -> 35.
-- Rebalanced Kuma Battleship:
-  - Decreased min crew: 700 -> 300.
-  - Increased max crew: 1500 -> 2500.
-  - Mainly to increase its usefulness as a colony ship.
-
-FACTION CHANGES:
-- Increased Draconis AI core purchase value multiplier: 3x -> 4x.
-- Renamed fleet types for clarity:
-  - "Shadow Picket" -> "Shadow Convoy".
-  - "Resupply Convoy" -> "Supply Convoy".
-- Added proper liner role ship assignments to default ship roles.
-- Reduced Juni Support weight in fleet compositions: 1.0 -> 0.5.
-- Added Nushi Mk.II variants to default ship roles.
-
-MINOR IMPROVEMENTS:
-- Reworked the Evasion Protocol ship system.
-  - Now fires a burst of flares instead of one per system weapon slot.
-  - AI-controlled ships will now attempt to ram enemies in their forward arc while active.
-  - Ship mass is temporarily increased during activation to aid ramming physics.
-- Refactored the AI core management system to use a centralized stockpile.
-  - Stolen, recovered, and donated cores that can't be immediately installed now
-    persist to the stockpile and are retried daily.
-  - Diplomatic strain from theft is now applied even when no installation slots are free.
-- Reordered AI core placement priority: Commerce now ranks above Megaport.
-- Added a proper tracker for total cores seized.
-  - This will probably get a proper usage later on.
-- Adjusted DRACON settings to be a bit less crazy. Hopefully.
-
-BUG FIXES:
-- Fixed colony expeditions failing because of a poorly set default_ship_roles.
-- Fixed significant performance issue causing freezes and slowdowns after founding a colony.
-  - The colony crisis system was logging at INFO level inside methods called every frame for
-    every star system, causing thousands of log writes per second in heavily modded games.
-  - Fixed double market scan in the crisis magnitude calculation - was scanning all markets
-    twice per system per call instead of once.
-  - Removed a periodic diagnostic loop that iterated all star systems every 10 seconds.
-
-Version 0.6.4 (Save-compatible with 0.6.3)
-BUG FIXES:
-- Actually fixed The Rift this time, honest!
-
-Version 0.6.3 (Save-compatible with 0.6.2)
-MINOR IMPROVEMENTS:
-- Add some SFX to the Rift.
-- Cleaned up some scripts.
-
-BUG FIXES:
-- General bugfixing.
-- Fixed The Rift not properly applying to non-player fleets.
-
-Version 0.6.2 (Save-compatible with 0.6.1)
-MINOR IMPROVEMENTS:
-- Cleaned up some scripts.
-
-BUG FIXES:
-- General bugfixing.
-- Fixed a ConcurrentModificationException crash with XLII_SystemBurnOnHitEffect.
-- Fixed some mistakes in descriptions.csv.
-
-Version 0.6.1 (Save-compatible with 0.6.0)
-NEW CONTENT:
-- NEW: DRACON threat system - Should give Draconis some campaign level staying power now.
-  - Effectively replaces the old Steel Curtain system for Nexerelin users.
-- NEW: Nushi-class Cruiser - Three large mounts!? A silly little guy.
-
-BALANCE CHANGES:
-- Rebalanced Eltanin-class Light Cruiser:
-  - Added Headache ECM Suite hullmod.
-- Rebalanced Juza-class Heavy Cruiser:
-  - Increased OP: 30 -> 32.
-- Rebalanced Twin Spear Cannon:
-  - Reduced OP: 28 -> 26.
-- Rebalanced Fragarach Railgun:
-  - Increased Damage: 800 -> 900.
-  - Added EMP Damage: 900.
-  - Increased Flux/shot: 1200 -> 1250.
-  - Increased chargedown: 3 -> 4.
-- Rebalanced Longsword Autocannon:
-  - Reduced Range: 1200 -> 1000.
-  - Reduced Chargedown: 2 -> 1.5.
-  - Redueced Burst Delay: 0.5 -> 0.25.
-- Rebalanced Razor Flak Cannon:
-  - Reduced Flux/shot: 4 -> 2.
-
-SOUND CHANGES:
-- Swapped Longsword and Fragarach fire sounds.
-
-MINOR IMPROVEMENTS:
-- Improved some of the variants.
-- Improved the FX for the Fragarach Railgun.
-- Added check to see if Draconis controls Kori
-  - If not, the Admiral is removed from the Market, he returns if Draconis recaptures it.
-- Updated the AIO/XLII Battlegroup Flag. Nihil nisi ultio.
-
-BUG FIXES:
-- Fixed bug where XLII_durendal_mkii_fire referenced _03.ogg twice and skipped _02
-- Fixed some mistakes in rules.csv.
-
-Version 0.6.0
-NEW CONTENT:
-- NEW: Expanded the Fafnir system, new planets, some background lore too! Free story point at Fafnir's (now) broken Gate.
-- NEW: Grumium-class Fighter Bomber - Sturdy bomber wing with guided bombs.
-- NEW: Yunu-class Cruiser - Multirole Transport/Support ship.
-  - NEW: Missile Barrage ship system - Rapid-fire missile launch system with stat bonuses.
-- NEW: Phase Torpedo Array ship system - Deploys guided phase torpedoes for the Shaowei.
-- NEW: The Rift terrain - Custom hyperspace anomaly surrounding Fafnir system with enhanced particle storms.
-- OLD: Aldhibah-class Frigate:
-  - NEW: Added Improved Systems hullmod - Increases ship system charges and reduces cooldown.
-- NEW: Shaowei animated wing decoratives - Dynamic wing elements for visual effects.
-- NEW: Cestus Gun Launcher - Medium energy gun launcher with heavy EMP.
-- NEW: Sovnya Burst Lance - Large energy beam weapon for kinetic damage.
-- NEW: Loading tips lore - Just some lore fluff (Check \data\strings\tips.json to remove).
-- NEW: Proper weapon covers - Visual improvements for weapon mounts.
-- NEW: The XLII Battlegroup has been given a unique mechanic, something, something 'Mist Eaters'.
-
-SYSTEM CHANGES:
-- Enhanced some effects with GraphicsLib integration.
-- New hull related sounds with new effects.
-
-CAMPAIGN CHANGES:
-- Added 'The Rift' custom terrain to Fafnir system with unique visuals and some campaign effects.
-- Reworked the Fafnir star system, now the player has room to take some uninhabited planets through force or commission.
-- Removed unneeded campaign channels configuration (channels.json deleted).
-- Streamlined world generation (removed static economy.json and starmap.json in favor of class-based generation).
-
-EXERELIN INTEGRATION:
-- Updated Draconis faction configuration for better strategic behavior. AGAIN. I cannot be stopped.
-- Enhanced AI core donation and theft systems.
-
-BALANCE CHANGES:
-- Rebalanced Aldibain Fighter:
-  - Reduced Hitpoints: 750 -> 500.
-  - Reduced Armor: 250 -> 100.
-  - Increased Max Flux: 750 -> 1000.
-  - Reduced Max Speed: 275 -> 235.
-  - Reduced Acceleration: 500 -> 350.
-  - Reduced Deceleration: 450 -> 350.
-  - Reduced Max Turn Rate: 150 -> 120.
-  - Reduced Turn Acceleration: 360 -> 300.
-  - Increased Shield Arc: 120 -> 160.
-- Rebalanced Eldsich Fighter:
-  - Reduced Hitpoints: 450 -> 350.
-  - Reduced Armor: 75 -> 25.
-  - Increased Max Flux: 350 -> 500.
-  - Changed Shield Type: OMNI -> FRONT.
-  - Increased Shield Arc: 120 -> 200.
-- Rebalanced Tianyi Fighter:
-  - Reduced Hitpoints: 600 -> 350.
-  - Reduced Armor: 100 -> 75.
-  - Changed Shield Type: OMNI -> FRONT.
-  - Increased Shield Arc: 120 -> 200.
-- Rebalanced Nodus Fighter:
-  - Reduced Shield Arc: 240 -> 200.
-- Rebalanced Alruba-class Frigate:
-  - Increased Max Flux: 3000 -> 4500.
-  - Increased Flux Dissipation: 250 -> 360.
-  - Increased Shield Efficiency: 0.8 -> 1.2.
-  - Reduced Max Crew: 35 -> 30.
-  - Increased Fuel: 25 -> 35.
-  - Increased CR to Deploy: 10 -> 15.
-- Rebalanced Alruba Mk.II-class Frigate:
-  - Increased Max Flux: 3000 -> 4700.
-  - Increased Flux Dissipation: 250 -> 380.
-  - Increased Shield Efficiency: 0.7 -> 1.1.
-  - Increased Fuel: 25 -> 40.
-  - Increased CR to Deploy: 10 -> 15.
-  - Increased Base Value: 14000 -> 15000.
-- Rebalanced Thuban-class Corvette:
-  - Increased Max Flux: 3500 -> 5300.
-  - Increased Flux Dissipation: 200 -> 425.
-  - Increased Shield Efficiency: 0.8 -> 1.2.
-  - Increased Fuel: 20 -> 35.
-  - Increased CR to Deploy: 10 -> 15.
-  - Increased Base Value: 18000 -> 20000.
-- Rebalanced Aldhibah-class Frigate:
-  - Increased Max Flux: 2250 -> 3500.
-  - Increased Flux Dissipation: 150 -> 280.
-  - Increased Shield Efficiency: 0.7 -> 1.1.
-  - Increased Max Crew: 30 -> 35.
-  - Increased Fuel: 20 -> 40.
-  - Reduced CR to Deploy: 20 -> 15.
-  - Increased Base Value: 12000 -> 14000.
-- Rebalanced Giausar-class Destroyer:
-  - Increased Max Flux: 6000 -> 9000.
-  - Increased Flux Dissipation: 250 -> 540.
-  - Increased Shield Efficiency: 0.8 -> 1.2.
-  - Reduced CR to Deploy: 20 -> 15.
-- Rebalanced Errakis-class Destroyer:
-  - Increased Max Flux: 4200 -> 6300.
-  - Increased Flux Dissipation: 200 -> 380.
-  - Increased Shield Efficiency: 0.8 -> 1.2.
-  - Increased Peak CR: 240 -> 300.
-- Rebalanced Rastaban-class Destroyer:
-  - Increased Max Flux: 6000 -> 8700.
-  - Increased Flux Dissipation: 400 -> 525.
-  - Increased Shield Efficiency: 0.9 -> 1.3.
-  - Reduced CR to Deploy: 20 -> 15.
-- Rebalanced Shaobi-class Light Carrier:
-  - Changed Ship System: Reserve Wing -> Flare Launcher. Reserve Wing is just too silly.
-  - Reduced FP: 13 -> 12.
-  - Reduced DP: 15 -> 14.
-  - Increased Max Flux: 6000 -> 8000.
-  - Increased Flux Dissipation: 400 -> 480.
-  - Increased Shield Efficiency: 0.9 -> 1.3.
-  - Increased Peak CR: 240 -> 300.
-- Rebalanced Alsafi-class Freighter:
-  - Reduced Flux Dissipation: 110 -> 105.
-  - Increased Min Crew: 10 -> 20.
-  - Increased Max Crew: 20 -> 40.
-  - Reduced CR to Deploy: 20 -> 15.
-- Rebalanced Shaowei-class Phase Destroyer:
-  - Changed Ship System: Temporal Dash -> Phase Torpedo Array.
-  - Reduced FP: 26 -> 22.
-  - Reduced Hitpoints: 4000 -> 3500.
-  - Reduced Armor: 700 -> 400.
-  - Increased Flux Dissipation: 450 -> 600.
-  - Increased Ordnance Points: 90 -> 95.
-  - Increased Max Speed: 120 -> 140.
-  - Increased Deceleration: 80 -> 90.
-  - Reduced Max Turn Rate: 60 -> 50.
-  - Reduced Turn Acceleration: 70 -> 60.
-  - Reduced Min Crew: 50 -> 35.
-  - Reduced Max Crew: 100 -> 75.
-  - Reduced CR %/Day: 10 -> 5.
-  - Increased Peak CR: 240 -> 300.
-- Rebalanced Eltanin-class Light Cruiser:
-  - Increased DP: 16 -> 18.
-  - Increased CR to Deploy: 12 -> 15.
-- Rebalanced Juni-class Cruiser:
-  - Reduced FP: 15 -> 14.
-  - Reduced Max Flux: 14000 -> 12000.
-  - Increased Max Speed: 80 -> 85.
-  - Increased Mass: 1100 -> 1200.
-  - Reduced Shield Efficiency: 1.2 -> 1.0.
-  - Increased Cargo: 125 -> 200.
-  - Increased Fuel: 100 -> 250.
-  - Increased CR to Deploy: 12 -> 15.
-- Rebalanced Juza-class Heavy Cruiser:
-  - Reduced OP: 35 -> 30.
-  - Reduced FP: 25 -> 18.
-  - Reduced Max Crew: 300 -> 250.
-  - Reduced Cargo: 180 -> 150.
-  - Increased Fuel: 150 -> 200.
-  - Increased CR to Deploy: 12 -> 15.
-  - Increased Peak CR: 320 -> 420.
-- Rebalanced Kuma-class Battleship:
-  - Changed Ship System: Safety Overrides -> Fortress Shield.
-- Rebalanced Alwaid-class Battlecarrier:
-  - Increased Max Flux: 30000 -> 46500.
-  - Increased Flux Dissipation: 1200 -> 1850.
-  - Increased Shield Efficiency: 0.9 -> 1.4.
-  - Reduced CR %/Day: 4 -> 3.
-- Rebalanced Asuia-class Cruiser:
-  - Changed Ship System: Flare Launcher -> Temporal Dash.
-  - Increased Max Flux: 10000 -> 16000.
-  - Increased Flux Dissipation: 600 -> 800.
-  - Increased Shield Efficiency: 0.6 -> 1.0.
-  - Reduced CR %/Day: 5 -> 4.
-- Rebalanced Sunsetter-class Battleship:
-  - Reduced CR %/Day: 5 -> 3.
-- Rebalanced Estoc Flak Cannon:
-  - Increased Magizine size: 30 -> 60.
-  - Increased Range: 350 -> 450.
-  - Reduced Damage: 25 -> 20.
-  - Increased Impact: 0 -> 1.
-  - Reduced Turn Rate: 500 -> 150.
-  - Improved Chargedown: 0.06 -> 0.04.
-- Rebalanced Razor Flak Cannon:
-  - Increased Impact: 0 -> 1.
-- Rebalanced Longsword Autocannon:
-  - Changed Tier: 2 -> 3.
-  - Added Rarity: 0.5.
-  - Increased Base Value: 1800 -> 2600.
-  - Reduced Damage: 530 -> 440.
-  - Increased Impact: 15 -> 75.
-  - Increased Ammo: 6 -> 9.
-  - Added Reload Mechanics: 0.35 ammo/sec, reload size 2.
-  - Increased Chargedown: 1.5 -> 2.
-  - Added Burst Fire: 2 shots per burst, 0.5s delay.
-  - Increased Flux Cost: 400 -> 700.
-- Rebalanced Mangonel Gun Launcher:
-  - Increased Rarity: 0.8 -> 0.5.
-- Rebalanced Twin Spear Cannon:
-  - Increased Rarity: 0.9 -> 0.8.
-- Rebalanced Fragarach Railgun:
-  - Increased Turn Rate: 4 -> 6.
-  - Increased Rarity: 0.6 -> 0.5.
-- Rebalanced Particle Burst Lance:
-  - Increased Rarity: 0.9 -> 0.8.
-- Rebalanced Swordbreaker SRM Launcher:
-  - Reduced Range: 1200 -> 1000.
-  - Reduced Damage: 300 -> 250.
-  - Removed EMP Damage: 300 -> 0.
-  - Reduced Ammo: 90 -> 40.
-  - Reduced Flight Time: 7 -> 6.
-- Rebalanced Micro Bardiche MRM Launcher:
-  - Reduced EMP Damage: 500 -> 250.
-  - Increased Burst Delay: 0.25 -> 0.3.
-  - Increased Flight Time: 6 -> 16.
-- Rebalanced Bardiche MRM Launcher:
-  - Reduced EMP Damage: 500 -> 250.
-  - Increased Burst Size: 5 -> 8.
-  - Increased Chargedown: 3 -> 5.
-  - Increased Flight Time: 6 -> 16.
-- Rebalanced all Halberd Torpedo variants:
-  - Increased Damage: 4000 -> 5000.
-- Rebalanced Bardiche MRM Launcher (built-in):
-  - Reduced EMP Damage: 500 -> 250.
-  - Added Burst Delay: 0.2s.
-  - Increased Chargedown: 3 -> 4.
-  - Increased Flight Time: 6 -> 16.
-- Rebalanced Arquebus SRM Launcher:
-  - Reduced Range: 1000 -> 800.
-  - Reduced Damage: 100 -> 50.
-  - Removed Impact: 5 -> 0.
-  - Increased Chargedown: 3 -> 5.
-  - Increased Launch Speed: 50 -> 150.
-  - Increased Flight Time: 5 -> 6.
-- Rebalanced Falchion-class Torpedo:
-  - Reduced Range: 1500 -> 1200.
-  - Reduced Missile HP: 500 -> 250.
-
-TECHNICAL IMPROVEMENTS:
-- Added GraphicsLib dependency.
-- Consolidated XLII_RetreatDrive into unified XLII_DraconisHull hullmod.
-- Reorganized hullmod package structure - moved status scripts to hullmods package.
-- Reorganized mod plugin structure for better maintainability.
-- Enhanced world generation system with custom terrain plugin architecture.
-- Added custom terrain plugin system for The Rift.
-- Improved AI core acquisition system logging.
-- Updated MagicLib trail data integration.
-- Refined settings.json configuration options.
-
-MINOR IMPROVEMENTS:
-- Added hull system icon for Phase Torpedo Array.
-- Added hull system icon for Missile Barrage (venting flux visual).
-- Updated graphics for the Fragarach, Bardiche and Halberd weapons.
-- Enhanced character faction assignments for combat chatter.
-- Improved character dialogue and personality variations.
-- Updated missile graphics with glow layers (phase torpedoes, pike missiles).
-- Improved weapon sound effects (Cestus autocannon, Longsword autocannon).
-- Enhanced faction default ship roles.
-- Code cleanup and optimization across multiple Java classes.
-
-BUG FIXES:
-- Fixed an AI Expedition related crash.
-- Fixed AI Core theft intel notification not expiring.
-- Fixed poorly implemented AdvancedGunneryControl mod support.
-
-LICENSE:
-- Added and specified licensing.
-
-REMOVALS:
-- REMOVED: Javelin MLRS weapon - replaced by Pike MRM system.
-- REMOVED: Unused Sabre torpedo (standalone weapon) - integrated into ship system weapons.
-
-Version 0.5.8 (Save-compatible with 0.5.7)
-BUG FIXES:
-- Forgot to add the updated default_ship_roles.json.
-- Changed some of the military market tags.
-
-Version 0.5.7 (Save-compatible with 0.5.6)
-NEW CONTENT:
-- NEW: Aldhibah-class Frigate - Fast attack frigate based off of the Wolf-class.
-- NEW: Longsword Autocannon - Large ballistic weapon for sustained anti-shield firepower.
-
-BALANCE CHANGES:
-- Evasion Protocol ship system no longer lowers shields when active.
-- Rebalanced Juni:
-  - Increased Shield Efficiency: 1.4 -> 1.2.
-- Rebalanced Thuban:
-  - Reduced Cost: 20000 -> 18000.
-- Rebalanced Alruba MK.I:
-  - Reduced DP: 8 -> 6.
-- Rebalanced Particle Burst Lance:
-  - Reduced flux/s: 1250 -> 1000.
-- Rebalanced Estoc Flak Cannon:
-  - Reduced OP cost: 5 -> 4.
-- Rebalanced all Bardiche MRM variants:
-  - Increased EMP damage: 250 -> 500 (all variants).
-  - Micro Bardiche: Reduced OP cost: 5 -> 4, increased max ammo: 50 -> 100.
-  - Bardiche: Reduced OP cost: 10 -> 8, increased max ammo: 200 -> 400.
-
-NEXERELIN CHANGES:
-- Reworked diplomacy stuff:
-  - Most major factions now start at a negative relationship.
-- Increased colony expansion rate.
-- Buffed ground combat effectiveness:
-  - Added +25% attack multiplier.
-  - Added +25% defense multiplier.
-- Special forces adjustments:
-  - Reduced special forces size multiplier: 4 -> 2. Was a little silly.
-  - Implemented custom Roman numeral naming system for special forces fleets.
-
-PROGRESSIVE DIFFICULTY ADJUSTMENTS:
-- Accelerated AI core scaling timeline for faster mid/late-game progression:
-  - Mid-game transition: cycle 226 -> 216 (5-10 cycles instead of 5-20).
-  - Late-game start: cycle 226 -> 216.
-  - Late-game peak: cycle 256 -> 236 (30 cycles instead of 50).
-  - End-game start: cycle 256 -> 236.
-  - Maximum saturation: cycle 306 -> 256 (50 cycles total instead of 100).
-- Recheck interval for AI core assignment shortened: 120 days -> 60 days.
-  - Note: Settings adjustable in data/config/settings.json.
-
-MINOR IMPROVEMENTS:
-- Updated the old MagicLib Bounty descriptions, finally.
-- Updated ship variants across the fleet to fit OP changes.
-- Reworked of Breach Jammer AI, should be MUCH better now.
-
-Version 0.5.6 (Save-compatible with 0.5.5)
-BUG FIXES:
-- Forgot to add the DO_NOT_AIM tag for the Javelin.
-
-Version 0.5.5 (Save-compatible with 0.5.4)
-BUG FIXES:
-- Removed some random values that were in ship_data.csv.
-
-BALANCE CHANGES:
-- Rebalanced Javelin MLRS:
-  - Changed mauravbility to make it usable on rear facing mounts.
-  - Added proper fading when reaching weapon range.
-- Changed how XLII ships are costed:
-  - REP cost is now 1/2/3/4 based on hull size.
-  - Credit cost is still 2* the original hull.
-
-Version 0.5.4 (Save-compatible with 0.5.3)
-BUG FIXES:
-- Fixed issue with Admiral August not selling the rights ships, stingy bastard.
-
-BALANCE CHANGES:
-- Rebalanced Aldibain:
-  - Reduced OP cost: 14 -> 9.
-- Rebalanced Tianyi:
-    - Reduced OP cost: 16 -> 14.
-- Rebalanced Arquebus SRM Launcher.
-  - Reduced range: 1500 -> 1000.
-  - Reduced burst size: 2 -> 1.
-
-MINOR IMPROVEMENTS:
-- Add FXs to the Fragarch Railgun.
-- Changed .variant files.
-
-Version 0.5.3 (Save-compatible with 0.5.2)
-BALANCE CHANGES:
-- Rebalanced Dziban:
-  - Changed vanilla Lidar ship system to custom one.
-    - Reduces max speed and acceleration/deceleration when used.
-  - Max speed increased: 50 -> 60.
-  - Acceleration increased: 20 -> 25.
-  - Deceleration increased: 15 -> 20.
-  - Max turn rate reduced: 12 -> 11.
-  - Turn acceleration reduced: 12 -> 11.
-
-MINOR IMPROVEMENTS:
- - Updated some hardpoint weapon sprites to better fit their mounts.
- - Added unique engine SFXs.
-
-Version 0.5.2 (Save-compatible with 0.5.1)
-NEW CONTENT:
-- NEW: Dziban-class Battlecruiser - Long-range fire support battlecruiser.
-
-BALANCE CHANGES:
-- Rebalanced Kuma-class Battleship for greater weapon loadout flexibility:
-  - Large turrets no longer have built-in Fragarach railguns (changed from BUILT_IN to HYBRID mounts).
-  - Small wing turrets changed from HYBRID to BALLISTIC type.
-  - Rear hardpoint changed from UNIVERSAL to MISSILE type.
-  - Max flux reduced: 25000 -> 22500.
-  - Flux dissipation reduced: 2250 -> 1600.
-  - Shield arc increased: 180 -> 240.
-  - Shield efficiency increased: 1.4 -> 1.2.
-  - Max speed reduced: 50 -> 45.
-  - Acceleration increased: 5 -> 12.
-  - Deceleration increased: 10 -> 12.
-  - Turn acceleration increased: 4 -> 6.
-- Giausar-class OP reduced: 18 -> 10.
-- Shaobi-class now classified as combat carrier (added COMBAT tag).
-- Eltanin-class OP increased: 14 -> 16.
-- Altais-class ordnance points increased: 280 -> 305.
-- Rebalanced Twin Spear Cannon for reduced alpha strike capability (now fits more as a disabler):
-  - Damage per shot reduced: 650 -> 400.
-  - EMP damage per shot increased: 250 -> 500.
-  - Turn rate reduced: 10 -> 9.
-  - OP increased: 26 -> 28.
-  - Flux cost increased: 550 -> 700.
-  - Min Spread increased: 1 -> 2.
-  - Max Spread increased: 5 -> 8.
-- Fragarach Railgun OP increased: 28 -> 30.
-- Mangonel Gun Launcher turn rate increased: 9 -> 12.
-- Swordbreaker SRM Launcher missile health increased: 1 -> 25.
-- Bardiche MRM Launcher (all variants) missile health increased: 50 -> 100.
-- Halberd-class Torpedo ammo reduced: 3 -> 2, OP reduced: 12 -> 8.
-- Halberd-class Torpedo Pod ammo increased: 4 -> 6, OP reduced: 14 -> 12.
-- Arquebus SRM Launcher flight time increased: 3.75 -> 5.
-- Falchion-class Torpedo missile health reduced: 1000 -> 500.
-- ECM Suite (Tianyi-class Fighter) range reduced: 500 -> 250 to prevent excessive area denial.
-
-ADVANCED GUNNERY CONTROL IMPROVEMENTS:
-- Significantly expanded weapon AI tag support for better integration with Advanced Gunnery Control mod.
-
-MINOR IMPROVEMENTS:
-- Added more ships to the mission High Orbit.
-- Added Dziban-class to title screen rotation.
-- Updated fleet composition tables to include new battlecruiser.
-
-Version 0.5.1 (Save-compatible with 0.5.0)
-BUG FIXES:
-- Fixed AI Core Fleet Scaling system not properly assigning cores to spawned fleets.
-  - PREVIOUS BUG: System only processed fleets when standing down at bases, but fleets despawned in that state.
-  - FIX: Removed standing down requirement - fleets now receive cores immediately when spawned (any assignment).
-  - Added periodic recheck system (configurable interval, default: 120 days) to handle:
-    - Coverage percentage increases as game progresses (30% -> 70% -> 100%).
-    - Replacing AI cores lost in combat.
-    - Filling new empty officer slots.
-- Fixed AI Core distribution using incorrect cycle thresholds.
-  - PREVIOUS BUG: Thresholds assumed relative cycles (0-100), but Starsector campaigns start at cycle ~206.
-  - This caused fleets to immediately receive endgame AI cores (Alpha/Beta) instead of early-game Gamma cores.
-  - FIX: Updated cycle thresholds to absolute values (206-306) to properly track campaign progression.
-  - Settings.json updated with clear documentation of absolute cycle numbers.
-- Fixed AI Core Theft intel incorrectly reporting self-theft after successful colony capture.
-  - PREVIOUS BUG: When Draconis captured a colony, theft system would still trigger and create intel saying "Draconis stole from Draconis".
-    - Trust Nobody Not Even Yourself...
-  - FIX: Added faction ownership check - theft is now skipped if target market is already Draconis-owned.
-
-Version 0.5.0
-BUG FIXES:
-- Reorganised the AI Raids/Colony Crisis, should be less of a mess.
-- Fixed critical infinite loop bug in AI Core Donation system.
-  - PREVIOUS BUG: Cores of the same tier would displace each other infinitely, causing 20+ second freezes and only admin positions receiving cores.
-  - REDESIGNED: Core installation now processes by strict tier order (Alpha -> Beta -> Gamma).
-  - Each tier has three phases: admin positions (Alpha only), empty industry slots, then upgrades of lower-tier cores.
-  - Added proper upgrade validation using canUpgradeCore() - same-tier "upgrades" are now prevented.
-  - Removed displaced core re-queuing logic - displaced cores are consumed by the upgrade (realistic behavior).
-  - Improved upgrade weighting from 80% to 95% to make higher-tier cores more competitive when displacing lower-tier cores.
-- Fixed Colony Crisis event not ending properly when defeated.
-- Added condition to AI Core raids, the Fleet must actually survive to steal AI Cores.
-
-NEW CONTENT:
-- NEW: Alsafi-class Destroyer - Civilian-grade transport destroyer.
-- NEW: Alruba Mk.II-class Frigate - Advanced upgrade of the original Alruba.
-- NEW: "High Orbit" Mission - Engage Hegemony forces at Kori Station.
-- NEW: Combat Chatter Support - Voice lines for Draconis crews.
-  - Three personalities: Loyalist, Officer, and Veteran.
-- NEW: Lore document "Draconis Lore.pdf" - Comprehensive background on the Draconis Alliance.
-- NEW: Progressive difficulty scaling system - Draconis gains more and better AI Core officers as the game progresses to supplement their forces.
-
-FACTION CHANGES:
-- Renamed XLII Battlegroup sub-faction for clarity and lore consistency.
-  - Updated all ship skins: alruba_FSDF -> alruba_fortysecond (and alwaid, errakis, juza, shaobi).
-  - Renamed variants from FSDF to fortysecond naming convention.
-  - Updated blueprint package: XLII_FSDF_package -> XLII_fortysecond_package.
-  - All sprites and configuration files updated to match new naming.
-
-BALANCE CHANGES:
-- Rebalanced Altais-class Battlecruiser for improved flux management and doctrine alignment:
-  - Hull mod: Expanded Missiles Racks -> Targeting Unit.
-  - Flux vents increased: 39 -> 50.
-  - Flux capacitors increased: 0 -> 4.
-  - Large missile weapons: Halberd Pods (alternating) -> Bardiche (linked).
-  - Medium missile weapons: Bardiche Singles (linked) -> Sabots (alternating).
-  - Improved sustained combat capability with better flux stats.
-
-- Missile Guidance Uplink -> Missile Control Matrix (comprehensive rework):
-  - RENAMED: Missile Guidance Uplink is now Missile Control Matrix.
-  - NEW: Slowly regenerates ammunition for large missile weapons.
-    - Reload interval scales with weapon rate of fire and max ammo.
-    - Formula ensures reload is always slower than fire rate.
-    - Higher max ammo weapons reload individual missiles faster.
-  - NEW: Increases missile health by +50%.
-  - Updated icon to missile autofactory graphic.
-  - Description emphasizes phased array targeting and autoforge fabrication.
-
-- XLII Fleet hull mod significantly enhanced with passive missile defense:
-  - NEW: Integrated electronic warfare suite provides area missile defense.
-  - Defense range = (collision radius × 3) + hull size bonus.
-    - Frigate: +200 range bonus
-    - Destroyer: +150 range bonus
-    - Cruiser: +50 range bonus
-    - Capital: +0 range bonus (base range only)
-  - Each hostile missile within range has 50% chance to be affected.
-  - Effects: Either jam and disable missile OR convert to friendly control and retarget.
-    - Jammed missiles: Disabled, damage set to 0, flamed out (blue particle effect).
-    - Converted missiles: Ownership changed, retargeted at original firing ship, ECCM applied, extended flight time (green particle effect).
-  - Only affects guided missiles for conversion; unguided missiles are always jammed.
-  - Disabled when ship is overloaded, venting, phased, or retreating.
-  - Missiles are processed once to avoid repeated dice rolls.
-  - Description updated to reflect new defensive capabilities.
-
-- Removed starting AI core from Kori's High Command facility.
-
-MINOR IMPROVEMENTS:
-- AI Core system code reorganization for better maintainability:
-  - Moved AI core raid classes from intel/events/aicore/ to intel/aicore/raids/.
-  - Improved package structure and separation of concerns.
-  - Files moved: DraconisAICoreActivityCause, DraconisAICoreRaidFactor, DraconisAICoreRaidIntel, DraconisAICoreRaidManager.
-- Mod plugin logging improvements:
-  - Implemented proper Log4j Logger instead of direct Global.getLogger() calls.
-  - Improved startup logging with clear mod initialization status.
-  - Better error handling with try-catch blocks and fallback values.
-- NEW: Configuration toggles for raid systems:
-  - Added draconisEnableAICoreRaids setting (default: true).
-  - Added draconisEnableRemnantRaids setting (default: true).
-  - Settings loaded from settings.json with fallback on errors.
-  - Status logged during mod initialization.
-
-Version 0.4.3 (Save-compatible with 0.4.0)
-- I may of missed some things... >.>
-- Fixed multiple ConcurrentModificationException crashes in AI Core systems.
-  - Added defensive collection copying when iterating over market industries.
-  - Affects AI Core Theft, Remnant Raids, Donations, and Activity tracking systems.
-  - Prevents crashes in multi-threaded campaign environment.
-
-Version 0.4.2 (Save-compatible with 0.4.0)
-- Fixed ConcurrentModificationException crash in AI Core Acquisition system during core redistribution.
-  - Replaced for-each loop with index-based iteration to safely handle displaced cores.
-  - Resolves crash when raiding markets with multiple AI cores.
-
-Version 0.4.1 (Save-compatible with 0.4.0)
-- Fixed ConcurrentModificationException crash in AI Core Donation system when displacing lower-tier cores.
-  - Core installation now processes in rounds to safely handle displaced cores.
-  - Added infinite loop protection with maximum round limit.
-
-Version 0.4.0
-- WARNING: Breaking change - NOT compatible with saves from 0.3.5 or earlier.
-  - Complete internal restructuring: all IDs renamed from fsdf_ to XLII_ prefix.
-  - All ships, weapons, systems, and variants have new identifiers.
-
-NEW CONTENT:
-- Added a new Character, the enigmatic Fleet Admiral Emil August!
-- Added new sub-faction: XLII Battlegroup (Draconis Defence Special Forces).
-  - Elite fleet compositions with carrier doctrine.
-  - 5 new special forces ship skins: Alruba, Alwaid, Errakis, Juza, Shaobi (purchased from Emil August!)
-  - XLII-exclusive variants for high-end fleet encounters.
-- Added 3 faction music tracks for dynamic encounter atmosphere.
-  - Unique themes for friendly, neutral, and hostile encounters.
-  - Thanks to the brilliant work of Ed Harrison (with permissions)!
-- Added support for Commissioned Crews.
-- Added Halberd Pod weapon variant.
-
-NEXERELIN INTEGRATION:
-- NEW: AI Core Acquisition System - Draconis actively pursues AI cores.
-  - Faction will identify and raid markets with valuable AI cores.
-  - High Value Target scanner prioritizes core-rich markets.
-  - Steel Curtain market condition marks high-security targets.
-  - New intel events track AI core thefts and targeted raids.
-  - Comprehensive raid monitoring with success/failure tracking.
-  - Strict engagement requirements: combat proximity + minimum dwell time.
-  - Diplomatic strain system based on stolen core value:
-    - Alpha Core: -4.8 disposition
-    - Beta Core: -3.2 disposition
-    - Gamma Core: -2.0 disposition
-  - Bidirectional diplomatic penalties (affects both factions).
-- Enhanced strategic AI behavior and faction interactions.
-- Improved patrol fleet spawning and hostile activity systems.
-
-BALANCE CHANGES:
-- Time Slip system rebalanced for faster cycling.
-  - Flux cost: 4 -> 3.
-  - Cooldown: 10s -> 6s.
-  - Charges: 2 -> 1 (single powerful use).
-  - Regen time: 10s -> 12s.
-- Retreat Drive (Draconis warp mechanic) major improvements.
-  - Now only triggers on Direct Retreat order (you now have the option for a regular retreat).
-  - Faster charge times: Destroyer 8->7s, Cruiser 10->8s, Capital 12->9s.
-  - Fixed bug with disabled ships warping despite being dead.
-  - Added safety checks to prevent crashes during warp.
-
-QUALITY OF LIFE:
-- [REDACTED] hull mod description completely rewritten.
-  - Clear mechanics explanation with exact percentages.
-  - 20% hull restore, 25% per module, 35% cooldown reduction.
-- Campaign rules added for ship purchasing and faction interactions.
-- Expanded descriptions for ships, weapons, and systems.
-- Complete README rewrite with new Fafnir Civil War lore.
-
-TECHNICAL IMPROVEMENTS:
-- Updated faction configuration and fleet doctrines.
-- Improved sound balancing and audio system integration.
-- Updated engine styles and visual effects.
-- New icons for intel events, markets, and cargo items.
-- Increased AI fleet variant diversity.
-- Fixed ship system CSV references.
-- Corrected sound and visual effect file paths.
-- Fixed variant loadouts and fleet compositions.
-
-Version 0.3.5
-- Added new mechanics to the Sunsetter bounty fight.
-
-Version 0.3.4
-- NEW: Kuma-class capital ship.
-- Added Breach Jammer ship system to the Juni-class.
-- CHANGED: Several weapons now have DoT effect instead of armor stripping.
-  - See Manongel Gun Launcher for example.
-- Added more ship and weapon descriptions.
-- Added/changed ship variants.
-- Improved ship system AI behavior.
-- Removed deprecated weapon effect scripts.
-- Rebalanced built-in hullmods.
-- Adjusted Sunsetter bounty fight.
-- Updated faction configurations.
-
-Version 0.3.3
-- Updated Draconis faction configuration.
-- Adjusted weapon and hull frequencies.
-- Updated ship roles and market industry setup.
-- Fixed sound references and CSV trail data for weapon effects.
-
-Version 0.3.2
-- CHANGED: Particle Burst Lance damage type from ENERGY to HIGH_EXPLOSIVE.
-
-Version 0.3.1
-- Rebalanced Rapier Autocannon and Particle Burst Lance.
-- Updated ship variants accordingly.
-- Finished incomplete names and descriptions.
-
-Version 0.3.0
-- NEW: Giausar-class Destroyer.
-- NEW: Draconis warp retreat mechanic.
-  - Ships now warp out instead of direct retreating.
-- Improved several ship sprites.
-- Updated projectile FX (.proj files).
-- Reworked Twin Spear Cannon.
-- Rebalanced Mangonel Gun Launcher (nerf).
-- Rebalanced Eltanin-class Cruiser (nerf).
-  - Changed large mount from Ballistic to Hybrid.
-- Rebalanced Juza-class Cruiser.
-- Added Bardiche missile AI.
-- General weapon balance pass.
-- Updated fleet doctrine.
-
-Version 0.2.3
-- NEW: Juza-class Heavy Cruiser.
-- NEW: Juni-class Cruiser.
-- Revised Bardiche missile role.
-- Added 1 second cooldown to Evasion Protocol ship system.
-- Rebalanced Estoc weapon.
-  - Increased fire rate, reduced damage.
-  - Updated weapon texture.
-- Reduced Nodus engagement range.
-- Improved audio balancing.
-- Buffed Particle Burst Lance.
-  - Changed weapon SFX.
-- Reworked Emergency Power ship system.
-  - Removed passive CR reduction.
-  - Now consumes small amount of CR on activation.
-  - Increased cooldown.
-- Restored Asuia's built-in weapon.
-  - Moved Asuia to bounty encounter.
-- Reduced chaff/flare count (performance improvement).
-- Reworked Errakis-class ship.
-- Updated fleet doctrine.
-
-Version 0.2.2
-- Fixed ship variant configurations.
-
-Version 0.2.1
-- Added new Estoc SFX.
-  - Reduced fire rate.
-  - Increased reload time.
-  - Improved accuracy.
-- Updated MagicLib bounties (descriptions still needed).
-- Added new Estoc flak sounds.
-- Removed AI core spam from Kori and Vorium markets.
-- Fixed Kori industry configuration.
-- Fixed Halberd shield pierce mechanic.
-- Removed extra engines from Asuia.
-
-Version 0.2.0
-- Added forums link to version file.
-- NEW: Nodus fighter drone.
-  - Includes built-in Arquebus SRM Launcher.
-- NEW: Estoc flak cannon (small Razor Flak variant).
-- Added missing Bardiche descriptions.
-- Improved Phase Mine FX for Shaowei.
-- Improved faction icon/banner.
-- Updated Mk.II Durendal Cannon sprite.
-- Improved Pulsar Jammer ship system.
-  - AI now issues defend order when using system.
-- Improved Emergency Power ship system.
-  - Scales with hull size (less effective on larger ships).
-  - Increased duration and cooldown.
-  - Reduced charge-up and charge-down times.
-- Buffed Alwaid Battlecarrier.
-- Rebalanced Rapier Autocannon.
-  - Ammo: 24 -> 6.
-  - Range: 800 -> 900.
-- Reduced fighter engagement ranges across the board.
-- Fixed Razor Flak explosion FX.
-- Fixed wing_data tagging issues.
-- MAJOR: Reworked star system generation.
-  - No longer uses .json for market definitions.
-  - Fixes Fafnir system dual-faction ownership bug.
-  - WARNING: Not backwards compatible with old saves.
-- Improved engine FX.
-
-Version 0.1.0
-- Initial release.
+细节改进：
+- 删除了半弓与大弓描述中冗余的开场白。
+- 改进了撤退横向跃迁特效。
+- 横向跃迁蓄力不再惩罚转向加速度。
+- 德拉科尼斯 XLII 势力更名为德拉科尼斯第42战斗群。
+- 更新了德拉科尼斯情报局的势力徽标与纹章。
+
+错误修复：
+- 修复幅能反应装甲将伤害向下取整到 0 以下，使其对低打击强度武器实质免疫。
+- 修复横向跃迁不返还直接撤退所消耗的指挥点，导致撤退舰船被双重扣点。
+- 修复被叛道干扰阵或第42战斗群电子战套件劫持的导弹，在制导无法重定向时（戈尔工/凝视者/巨龙/九头蛇等）有时会无害地卡在原目标上而不失效。
+
+版本 0.7.6（存档兼容 0.7.5）
+平衡性调整：
+- 主计：OP 130 -> 140。
+  - 破壁干扰阵：射程 1500 -> 1800。
+- 仁慈刺：伤害 70 -> 80。
+- 投石索自动炮：电磁 40 -> 0。
+- 天棒：结构值 500 -> 600。
+- 天棒：装甲值 100 -> 150。
+- 天棒：最大幅能 2000 -> 1000。
+- 天棒：幅能散逸 200 -> 100。
+- 天狗：最大幅能：3500 -> 2500。
+- 天狗：幅能散逸：350 -> 250。
+- 天狗：结构值：500 -> 600。
+- 荆棘：射程：6000 -> 4000。
+- 荆棘：最大幅能：2500 -> 2000。
+- 荆棘：幅能散逸：250 -> 200。
+
+细节改进：
+- 持有雇佣协议时殖民地危机不再触发。
+- 提高了影子舰队的刷新率。
+- 改进了 AI 对破壁干扰阵、黑障干扰阵、叛道干扰阵舰船系统的使用。
+- 稍微改进了荆棘的贴图。
+
+错误修复：
+- 已刷新的影子舰队在持有雇佣协议时不再推进危机。
+- 修复 Fafnir 速子信使、Fafnir 环港、AIO 特工现身与 AIO 付款谈判酒吧联系人，在条件满足时仍偶尔不出现。
+  - 现在一旦合格，下次光顾酒吧必然出现，不再依赖随机判定。
+- 修复 Fafnir 速子信使与环港抵达确认有时永远不出现，永久卡死那些交付。
+  - 这发生在你未解决跃迁点凭证检查（例如绕过它）抵达 Fafnir、却仍持有有效凭证时。卡在此状态的现有存档，下次停靠 Kori/环港时会自动解决。
+
+版本 0.7.5（存档兼容 0.7.4）
+错误修复：
+- 修复飓风装甲板文件目录错误导致的崩溃。
+
+版本 0.7.4（存档兼容 0.7.3）
+新内容：
+- 新增：飓风级战列巡洋舰——围绕单门波纹剑线圈炮构建的线圈炮特化主力舰。
+  - 搭载 4x 内置滚刀多管火箭发射器、波纹剑线圈炮与两块附加装甲模块。
+  - 分流驱动舰船系统——一次前向速度/加速度冲刺。
+  - 灵感重度来自 Tania 的 Navarchy 的 Black Hawk！
+- 新增：破军级重型驱逐舰——天棒三的后继型。
+  - 内置幅能反应装甲与叛道干扰阵系统。
+  - 叛道干扰阵（信号劫持）舰船系统——将 1000 su 内所有敌方导弹转为玩家控制。
+- 新增：波纹剑线圈炮——大型能量打击武器；蓄力一道光束，撞击时起爆。
+- 新增：滚刀多管火箭发射器——大型破片压制导弹发射器，内置于飓风。
+
+平衡性调整：
+- 天棒二：护盾效率 1.2 -> 0.9，装甲值 45 -> 50，DP（部署）与 DP（维护）45 -> 50，基础价值 450,000 -> 500,000。
+- 天龙 / 天龙Mk.II：基础价值 500,000 -> 450,000。
+- 天厨一：基础价值 400,000 -> 325,000。
+- 半弓级鱼雷（全部变体）：弹药/装填 1000 -> 750。
+- 移除天棒增十、上辅、少弼、少尉、天棒四、主计、女史Mk.II、天棒增九、御女的 req_military 生产标签——现在无需军用市场即可建造。
+- 重做 Fafnir 强行跃迁点进入：
+  - SP 消耗 5 -> 3。
+  - 声望惩罚现在在过境时立即施加，不再通过 3 天宽限期的敌对计时器（已移除）。
+  - 横向跃迁声望惩罚下限 -0.5 -> -0.25。
+
+细节改进：
+- 阔斧枪系列导弹不再使用自定义蜂群 AI；现在按标准导弹制导飞行。
+- 阔斧枪导弹尾迹现在带有微光。
+- 修正长管炮风味文本（轨道 -> 线圈公差）。
+
+版本 0.7.3（存档兼容 0.7.2）
+错误修复：
+- 修复无法从 Fafnir 跃迁点撤离的 bug。
+  - （这次是真的 :sob:）
+
+版本 0.7.2（存档兼容 0.7.1）
+细节改进：
+- 降低首次进入 Fafnir 的 SP 消耗。10 -> 5。
+- 修正了一些奇怪的舰船变体。
+
+错误修复：
+- 修复无法从 Fafnir 跃迁点撤离的 bug。
+
+版本 0.7.1（存档兼容 0.7.0）
+细节改进：
+- 让 AI 核心突袭略微少见，并为其目标增加了些变化。
+
+版本 0.7.0
+- 警告：破坏性更新——不兼容 0.6.12 及更早的存档。
+  - 内部重构：殖民地危机系统。
+  - 修正御女舰体 ID：XLII_eltanin_mk2 -> XLII_yunu。
+  - 移除 Tyl 无人机战机。
+  - 重做 Fafnir 星系。
+
+新内容：
+- 新增：每位主要角色的立绘。
+- 新增：双手大剑自动炮——大型动能自动炮（沿用旧应答剑贴图）
+- 新增：长刀多管火箭发射器——大型制导鱼雷齐射发射器。
+  - 一次齐射 3 枚制导鱼雷。
+- 重做：殖民地危机，替换旧危机系统。
+  - 威胁分按月推进，取决于 AI 核心使用与 DDA 关系。
+  - 四个阶段：监视中（0-34）-> 主动措施（35-64）-> 责任认定（65-99）-> 入侵（100）。
+  - 殖民地减益（通行度与稳定度惩罚）从监视中开始。
+  - 产业中断从追踪值 >= 25 开始，严重度向 100 递增。
+  - 影子舰队在主动措施及更高阶段刷新并扩张。
+  - 追踪值 = 100 时派出惩罚性远征；击败它即重置追踪值。
+    - 连续击败三次打击即完成危机，并授予军火出口加成。
+      - 奖励尚在制作中。现阶段还不太确定给什么。
+  - 玩家殖民地酒吧可从情报局情报员处达成交易。
+    - 只要按月缴纳‘什一税’，即可压制危机。
+    - 此外，持有雇佣协议同样压制危机。
+- 新增：Sigma Octantis 技能——现在可以克隆敌舰。
+  - “我们管这叫难度调整。”
+- 新增：盲眼任务线——短任务线。（超级半成品——内容可能变动。）
+    - 阅读 Fafnir 星门日志并与舰队元帅 August 讨论后解锁。
+    - 一名 AIO 特工在环港与你接触，简报一次隐秘突击任务。
+    - 带领陆战队员突击环港，赶在 AIO 之前为 August 的忠诚派系夺下它。
+- 新增：天棒增九级航母——巡洋舰级航空战列舰。
+- 新增：阴德级巡洋舰——先进的高度机动巡洋舰。
+- 新增：AIO 特工——盲眼之后在环港酒吧可用的联系人，可用信用点换取故事点。
+  - 故事点成本随每年购买次数递增，每年重置。
+- 新增：德拉科尼斯原型舰——7 具新舰体。（半成品——尚不可由玩家获得。）
+  - （右枢、天棒三、上辅、天棒四、柱史、天厨一、龙首）
+  - 原 mod 概念的旧贴图，应大众要求。
+- 新增：核升级——若玩家使用‘核武’，德拉科尼斯与第42战斗群升级为大弓武器。
+    - 采用选择加入系统。你用核弹，他们也用！
+      - 因此不会搅乱原版沙盒。
+  - 新增：大弓级鱼雷弹舱——中型核鱼雷发射器。
+  - 新增：大弓级鱼雷发射器——大型核鱼雷发射器。
+- 新增：天棒级多用途战机——又一种多用途战机
+  - 新增：钩镰枪级鱼雷——紧凑、无制导的小型反战机导弹。
+  新增：天狗级多用途战机——又又一种多用途战机，但更辣。
+  - 新增：阔剑级电磁炮——紧凑型电磁炮。
+- 新增：所有德拉科尼斯主力舰现在横向跃迁进入战斗。
+  - 向 SEEKER mod 致以巨大谢意，没有它作参考我根本无从下手。
+- 新增：尚书级轰炸机——新的 DDA 轰炸机联队。
+  - 搭载弯月刀级鱼雷（对护盾高电磁）与湮灭火箭巢的制导版。
+- 新增：天龙Mk.II 战列巡洋舰——愚蠢变体。
+- 新增：仁慈刺链炮——大型弹道能量武器。
+
+平衡性调整：
+- 配重投石机炮：
+  - 蓄力 0 -> 0.5秒（以支持新激光瞄准特效）。
+  - 单发幅能 625 -> 650。
+  - 连射间隔 0.2 -> 0.5秒。
+  - 基础价值 5000 -> 3200。
+- 双矛炮：
+  - 射程 1000 -> 900。
+  - 伤害 400 -> 475。
+  - 电磁伤害 500 -> 475。
+  - OP 26 -> 26。
+  - 蓄力 0 -> 0.25。
+  - 收束 3 -> 0.25。
+  - 以及更多……
+    - 整体是一次功能性大改。
+    - 应该能嵌入更清晰的定位。
+- 突刺剑高射炮：
+  - 伤害 20 -> 25。
+  - 弹速 1100 -> 990。
+  - 弹丸结构值 10 -> 20。
+- 剃刀高射炮：
+  - 射程 450 -> 600。
+  - 伤害 20 -> 25。
+  - 弹速 1100 -> 1250。
+- 拳刺炮弹发射器：
+  - OP 13 -> 10。
+- 长管炮线圈炮：
+  - OP 13 -> 11。
+- 长剑自动炮：
+  - 伤害 440 -> 400。
+  - 单发幅能 700 -> 400。
+- 投石机炮弹发射器：
+  - 射程 900 -> 700。
+  - 伤害 1200 -> 600。
+  - 电磁伤害 350 -> 100。
+  - 单发幅能 1200 -> 750。
+  - 转向速率 12 -> 18。
+  - 加入弹药/装填：5 发。
+- Mk.II 杜兰达尔主炮：
+  - 射程 1000 -> 900。
+- 应答剑电磁炮：
+  - 伤害 900 -> 1000。
+  - 电磁伤害 900 -> 1000。
+  - 单发幅能 1250 -> 1700。
+  - 蓄力 0 -> 1秒。
+  - 收束 4 -> 3秒。
+- 长戟级鱼雷：
+  - 收束 20 -> 15。
+  - 飞行时间 9 -> 12。
+  - 移除危险标记。
+- 长戟级鱼雷弹舱：
+  - 收束 10 -> 15。
+  - 飞行时间 9 -> 16。
+  - 移除危险标记。
+- 弯刀级鱼雷：
+  - 伤害 2000 -> 750。
+- 脉冲星干扰阵系统：
+  - 冷却 24 -> 18。
+- 幅能循环器系统（女史）：
+  - 重做：现为‘伤害吸收/增益’系统。
+- 时间突进系统（阿苏娅）：
+  - 充能速率 0.1 -> 0.075。
+  - 蓄力 0.25 -> 0.5秒。
+  - 收束 0.25 -> 0.5秒。
+  - 冷却 6 -> 0。（现在只取决于充能数）
+- 时间滑移系统（落日）：
+  - 激活期间现在每秒消耗 1 幅能。
+  - 每次使用加入 0.25 f/u（基础上限）消耗。
+  - 蓄力 0.25 -> 4秒；激活时长 5.5 -> 7秒；收束 0.25 -> 2秒；冷却 15 -> 12秒。
+- 女史：
+  - 结构值 6500 -> 8000。
+  - 装甲值 800 -> 1000。
+  - 幅能散逸 650 -> 675。
+  - 极速 75 -> 85。
+  - 加速度 80 -> 75。
+  - 减速度 60 -> 55。
+  - 护盾类型 前方 -> 全向（弧 360 -> 240）。
+  - 护盾效率 1.1 -> 1.0。
+  - DP 30 -> 22。
+- 女史Mk.II：
+  - 系统更换：等离子喷射 -> 应急维修。
+  - 结构值 6000 -> 8000。
+  - 装甲值 750 -> 1000。
+  - 幅能散逸 550 -> 525。
+  - 加速度 80 -> 75。
+  - 减速度 60 -> 55。
+  - 质量 1750 -> 1800。
+  - 护盾类型 前方 -> 全向（弧 360 -> 240）。
+  - 护盾效率 1.0 -> 1.1。
+  - DP 25 -> 20。
+- 天棒二：
+  - 系统更换：堡垒护盾 -> 应急维修。
+  - FP 30 -> 32。
+  - 装配点数 270 -> 255。
+  - 减速度 12 -> 10。
+  - 最大转向速率 6 -> 4。
+  - 护盾弧 240 -> 300。
+  - 护盾效率 1.4 -> 1.2。
+  - DP 40 -> 45。
+  - 加入内置先进瞄准核心。
+- 阴德：
+  - FP 16 -> 18。
+  - DP 25 -> 26。
+- 御女：
+  - 装甲值 850 -> 750。
+- 主宰：
+  - 装甲值 1000 -> 1100。
+  - DP 35 -> 28。
+- 天厨一：
+  - DP 40 -> 35。
+- 双狼：
+  - FP 22 -> 20。
+- 天龙：
+  - 系统更换：战斗冲刺 -> 电容核心。
+  - FP 24 -> 28。
+  - 最大幅能 21000 -> 26000。
+  - 幅能散逸 1000 -> 1350。
+  - 极速 65 -> 75。
+  - 加速度 30 -> 35。
+  - 减速度 35 -> 45。
+  - 最大转向速率 11 -> 16。
+  - 护盾效率 1.1 -> 1.0。
+  - DP 45 -> 40。
+- 龙首：
+  - 最大幅能 30000 -> 25000。
+  - 幅能散逸 1200 -> 1500。
+- 落日：
+  - 最大转向速率 40 -> 15。
+  - 转向加速度 35 -> 20。
+  - 基础价值 1000000 -> 500000。
+- Sigma Octantis（AI 核心军官）：
+  - 自动舰船部署点倍率 4x -> 1x。
+- XLII 舰队不再部分继承完整 DDA 舰船蓝图池；改用自己的精选集。
+- 不可名状之恐怖：每次激活的船体恢复 20% -> 10%。
+- 雇佣船员 - 同盟精练船员（船插）：以固定 -10% 被侦测距离取代 CR 损失缩减与 ECCM 加成。
+- 重做：阿苏娅。
+  - 幅能容量 14000 -> 16000。
+  - 幅能散逸 700 -> 600。
+  - 装配点数 105 -> 125。
+  - 护盾类型 前方（260°）-> 全向（270°）。
+  - 护盾维持 0.4 -> 0.5。
+  - 武器布局大改：杜兰达尔Mk.II 由内置破甲细剑主炮取代；槽位重排并修订类型。
+- 相位传送系统：
+  - AI 爆发移动潜力 750 -> 350。
+- 天一（电子战机）：
+  - 幅能散逸 50 -> 100。
+  - 从电子对抗战机重新分类为电子战机。
+  - 级别 3 -> 2。
+- 火绳钩枪短程导弹发射器：
+  - 伤害类型 动能 -> 能量。
+  - 电磁伤害 250 -> 125。
+  - 加入反战机与交替开火模式。
+- 导弹控制矩阵：
+  - 导弹结构值 1.5x -> 2x。
+- 德拉科尼斯联队舰体（船插）在全部战机联队上由战时应急功率舰船系统取代。
+  - 原为被动时间膨胀船插；现为主动推进器超限系统。
+  - 新增：内置战机超频核心船插，提供点防诱饵免疫、最优提前量瞄准，以及对导弹与战机的额外伤害。
+- Sigma Octantis 对峙：
+  - 自动克隆部署成本倍率 1x -> 2x。
+- 投石索自动炮（战机）：
+  - 重做为点防御爆发武器。
+  - 伤害 25 -> 40。电磁伤害 25 -> 40。单发幅能 10 -> 20。
+  - 弹速 1200 -> 1250。
+  - 加入点防与反战机定位。
+- 长戟级鱼雷（战机）：
+  - 伤害 5000 -> 6000。
+  - 从制导改为无制导。
+- 粒子爆发长枪：
+  - 伤害/秒 1000 -> 1250。
+  - OP 13 -> 9。
+  - 幅能/秒 1000 -> 850。
+  - 移除导弹穿透能力。
+- 少宰：
+  - 从重型战机重新分类为多用途战机。
+  - 获得战时应急功率舰船系统。
+- 荆棘：
+  - 从重型拦截机重新分类为拦截机。
+  - 获得战时应急功率舰船系统。
+  - FP 12 -> 14。联队数量 1 -> 2。
+- 左枢：
+  - 幅能散逸 50 -> 100。
+  - FP 8 -> 12。
+  - DP 20 -> 16。
+- 龙节（打击无人机）：
+  - FP 6 -> 8。
+- 天棒一（基础舰体）：
+  - 结构值 1500 -> 2000。
+  - 装甲值 150 -> 200。
+  - 幅能散逸 250 -> 100。
+- 天棒一（重型战机，XLII 变体）：
+  - 幅能散逸 250 -> 100。
+  - FP 12 -> 10。
+  - 轰炸机联队：DP 16 -> 12。联队数量 2 -> 3。
+  - 战机联队：DP 18 -> 14。联队数量 1 -> 2。
+- 少弼：
+  - 移除 COMBAT 标签（现为纯航母）。
+
+细节改进：
+- 彻底重制应答剑贴图，更改武器功能。
+  - 新的双手大剑自动炮将沿用旧贴图。
+- 希望改进了范围舰船系统的视觉清晰度（破壁干扰阵、脉冲星干扰阵与黑障干扰阵）。
+- 配重投石机炮现在使用自己的武器效果脚本，不再用长管炮的。
+- 为配重投石机炮添加更多特效，现在有一道可爱的小瞄准激光。
+- 重做脉冲星干扰阵的特效。
+  - “你的元素之力是绿色的。”
+  - 觉得太吵就说一声，我会调低。
+- 影子舰队频率降低：
+  - 最大并行巡逻 12 -> 9。
+  - 刷新频率倍率 50 -> 45。
+    - 此外，限制为仅在殖民地危机激活期间。
+- 标题画面舰船池扩充，纳入全部标准舰级。
+- 更换 Itoron 行星云层贴图。
+- Kori 现在有环境无线电 chatter 音效。
+- 落日悬赏现在在更低 DDA 声望（1.0 -> 0.5）与玩家等级（15 -> 10）即可接取。
+- 落日悬赏现在给予少量声望奖励，并削减预设舰队（4 艘阿苏娅 -> 2 艘）。
+- DDA 的 Nexerelin 殖民远征频率降低。
+- 特种部队与报复舰队规模倍率提高（各 1.5x -> 2.0x）。
+- 更新外交姿态：提高对速子科技的友好；加入对霸主的戒备。
+- 龙节重新分类为轰炸机（原为战机）。
+- 更新 DDA 舰队构成：舰队总体更大更多。
+- Kori 无线电 chatter 音量提高。
+- 调整 AI 缩放速度，以匹配扩展模式预期的游戏“时长”。
+  - 基本上，德拉科尼斯舰船上的 AI 核心质量提升会更快。
+- 更新荆棘的贴图。
+
+错误修复：
+- 修复天龙（42）变体未正确应用。
+- 修复 SLAP-ER 鱼雷错误附加迷雾云命中效果。
+- 修复 AI 核心失窃未检测到作为市场管理员安装的 AI 核心人格。
+  - 真正的 AI 核心管理员从未被窃（这是我想明白如何安全移除 AI 管理员期间的权宜之计）。
+- 修复德拉科尼斯残余突袭舰队在非远征期间生成 AI 核心。
+
+版本 0.6.12（存档兼容 0.6.11）
+错误修复：
+- 修复了 rules.csv 的一些问题。
+
+版本 0.6.11（存档兼容 0.6.10）
+错误修复：
+- 修复 DraconisAICoreFleetInflater 不刷新 Octantis 的 bug。
+  - 恶人永不得闲。=w=
+
+版本 0.6.10（存档兼容 0.6.8）
+细节改进：
+- 为部分变体加入荆棘。
+
+错误修复：
+- 修复 XLII_thorne.ship 路径错误导致的崩溃。
+
+版本 0.6.8（存档兼容 0.6.7）
+新内容：
+- 新增：荆棘级重型拦截机——带护盾的单机联队。
+- 新增：天龙（42）——天龙战列巡洋舰的第42战斗群皮肤。
+  - 以咆哮电子战套件取代自动诱饵撒布器。
+- 天龙（42）现可从舰队元帅 Emil 的舰船商店购买。
+
+平衡性调整：
+- 火绳钩枪短程导弹发射器：
+  - 伤害 50 -> 125。
+  - 加入 250 电磁伤害。
+  - 弹速 200 -> 500。
+  - 发射速度 150 -> 500。
+- 龙节（打击无人机）：
+  - 护盾弧 200 -> 210。
+- 左枢（轰炸机）：
+  - 护盾弧 200 -> 210。
+- 天一（电子对抗战机）：
+  - 护盾弧 200 -> 210
+  - 基础价值 9000 -> 7500。
+- 边际配给：
+  - 故障力场范围 2000 -> 2500。
+
+细节改进：
+- 重做 Sigma Octantis 敌对声望系统：
+  - 在 -0.25 德拉科尼斯声望时加入预警通讯。Sigma Octantis 会联系玩家，指出其声望正在接近低阈值。
+  - 预警触发后加入 30 天宽限期，给玩家在核心离队锁定前改正的时间。
+  - 看门狗现在分两阶段运作：第一阶段监视声望；第二阶段（敌对后）仅监视舰队存在。
+- 重写 Sigma Octantis 战斗电台——新语气，更短、更不祥的台词。话痨度从 0.6 降到 0.4。
+- 边际配给的强制过载现在显示紫色视觉效果与“系统受扰！”文字。
+- 投石索弹丸视觉增强（更宽的弹丸、更亮的辉光）。
+
+错误修复：
+- 修复边际配给在带模块的舰船上投射多个故障力场。
+  - 原为每个模块一个力场；现在正确地从主舰发出单一力场。
+- 修复 Sigma Octantis 看门狗在纳米锻造厂任务完成前就于新游戏中注册。
+  - 可能造成不必要的后台脚本开销？
+- 修复天厨二（货船）变体未用于小型贸易舰队构成。
+  - 原错误地使用油船版天厨二。
+- 修复 Sigma Octantis 战斗电台不触发。
+  - 角色缺失于 character_factions.csv，且军官名字匹配配置有误。
+
+版本 0.6.7（存档兼容 0.6.6）
+错误修复：
+- 修复 Kori 的 XLII 战斗群以极低 FP 刷新。
+- 修复 rules.csv 中的小顺序问题。
+
+版本 0.6.6（存档兼容 0.6.5）
+新内容：
+- 新增：Sigma Octantis——拥有专属任务线的独特 AI 核心军官。
+  - 任务：赢得足够的德拉科尼斯同盟声望，解锁与舰队元帅 Emil 的特殊对话
+    选项。他会要你为同盟采购一台完好纳米锻造厂。
+    交付一台，获得 Sigma Octantis 上行链路作为报酬。
+  - 独特技能：边际配给。
+  - 失败状态：若你持有 Sigma Octantis 期间与德拉科尼斯同盟的声望跌至敌对或更低，
+    它会与你对峙并永久切断
+    连接——核心将从你的舰队、货舱与所有市场仓库中移除，且无法
+    找回。（想留就利用控制台改回来，此检查只做一次。）
+- 新增：天龙级战列巡洋舰——快速战列巡洋舰，三座大型挂点呈超越射击布局。
+- 新增：配重投石机炮——大型三管能量武器。
+- 新增：天厨二级货运舰——天厨二的专用货船变体。
+  - 货舱容量（400）高于基础版天厨二。
+  - 燃料容量低得多（80）——以航程换运力。
+
+平衡性调整：
+- 全舰队通用平衡；多数舰船的幅能、装甲与护盾有调整。
+- 天厨二重新分类为专职油船：
+  - 货舱降低：200 -> 20。
+  - 燃料提高：400 -> 800。
+  - 最大幅能增强：1750 -> 3600。
+  - 幅能散逸增强：105 -> 215。
+  - OP 提高：65 -> 75。
+  - 部署 CR 提高：15 -> 20。
+  - DP 提高：4 -> 5。
+  - 基础价值降低：25,000 -> 20,000。
+- 调整上弼级护卫舰：
+  - 幅能散逸降低：280 -> 275。
+  - OP 降低：55 -> 50。
+  - 最大巡航降低：10 -> 9。
+- 调整驹级炮艇：
+  - 装甲降低：500 -> 300。
+  - 最大幅能降低：4500 -> 3750。
+  - 幅能散逸降低：360 -> 300。
+  - 护盾效率改善：1.2 -> 1.0。
+- 调整驹Mk.II级炮艇：
+  - FP 提高：8 -> 9。
+  - 装甲降低：500 -> 300。
+  - 最大幅能降低：4700 -> 3750。
+  - 幅能散逸降低：380 -> 300。
+  - 护盾效率改善：1.1 -> 1.0。
+- 调整右枢级轻护卫舰：
+  - 最大幅能降低：5300 -> 4000。
+  - 幅能散逸降低：425 -> 320。
+  - 护盾效率改善：1.2 -> 1.1。
+  - 最大巡航降低：11 -> 10。
+- 调整天棒增十级导弹驱逐舰：
+  - 舰船系统更换：机动喷口 -> 快速导弹架。
+  - OP 提高：90 -> 95。
+  - 极速提高：70 -> 75。
+- 调整上辅级驱逐舰：
+  - 最大幅能降低：9000 -> 4500。
+  - 幅能散逸降低：540 -> 270。
+  - OP 降低：85 -> 60。
+- 调整天棒三级轻型驱逐舰：
+  - 最大幅能降低：8700 -> 7000。
+  - 幅能散逸降低：525 -> 425。
+  - OP 降低：90 -> 80。
+  - 护盾效率改善：1.3 -> 1.2。
+- 调整少弼级轻型航母：
+  - 结构值提高：3000 -> 3500。
+  - 装甲提高：300 -> 330。
+  - 最大幅能降低：8000 -> 5000。
+  - 幅能散逸降低：480 -> 300。
+  - OP 降低：105 -> 90。
+  - 护盾效率改善：1.3 -> 1.2。
+- 调整少尉级相位驱逐舰：
+  - 结构值提高：3500 -> 4500。
+  - 最大幅能提高：5500 -> 6000。
+  - 幅能散逸降低：600 -> 500。
+  - OP 降低：95 -> 80。
+- 调整天棒四级轻巡洋舰：
+  - 幅能散逸提高：400 -> 500。
+  - OP 降低：140 -> 125。
+  - 最大巡航降低：9 -> 8。
+- 调整主计级巡洋舰：
+  - 装甲降低：1000 -> 900。
+  - 最大幅能提高：12000 -> 14000。
+  - 幅能散逸降低：700 -> 650。
+  - OP 降低：155 -> 130。
+  - 加速度提高：35 -> 40。
+  - 减速度提高：25 -> 30。
+  - 最大巡航降低：8 -> 7。
+- 调整主宰级重巡洋舰：
+  - FP 降低：24 -> 22。
+  - 结构值降低：14000 -> 10000。
+  - 最大幅能降低：15000 -> 14500。
+  - 幅能散逸提高：550 -> 725。
+  - OP 降低：175 -> 160。
+  - 燃料/光年降低：5 -> 4。
+  - 最大巡航降低：8 -> 7。
+  - 护盾效率改善：1.4 -> 1.2。
+- 调整女史级巡洋舰：
+  - 一座大型弹道炮塔降为中型。
+  - FP 降低：22 -> 18。
+  - DP 降低：34 -> 30。
+  - 结构值提高：5000 -> 6500。
+  - 装甲提高：750 -> 800。
+  - 最大幅能提高：10000 -> 12000。
+  - OP 降低：135 -> 120。
+  - 极速降低：90 -> 75。
+  - 加速度降低：100 -> 80。
+  - 减速度降低：80 -> 60。
+  - 最大转向速率降低：30 -> 25。
+  - 转向加速度降低：60 -> 35。
+  - 最大巡航降低：9 -> 8。
+  - 护盾效率调整：0.8 -> 1.1。
+- 调整女史Mk.II级巡洋舰：
+  - FP 降低：20 -> 16。
+  - DP 降低：28 -> 25。
+  - 结构值提高：4800 -> 6000。
+  - 装甲提高：650 -> 750。
+  - 最大幅能提高：11000 -> 12000。
+  - 幅能散逸降低：700 -> 550。
+  - OP 降低：145 -> 120。
+  - 极速降低：90 -> 85。
+  - 加速度降低：110 -> 80。
+  - 减速度降低：90 -> 60。
+  - 最大转向速率降低：40 -> 25。
+  - 转向加速度降低：80 -> 35。
+  - 质量提高：1600 -> 1750。
+  - 最大巡航降低：10 -> 8。
+  - 护盾效率调整：0.7 -> 1.0。
+- 调整御女级战斗货船：
+  - 装甲提高：750 -> 850。
+  - 最大幅能降低：20000 -> 16000。
+  - 幅能散逸降低：1000 -> 800。
+  - OP 降低：190 -> 160。
+  - 最大巡航降低：9 -> 7。
+  - 护盾效率调整：1.0 -> 1.4。
+- 调整天厨一级战列巡洋舰：
+  - FP 降低：26 -> 22。
+  - 最大巡航降低：8 -> 7。
+  - 护盾效率调整：1.0 -> 1.1。
+- 调整龙首级航空战列舰：
+  - FP 降低：36 -> 34。
+  - 装甲降低：1500 -> 1200。
+  - 最大幅能降低：46500 -> 30000。
+  - 幅能散逸降低：1850 -> 1200。
+  - OP 降低：350 -> 320。
+  - 最大巡航降低：7 -> 6。
+- 调整双狼级战列巡洋舰：
+  - FP 降低：24 -> 22。
+  - 装甲降低：1200 -> 1100。
+  - 幅能散逸降低：1100 -> 900。
+  - 最大巡航降低：8 -> 7。
+- 调整天棒二级战列舰：
+  - FP 降低：32 -> 30。
+  - 基础价值降低：500,000 -> 450,000。
+  - 装甲降低：1200 -> 1000。
+  - 最大幅能提高：22500 -> 28000。
+  - 幅能散逸降低：1600 -> 1100。
+  - OP 提高：265 -> 270。
+  - 最大巡航降低：7 -> 6。
+  - 护盾效率调整：1.2 -> 1.4。
+- 调整阿苏娅级巡洋舰：
+  - 最大幅能降低：16000 -> 14000。
+  - 幅能散逸降低：800 -> 700。
+  - OP 降低：140 -> 105。
+  - 最大巡航降低：9 -> 8。
+- 调整天棒一重型轰炸机：
+  - OP 降低：18 -> 16。
+- 调整天棒一重型战机：
+  - 移除 Ammofeed 舰船系统。
+  - 联队队形更改：BOX -> V。
+  - OP 降低：20 -> 18。
+- 调整投石机炮弹发射器：
+  - 单发幅能降低：1500 -> 1200。
+- 调整双矛炮：
+  - 收束降低：4 -> 3。
+- 调整长剑自动炮：
+  - 稀有度上调：0.5 -> 0.7。
+  - 冲击降低：75 -> 50。
+  - 弹药降低：9 -> 6。
+  - 装填速率改善：0.35 -> 0.5 弹药/秒。
+- 调整应答剑电磁炮：
+  - OP 提高：28 -> 30。
+  - 基础价值提高：3,200 -> 4,200。
+  - 主定位更改：反装甲 -> 通用。
+- 调整微型阔斧枪发射器：
+  - 射程提高：1000 -> 1500。
+- 调整阔斧枪多管火箭发射器：
+  - 射程降低：2000 -> 1500。
+- 调整相位鱼雷阵列（系统武器）：
+  - 伤害降低：2000 -> 1000。
+- 调整投石索自动炮（战机）：
+  - 射程降低：700 -> 600。
+  - 单发幅能降低：15 -> 10。
+  - 射速改善（收束：0.125 -> 0.1）。
+- 调整干扰阵套件舰船系统时序：
+  - 破壁干扰阵：蓄力/收束提高：0.1 -> 0.5。
+  - 脉冲星干扰阵：加入蓄力/收束：0.5。
+  - 黑障干扰阵：加入蓄力/收束：0.1。
+
+势力调整：
+- 舰队构成中战斗货船刷新概率提高：1.25 -> 1.5。
+- 更新舰队角色分配：
+  - 天厨二现在正确分配至油船角色。
+  - 天厨二（货船）现在分配至货船角色。
+  - 御女移出货船角色；保留为主要战斗货船。
+
+细节改进：
+- 更改 Jormungandr 的位置，使其始终与 Vorium 相对。
+- 改进导弹齐射舰船系统状态文本的格式。
+- 更新天厨二贴图以区分油船变体。
+- “自动诱饵发射器”船插更名为“自动诱饵撒布器”。
+  - 探测距离提高：800 -> 900。
+  - 冷却提高：8 -> 12 秒。
+  - 更新船插图标。
+- 重做等离子喷射舰船系统时序：
+  - 更快启动（蓄力：1 -> 0.5）。
+  - 激活时长翻倍：3 -> 6。
+  - 更快关闭（收束：3 -> 0.5）。
+  - 冷却降低：6 -> 5。
+- 改进回避规程的诱饵反制：
+  - 效果范围提高：300 -> 400。
+  - 效果几率提高：0.3 -> 0.4。
+  - 缩小诱饵视觉尺寸。
+- 调整武器音效（应答剑音调、长剑音量）。
+- 投石索自动炮现在使用专用弹丸与自定义开火音效。
+- 更新杜兰达尔主炮炮口闪光视觉。
+- 重构干扰阵套件圆环视觉效果以提升性能。
+- 重做 SLAP-ER 迷雾云参数（缩小半径与存续时间）。
+
+版本 0.6.5（存档兼容 0.6.4）
+新内容：
+- 新增：女史Mk.II 巡洋舰——女史的供应链受限变体。
+  - 将两座大型挂点换为中型，幅能循环器换为等离子喷射。
+  - 比原版更快更灵；更像玻璃炮。
+  - 等离子喷射舰船系统——极速与机动性的极端提升。
+- 新增：长管炮线圈炮——具有高爆与电磁伤害的中型弹道武器。
+
+平衡性调整：
+- 调整上辅驱逐舰：
+  - 加入内置机库与强击无人机联队。
+  - 舰船系统更换：强击无人机 -> 预备联队。
+  - 加入内置防御瞄准阵列船插。
+- 调整强击无人机：
+  - 内置船插更换：点防御 AI -> 终结者核心。
+- 调整女史巡洋舰：
+  - 极速降低：95 -> 90。
+  - DP 提高：32 -> 34。
+- 调整主宰重巡洋舰：
+  - FP 提高：18 -> 24。
+  - DP 提高：32 -> 35。
+- 调整天棒二战列舰：
+  - 最低船员降低：700 -> 300。
+  - 最大船员提高：1500 -> 2500。
+  - 主要为了提升其作为殖民舰的用处。
+
+势力调整：
+- 提高德拉科尼斯 AI 核心收购价值倍率：3x -> 4x。
+- 为清晰重命名舰队类型：
+  - “影子警戒” -> “影子船队”。
+  - “补给运输队” -> “补给船队”。
+- 为默认舰船角色加入正规的邮轮角色分配。
+- 舰队构成中主计支援权重降低：1.0 -> 0.5。
+- 女史Mk.II 变体加入默认舰船角色。
+
+细节改进：
+- 重做回避规程舰船系统。
+  - 现在一次齐射一组诱饵，而非每个系统武器槽一发。
+  - AI 操纵的舰船激活期间会尝试撞击前方弧段内的敌人。
+  - 激活期间临时增加舰船质量以改善撞击物理。
+- 重构 AI 核心管理系统，采用集中库存。
+  - 无法立即安装的被窃、回收与捐献核心现在存入库存并每日重试。
+  - 失窃带来的外交压力现在即使没有空闲安装槽也会施加。
+- 调整 AI 核心安装优先级：商业现在排在巨港之前。
+- 为核心缴获总量加入正规追踪器。
+  - 之后大概会有正经用途。
+- 调整 DRACON 设置，
+  希望没那么疯了。
+
+错误修复：
+- 修复因 default_ship_roles 配置不当导致殖民地远征失败。
+- 修复建立殖民地后引发卡顿与减速的严重性能问题。
+  - 殖民地危机系统在每帧、每个星系调用的方法内以 INFO 级别写日志，
+    在重度 mod 的游戏里造成每秒数千次日志写入。
+  - 修复危机幅度计算中的双重市场扫描——原来每次调用对每个星系
+    扫描所有市场两遍，而非一遍。
+  - 移除一个每 10 秒遍历全部星系的周期性诊断循环。
+
+版本 0.6.4（存档兼容 0.6.3）
+错误修复：
+- 这次真的修好裂隙了，真的！
+
+版本 0.6.3（存档兼容 0.6.2）
+细节改进：
+- 为裂隙加入一些音效。
+- 清理了一些脚本。
+
+错误修复：
+- 一般性修错。
+- 修复裂隙未正确作用于非玩家舰队。
+
+版本 0.6.2（存档兼容 0.6.1）
+细节改进：
+- 清理了一些脚本。
+
+错误修复：
+- 一般性修错。
+- 修复 XLII_SystemBurnOnHitEffect 的 ConcurrentModificationException 崩溃。
+- 修正 descriptions.csv 中的一些错误。
+
+版本 0.6.1（存档兼容 0.6.0）
+新内容：
+- 新增：DRACON 威胁系统——现在应该能给德拉科尼斯一些战役级别的续航力。
+  - 对 Nexerelin 用户而言，实际上取代了旧的钢铁幕帘系统。
+- 新增：女史级巡洋舰——三座大型挂点！？一个小小的蠢货。
+
+平衡性调整：
+- 调整天棒四级轻巡洋舰：
+  - 加入头痛电子战套件船插。
+- 调整主宰级重巡洋舰：
+  - OP 提高：30 -> 32。
+- 调整双矛炮：
+  - OP 降低：28 -> 26。
+- 调整应答剑电磁炮：
+  - 伤害提高：800 -> 900。
+  - 加入电磁伤害：900。
+  - 单发幅能提高：1200 -> 1250。
+  - 收束提高：3 -> 4。
+- 调整长剑自动炮：
+  - 射程降低：1200 -> 1000。
+  - 收束降低：2 -> 1.5。
+  - 连射间隔降低：0.5 -> 0.25。
+- 调整剃刀高射炮：
+  - 单发幅能降低：4 -> 2。
+
+音效调整：
+- 交换长剑与应答剑的开火音效。
+
+细节改进：
+- 改进了部分变体。
+- 改进应答剑电磁炮的特效。
+- 加入对德拉科尼斯是否控制 Kori 的检查
+  - 若否，元帅将从市场移除；德拉科尼斯夺回时他会回归。
+- 更新 AIO/XLII 战斗群军旗。Nihil nisi ultio（唯报复而已）。
+
+错误修复：
+- 修复 XLII_durendal_mkii_fire 两次引用 _03.ogg 并跳过 _02 的 bug。
+- 修正 rules.csv 中的一些错误。
+
+版本 0.6.0
+新内容：
+- 新增：扩充 Fafnir 星系，新行星，还有背景设定！Fafnir（如今）破碎的星门处有免费故事点。
+- 新增：天棒一级战斗轰炸机——带制导炸弹的结实轰炸机联队。
+- 新增：御女级巡洋舰——多用途运输/支援舰。
+  - 新增：导弹齐射舰船系统——带属性加成的速射导弹发射系统。
+- 新增：相位鱼雷阵列舰船系统——为少尉部署制导相位鱼雷。
+- 新增：裂隙地形——环绕 Fafnir 星系的自定义超空间异常，伴有增强的粒子风暴。
+- 旧有：上弼级护卫舰：
+  - 新增：加入改进系统船插——增加舰船系统充能并缩短冷却。
+- 新增：少尉的动画翼装饰——用于视觉效果的动态翼元件。
+- 新增：拳刺炮弹发射器——中型能量炮弹发射器，重电磁。
+- 新增：索夫尼亚爆发长枪——动能伤害的大型能量光束武器。
+- 新增：加载提示设定——一些设定花絮（删除见 \data\strings\tips.json）。
+- 新增：正规武器罩——武器挂点的视觉改进。
+- 新增：XLII 战斗群获得了独特机制，什么什么‘食雾者’。
+
+系统调整：
+- 通过 GraphicsLib 整合增强部分效果。
+- 新舰船相关音效与新特效。
+
+战役调整：
+- 为 Fafnir 星系加入‘裂隙’自定义地形，独特视觉与部分战役效果。
+- 重做 Fafnir 星系，现在玩家有用武力或雇佣协议拿下无主行星的空间。
+- 移除不需要的战役频道配置（删除 channels.json）。
+- 精简世界生成（移除静态 economy.json 与 starmap.json，改为基于类的生成）。
+
+Nexerelin 整合：
+- 更新德拉科尼斯势力配置以获得更好的战略行为。又来。没人拦得住我。
+- 增强 AI 核心捐献与失窃系统。
+
+平衡性调整：
+- 调整少宰战机：
+  - 结构值降低：750 -> 500。
+  - 装甲降低：250 -> 100。
+  - 最大幅能提高：750 -> 1000。
+  - 极速降低：275 -> 235。
+  - 加速度降低：500 -> 350。
+  - 减速度降低：450 -> 350。
+  - 最大转向速率降低：150 -> 120。
+  - 转向加速度降低：360 -> 300。
+  - 护盾弧增大：120 -> 160。
+- 调整左枢战机：
+  - 结构值降低：450 -> 350。
+  - 装甲降低：75 -> 25。
+  - 最大幅能提高：350 -> 500。
+  - 护盾类型更改：全向 -> 前方。
+  - 护盾弧增大：120 -> 200。
+- 调整天一战机：
+  - 结构值降低：600 -> 350。
+  - 装甲降低：100 -> 75。
+  - 护盾类型更改：全向 -> 前方。
+  - 护盾弧增大：120 -> 200。
+- 调整龙节战机：
+  - 护盾弧降低：240 -> 200。
+- 调整驹级护卫舰：
+  - 最大幅能提高：3000 -> 4500。
+  - 幅能散逸提高：250 -> 360。
+  - 护盾效率调整：0.8 -> 1.2。
+  - 最大船员降低：35 -> 30。
+  - 燃料提高：25 -> 35。
+  - 部署 CR 提高：10 -> 15。
+- 调整驹Mk.II级护卫舰：
+  - 最大幅能提高：3000 -> 4700。
+  - 幅能散逸提高：250 -> 380。
+  - 护盾效率调整：0.7 -> 1.1。
+  - 燃料提高：25 -> 40。
+  - 部署 CR 提高：10 -> 15。
+  - 基础价值提高：14000 -> 15000。
+- 调整右枢级轻护卫舰：
+  - 最大幅能提高：3500 -> 5300。
+  - 幅能散逸提高：200 -> 425。
+  - 护盾效率调整：0.8 -> 1.2。
+  - 燃料提高：20 -> 35。
+  - 部署 CR 提高：10 -> 15。
+  - 基础价值提高：18000 -> 20000。
+- 调整上弼级护卫舰：
+  - 最大幅能提高：2250 -> 3500。
+  - 幅能散逸提高：150 -> 280。
+  - 护盾效率调整：0.7 -> 1.1。
+  - 最大船员提高：30 -> 35。
+  - 燃料提高：20 -> 40。
+  - 部署 CR 降低：20 -> 15。
+  - 基础价值提高：12000 -> 14000。
+- 调整上辅级驱逐舰：
+  - 最大幅能提高：6000 -> 9000。
+  - 幅能散逸提高：250 -> 540。
+  - 护盾效率调整：0.8 -> 1.2。
+  - 部署 CR 降低：20 -> 15。
+- 调整天棒增十级驱逐舰：
+  - 最大幅能提高：4200 -> 6300。
+  - 幅能散逸提高：200 -> 380。
+  - 护盾效率调整：0.8 -> 1.2。
+  - 峰值 CR 提高：240 -> 300。
+- 调整天棒三级驱逐舰：
+  - 最大幅能提高：6000 -> 8700。
+  - 幅能散逸提高：400 -> 525。
+  - 护盾效率调整：0.9 -> 1.3。
+  - 部署 CR 降低：20 -> 15。
+- 调整少弼级轻型航母：
+  - 舰船系统更换：预备联队 -> 诱饵发射器。预备联队实在太蠢了。
+  - FP 降低：13 -> 12。
+  - DP 降低：15 -> 14。
+  - 最大幅能提高：6000 -> 8000。
+  - 幅能散逸提高：400 -> 480。
+  - 护盾效率调整：0.9 -> 1.3。
+  - 峰值 CR 提高：240 -> 300。
+- 调整天厨二级货船：
+  - 幅能散逸降低：110 -> 105。
+  - 最低船员提高：10 -> 20。
+  - 最大船员提高：20 -> 40。
+  - 部署 CR 降低：20 -> 15。
+- 调整少尉级相位驱逐舰：
+  - 舰船系统更换：时间突进 -> 相位鱼雷阵列。
+  - FP 降低：26 -> 22。
+  - 结构值降低：4000 -> 3500。
+  - 装甲降低：700 -> 400。
+  - 幅能散逸提高：450 -> 600。
+  - 装配点数提高：90 -> 95。
+  - 极速提高：120 -> 140。
+  - 减速度提高：80 -> 90。
+  - 最大转向速率降低：60 -> 50。
+  - 转向加速度降低：70 -> 60。
+  - 最低船员降低：50 -> 35。
+  - 最大船员降低：100 -> 75。
+  - CR%/天降低：10 -> 5。
+  - 峰值 CR 提高：240 -> 300。
+- 调整天棒四级轻巡洋舰：
+  - DP 提高：16 -> 18。
+  - 部署 CR 提高：12 -> 15。
+- 调整主计级巡洋舰：
+  - FP 降低：15 -> 14。
+  - 最大幅能降低：14000 -> 12000。
+  - 极速提高：80 -> 85。
+  - 质量提高：1100 -> 1200。
+  - 护盾效率改善：1.2 -> 1.0。
+  - 货舱提高：125 -> 200。
+  - 燃料提高：100 -> 250。
+  - 部署 CR 提高：12 -> 15。
+- 调整主宰级重巡洋舰：
+  - OP 降低：35 -> 30。
+  - FP 降低：25 -> 18。
+  - 最大船员降低：300 -> 250。
+  - 货舱降低：180 -> 150。
+  - 燃料提高：150 -> 200。
+  - 部署 CR 提高：12 -> 15。
+  - 峰值 CR 提高：320 -> 420。
+- 调整天棒二级战列舰：
+  - 舰船系统更换：安全超载 -> 堡垒护盾。
+- 调整龙首级航空战列舰：
+  - 最大幅能提高：30000 -> 46500。
+  - 幅能散逸提高：1200 -> 1850。
+  - 护盾效率调整：0.9 -> 1.4。
+  - CR%/天降低：4 -> 3。
+- 调整阿苏娅级巡洋舰：
+  - 舰船系统更换：诱饵发射器 -> 时间突进。
+  - 最大幅能提高：10000 -> 16000。
+  - 幅能散逸提高：600 -> 800。
+  - 护盾效率调整：0.6 -> 1.0。
+  - CR%/天降低：5 -> 4。
+- 调整落日级战列舰：
+  - CR%/天降低：5 -> 3。
+- 调整突刺剑高射炮：
+  - 弹匣增大：30 -> 60。
+  - 射程提高：350 -> 450。
+  - 伤害降低：25 -> 20。
+  - 冲击提高：0 -> 1。
+  - 转向速率降低：500 -> 150。
+  - 收束改善：0.06 -> 0.04。
+- 调整剃刀高射炮：
+  - 冲击提高：0 -> 1。
+- 调整长剑自动炮：
+  - 级别更改：2 -> 3。
+  - 加入稀有度：0.5。
+  - 基础价值提高：1800 -> 2600。
+  - 伤害降低：530 -> 440。
+  - 冲击提高：15 -> 75。
+  - 弹药提高：6 -> 9。
+  - 加入装填机制：0.35 弹药/秒，装填批量 2。
+  - 收束提高：1.5 -> 2。
+  - 加入点射：每轮 2 发，间隔 0.5 秒。
+  - 幅能消耗提高：400 -> 700。
+- 调整投石机炮弹发射器：
+  - 稀有度调整：0.8 -> 0.5。
+- 调整双矛炮：
+  - 稀有度调整：0.9 -> 0.8。
+- 调整应答剑电磁炮：
+  - 转向速率提高：4 -> 6。
+  - 稀有度调整：0.6 -> 0.5。
+- 调整粒子爆发长枪：
+  - 稀有度调整：0.9 -> 0.8。
+- 调整破剑刃短程导弹发射器：
+  - 射程降低：1200 -> 1000。
+  - 伤害降低：300 -> 250。
+  - 移除电磁伤害：300 -> 0。
+  - 弹药降低：90 -> 40。
+  - 飞行时间降低：7 -> 6。
+- 调整微型阔斧枪中程导弹发射器：
+  - 电磁伤害降低：500 -> 250。
+  - 连射间隔提高：0.25 -> 0.3。
+  - 飞行时间提高：6 -> 16。
+- 调整阔斧枪中程导弹发射器：
+  - 电磁伤害降低：500 -> 250。
+  - 齐射规模提高：5 -> 8。
+  - 收束提高：3 -> 5。
+  - 飞行时间提高：6 -> 16。
+- 调整全部长戟鱼雷变体：
+  - 伤害提高：4000 -> 5000。
+- 调整阔斧枪中程导弹发射器（内置）：
+  - 电磁伤害降低：500 -> 250。
+  - 加入连射间隔：0.2秒。
+  - 收束提高：3 -> 4。
+  - 飞行时间提高：6 -> 16。
+- 调整火绳钩枪短程导弹发射器：
+  - 射程降低：1000 -> 800。
+  - 伤害降低：100 -> 50。
+  - 移除冲击：5 -> 0。
+  - 收束提高：3 -> 5。
+  - 发射速度提高：50 -> 150。
+  - 飞行时间提高：5 -> 6。
+- 调整弯刀级鱼雷：
+  - 射程降低：1500 -> 1200。
+  - 导弹结构值降低：500 -> 250。
+
+技术性改进：
+- 加入 GraphicsLib 依赖。
+- 将 XLII_RetreatDrive 合并进统一的 XLII_DraconisHull 船插。
+- 重组船插包结构——状态脚本移入船插包。
+- 重组 mod 插件结构以利于维护。
+- 以自定义地形插件架构增强世界生成系统。
+- 为裂隙加入自定义地形插件系统。
+- 改进 AI 核心获取系统日志。
+- 更新 MagicLib 尾迹数据整合。
+- 细化 settings.json 配置选项。
+
+细节改进：
+- 为相位鱼雷阵列加入舰船系统图标。
+- 为导弹齐射加入舰船系统图标（排幅视觉）。
+- 更新应答剑、阔斧枪与长戟武器的图形。
+- 增强战斗电台的角色势力分配。
+- 改进角色对话与性格变化。
+- 更新导弹图形，加入辉光层（相位鱼雷、长矛导弹）。
+- 改进武器音效（拳刺自动炮、长剑自动炮）。
+- 增强势力默认舰船角色。
+- 多个 Java 类的代码清理与优化。
+
+错误修复：
+- 修复一次 AI 远征相关的崩溃。
+- 修复 AI 核心失窃情报不过期。
+- 修复 AdvancedGunneryControl mod 支持实现拙劣的问题。
+
+许可：
+- 添加并明确了许可条款。
+
+移除内容：
+- 移除：标枪 MLRS 武器——由长矛 MRM 系统取代。
+- 移除：未使用的军刀鱼雷（独立武器）——整合进舰船系统武器。
+
+版本 0.5.8（存档兼容 0.5.7）
+错误修复：
+- 忘了加入更新过的 default_ship_roles.json。
+- 更改了一些军用市场标签。
+
+版本 0.5.7（存档兼容 0.5.6）
+新内容：
+- 新增：上弼级护卫舰——基于天狼级的快速攻击护卫舰。
+- 新增：长剑自动炮——用于持续反护盾火力的大型弹道武器。
+
+平衡性调整：
+- 回避规程舰船系统激活时不再降低护盾。
+- 调整主计：
+  - 护盾效率改善：1.4 -> 1.2。
+- 调整右枢：
+  - 造价降低：20000 -> 18000。
+- 调整驹MK.I：
+  - DP 降低：8 -> 6。
+- 调整粒子爆发长枪：
+  - 幅能/秒降低：1250 -> 1000。
+- 调整突刺剑高射炮：
+  - OP 降低：5 -> 4。
+- 调整全部阔斧枪中程导弹变体：
+  - 电磁伤害提高：250 -> 500（全部变体）。
+  - 微型阔斧枪：OP 降低 5 -> 4，最大弹药提高 50 -> 100。
+  - 阔斧枪：OP 降低 10 -> 8，最大弹药提高 200 -> 400。
+
+Nexerelin 调整：
+- 重做外交相关：
+  - 大多数主要势力现在以负面关系开局。
+- 提高殖民地扩张速率。
+- 增强地面战斗效能：
+  - 加入 +25% 进攻倍率。
+  - 加入 +25% 防御倍率。
+- 特种部队调整：
+  - 降低特种部队规模倍率：4 -> 2。之前有点蠢。
+  - 为特种部队舰队实现自定义罗马数字命名系统。
+
+渐进难度调整：
+- 加速 AI 核心缩放时间线，加快中/后期进程：
+  - 中期过渡：周期 226 -> 216（5-10 周期而非 5-20）。
+  - 后期开始：周期 226 -> 216。
+  - 后期峰值：周期 256 -> 236（30 周期而非 50）。
+  - 终盘开始：周期 256 -> 236。
+  - 最大饱和：周期 306 -> 256（总计 50 周期而非 100）。
+- AI 核心分配复查间隔缩短：120 天 -> 60 天。
+  - 注：设置可在 data/config/settings.json 调整。
+
+细节改进：
+- 终于更新了旧的 MagicLib 悬赏描述。
+- 更新全舰队舰船变体以匹配 OP 变更。
+- 重做破壁干扰阵 AI，现在应该好得多。
+
+版本 0.5.6（存档兼容 0.5.5）
+错误修复：
+- 忘了给标枪加上 DO_NOT_AIM 标签。
+
+版本 0.5.5（存档兼容 0.5.4）
+错误修复：
+- 移除了 ship_data.csv 里一些混入的随机值。
+
+平衡性调整：
+- 调整标枪 MLRS：
+  - 调整机动性，使其可用于后向挂点。
+  - 到达武器射程时加入正常的消散。
+- 更改 XLII 舰船的定价：
+  - REP 消耗现在按舰体大小为 1/2/3/4。
+  - 信用点价格仍为原舰体的 2 倍。
+
+版本 0.5.4（存档兼容 0.5.3）
+错误修复：
+- 修复 August 元帅不卖正确舰船的问题，小气鬼。
+
+平衡性调整：
+- 调整少宰：
+  - OP 消耗降低：14 -> 9。
+- 调整天一：
+    - OP 消耗降低：16 -> 14。
+- 调整火绳钩枪短程导弹发射器。
+  - 射程降低：1500 -> 1000。
+  - 齐射规模降低：2 -> 1。
+
+细节改进：
+- 为应答剑电磁炮添加特效。
+- 更改了 .variant 文件。
+
+版本 0.5.3（存档兼容 0.5.2）
+平衡性调整：
+- 调整双狼：
+  - 将原版激光雷达系统更换为自定义系统。
+    - 使用时降低极速与加/减速度。
+  - 极速提高：50 -> 60。
+  - 加速度提高：20 -> 25。
+  - 减速度提高：15 -> 20。
+  - 最大转向速率降低：12 -> 11。
+  - 转向加速度降低：12 -> 11。
+
+细节改进：
+ - 更新部分固定挂点武器贴图以更好贴合挂座。
+ - 添加独特引擎音效。
+
+版本 0.5.2（存档兼容 0.5.1）
+新内容：
+- 新增：双狼级战列巡洋舰——远程火力支援战列巡洋舰。
+
+平衡性调整：
+- 调整天棒二级战列舰，武器配置更灵活：
+  - 大型炮塔不再内置应答剑电磁炮（从内置改为混合挂点）。
+  - 小型翼炮塔从混合改为弹道类型。
+  - 尾部固定挂点从通用改为导弹类型。
+  - 最大幅能降低：25000 -> 22500。
+  - 幅能散逸降低：2250 -> 1600。
+  - 护盾弧增大：180 -> 240。
+  - 护盾效率提高：1.4 -> 1.2。
+  - 极速降低：50 -> 45。
+  - 加速度提高：5 -> 12。
+  - 减速度提高：10 -> 12。
+  - 转向加速度提高：4 -> 6。
+- 上辅级 OP 降低：18 -> 10。
+- 少弼级现在归类为战斗航母（加入 COMBAT 标签）。
+- 天棒四级 OP 提高：14 -> 16。
+- 天厨一级装配点数提高：280 -> 305。
+- 调整双矛炮，降低阿尔法打击能力（现在更偏向瘫痪手）：
+  - 单发伤害降低：650 -> 400。
+  - 单发电磁伤害提高：250 -> 500。
+  - 转向速率降低：10 -> 9。
+  - OP 提高：26 -> 28。
+  - 幅能消耗提高：550 -> 700。
+  - 最小散布增大：1 -> 2。
+  - 最大散布增大：5 -> 8。
+- 应答剑电磁炮 OP 提高：28 -> 30。
+- 投石机炮弹发射器转向速率提高：9 -> 12。
+- 破剑刃短程导弹发射器导弹结构值提高：1 -> 25。
+- 阔斧枪中程导弹发射器（全部变体）导弹结构值提高：50 -> 100。
+- 长戟级鱼雷弹药降低：3 -> 2，OP 降低：12 -> 8。
+- 长戟级鱼雷弹舱弹药提高：4 -> 6，OP 降低：14 -> 12。
+- 火绳钩枪短程导弹发射器飞行时间提高：3.75 -> 5。
+- 弯刀级鱼雷导弹结构值降低：1000 -> 500。
+- 电子战套件（天一级战机）射程降低：500 -> 250，以防止过度的区域拒止。
+
+高级火控改进：
+- 大幅扩展武器 AI 标签支持，以更好整合 Advanced Gunnery Control mod。
+
+细节改进：
+- 为任务高轨添加更多舰船。
+- 双狼级加入标题画面轮换。
+- 更新舰队构成表以纳入新战列巡洋舰。
+
+版本 0.5.1（存档兼容 0.5.0）
+错误修复：
+- 修复 AI 核心舰队缩放系统未正确为刷新舰队分配核心。
+  - 此前问题：系统只在舰队于基地收手时处理，而舰队在该状态下会消失。
+  - 修复：移除收手要求——舰队刷新时（任何任务）立即获得核心。
+  - 加入周期性复查系统（间隔可配置，默认：120 天）以处理：
+    - 覆盖率随游戏进程提高（30% -> 70% -> 100%）。
+    - 替换战斗中损失的 AI 核心。
+    - 填补新的空缺军官槽位。
+- 修复 AI 核心分布使用了错误的周期阈值。
+  - 此前问题：阈值假定为相对周期（0-100），而远行星号战役从约 206 周期开始。
+  - 这导致舰队立即获得终盘 AI 核心（阿尔法/贝塔），而非前期的伽马核心。
+  - 修复：周期阈值更新为绝对值（206-306），正确追踪战役进程。
+  - settings.json 已更新，附以绝对周期数的清晰说明。
+- 修复 AI 核心失窃情报在成功夺取殖民地后错误地报告自窃。
+  - 此前问题：德拉科尼斯夺取殖民地时，失窃系统仍会触发并生成“德拉科尼斯窃取德拉科尼斯”的情报。
+    - 谁都别信，包括你自己……
+  - 修复：加入势力所有权检查——目标市场已属德拉科尼斯时跳过失窃。
+
+版本 0.5.0
+错误修复：
+- 重组了 AI 突袭/殖民地危机，应该没那么乱了。
+- 修复 AI 核心捐献系统中的严重无限循环 bug。
+  - 此前问题：同层级核心会无限互相顶替，导致 20 秒以上的卡顿，且只有管理员职位获得核心。
+  - 重设计：核心安装现在按严格层级顺序处理（阿尔法 -> 贝塔 -> 伽马）。
+  - 每层三个阶段：管理员职位（仅阿尔法）、空闲产业槽位、然后是低层核心升级。
+  - 加入基于 canUpgradeCore() 的正规升级校验——同层“升级”现已被阻止。
+  - 移除被顶替核心的重新排队逻辑——被顶替的核心由升级消耗（更符合实际）。
+  - 升级权重从 80% 提高到 95%，使高层核心顶替低层时更具竞争力。
+- 修复殖民地危机事件被击败后未正确结束。
+- 为 AI 核心突袭加入条件：舰队必须真正存活下来才能窃取 AI 核心。
+
+新内容：
+- 新增：天厨二级驱逐舰——民用级运输驱逐舰。
+- 新增：驹Mk.II 级护卫舰——原驹的先进升级型。
+- 新增：“高轨”任务——在 Kori 站与霸主部队交战。
+- 新增：战斗电台支持——德拉科尼斯舰员的语音台词。
+  - 三种性格：忠诚派、军官与老兵。
+- 新增：设定文档“Draconis Lore.pdf”——德拉科尼斯同盟的全面背景。
+- 新增：渐进难度缩放系统——随游戏进程，德拉科尼斯获得更多更好的 AI 核心军官以补充兵力。
+
+势力调整：
+- 为清晰与设定一致，重命名 XLII 战斗群子势力。
+  - 更新全部舰船皮肤：alruba_FSDF -> alruba_fortysecond（及 alwaid、errakis、juza、shaobi）。
+  - 变体从 FSDF 更名为 fortysecond 命名规范。
+  - 更新蓝图包：XLII_FSDF_package -> XLII_fortysecond_package。
+  - 全部贴图与配置文件已更新以匹配新命名。
+
+平衡性调整：
+- 调整天厨一级战列巡洋舰，改善幅能管理与教义契合：
+  - 船插：扩展导弹架 -> 瞄准装置。
+  - 幅能排口提高：39 -> 50。
+  - 幅能电容提高：0 -> 4。
+  - 大型导弹武器：长戟弹舱（交替）-> 阔斧枪（联动）。
+  - 中型导弹武器：微型阔斧枪（联动）-> 神箭（交替）。
+  - 以更好的幅能数据改善持续作战能力。
+
+- 导弹制导上行链 -> 导弹控制矩阵（全面重做）：
+  - 更名：导弹制导上行链现为导弹控制矩阵。
+  - 新增：为大型导弹武器缓慢再生弹药。
+    - 装填间隔随武器射速与最大弹药缩放。
+    - 公式确保装填永远慢于射速。
+    - 最大弹药越多的武器，单枚导弹装填越快。
+  - 新增：导弹结构值提高 +50%。
+  - 图标更新为导弹自动工厂图样。
+  - 描述强调相控阵瞄准与自动锻造制造。
+
+- XLII 舰队船插显著强化，加入被动导弹防御：
+  - 新增：整合电子战套件提供区域导弹防御。
+  - 防御范围 = （碰撞半径 × 3）+ 舰体大小加成。
+    - 护卫舰：+200 范围加成
+    - 驱逐舰：+150 范围加成
+    - 巡洋舰：+50 范围加成
+    - 主力舰：+0 范围加成（仅基础范围）
+  - 范围内每枚敌方导弹有 50% 几率受影响。
+  - 效果：干扰瘫痪导弹，或策反为友方控制并重新瞄准。
+    - 被干扰导弹：瘫痪，伤害归零，熄火（蓝色粒子效果）。
+    - 被策反导弹：所有权变更，重新瞄准原发射舰，附加电子对抗，延长飞行时间（绿色粒子效果）。
+  - 策反仅对制导导弹生效；无制导导弹一律被干扰。
+  - 舰船过载、排幅、相位或撤退时禁用。
+  - 每枚导弹只处理一次，避免重复掷骰。
+  - 描述已更新以反映新防御能力。
+
+- 移除 Kori 高级司令部设施的初始 AI 核心。
+
+细节改进：
+- AI 核心系统代码重组，可维护性更好：
+  - AI 核心突袭类从 intel/events/aicore/ 移至 intel/aicore/raids/。
+  - 改进包结构与关注点分离。
+  - 移动的文件：DraconisAICoreActivityCause、DraconisAICoreRaidFactor、DraconisAICoreRaidIntel、DraconisAICoreRaidManager。
+- Mod 插件日志改进：
+  - 实现规范的 Log4j Logger 替代直接的 Global.getLogger() 调用。
+  - 改进启动日志，清晰显示 mod 初始化状态。
+  - 以 try-catch 块与回退值改进错误处理。
+- 新增：突袭系统配置开关：
+  - 加入 draconisEnableAICoreRaids 设置（默认：true）。
+  - 加入 draconisEnableRemnantRaids 设置（默认：true）。
+  - 设置从 settings.json 读取，出错时回退。
+  - 状态在 mod 初始化时记录。
+
+版本 0.4.3（存档兼容 0.4.0）
+- 我可能漏了些东西…… >.>
+- 修复 AI 核心系统中的多处 ConcurrentModificationException 崩溃。
+  - 迭代市场产业时加入防御性集合复制。
+  - 影响 AI 核心失窃、残余突袭、捐献与活动追踪系统。
+  - 防止多线程战役环境中的崩溃。
+
+版本 0.4.2（存档兼容 0.4.0）
+- 修复 AI 核心获取系统在核心重分配期间的 ConcurrentModificationException 崩溃。
+  - 以基于索引的迭代替换 for-each 循环，安全处理被顶替的核心。
+  - 解决突袭多枚 AI 核心市场时的崩溃。
+
+版本 0.4.1（存档兼容 0.4.0）
+- 修复 AI 核心捐献系统在顶替低层核心时的 ConcurrentModificationException 崩溃。
+  - 核心安装现在分轮处理，安全应对被顶替的核心。
+  - 加入最大轮数上限的无限循环保护。
+
+版本 0.4.0
+- 警告：破坏性更新——不兼容 0.3.5 及更早的存档。
+  - 完全内部重构：全部 ID 从 fsdf_ 前缀更名为 XLII_。
+  - 所有舰船、武器、系统与变体均有新标识符。
+
+新内容：
+- 新增新角色：神秘的舰队元帅 Emil August！
+- 新增子势力：XLII 战斗群（德拉科尼斯防卫特种部队）。
+  - 航母教义的精锐舰队构成。
+  - 5 款新特种部队舰船皮肤：驹、龙首、天棒增十、主宰、少弼（从 Emil August 处购买！）
+  - XLII 专属变体用于高端舰队遭遇。
+- 加入 3 首势力音乐曲目，营造动态遭遇氛围。
+  - 友好、中立与敌对遭遇各有独特主题曲。
+  - 感谢 Ed Harrison 的杰出作品（已获授权）！
+- 加入 Commissioned Crews 支持。
+- 加入长戟弹舱武器变体。
+
+Nexerelin 整合：
+- 新增：AI 核心获取系统——德拉科尼斯主动追逐 AI 核心。
+  - 势力将识别并突袭持有高价值 AI 核心的市场。
+  - 高价值目标扫描器优先锁定核心富集的市场。
+  - 钢铁幕帘市场条件标记高安保目标。
+  - 新情报事件追踪 AI 核心失窃与定向突袭。
+  - 全面的突袭监控与成败追踪。
+  - 严格的交战要求：战斗邻近 + 最短驻留时间。
+  - 基于被窃核心价值的外交压力系统：
+    - 阿尔法核心：-4.8 态度
+    - 贝塔核心：-3.2 态度
+    - 伽马核心：-2.0 态度
+  - 双向外交惩罚（影响双方势力）。
+- 增强战略 AI 行为与势力互动。
+- 改进巡逻舰队刷新与敌对活动系统。
+
+平衡性调整：
+- 时间滑移系统调整，循环更快。
+  - 幅能消耗：4 -> 3。
+  - 冷却：10秒 -> 6秒。
+  - 充能：2 -> 1（单次强力使用）。
+  - 再生时间：10秒 -> 12秒。
+- 撤退驱动（德拉科尼斯跃迁机制）重大改进。
+  - 现在仅在直接撤退命令下触发（你现在可以选择普通撤退）。
+  - 更快充能：驱逐舰 8->7秒，巡洋舰 10->8秒，主力舰 12->9秒。
+  - 修复已瘫痪舰船明明死了还跃迁的 bug。
+  - 加入安全检查防止跃迁期间崩溃。
+
+体验优化：
+- [已删改] 船插描述完全重写。
+  - 以精确百分比清晰解释机制。
+  - 20% 船体恢复，每模块 25%，冷却缩减 35%。
+- 为舰船购买与势力互动加入战役规则。
+- 扩充舰船、武器与系统的描述。
+- 以新的法夫纳内战设定完全重写 README。
+
+技术性改进：
+- 更新势力配置与舰队教义。
+- 改进声音平衡与音频系统集成。
+- 更新引擎样式与视觉效果。
+- 情报事件、市场与货物的新图标。
+- 提高 AI 舰队变体多样性。
+- 修复舰船系统 CSV 引用。
+- 修正声音与视觉效果文件路径。
+- 修复变体配置与舰队构成。
+
+版本 0.3.5
+- 为落日悬赏战添加新机制。
+
+版本 0.3.4
+- 新增：天棒二级主力舰。
+- 为主计级加入破壁干扰阵舰船系统。
+- 更改：若干武器现在具有持续伤害效果，而非剥甲。
+  - 参见投石机炮弹发射器。
+- 添加更多舰船与武器描述。
+- 添加/更改舰船变体。
+- 改进舰船系统 AI 行为。
+- 移除弃用的武器效果脚本。
+- 调整内置船插。
+- 调整落日悬赏战。
+- 更新势力配置。
+
+版本 0.3.3
+- 更新德拉科尼斯势力配置。
+- 调整武器与舰体出现频率。
+- 更新舰船角色与市场产业配置。
+- 修复武器效果的音效引用与 CSV 尾迹数据。
+
+版本 0.3.2
+- 更改：粒子爆发长枪伤害类型从能量改为高爆。
+
+版本 0.3.1
+- 调整细剑自动炮与粒子爆发长枪。
+- 相应更新舰船变体。
+- 补全未完成的名字与描述。
+
+版本 0.3.0
+- 新增：上辅级驱逐舰。
+- 新增：德拉科尼斯跃迁撤退机制。
+  - 舰船现在跃迁离场而非直接撤退。
+- 改进若干舰船贴图。
+- 更新弹丸特效（.proj 文件）。
+- 重做双矛炮。
+- 调整投石机炮弹发射器（削弱）。
+- 调整天棒四级巡洋舰（削弱）。
+  - 大型挂点从弹道改为混合。
+- 调整主宰级巡洋舰。
+- 加入阔斧枪导弹 AI。
+- 全面武器平衡调整。
+- 更新舰队教义。
+
+版本 0.2.3
+- 新增：主宰级重巡洋舰。
+- 新增：主计级巡洋舰。
+- 修订阔斧枪导弹定位。
+- 为回避规程舰船系统加入 1 秒冷却。
+- 调整突刺剑武器。
+  - 提高射速，降低伤害。
+  - 更新武器贴图。
+- 缩短龙节交战距离。
+- 改进音频平衡。
+- 增强粒子爆发长枪。
+  - 更换武器音效。
+- 重做应急动力舰船系统。
+  - 移除被动 CR 降低。
+  - 现在激活时消耗少量 CR。
+  - 延长冷却。
+- 恢复阿苏娅的内置武器。
+  - 将阿苏娅移至悬赏遭遇。
+- 减少箔条/诱饵弹数量（性能优化）。
+- 重做天棒增十级舰船。
+- 更新舰队教义。
+
+版本 0.2.2
+- 修复舰船变体配置。
+
+版本 0.2.1
+- 加入新的突刺剑音效。
+  - 降低射速。
+  - 延长装填时间。
+  - 提高精度。
+- 更新 MagicLib 悬赏（描述仍待补）。
+- 加入新的突刺剑高射音效。
+- 移除 Kori 与 Vorium 市场的 AI 核心刷屏。
+- 修复 Kori 产业配置。
+- 修复长戟穿盾机制。
+- 移除阿苏娅的多余引擎。
+
+版本 0.2.0
+- 在版本文件中加入论坛链接。
+- 新增：龙节战机无人机。
+  - 含内置火绳钩枪短程导弹发射器。
+- 新增：突刺剑高射炮（小型剃刀高射变体）。
+- 补充缺失的阔斧枪描述。
+- 改进少尉的相位雷特效。
+- 改进势力图标/横幅。
+- 更新杜兰达尔Mk.II主炮贴图。
+- 改进脉冲星干扰阵舰船系统。
+  - AI 使用系统时现在会下达防御命令。
+- 改进应急动力舰船系统。
+  - 随舰体大小缩放（大舰效果减弱）。
+  - 延长持续与冷却时间。
+  - 缩短蓄力与收束时间。
+- 增强龙首航空战列舰。
+- 调整细剑自动炮。
+  - 弹药：24 -> 6。
+  - 射程：800 -> 900。
+- 全面缩短战机交战距离。
+- 修复剃刀高射爆炸特效。
+- 修复 wing_data 标签问题。
+- 重大：重做星系生成。
+  - 不再使用 .json 定义市场。
+  - 修复 Fafnir 星系双势力所有权 bug。
+  - 警告：不向后兼容旧存档。
+- 改进引擎特效。
+
+版本 0.1.0
+- 初版发布。

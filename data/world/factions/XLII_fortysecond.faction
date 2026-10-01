@@ -14,11 +14,11 @@
 	
 	"showInIntelTab":false,
 	
-	"displayName":"Draconis XLII Battlegroup",
-		"displayNameWithArticle":"the Draconis XLII Battlegroup",
+	"displayName":"德拉科尼斯第42战斗群",
+		"displayNameWithArticle":"德拉科尼斯第42战斗群",
 		
-	"displayNameLong":"Draconis Defence Alliance XLII Battlegroup",
-		"displayNameLongWithArticle":"the Draconis Defence Alliance XLII Battlegroup",
+	"displayNameLong":"德拉科尼斯防卫同盟第42战斗群",
+		"displayNameLongWithArticle":"德拉科尼斯防卫同盟第42战斗群",
 	
 	"logo":"graphics/factions/draconis_2.png",
 		"crest":"graphics/factions/crest_draconis_2.png",

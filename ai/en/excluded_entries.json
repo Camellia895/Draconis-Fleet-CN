@@ -1,0 +1,22 @@
+[
+  { "file": "data/config/chatter/officer_name_to_character.csv", "reason": "chatter 系统按军官名字符串匹配角色（Octantis Uplink→sigma_octantis），人名/匹配键不译" },
+  { "file": "data/campaign/sim_opponents_dev.csv", "reason": "开发用演习对手变体 id 清单，非玩家可见文本" },
+  { "file": "data/config/title_screen_variants.csv", "reason": "标题界面演习变体 id 清单（逻辑键）" },
+  { "file": "data/config/chatter/characters.csv", "reason": "chatter 角色 id 清单（逻辑键）" },
+  { "file": "data/config/chatter/character_factions.csv", "reason": "chatter 角色-势力适配数值表（逻辑）" },
+  { "file": "data/config/chatter/factiontags.csv", "reason": "势力 tag 映射（逻辑键）" },
+  { "file": "data/config/chatter/hull_prefixes.csv", "reason": "船体前缀-势力映射（逻辑键）" },
+  { "file": "data/config/chatter/ship_name_prefixes.csv", "reason": "舰名前缀-势力映射（逻辑键）" },
+  { "file": "data/config/chatter/boss_ships.csv", "reason": "Boss 船 hull id 清单（逻辑键）" },
+  { "file": "data/config/CommissionBonus/TechpriestCommission.csv", "reason": "faction_id→hullmod_id 映射（逻辑键）" },
+  { "file": "data/config/modSettings.json", "reason": "跨 mod 逻辑配置（武器 tag/采矿强度键，引擎匹配用）" },
+  { "file": "data/config/exerelinFactionConfig/XLII_draconis.json", "id": "XLII_draconis", "field": "diplomacyTraits", "reason": "Nexerelin 外交性格枚举（逻辑键）" },
+  { "file": "data/config/exerelinFactionConfig/XLII_draconis.json", "id": "XLII_draconis", "field": "miningVariantsOrWings", "reason": "变体/战机 id（逻辑键）" },
+  { "file": "data/config/custom_entities.json", "id": "XLII_fafnir_gate", "field": "aOrAn", "reason": "冠词语法键（an）" },
+  { "file": "data/world/factions/XLII_draconis.faction", "id": "names", "reason": "人名生成词表，人名保留原文" },
+  { "file": "data/world/factions/XLII_fortysecond.faction", "id": "names", "reason": "人名生成词表，人名保留原文" },
+  { "file": "data/world/factions/XLII_intelligence_office.faction", "id": "names", "reason": "人名生成词表，人名保留原文" },
+  { "file": "data/missions/highorbit/MissionDefinition.java", "id": "highorbit", "field": "fleetPrefix@15", "en": "DNS", "reason": "舰队名前缀缩写（如 USS），保留" },
+  { "file": "data/missions/highorbit/MissionDefinition.java", "id": "highorbit", "field": "fleetPrefix@16", "en": "HSS", "reason": "舰队名前缀缩写，保留" },
+  { "file": "data/missions/highorbit/MissionDefinition.java", "id": "highorbit", "field": "shipName", "reason": "addToFleet 第 2 参 variant id（逻辑键 R12）；sec_janino_mission.json 中 decision=skip 的 30 条全部属此类（en 级排除以 mission 交付说明为准）" }
+]

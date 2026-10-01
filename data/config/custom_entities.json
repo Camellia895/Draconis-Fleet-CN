@@ -1,7 +1,7 @@
 {
 	"XLII_fafnir_gate":{
-		"defaultName":"Destroyed Gate",
-		"nameInText":"destroyed gate",
+		"defaultName":"被毁星门",
+		"nameInText":"被毁星门",
 		"aOrAn":"an",
 		"defaultRadius":120,
 		"interactionImage":"graphics/illustrations/dead_gate.jpg",

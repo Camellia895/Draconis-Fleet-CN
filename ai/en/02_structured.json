@@ -1,0 +1,2372 @@
+[
+ {
+  "file": "data/hulls/XLII_aldhibah.ship",
+  "id": "XLII_aldhibah",
+  "field": "hullName",
+  "line": 2,
+  "en": "Aldhibah",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_aldibain.ship",
+  "id": "XLII_aldibain",
+  "field": "hullName",
+  "line": 2,
+  "en": "Aldibain",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_alrakis.ship",
+  "id": "XLII_alrakis",
+  "field": "hullName",
+  "line": 2,
+  "en": "Alrakis",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_alruba.ship",
+  "id": "XLII_alruba",
+  "field": "hullName",
+  "line": 2,
+  "en": "Alruba",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_alruba_mk2.ship",
+  "id": "XLII_alruba_mk2",
+  "field": "hullName",
+  "line": 2,
+  "en": "Alruba Mk.II",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_alsafi.ship",
+  "id": "XLII_alsafi",
+  "field": "hullName",
+  "line": 2,
+  "en": "Alsafi",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_alsafi_cargo.ship",
+  "id": "XLII_alsafi_cargo",
+  "field": "hullName",
+  "line": 2,
+  "en": "Alsafi",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_altais.ship",
+  "id": "XLII_altais",
+  "field": "hullName",
+  "line": 2,
+  "en": "Altais",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_altais_proto.ship",
+  "id": "XLII_altais_proto",
+  "field": "hullName",
+  "line": 2,
+  "en": "Altais",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_alwaid.ship",
+  "id": "XLII_alwaid",
+  "field": "hullName",
+  "line": 2,
+  "en": "Alwaid",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_alwaid_proto.ship",
+  "id": "XLII_alwaid_proto",
+  "field": "hullName",
+  "line": 2,
+  "en": "Alwaid",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_asuia.ship",
+  "id": "XLII_asuia",
+  "field": "hullName",
+  "line": 2,
+  "en": "Asuia",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_drone_assault.ship",
+  "id": "XLII_drone_assault",
+  "field": "hullName",
+  "line": 2,
+  "en": "Assault Drone",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_drone_utility.ship",
+  "id": "XLII_drone_utility",
+  "field": "hullName",
+  "line": 2,
+  "en": "Utility Drone",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_dziban.ship",
+  "id": "XLII_dziban",
+  "field": "hullName",
+  "line": 2,
+  "en": "Dziban",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_eldsich.ship",
+  "id": "XLII_eldsich",
+  "field": "hullName",
+  "line": 2,
+  "en": "Eldsich",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_eltanin.ship",
+  "id": "XLII_eltanin",
+  "field": "hullName",
+  "line": 2,
+  "en": "Eltanin",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_eltanin_proto.ship",
+  "id": "XLII_eltanin_proto",
+  "field": "hullName",
+  "line": 2,
+  "en": "Eltanin",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_errakis.ship",
+  "id": "XLII_errakis",
+  "field": "hullName",
+  "line": 2,
+  "en": "Errakis",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_errakis_mk2.ship",
+  "id": "XLII_errakis_mk2",
+  "field": "hullName",
+  "line": 2,
+  "en": "Errakis",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_giausar.ship",
+  "id": "XLII_giausar",
+  "field": "hullName",
+  "line": 2,
+  "en": "Giausar",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_giausar_proto.ship",
+  "id": "XLII_giausar_proto",
+  "field": "hullName",
+  "line": 2,
+  "en": "Giausar",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_grumium.ship",
+  "id": "XLII_grumium",
+  "field": "hullName",
+  "line": 2,
+  "en": "Grumium",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_grumium_alt.ship",
+  "id": "XLII_grumium_alt",
+  "field": "hullName",
+  "line": 2,
+  "en": "Grumium",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_jufeng.ship",
+  "id": "XLII_jufeng",
+  "field": "hullName",
+  "line": 2,
+  "en": "Jufeng",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_juni.ship",
+  "id": "XLII_juni",
+  "field": "hullName",
+  "line": 2,
+  "en": "Juni",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_juza.ship",
+  "id": "XLII_juza",
+  "field": "hullName",
+  "line": 2,
+  "en": "Juza",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_kuma.ship",
+  "id": "XLII_kuma",
+  "field": "hullName",
+  "line": 2,
+  "en": "Kuma",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_module_jufeng_armor_left.ship",
+  "id": "XLII_module_jufeng_armor_left",
+  "field": "hullName",
+  "line": 2,
+  "en": "Armor Module",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_module_jufeng_armor_right.ship",
+  "id": "XLII_module_jufeng_armor_right",
+  "field": "hullName",
+  "line": 2,
+  "en": "Armor Module",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_module_sunsetter_armor_back.ship",
+  "id": "XLII_module_sunsetter_armor_back",
+  "field": "hullName",
+  "line": 2,
+  "en": "Armor Module",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_module_sunsetter_armor_front.ship",
+  "id": "XLII_module_sunsetter_armor_front",
+  "field": "hullName",
+  "line": 2,
+  "en": "Armor Module",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_module_sunsetter_armor_left.ship",
+  "id": "XLII_module_sunsetter_armor_left",
+  "field": "hullName",
+  "line": 2,
+  "en": "Armor Module",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_module_sunsetter_armor_right.ship",
+  "id": "XLII_module_sunsetter_armor_right",
+  "field": "hullName",
+  "line": 2,
+  "en": "Armor Module",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_nodus.ship",
+  "id": "XLII_nodus",
+  "field": "hullName",
+  "line": 2,
+  "en": "Nodus",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_nushi.ship",
+  "id": "XLII_nushi",
+  "field": "hullName",
+  "line": 2,
+  "en": "Nushi",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_nushi_mk2.ship",
+  "id": "XLII_nushi_mk2",
+  "field": "hullName",
+  "line": 2,
+  "en": "Nushi Mk.II",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_pojun.ship",
+  "id": "XLII_pojun",
+  "field": "hullName",
+  "line": 2,
+  "en": "Pojun",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_rastaban.ship",
+  "id": "XLII_rastaban",
+  "field": "hullName",
+  "line": 2,
+  "en": "Rastaban",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_rastaban_mrm.ship",
+  "id": "XLII_rastaban_mrm",
+  "field": "hullName",
+  "line": 2,
+  "en": "Excalibur",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_rastaban_proto.ship",
+  "id": "XLII_rastaban_proto",
+  "field": "hullName",
+  "line": 2,
+  "en": "Rastabam",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_shangshu.ship",
+  "id": "XLII_shangshu",
+  "field": "hullName",
+  "line": 2,
+  "en": "Shangshu",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_shaobi.ship",
+  "id": "XLII_shaobi",
+  "field": "hullName",
+  "line": 2,
+  "en": "Shaobi",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_shaowei.ship",
+  "id": "XLII_shaowei",
+  "field": "hullName",
+  "line": 2,
+  "en": "Shaowei",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_sunsetter.ship",
+  "id": "XLII_sunsetter",
+  "field": "hullName",
+  "line": 2,
+  "en": "Sunsetter",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_thorne.ship",
+  "id": "XLII_thorne",
+  "field": "hullName",
+  "line": 2,
+  "en": "Thorne",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_thuban.ship",
+  "id": "XLII_thuban",
+  "field": "hullName",
+  "line": 2,
+  "en": "Thuban",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_thuban_proto.ship",
+  "id": "XLII_thuban_proto",
+  "field": "hullName",
+  "line": 2,
+  "en": "Thuban",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_tianbang.ship",
+  "id": "XLII_tianbang",
+  "field": "hullName",
+  "line": 2,
+  "en": "Tianbang",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_tiangou.ship",
+  "id": "XLII_tiangou",
+  "field": "hullName",
+  "line": 2,
+  "en": "Tiangou",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_tianlong.ship",
+  "id": "XLII_tianlong",
+  "field": "hullName",
+  "line": 2,
+  "en": "Tianlong",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_tianlong_mk2.ship",
+  "id": "XLII_tianlong_mk2",
+  "field": "hullName",
+  "line": 2,
+  "en": "Tianlong",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_tianyi.ship",
+  "id": "XLII_tianyi",
+  "field": "hullName",
+  "line": 2,
+  "en": "Tianyi",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_yinde.ship",
+  "id": "XLII_yinde",
+  "field": "hullName",
+  "line": 2,
+  "en": "Yinde",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_yunu.ship",
+  "id": "XLII_yunu",
+  "field": "hullName",
+  "line": 2,
+  "en": "Yunu",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/XLII_zhushi_proto.ship",
+  "id": "XLII_zhushi_proto",
+  "field": "hullName",
+  "line": 2,
+  "en": "Zhushi",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_alrakis_fortysecond.skin",
+  "id": "XLII_alrakis_fortysecond",
+  "field": "hullName",
+  "line": 4,
+  "en": "Alrakis (XLII)",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_alruba_fortysecond.skin",
+  "id": "XLII_alruba_fortysecond",
+  "field": "hullName",
+  "line": 4,
+  "en": "Alruba (XLII)",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_alwaid_fortysecond.skin",
+  "id": "XLII_alwaid_fortysecond",
+  "field": "hullName",
+  "line": 4,
+  "en": "Alwaid (XLII)",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_eltanin_fortysecond.skin",
+  "id": "XLII_eltanin_fortysecond",
+  "field": "hullName",
+  "line": 4,
+  "en": "Eltanin (XLII)",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_errakis_fortysecond.skin",
+  "id": "XLII_errakis_fortysecond",
+  "field": "hullName",
+  "line": 4,
+  "en": "Errakis (XLII)",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_juza_fortysecond.skin",
+  "id": "XLII_juza_fortysecond",
+  "field": "hullName",
+  "line": 4,
+  "en": "Juza (XLII)",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_shaobi_fortysecond.skin",
+  "id": "XLII_shaobi_fortysecond",
+  "field": "hullName",
+  "line": 4,
+  "en": "Shaobi (XLII)",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_tianlong_fortysecond.skin",
+  "id": "XLII_tianlong_fortysecond",
+  "field": "hullName",
+  "line": 4,
+  "en": "Tianlong (XLII)",
+  "zh": "",
+  "note": "舰船显示名 (.ship/.skin 内 hullName)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_aldhibah_Elite.variant",
+  "id": "XLII_aldhibah_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_aldhibah_Standard.variant",
+  "id": "XLII_aldhibah_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_aldhibah_Strike.variant",
+  "id": "XLII_aldhibah_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alrakis_Elite.variant",
+  "id": "XLII_alrakis_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alrakis_Escort.variant",
+  "id": "XLII_alrakis_Escort",
+  "field": "displayName",
+  "line": 2,
+  "en": "Escort",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alrakis_Standard.variant",
+  "id": "XLII_alrakis_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alrakis_Strike.variant",
+  "id": "XLII_alrakis_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alruba_Elite.variant",
+  "id": "XLII_alruba_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alruba_mk2_Elite.variant",
+  "id": "XLII_alruba_mk2_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alruba_mk2_Standard.variant",
+  "id": "XLII_alruba_mk2_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alruba_Standard.variant",
+  "id": "XLII_alruba_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alsafi_Cargo.variant",
+  "id": "XLII_alsafi_Cargo",
+  "field": "displayName",
+  "line": 2,
+  "en": "Custom",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alsafi_Cargo_Standard.variant",
+  "id": "XLII_alsafi_Cargo_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alsafi_Hybrid.variant",
+  "id": "XLII_alsafi_Hybrid",
+  "field": "displayName",
+  "line": 2,
+  "en": "Custom",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alsafi_Standard.variant",
+  "id": "XLII_alsafi_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_altais_Elite.variant",
+  "id": "XLII_altais_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_altais_Standard.variant",
+  "id": "XLII_altais_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_altais_Strike.variant",
+  "id": "XLII_altais_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alwaid_Elite.variant",
+  "id": "XLII_alwaid_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alwaid_Escort.variant",
+  "id": "XLII_alwaid_Escort",
+  "field": "displayName",
+  "line": 2,
+  "en": "Escort",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alwaid_Standard.variant",
+  "id": "XLII_alwaid_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_alwaid_Strike.variant",
+  "id": "XLII_alwaid_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_asuia_Experimental.variant",
+  "id": "XLII_asuia_Experimental",
+  "field": "displayName",
+  "line": 2,
+  "en": "Experimental",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_asuia_Unstable.variant",
+  "id": "XLII_asuia_Unstable",
+  "field": "displayName",
+  "line": 2,
+  "en": "Unstable",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_dziban_Elite.variant",
+  "id": "XLII_dziban_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_dziban_Standard.variant",
+  "id": "XLII_dziban_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_dziban_Strike.variant",
+  "id": "XLII_dziban_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_eltanin_Elite.variant",
+  "id": "XLII_eltanin_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_eltanin_Standard.variant",
+  "id": "XLII_eltanin_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_eltanin_Strike.variant",
+  "id": "XLII_eltanin_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_errakis_Elite.variant",
+  "id": "XLII_errakis_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_errakis_Escort.variant",
+  "id": "XLII_errakis_Escort",
+  "field": "displayName",
+  "line": 2,
+  "en": "Escort",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_errakis_mk2_Elite.variant",
+  "id": "XLII_errakis_mk2_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_errakis_mk2_Standard.variant",
+  "id": "XLII_errakis_mk2_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_errakis_Standard.variant",
+  "id": "XLII_errakis_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_errakis_Strike.variant",
+  "id": "XLII_errakis_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_giausar_Elite.variant",
+  "id": "XLII_giausar_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_giausar_Standard.variant",
+  "id": "XLII_giausar_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_jufeng_Elite.variant",
+  "id": "XLII_jufeng_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_juni_Elite.variant",
+  "id": "XLII_juni_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_juni_Standard.variant",
+  "id": "XLII_juni_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_juni_Support.variant",
+  "id": "XLII_juni_Support",
+  "field": "displayName",
+  "line": 2,
+  "en": "Support",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_juza_Elite.variant",
+  "id": "XLII_juza_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_juza_Standard.variant",
+  "id": "XLII_juza_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_juza_Strike.variant",
+  "id": "XLII_juza_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_kuma_Elite.variant",
+  "id": "XLII_kuma_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_kuma_Standard.variant",
+  "id": "XLII_kuma_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_nushi_Elite.variant",
+  "id": "XLII_nushi_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_nushi_mk2_Elite.variant",
+  "id": "XLII_nushi_mk2_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_nushi_mk2_Overdriven.variant",
+  "id": "XLII_nushi_mk2_Overdriven",
+  "field": "displayName",
+  "line": 2,
+  "en": "Overdriven",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_nushi_mk2_Standard.variant",
+  "id": "XLII_nushi_mk2_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_nushi_mk2_Strike.variant",
+  "id": "XLII_nushi_mk2_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_nushi_Standard.variant",
+  "id": "XLII_nushi_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_nushi_Strike.variant",
+  "id": "XLII_nushi_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_pojun_Elite.variant",
+  "id": "XLII_pojun_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_pojun_Standard.variant",
+  "id": "XLII_pojun_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_pojun_Strike.variant",
+  "id": "XLII_pojun_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_rastaban_Assault.variant",
+  "id": "XLII_rastaban_Assault",
+  "field": "displayName",
+  "line": 2,
+  "en": "Assault",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_rastaban_Elite.variant",
+  "id": "XLII_rastaban_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_rastaban_Standard.variant",
+  "id": "XLII_rastaban_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_rastaban_Strike.variant",
+  "id": "XLII_rastaban_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_shaobi_Elite.variant",
+  "id": "XLII_shaobi_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_shaobi_Standard.variant",
+  "id": "XLII_shaobi_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_shaobi_Strike.variant",
+  "id": "XLII_shaobi_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_shaowei_Elite.variant",
+  "id": "XLII_shaowei_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_shaowei_Standard.variant",
+  "id": "XLII_shaowei_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_thuban_Elite.variant",
+  "id": "XLII_thuban_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_thuban_Standard.variant",
+  "id": "XLII_thuban_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_tianlong_Elite.variant",
+  "id": "XLII_tianlong_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_tianlong_mk2_Elite.variant",
+  "id": "XLII_tianlong_mk2_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_tianlong_mk2_Standard.variant",
+  "id": "XLII_tianlong_mk2_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_tianlong_mk2_Strike.variant",
+  "id": "XLII_tianlong_mk2_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_tianlong_Standard.variant",
+  "id": "XLII_tianlong_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_yinde_Elite.variant",
+  "id": "XLII_yinde_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_yinde_Overdriven.variant",
+  "id": "XLII_yinde_Overdriven",
+  "field": "displayName",
+  "line": 2,
+  "en": "Overdriven",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_yinde_Standard.variant",
+  "id": "XLII_yinde_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_yinde_Strike.variant",
+  "id": "XLII_yinde_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_yunu_Elite.variant",
+  "id": "XLII_yunu_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_yunu_Standard.variant",
+  "id": "XLII_yunu_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/XLII_yunu_Strike.variant",
+  "id": "XLII_yunu_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/sunsetter/XLII_module_sunsetter_armor_back_Standard.variant",
+  "id": "XLII_module_sunsetter_armor_back_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/sunsetter/XLII_module_sunsetter_armor_front_Standard.variant",
+  "id": "XLII_module_sunsetter_armor_front_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/sunsetter/XLII_module_sunsetter_armor_left_Standard.variant",
+  "id": "XLII_module_sunsetter_armor_left_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/sunsetter/XLII_module_sunsetter_armor_right_Standard.variant",
+  "id": "XLII_module_sunsetter_armor_right_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/sunsetter/XLII_sunsetter_Experimental.variant",
+  "id": "XLII_sunsetter_Experimental",
+  "field": "displayName",
+  "line": 2,
+  "en": "Experimental",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/sunsetter/XLII_sunsetter_Unstable.variant",
+  "id": "XLII_sunsetter_Unstable",
+  "field": "displayName",
+  "line": 2,
+  "en": "Unstable",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/proto/XLII_altais_proto_Standard.variant",
+  "id": "XLII_altais_proto_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Prototype",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/proto/XLII_alwaid_proto_Standard.variant",
+  "id": "XLII_alwaid_proto_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Prototype",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/proto/XLII_eltanin_proto_Standard.variant",
+  "id": "XLII_eltanin_proto_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Prototype",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/proto/XLII_giausar_proto_Standard.variant",
+  "id": "XLII_giausar_proto_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Prototype",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/proto/XLII_rastaban_proto_Standard.variant",
+  "id": "XLII_rastaban_proto_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Prototype",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/proto/XLII_thuban_proto_Standard.variant",
+  "id": "XLII_thuban_proto_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Prototype",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/proto/XLII_zhushi_proto_Standard.variant",
+  "id": "XLII_zhushi_proto_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Prototype",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/jufeng/XLII_jufeng_Elite.variant",
+  "id": "XLII_jufeng_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/jufeng/XLII_jufeng_Standard.variant",
+  "id": "XLII_jufeng_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/jufeng/XLII_module_jufeng_armor_left_Standard.variant",
+  "id": "XLII_module_jufeng_armor_left_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/jufeng/XLII_module_jufeng_armor_right_Standard.variant",
+  "id": "XLII_module_jufeng_armor_right_Standard",
+  "field": "displayName",
+  "line": 2,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_alrakis_Elite.variant",
+  "id": "FortySecond_alrakis_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_alrakis_Strike.variant",
+  "id": "FortySecond_alrakis_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_alruba_Elite.variant",
+  "id": "FortySecond_alruba_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_alruba_Strike.variant",
+  "id": "FortySecond_alruba_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_alwaid_Elite.variant",
+  "id": "FortySecond_alwaid_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_alwaid_Strike.variant",
+  "id": "FortySecond_alwaid_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_eltanin_Elite.variant",
+  "id": "FortySecond_eltanin_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_eltanin_Strike.variant",
+  "id": "FortySecond_eltanin_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_errakis_Elite.variant",
+  "id": "FortySecond_errakis_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_errakis_Strike.variant",
+  "id": "FortySecond_errakis_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_juza_Elite.variant",
+  "id": "FortySecond_juza_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_juza_Strike.variant",
+  "id": "FortySecond_juza_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_shaobi_Elite.variant",
+  "id": "FortySecond_shaobi_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_shaobi_Strike.variant",
+  "id": "FortySecond_shaobi_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_tianlong_Elite.variant",
+  "id": "FortySecond_tianlong_Elite",
+  "field": "displayName",
+  "line": 2,
+  "en": "Elite",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fortysecond/FortySecond_tianlong_Strike.variant",
+  "id": "FortySecond_tianlong_Strike",
+  "field": "displayName",
+  "line": 2,
+  "en": "Strike",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fighters/XLII_aldibain_Fighter.variant",
+  "id": "XLII_aldibain_Fighter",
+  "field": "displayName",
+  "line": 4,
+  "en": "Multirole Fighter",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fighters/XLII_eldsich_Bomber.variant",
+  "id": "XLII_eldsich_Bomber",
+  "field": "displayName",
+  "line": 4,
+  "en": "Bomber",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fighters/XLII_grumium_alt_Fighter.variant",
+  "id": "XLII_grumium_alt_Fighter",
+  "field": "displayName",
+  "line": 4,
+  "en": "Heavy Fighter",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fighters/XLII_grumium_Bomber.variant",
+  "id": "XLII_grumium_Bomber",
+  "field": "displayName",
+  "line": 4,
+  "en": "Heavy Bomber",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fighters/XLII_nodus_Bomber.variant",
+  "id": "XLII_nodus_Bomber",
+  "field": "displayName",
+  "line": 4,
+  "en": "Strike Drone",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fighters/XLII_shangshu_Bomber.variant",
+  "id": "XLII_shangshu_Bomber",
+  "field": "displayName",
+  "line": 4,
+  "en": "Strike Bomber",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fighters/XLII_shangshu_Heavy.variant",
+  "id": "XLII_shangshu_Heavy",
+  "field": "displayName",
+  "line": 4,
+  "en": "Strategic Bomber",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fighters/XLII_thorne_Fighter.variant",
+  "id": "XLII_thorne_Fighter",
+  "field": "displayName",
+  "line": 4,
+  "en": "Interceptor",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fighters/XLII_tianbang_Fighter.variant",
+  "id": "XLII_tianbang_Fighter",
+  "field": "displayName",
+  "line": 4,
+  "en": "Multirole Fighter",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fighters/XLII_tiangou_Fighter.variant",
+  "id": "XLII_tiangou_Fighter",
+  "field": "displayName",
+  "line": 4,
+  "en": "Multirole Fighter",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/fighters/XLII_tianyi_Fighter.variant",
+  "id": "XLII_tianyi_Fighter",
+  "field": "displayName",
+  "line": 4,
+  "en": "EW Fighter",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/variants/drones/XLII_drone_assault.variant",
+  "id": "XLII_drone_assault",
+  "field": "displayName",
+  "line": 4,
+  "en": "Standard",
+  "zh": "",
+  "note": "装配变体名 (整备界面变体列表)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "XLII_draconis",
+  "field": "displayName",
+  "line": 17,
+  "en": "Draconis Alliance",
+  "zh": "",
+  "note": "势力显示名变体 (带冠词版与主名一致即可)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "XLII_draconis",
+  "field": "displayNameWithArticle",
+  "line": 18,
+  "en": "the Draconis Alliance",
+  "zh": "",
+  "note": "势力显示名变体 (带冠词版与主名一致即可)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "XLII_draconis",
+  "field": "displayNameLong",
+  "line": 20,
+  "en": "Draconis Defence Alliance",
+  "zh": "",
+  "note": "势力显示名变体 (带冠词版与主名一致即可)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "XLII_draconis",
+  "field": "displayNameLongWithArticle",
+  "line": 21,
+  "en": "the Draconis Defence Alliance",
+  "zh": "",
+  "note": "势力显示名变体 (带冠词版与主名一致即可)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "factionLeader",
+  "field": "rank/name",
+  "line": 203,
+  "en": "Fleet Admiral",
+  "zh": "",
+  "note": "军衔/职务名 (对话与称号显示)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "factionLeader@L203",
+  "field": "rank/name",
+  "line": 203,
+  "en": "Fleet Admiral",
+  "zh": "",
+  "note": "军衔/职务名 (对话与称号显示)；同 id+field 重复条目，按行号 203 定位",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "patrolCommander",
+  "field": "rank/name",
+  "line": 207,
+  "en": "Commander",
+  "zh": "",
+  "note": "军衔/职务名 (对话与称号显示)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "fleetCommander",
+  "field": "rank/name",
+  "line": 208,
+  "en": "Rear Admiral",
+  "zh": "",
+  "note": "军衔/职务名 (对话与称号显示)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "baseCommander",
+  "field": "rank/name",
+  "line": 209,
+  "en": "Chief of Base Operations",
+  "zh": "",
+  "note": "军衔/职务名 (对话与称号显示)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "fleetTypeNames/trade",
+  "field": "fleetTypeNames",
+  "line": 234,
+  "en": "Commerce Fleet",
+  "zh": "",
+  "note": "舰队类型显示名 (战役舰队标签/情报)；键 trade 为逻辑键不译只译值",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "fleetTypeNames/tradeLiner",
+  "field": "fleetTypeNames",
+  "line": 235,
+  "en": "Transit Convoy",
+  "zh": "",
+  "note": "舰队类型显示名 (战役舰队标签/情报)；键 tradeLiner 为逻辑键不译只译值",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "fleetTypeNames/tradeSmuggler",
+  "field": "fleetTypeNames",
+  "line": 236,
+  "en": "Shadow Convoy",
+  "zh": "",
+  "note": "舰队类型显示名 (战役舰队标签/情报)；键 tradeSmuggler 为逻辑键不译只译值",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "fleetTypeNames/smallTrader",
+  "field": "fleetTypeNames",
+  "line": 237,
+  "en": "Supply Convoy",
+  "zh": "",
+  "note": "舰队类型显示名 (战役舰队标签/情报)；键 smallTrader 为逻辑键不译只译值",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "fleetTypeNames/patrolSmall",
+  "field": "fleetTypeNames",
+  "line": 239,
+  "en": "Picket Squadron",
+  "zh": "",
+  "note": "舰队类型显示名 (战役舰队标签/情报)；键 patrolSmall 为逻辑键不译只译值",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "fleetTypeNames/patrolMedium",
+  "field": "fleetTypeNames",
+  "line": 240,
+  "en": "Patrol Fleet",
+  "zh": "",
+  "note": "舰队类型显示名 (战役舰队标签/情报)；键 patrolMedium 为逻辑键不译只译值",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "fleetTypeNames/patrolLarge",
+  "field": "fleetTypeNames",
+  "line": 241,
+  "en": "Battlegroup",
+  "zh": "",
+  "note": "舰队类型显示名 (战役舰队标签/情报)；键 patrolLarge 为逻辑键不译只译值",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "fleetTypeNames/shadowFleet",
+  "field": "fleetTypeNames",
+  "line": 243,
+  "en": "Shadow Fleet",
+  "zh": "",
+  "note": "舰队类型显示名 (战役舰队标签/情报)；键 shadowFleet 为逻辑键不译只译值",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "fleetTypeNames/inspectionFleet",
+  "field": "fleetTypeNames",
+  "line": 245,
+  "en": "Inspection Fleet",
+  "zh": "",
+  "note": "舰队类型显示名 (战役舰队标签/情报)；键 inspectionFleet 为逻辑键不译只译值",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "fleetTypeNames/taskForce",
+  "field": "fleetTypeNames",
+  "line": 246,
+  "en": "Task Force",
+  "zh": "",
+  "note": "舰队类型显示名 (战役舰队标签/情报)；键 taskForce 为逻辑键不译只译值",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_draconis.faction",
+  "id": "fleetTypeNames/foodReliefFleet",
+  "field": "fleetTypeNames",
+  "line": 248,
+  "en": "Relief Division",
+  "zh": "",
+  "note": "舰队类型显示名 (战役舰队标签/情报)；键 foodReliefFleet 为逻辑键不译只译值",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_fortysecond.faction",
+  "id": "XLII_fortysecond",
+  "field": "displayName",
+  "line": 17,
+  "en": "Draconis XLII Battlegroup",
+  "zh": "",
+  "note": "势力显示名变体 (带冠词版与主名一致即可)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_fortysecond.faction",
+  "id": "XLII_fortysecond",
+  "field": "displayNameWithArticle",
+  "line": 18,
+  "en": "the Draconis XLII Battlegroup",
+  "zh": "",
+  "note": "势力显示名变体 (带冠词版与主名一致即可)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_fortysecond.faction",
+  "id": "XLII_fortysecond",
+  "field": "displayNameLong",
+  "line": 20,
+  "en": "Draconis Defence Alliance XLII Battlegroup",
+  "zh": "",
+  "note": "势力显示名变体 (带冠词版与主名一致即可)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_fortysecond.faction",
+  "id": "XLII_fortysecond",
+  "field": "displayNameLongWithArticle",
+  "line": 21,
+  "en": "the Draconis Defence Alliance XLII Battlegroup",
+  "zh": "",
+  "note": "势力显示名变体 (带冠词版与主名一致即可)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_intelligence_office.faction",
+  "id": "XLII_intelligence_office",
+  "field": "displayName",
+  "line": 17,
+  "en": "Draconis Intelligence Office",
+  "zh": "",
+  "note": "势力显示名变体 (带冠词版与主名一致即可)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_intelligence_office.faction",
+  "id": "XLII_intelligence_office",
+  "field": "displayNameWithArticle",
+  "line": 18,
+  "en": "the Draconis Intelligence Office",
+  "zh": "",
+  "note": "势力显示名变体 (带冠词版与主名一致即可)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_intelligence_office.faction",
+  "id": "XLII_intelligence_office",
+  "field": "displayNameLong",
+  "line": 20,
+  "en": "Draconis Defence Alliance Intelligence Office",
+  "zh": "",
+  "note": "势力显示名变体 (带冠词版与主名一致即可)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_intelligence_office.faction",
+  "id": "XLII_intelligence_office",
+  "field": "displayNameLongWithArticle",
+  "line": 21,
+  "en": "the Draconis Defence Alliance Intelligence Office",
+  "zh": "",
+  "note": "势力显示名变体 (带冠词版与主名一致即可)",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_intelligence_office.faction",
+  "id": "fleetTypeNames/patrolSmall",
+  "field": "fleetTypeNames",
+  "line": 198,
+  "en": "AIO Surveillance Detachment",
+  "zh": "",
+  "note": "舰队类型显示名 (战役舰队标签/情报)；键 patrolSmall 为逻辑键不译只译值",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_intelligence_office.faction",
+  "id": "fleetTypeNames/patrolMedium",
+  "field": "fleetTypeNames",
+  "line": 199,
+  "en": "AIO Interdiction Group",
+  "zh": "",
+  "note": "舰队类型显示名 (战役舰队标签/情报)；键 patrolMedium 为逻辑键不译只译值",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_intelligence_office.faction",
+  "id": "fleetTypeNames/patrolLarge",
+  "field": "fleetTypeNames",
+  "line": 200,
+  "en": "AIO Strike Battlegroup",
+  "zh": "",
+  "note": "舰队类型显示名 (战役舰队标签/情报)；键 patrolLarge 为逻辑键不译只译值",
+  "source": "new"
+ },
+ {
+  "file": "data/world/factions/XLII_intelligence_office.faction",
+  "id": "fleetTypeNames/shadowFleet",
+  "field": "fleetTypeNames",
+  "line": 202,
+  "en": "AIO Shadow Fleet",
+  "zh": "",
+  "note": "舰队类型显示名 (战役舰队标签/情报)；键 shadowFleet 为逻辑键不译只译值",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_alrakis_fortysecond.skin",
+  "id": "XLII_alrakis_fortysecond",
+  "field": "descriptionPrefix",
+  "line": 6,
+  "en": "Custom to the Itoron's XLII Defence Fleet, this ship has undergone extensive modifications, specifically the installation of radar-absorbing materials and an advanced radar suite tailored to the XLII's specifications. This is a vessel rarely seen outside of Fafnir.",
+  "zh": "",
+  "note": "图鉴描述前缀（引擎按 prefix+\\n\\n+正文 渲染；ship_data 的 name 是正文开头）",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_alrakis_fortysecond.skin",
+  "id": "XLII_alrakis_fortysecond",
+  "field": "tech",
+  "line": 8,
+  "en": "XLII Battlegroup",
+  "zh": "",
+  "note": "文件级设计类型（须与 designTypeColors 键/ship_data tech 列译文精确一致，R16）",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_alruba_fortysecond.skin",
+  "id": "XLII_alruba_fortysecond",
+  "field": "descriptionPrefix",
+  "line": 6,
+  "en": "Custom to the Itoron's XLII Defence Fleet, this ship has undergone extensive modifications, specifically the installation of radar-absorbing materials and an advanced radar suite tailored to the XLII's specifications. This is a vessel rarely seen outside of Fafnir.",
+  "zh": "",
+  "note": "图鉴描述前缀（引擎按 prefix+\\n\\n+正文 渲染；ship_data 的 name 是正文开头）",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_alruba_fortysecond.skin",
+  "id": "XLII_alruba_fortysecond",
+  "field": "tech",
+  "line": 8,
+  "en": "XLII Battlegroup",
+  "zh": "",
+  "note": "文件级设计类型（须与 designTypeColors 键/ship_data tech 列译文精确一致，R16）",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_alwaid_fortysecond.skin",
+  "id": "XLII_alwaid_fortysecond",
+  "field": "descriptionPrefix",
+  "line": 6,
+  "en": "Custom to the Itoron's XLII Defence Fleet, this ship has undergone extensive modifications, specifically the installation of radar-absorbing materials and an advanced radar suite tailored to the XLII's specifications. This is a vessel rarely seen outside of Fafnir.",
+  "zh": "",
+  "note": "图鉴描述前缀（引擎按 prefix+\\n\\n+正文 渲染；ship_data 的 name 是正文开头）",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_alwaid_fortysecond.skin",
+  "id": "XLII_alwaid_fortysecond",
+  "field": "tech",
+  "line": 8,
+  "en": "XLII Battlegroup",
+  "zh": "",
+  "note": "文件级设计类型（须与 designTypeColors 键/ship_data tech 列译文精确一致，R16）",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_eltanin_fortysecond.skin",
+  "id": "XLII_eltanin_fortysecond",
+  "field": "descriptionPrefix",
+  "line": 6,
+  "en": "Custom to the Itoron's XLII Defence Fleet, this ship has undergone extensive modifications, specifically the installation of radar-absorbing materials and an advanced radar suite tailored to the XLII's specifications. This is a vessel rarely seen outside of Fafnir.",
+  "zh": "",
+  "note": "图鉴描述前缀（引擎按 prefix+\\n\\n+正文 渲染；ship_data 的 name 是正文开头）",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_eltanin_fortysecond.skin",
+  "id": "XLII_eltanin_fortysecond",
+  "field": "tech",
+  "line": 8,
+  "en": "XLII Battlegroup",
+  "zh": "",
+  "note": "文件级设计类型（须与 designTypeColors 键/ship_data tech 列译文精确一致，R16）",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_errakis_fortysecond.skin",
+  "id": "XLII_errakis_fortysecond",
+  "field": "descriptionPrefix",
+  "line": 6,
+  "en": "Custom to the Itoron's XLII Defence Fleet, this ship has undergone extensive modifications, specifically the installation of radar-absorbing materials and an advanced radar suite tailored to the XLII's specifications. This is a vessel rarely seen outside of Fafnir.",
+  "zh": "",
+  "note": "图鉴描述前缀（引擎按 prefix+\\n\\n+正文 渲染；ship_data 的 name 是正文开头）",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_errakis_fortysecond.skin",
+  "id": "XLII_errakis_fortysecond",
+  "field": "tech",
+  "line": 8,
+  "en": "XLII Battlegroup",
+  "zh": "",
+  "note": "文件级设计类型（须与 designTypeColors 键/ship_data tech 列译文精确一致，R16）",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_juza_fortysecond.skin",
+  "id": "XLII_juza_fortysecond",
+  "field": "descriptionPrefix",
+  "line": 6,
+  "en": "Custom to the Itoron's XLII Defence Fleet, this ship has undergone extensive modifications, specifically the installation of radar-absorbing materials and an advanced radar suite tailored to the XLII's specifications. This is a vessel rarely seen outside of Fafnir.",
+  "zh": "",
+  "note": "图鉴描述前缀（引擎按 prefix+\\n\\n+正文 渲染；ship_data 的 name 是正文开头）",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_juza_fortysecond.skin",
+  "id": "XLII_juza_fortysecond",
+  "field": "tech",
+  "line": 8,
+  "en": "XLII Battlegroup",
+  "zh": "",
+  "note": "文件级设计类型（须与 designTypeColors 键/ship_data tech 列译文精确一致，R16）",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_shaobi_fortysecond.skin",
+  "id": "XLII_shaobi_fortysecond",
+  "field": "descriptionPrefix",
+  "line": 6,
+  "en": "Custom to the Itoron's XLII Defence Fleet, this ship has undergone extensive modifications, specifically the installation of radar-absorbing materials and an advanced radar suite tailored to the XLII's specifications. This is a vessel rarely seen outside of Fafnir.",
+  "zh": "",
+  "note": "图鉴描述前缀（引擎按 prefix+\\n\\n+正文 渲染；ship_data 的 name 是正文开头）",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_shaobi_fortysecond.skin",
+  "id": "XLII_shaobi_fortysecond",
+  "field": "tech",
+  "line": 8,
+  "en": "XLII Battlegroup",
+  "zh": "",
+  "note": "文件级设计类型（须与 designTypeColors 键/ship_data tech 列译文精确一致，R16）",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_tianlong_fortysecond.skin",
+  "id": "XLII_tianlong_fortysecond",
+  "field": "descriptionPrefix",
+  "line": 6,
+  "en": "Custom to the Itoron's XLII Defence Fleet, this ship has undergone extensive modifications, specifically the installation of radar-absorbing materials and an advanced radar suite tailored to the XLII's specifications. This is a vessel rarely seen outside of Fafnir.",
+  "zh": "",
+  "note": "图鉴描述前缀（引擎按 prefix+\\n\\n+正文 渲染；ship_data 的 name 是正文开头）",
+  "source": "new"
+ },
+ {
+  "file": "data/hulls/skins/XLII_tianlong_fortysecond.skin",
+  "id": "XLII_tianlong_fortysecond",
+  "field": "tech",
+  "line": 8,
+  "en": "XLII Battlegroup",
+  "zh": "",
+  "note": "文件级设计类型（须与 designTypeColors 键/ship_data tech 列译文精确一致，R16）",
+  "source": "new"
+ }
+]

@@ -1,7 +1,7 @@
 {
   "variantId": "XLII_nodus_Bomber",
   "hullId": "XLII_nodus",
-  "displayName": "Strike Drone",
+  "displayName": "打击无人机",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,

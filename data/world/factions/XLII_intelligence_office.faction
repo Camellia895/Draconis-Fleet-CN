@@ -14,11 +14,11 @@
 	
 	"showInIntelTab":false,
 
-	"displayName":"Draconis Intelligence Office",
-		"displayNameWithArticle":"the Draconis Intelligence Office",
+	"displayName":"德拉科尼斯情报局",
+		"displayNameWithArticle":"德拉科尼斯情报局",
 		
-	"displayNameLong":"Draconis Defence Alliance Intelligence Office",
-		"displayNameLongWithArticle":"the Draconis Defence Alliance Intelligence Office",
+	"displayNameLong":"德拉科尼斯防卫同盟情报局",
+		"displayNameLongWithArticle":"德拉科尼斯防卫同盟情报局",
 	
 	"logo":"graphics/factions/draconis_2.png",
 		"crest":"graphics/factions/crest_draconis_2.png",
@@ -195,10 +195,10 @@
 	},
 	
 	"fleetTypeNames":{
-		"patrolSmall":"AIO Surveillance Detachment",
-		"patrolMedium":"AIO Interdiction Group",
-		"patrolLarge":"AIO Strike Battlegroup",
+		"patrolSmall":"AIO监视分遣队",
+		"patrolMedium":"AIO封锁支队",
+		"patrolLarge":"AIO打击战斗群",
 		
-		"shadowFleet":"AIO Shadow Fleet"
+		"shadowFleet":"AIO影子舰队"
 	}
 }

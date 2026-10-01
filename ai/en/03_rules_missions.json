@@ -1,0 +1,2233 @@
+[
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_greetingFriendlyCommission",
+  "field": "text",
+  "line": 5,
+  "en": "\"Hail, $playerName. I'm $PersonRank $personName, your service record with the $theFaction Navy is impressive. I've heard some flattering nicknames for you. How can we assist?\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenCommLink)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_greetingFriendly",
+  "field": "text",
+  "line": 9,
+  "en": "\"Transponder's recognized, $playerName. $theFaction has no quarrel with independent operators who've proven themselves reliable.\" Their eyes flick to a tactical display. \"State your purpose.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenCommLink)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_greetingNeutral",
+  "field": "text",
+  "line": 12,
+  "en": "\"This is $PersonRank $personName of $theFaction Navy. Your IFF reads neutral. That can change very quickly, Captain, so let's keep this brief and professional.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenCommLink)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_greetingHostileWeaker",
+  "field": "text",
+  "line": 15,
+  "en": "\"$theFaction Navy to hostile contact: we've fought worse than you in worse conditions. If you're not gone in sixty seconds, we'll add your wreckage to the rest.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenCommLink)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_greetingHostileWeaker",
+  "field": "options",
+  "line": 15,
+  "en": "cutCommLink:Cut the comm link",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_greetingHostileWeakerDefiant",
+  "field": "text",
+  "line": 18,
+  "en": "\"$PersonRank $personName, Alliance Navy.\" A measured pause. \"You have tactical superiority. We're not disputing that. But Alliance Command tracks every engagement in this sector, and retaliation doctrine doesn't require us to win, just to make you memorable.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenCommLink)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_greetingHostileWeakerDefiant",
+  "field": "options",
+  "line": 18,
+  "en": "cutCommLink:Cut the comm link",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_greetingHostileStronger",
+  "field": "text",
+  "line": 22,
+  "en": "\"Shouldn't you be running...?\" The officer looks genuinely puzzled.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenCommLink)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_greetingHostileStronger",
+  "field": "options",
+  "line": 22,
+  "en": "cutCommLink:Cut the comm link",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_CMSNTextRejectHostile",
+  "field": "text",
+  "line": 28,
+  "en": "\"Who the fu - Who is - What - I should kick your fucking ass, who is this?\" There is a brief silence, cut short by the frantic sound of typing. \"Ah, $playerName! I've notified the Department of Internal Security of your presence, leave immediately. Athebyne's scars run deep enough without adding your name to the list.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=CMSNTextRejectHostile)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_CMSNTextHasOther",
+  "field": "text",
+  "line": 29,
+  "en": "\"Loyalty's a rare commodity out here, and you're fresh out. We've got no room for dual allegiances.\"\n\n\"That said, if you're serious about joining, resign from $theOtherCommissionFaction. And we'll gladly put your skills to use in $theFaction.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=CMSNTextHasOther)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_CMSNTextUnsuited",
+  "field": "text",
+  "line": 32,
+  "en": "\"I'm sorry, but you don't meet our criteria for receiving a commission. To put it plainly you're a wildcard, Commander. Shape up your outfit, purge the weak links, then come back. Until then, you're unfit for Draconis colors. However I've noted your request.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=CMSNTextUnsuited)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_CMSNTextSuitedPart1",
+  "field": "text",
+  "line": 33,
+  "en": "\"Hmm, yes, you're a suitable candidate. Admiral August will be pleased. We're always short on manpower.\"\n\n\"Accepting a commission is a serious matter, however. You will be required to fight enemies of $theFaction. You'll be able to resign your commission at any time, though I don't imagine doing so would win you any friends.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=CMSNTextSuitedPart1)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_CMSNTextSuitedPart2",
+  "field": "text",
+  "line": 36,
+  "en": "\"So, how about it? Still want to sign on?\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=CMSNTextSuitedPart2)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_CMSNTextWelcomePart1",
+  "field": "text",
+  "line": 37,
+  "en": "\"Oath sworn. Welcome to the fold, Commander. Your IFF's updated - Draconis blue on your scope now.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=CMSNTextWelcomePart1)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_CMSNTextWelcomePart2",
+  "field": "text",
+  "line": 38,
+  "en": "\"Anything else I can do for you?\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=CMSNTextWelcomePart2)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_CMSNTextChangeMind",
+  "field": "text",
+  "line": 39,
+  "en": "\"Cold feet already?\" $personName raises an eyebrow. \"The Sector's full of fence-sitters who think twice when the guns start barking. Fafnir's ghosts don't suffer the hesitant, neither do we. Application withdrawn. If you grow a spine, our doors aren't barred... Yet.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=CMSNTextChangeMind)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_CMSNResignAskToConfirm",
+  "field": "text",
+  "line": 40,
+  "en": "\"Resign? After we stamped your papers and handed you the keys to our armory? Commander, that's not how the Alliance works.\" $personFirstName pauses their typing to face you. \"$TheFaction needs anyone it can get, and turning your back on us won't be forgotten.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=CMSNResignAskToConfirm)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_CMSNResignConfirmed",
+  "field": "text",
+  "line": 41,
+  "en": "$personFirstName sighs dramatically. \"Fine. Resignation accepted, effective immediately. Your IFF's wiped, access codes revoked.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=CMSNResignConfirmed)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_CMSNResignCancelled",
+  "field": "text",
+  "line": 42,
+  "en": "\"Wise choice, Lieutenant. Knew you had the spine for it. Oath renewed - no hard feelings, just hard lessons.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=CMSNResignCancelled)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_relLevelCooperative",
+  "field": "text",
+  "line": 46,
+  "en": "Fleet Admiral August has personally recognized your contributions to the Alliance. Joint Command has extended full access to military stockpiles and forward operating bases, and even the most security-conscious AIO liaison officers no longer shadow your movements. Alliance Citizens across Fafnir regard you as one of their own - a rare distinction for anyone who didn't endure the Reunification.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=RelationshipLevelDesc)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_relLevelFriendly",
+  "field": "text",
+  "line": 48,
+  "en": "Alliance officials have come to regard you as a reliable partner rather than a convenient asset. Port authorities process your docking requests without the usual security theater, and patrol captains are more likely to offer assistance than demand transponder logs. The gratitude of Joint Command translates to meaningful access to military-grade hardware.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=RelationshipLevelDesc)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_relLevelWelcoming",
+  "field": "text",
+  "line": 50,
+  "en": "Your reputation has reached the attention of mid-level Alliance commanders, several of whom have noted your reliability in official dispatches. System patrols treat your $shipOrFleet as a known quantity rather than a potential threat, and port authorities extend courtesies typically reserved for Alliance-flagged vessels.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=RelationshipLevelDesc)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_relLevelFavorable",
+  "field": "text",
+  "line": 52,
+  "en": "Alliance commanders have begun to take note of your activities - favorably, if cautiously. In practice, this means access to surplus military equipment and fewer pointed questions from patrol captains. The institutional paranoia born from the civil war hasn't faded entirely, but you've earned the benefit of the doubt.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=RelationshipLevelDesc)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_relLevelNeutral",
+  "field": "text",
+  "line": 54,
+  "en": "To Alliance officials, you're simply another independent operator - neither a threat nor an asset worth cultivating. This is, by local standards, a reasonable position to occupy. The DDA's history has left its leadership wary of outsiders, but not hostile without cause.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=RelationshipLevelDesc)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_relLevelSuspicious",
+  "field": "text",
+  "line": 56,
+  "en": "Something in your record has drawn scrutiny from Alliance security. Port authorities process your requests with deliberate slowness, and patrol commanders run your transponder against watchlists more often than strictly necessary. You're not unwelcome, but you're certainly not trusted.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=RelationshipLevelDesc)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_relLevelInhospitable",
+  "field": "text",
+  "line": 58,
+  "en": "Joint Command has flagged your $shipOrFleet as a potential security concern. Port officials find reasons to deny docking requests, and patrol captains interpret their rules of engagement generously when your drives light up on their scopes. The Alliance hasn't declared you an enemy - but they've stopped pretending you might be a friend.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=RelationshipLevelDesc)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_relLevelHostile",
+  "field": "text",
+  "line": 60,
+  "en": "Alliance patrols are authorized to engage your $shipOrFleet on sight. Markets under DDA control deny you access, and any incident involving your vessels is treated as confirmation of hostile intent. Whatever goodwill you might have once possessed has been thoroughly exhausted.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=RelationshipLevelDesc)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_relLevelVengeful",
+  "field": "text",
+  "line": 62,
+  "en": "The Alliance has classified you as an active threat to sector stability. Your name circulates in Joint Command briefings alongside pirates, warlords, and other enemies of the fragile peace August built from the ashes of civil war. No patrol captain will hesitate to add your $shipOrFleet to the long list of threats the DDA has ground to dust.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=RelationshipLevelDesc)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_relLevelVengefulFleet",
+  "field": "text",
+  "line": 66,
+  "en": "Joint Command regards your $shipOrFleet as one more hostile element in a sector that produces them endlessly. Alliance captains have standing orders to engage and destroy - the same orders they've executed against countless threats since the Reunification. You are not special. You are simply next.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=RelationshipLevelDesc)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_relLevelVengefulPlanet",
+  "field": "text",
+  "line": 70,
+  "en": "The Alliance views your growing power as an existential threat to everything the Reunification preserved. Somewhere in Joint Command, planners are assembling a task force with your colonies marked for pacification. The DDA has survived civil war, corporate predation, and worse. They do not intend to let you succeed where those threats failed.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=RelationshipLevelDesc)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_aiCores_turnInOptionSel",
+  "field": "text",
+  "line": 76,
+  "en": "\"We're prepared to pay well for these - better than you'd get selling them quietly elsewhere, and without the legal complications. The Alliance has legitimate research applications for recovered cores. What Hegemony inspectors don't know won't trouble them, or you.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_init_greeting",
+  "field": "text",
+  "line": 81,
+  "en": "You transmit the comms ID and wait for the system to establish a connection. However, the comms link establishes after a longer delay than typical military protocols demand. When the image resolves, it's deliberately degraded - encryption artifacts dance across a humanoid silhouette, facial features reduced to suggestions of shadow and light.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenCDE)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_init_greeting",
+  "field": "options",
+  "line": 81,
+  "en": "1:init:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_init_not_commissioned",
+  "field": "text",
+  "line": 86,
+  "en": "\"Captain.\" The voice carries the flat authority of someone accustomed to being obeyed. \"Your reputation precedes you, but reputation alone doesn't grant clearance for what we discuss here.\"\n\nA pause. You sense him consulting something off-screen.\n\n\"If you're serious about serving the Draconis Defence Alliance, our diplomatic corps can arrange a commission. Standard channels. Until then...\" The distorted figure makes a gesture that might be dismissive, might be regretful. \"I'm afraid we have nothing further to discuss.\"\n\nThe link cuts before you can respond.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=admiralPickGreeting)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_init_not_commissioned",
+  "field": "options",
+  "line": 86,
+  "en": "1:dismiss:End the transmission.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_init_commissioned",
+  "field": "options",
+  "line": 93,
+  "en": "1:XLII_admiral_init_commissionedTrader:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_init_commissionedTrader",
+  "field": "text",
+  "line": 94,
+  "en": "\"Commander $playerLastName.\" The distorted visage tilts slightly, as if examining you through the compression grain. What might be satisfaction colors the modulated voice. \"We've been watching your work.\" A beat. \"Impressed, I should say.\"\n\nHe leans forward slightly, the motion causing the encryption to ripple and distort. \"The Draconis Defence Alliance rewards competence. More importantly, we recognize when someone possesses the tactical acumen we need for what's coming.\"\n\nYour command console chimes softly - an incoming data packet, heavily encrypted.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_main_menu_opts",
+  "field": "options",
+  "line": 102,
+  "en": "8:ask_special:Is there anything special you could offer?\n9:dismiss:End the transmission.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_main_nanoforge_discuss_opt",
+  "field": "options",
+  "line": 104,
+  "en": "1:XLII_nanoforge_discuss:There's another matter I'd like to raise.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_main_nanoforge_deliver_opt",
+  "field": "options",
+  "line": 109,
+  "en": "0:XLII_nanoforge_deliver:I have a Pristine Nanoforge to offer.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_main_gatelog_pre_opt",
+  "field": "options",
+  "line": 117,
+  "en": "1:XLII_gate_logs_discuss:About those logs I found on the Fafnir Gate...",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_special_access",
+  "field": "text",
+  "line": 124,
+  "en": "\"There is.\" A measured pause. \"I'm authorized to offer you something off the books,\" he continues. \"The XLII's specialized vessels. Bleeding edge. Ships that aren't in any public registry, that most admirals don't even know exist.\" His fingers tap something you can't see. \"Ships that could turn the tide when it matters most.\"\n\nA calculated pause. The kind that precedes uncomfortable truths.\n\n\"There's a nominal fee - twice their usual cost and an adjustment to your standing with us. Administrative necessity. Insurance that you understand the value of what we're offering.\" The ghost of a smile in his voice. \"But the tactical advantage? The capability these hulls represent?\" Another pause, heavier this time. \"That's worth considerably more than any credit transfer, Commander.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_grumium",
+  "field": "text",
+  "line": 158,
+  "en": "\"I remember a raid on Athebyne's supply depots, some cycles ago. We were running low on everything - fuel, munitions, pilots. Lieutenant Reyes - solid flyer, came up through the reserves - took a squadron of Grumiums on what should've been a suicide run. Six wings, loaded heavy, against fortified emplacements and interceptor screens.\"\n\n\"Lumbered in like cargo haulers. Reyes lost half his wing before they even lined up the shot. But the ones that made it through? Dropped their payload right into the heart of the depot. Chain reactions lit up the night side of the planet. We got the resupply we needed to hold the line another month.\"\n\n\"Reyes brought three back. Got a commendation posthumously - caught a missile on the egress. The Grumium's no hero's ride. Slow, ugly work. But if it kills, it serves. And sometimes, that's all you need.\"\n\nA brief pause as the transfer finalizes.\n\n\"Commander.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AdmiralNarrative)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_grumium",
+  "field": "options",
+  "line": 158,
+  "en": "1:transaction_complete:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_grumium_alt",
+  "field": "text",
+  "line": 167,
+  "en": "\"I remember a raid on Athebyne's supply depots, some cycles ago. We were running low on everything - fuel, munitions, pilots. Lieutenant Reyes - solid flyer, came up through the reserves - took a squadron of Grumiums on what should've been a suicide run. Six wings, loaded heavy, against fortified emplacements and interceptor screens.\"\n\n\"Lumbered in like cargo haulers. Reyes lost half his wing before they even lined up the shot. But the ones that made it through? Dropped their payload right into the heart of the depot. Chain reactions lit up the night side of the planet. We got the resupply we needed to hold the line another month.\"\n\n\"Reyes brought three back. Got a commendation posthumously - caught a missile on the egress. The Grumium's no hero's ride. Slow, ugly work. But if it kills, it serves. And sometimes, that's all you need.\"\n\nA brief pause as the transfer finalizes.\n\n\"Commander.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AdmiralNarrative)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_grumium_alt",
+  "field": "options",
+  "line": 167,
+  "en": "1:transaction_complete:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_alruba",
+  "field": "text",
+  "line": 176,
+  "en": "\"Most people look at her now and see a relic - ill fit for modern combat. But I remember when she was all we had.\n\nThird week of the siege at Athebyne orbital. My flagship had taken a reactor hit, and I transferred my flag to the Resolute - an Alruba. We had six of them left in the picket line, facing down twice our number.\n\nThe captain - Walker, good officer - kept us between the troop transports and their missile boats. Took hits that would've gutted a Thuban. The armour held. Barely. By the time relief arrived, we'd lost three Alrubas, but the transports made it through.\n\nWalker didn't. Reactor breach on the final push.\n\nThe Alruba's not fast. Not elegant. But she's honest. And doesn't quit until she's a debris field. Sometimes that's enough.\"\n\nA brief pause as the data finalizes.\n\n\"That'll be all, Commander.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AdmiralNarrative)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_alruba",
+  "field": "options",
+  "line": 176,
+  "en": "1:transaction_complete:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_shaobi",
+  "field": "text",
+  "line": 189,
+  "en": "\"The Shaobi. The Marines' favourite toy. Command didn't want to build her - too specialised, too expensive. But the Marines made their case, and somehow, it stuck.\n\nI'll admit, I didn't see the value. Not at first.\n\nThen came the boarding operation at Ring-Port - back when it was still under separatist control. We needed to take the station intact, and orbital bombardment wasn't an option. That meant Marines. Lots of them.\n\nThe Shaobi-class Warhound led the assault. Two hundred Marines, full combat load, deployed in under twenty minutes. They hit three docking points simultaneously - precision insertion, no warning.\n\nThe captain - Major Hartley, Marine Corps - she coordinated the whole thing from the Warhound's bridge. Ship-to-boarding-craft comms, real-time tactical updates, fire support from the gunship's turrets. It wasn't just a carrier - it was a forward command post with engines.\n\nWe took Ring-Port in six hours. Minimal casualties. Hartley got a medal. The Warhound got a reputation.\n\nThe Shaobi's not a fleet carrier. She's not meant to be. But if you need boots on a station or a hostile ship, she'll get them there - and bring them home.\n\nSometimes that's worth more than another fighter wing.\"\n\nA pause.\n\n\"The Alliance chose well with you, Commander. Transfer authorized.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AdmiralNarrative)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_shaobi",
+  "field": "options",
+  "line": 189,
+  "en": "1:transaction_complete:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_errakis",
+  "field": "text",
+  "line": 208,
+  "en": "\"A carrier escort strictly speaking. Compromised sensors to save weight and meet project requirements. Command signed off on it because she was never meant to operate independently.\n\nThat became a problem during the push on Athebyne's outer stations. We had the Milwaukee - assigned to screen the Io's carrier group. Standard formation, textbook deployment. Then the carrier's sensor array took a hit from long-range fire. Partial failure - enough to briefly shunt the datalink, not enough to justify pulling back.\n\nThe Milwaukee was supposed to provide missile support. But with the carrier's sensors degraded and her own array already limited, she couldn't get a clean firing solution on anything beyond visual range. Captain Holt - had a ship full of ordnance and nothing to shoot at.\n\nSo he did what the ship wasn't designed to do: he moved in close. Uncomfortably close.\n\nThe Milwaukee took more hits in that engagement than any other ship in the group. Lost two crew compartments, vented half her missile reserves in an ammunition cook off. But the carrier stayed operational, and the screen held.\"\n\nYour sensors officer glances back at you, eyebrows raised. Authorization codes transmitted.\n\n\"Until next time, Commander.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AdmiralNarrative)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_errakis",
+  "field": "options",
+  "line": 208,
+  "en": "1:transaction_complete:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_juza",
+  "field": "text",
+  "line": 221,
+  "en": "\"Even while it serves it's considered a 'prototype'. Armoured like a battleship, just fast enough to keep up with cruiser squadrons. On paper, she's perfect. In practice? A damned miracle - when she works.\n\nAt end of the war had four Juzas in active service. The Jericho was flagship for the third battle group - my XO's command. Fleet engagement near Athebyne's inner belt. Standard line battle, cruiser-on-cruiser.\n\nThen the Jericho's flux regulators spiked. Total system failure - her shields dropped, her weapons went cold. A paperweight in the middle of a firing line.\n\nHer chief engineer - man named Nowak, stubborn bastard - he rerouted power through the secondary grid, bypassed the safeties, and brought the flux system back online in under three minutes. A miracle to put it bluntly.\n\nBy the time the Jericho came back, she'd taken fourteen direct hits. Her armour held. Barely. Nowak kept her running for another six hours before the system burned out for good. We won that engagement.\n\nThe Juza's temperamental. High-maintenance. But if you've got a crew that knows her quirks, she'll hold the line when everything else breaks.\"\n\nA brief silence followed by an authorization code transmission.\n\n\"Authorization granted.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AdmiralNarrative)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_juza",
+  "field": "options",
+  "line": 221,
+  "en": "1:transaction_complete:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_alwaid",
+  "field": "text",
+  "line": 236,
+  "en": "\"I've heard the jokes - \"by the time she arrives, the war's over.\" The crews call her the 'Late Arrival.'\n\nAn anecdote: Textbook carrier doctrine. Three battlegroups were to warp directly into the fight. The Alwaid's group? Delayed by a drive malfunction - forty minutes late to the fight.\n\nBy the time they arrived, we'd lost Heaven's Axiom and half her escort. The Diligence was burning, venting atmosphere from six hull breaches. We were fifteen minutes from a full retreat.\n\nThen the Eternity translated in-system. Two hundred and sixty fighters. Every torpedo tube loaded. She didn't win the battle herself - but she ended it. The enemy scattered. We held the orbitals.\n\nThe Alwaid's slow. But when she gets there, she brings everything.\"\n\nThe faintest pause.\n\n\"It's yours.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AdmiralNarrative)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_alwaid",
+  "field": "options",
+  "line": 236,
+  "en": "1:transaction_complete:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_tianlong",
+  "field": "text",
+  "line": 249,
+  "en": "\"Four cycles ago, a Pather raiding flotilla entered Kori's orbital space in coordination with a surface sabotage operation. The intent was to occupy our response force long enough for the ground teams to finish their work. The Covenant was in the patrol rotation.\n\nVasile, her commander, took her through the centre of the formation. Struck their lead ship at speed, engaged the second at close range, and repositioned between the flotilla and their egress vector before their command element had processed what had happened. The aft section took heavy damage. Prioritised forward coverage with the rear mount. But even so, the flotilla broke. The surface teams lost their extraction window.\n\nThe after-action report was four pages. Three and a half of them were just damage assessments. The remaining half-page described his tactical reasoning in language I found adequate but incomplete. He did not mention that the Covenant's approach vector was inconsistent with any evasive option - that closing at that speed, on that bearing, was not a response to the engagement. It was a conclusion he had reached before the engagement began.\n\nHe is a precise man. His logs are immaculate. I do not think the imprecision was accidental.\"\n\nA silence. Although not long.\n\n\"Take good care of her, Commander. The Alliance has few enough of these.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AdmiralNarrative)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_tianlong",
+  "field": "options",
+  "line": 249,
+  "en": "1:transaction_complete:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_generic",
+  "field": "text",
+  "line": 260,
+  "en": "\"A capable hull.\" He keys something on the console. \"Authorization complete.\"\n\nA brief pause as the transfer finalizes.\n\n\"Good hunting, Commander.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AdmiralNarrative)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_generic",
+  "field": "options",
+  "line": 260,
+  "en": "1:transaction_complete:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_denied_credits",
+  "field": "text",
+  "line": 265,
+  "en": "\"We already price these hulls below their worth.\" A beat. \"There's no further margin to extend. Return when your accounts allow it, Commander.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AdmiralNarrative)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_denied_credits",
+  "field": "options",
+  "line": 265,
+  "en": "1:reopen_store:Browse more vessels.\n2:dismiss:End transmission",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_denied_rep",
+  "field": "text",
+  "line": 268,
+  "en": "\"Your standing with the Alliance doesn't cover an authorization of this size.\" A pause. \"Close the gap, then we'll speak again.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AdmiralNarrative)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_narrative_denied_rep",
+  "field": "options",
+  "line": 268,
+  "en": "1:reopen_store:Browse more vessels.\n2:dismiss:End transmission",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_accept",
+  "field": "text",
+  "line": 271,
+  "en": "The figure inclines his head slightly. \"Officers like you are why we'll survive what's coming. Safe travels, Commander.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_accept",
+  "field": "options",
+  "line": 271,
+  "en": "1:reopen_store:Browse more vessels.\n2:dismiss:End transmission",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_decline",
+  "field": "text",
+  "line": 273,
+  "en": "\"The offer stands. When you're ready, whenever that may be, the authorization remains active in your file.\" A beat. \"However, we don't make these offers lightly, Commander\"\n\nThe briefest hesitation.\n\nHis hand moves, beginning the process of closing the connection. \"You know how to reach us.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_decline",
+  "field": "options",
+  "line": 273,
+  "en": "1:reopen_store:Actually, let me take another look.\n2:dismiss:End transmission",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_dismiss",
+  "field": "text",
+  "line": 279,
+  "en": "The transmission ends.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateOpenDialogStart",
+  "field": "script(AddText)",
+  "line": 285,
+  "en": "ShowDefaultVisual\nAddText \"A shattered adamantine ring hangs motionless in the void, its once-perfect curve fractured into jagged arcs.\"\n\nAddText \"Twisted structural spars and blackened plating drift in a slow, silent orbit around the broken frame.\"\n\nAddText \"What remains of the Gate is cold, dark, and utterly still - a Domain monument reduced to a graveyard of dreams.\"",
+  "zh": "",
+  "note": "[AddText 指令单元: 只译引号内显示文字, 保留 AddText/颜色参数/引号] 对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenInteractionDialog)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateOpenDialogStart",
+  "field": "options",
+  "line": 285,
+  "en": "1:XLII_gateOpenLogsMenu:Explore\n100:defaultLeave:Leave",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateOpenDialogFinished",
+  "field": "script(AddText)",
+  "line": 293,
+  "en": "ShowDefaultVisual\nAddText \"A shattered adamantine ring hangs motionless in the void, its once-perfect curve fractured into jagged arcs.\"\n\nAddText \"Twisted structural spars and blackened plating drift in a slow, silent orbit around the broken frame.\"\n\nAddText \"What remains of the Gate is cold, dark, and utterly still - a Domain monument reduced to a graveyard of dreams.\"",
+  "zh": "",
+  "note": "[AddText 指令单元: 只译引号内显示文字, 保留 AddText/颜色参数/引号] 对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenInteractionDialog)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateOpenDialogFinished",
+  "field": "options",
+  "line": 293,
+  "en": "100:defaultLeave:Leave",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateOpenLogsMenu",
+  "field": "text",
+  "line": 300,
+  "en": "Closer inspection reveals a skeletal lattice of military emplacements: gun batteries fused into slag, sensor arrays crumpled like paper, armored hab-modules cracked open to vacuum.\n\nHazard stripes still clings stubbornly to the hull plating beneath layers of micrometeorite scarring and weapons burns.\n\nFaint emergency strobes - long dead - mark the positions where XLII Fleet gun crews once waited, cycle after cycle, for an enemy that never came through.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateOpenLogsMenu",
+  "field": "options",
+  "line": 300,
+  "en": "1:XLII_gateOpenLogs:Send a team to assess the installation\n100:defaultLeave:Leave",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateOpenLogs",
+  "field": "text",
+  "line": 306,
+  "en": "Your salvage teams force the frost-sealed airlock of the primary command module. Flashlights sweep across derelict consoles and drifting slats.\n\nYour Ops Chief breaks the silence \"$PlayerSirOrMadam, archives are intact. Something to do with the '42nd Signal Corps' relays, seems untouched since the ring cracked.\"\n\nA brief moment as they interface with the databank.\n\n\"Gate Vigil logs recovered - Rear Admiral S. Surher's final entry - mid-bombardment.\"\n\n\"There are more fragments here. Relocation orders to Kori, personnel lists. Permission to extract the full cache?\"\n\nYour officers wait for your orders, the soft whine of data recovery filling the bridge.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateOpenLogs",
+  "field": "options",
+  "line": 306,
+  "en": "1:XLII_gateLog1:Continue\n100:XLII_gateLeaveOpt:Leave",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateLog1",
+  "field": "text",
+  "line": 318,
+  "en": "\"Cycle 47 pre-Alliance. Auth: Capt. Emil August, forwarded through Corps Command.\"\n\n\"'All Signal Corps detachments are hereby detached from line-of-battle duties and assigned to permanent perimeter security and monitoring of Fafnir Gate structure. Primary objective: detect and report any unauthorized hyperspace transit attempt. Secondary objective: prevent physical access by non-cleared personnel.\n\nThis assignment is non-negotiable. Resources will be reallocated accordingly.\n\nEndorsement appended by Lt. Cmdr. J. Halvorsen, Signal Corps:\n\n\"Understood the strategic logic on paper. Still feels like punishment duty. We're bleeding hull plating at Athebyne's Lagrange points while half the corps sits on cold alloy watching a ring that hasn't twitched since the Collapse. August must know something we don't. Or he's finally lost it.\"'",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateLog1",
+  "field": "options",
+  "line": 318,
+  "en": "2:XLII_gateLog2:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateLog2",
+  "field": "text",
+  "line": 327,
+  "en": "\"Cycle 49 pre-Alliance. Auth: Lt. Mara Velas, Field Engineering Lead.\"\n\n\"'Attempt 47 concluded 03:14 shipboard. Full power shunt through primary manifold coupling. Ring returned to quiescent state within 0.8 seconds. No aperture formation, no phase excursion, no manifold breach.\n\nSame result as Attempt 46. And 45. And every attempt back to 12.\n\nHowever: return signal consistent across all attempts. Three discrete hyperwave pulses, 1.7-second spacing, identical modulation envelope. Subcarrier contains structured data we cannot yet parse. It responds to our probe strength - louder input yields louder reply.\n\nIt is not an echo. It is a handshake.\n\nRecommendation: cease active attempts until we can fabricate better decoding hardware. Morale note: crew has started calling the anomaly 'the patient one.' Not sure I like the nickname.'\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateLog2",
+  "field": "options",
+  "line": 327,
+  "en": "3:XLII_gateLog3:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateLog3",
+  "field": "text",
+  "line": 338,
+  "en": "\"Cycle 51 pre-Alliance. Auth: Adm. Emil August, countersigned AIO precursor cell.\"\n\n\"'Effective immediately: all Signal Corps assets under designation 'Gatewatch' are to cease operations at Fafnir Gate and redeploy subsurface, Kori primary grid, reference Alpha-7 / Theta-9.\n\nNew primary objective: secure, stabilize, and establish interface protocols with Domain-era megastructure; codeword designation: [OCTANTIS].\n\nAll previous Gate monitoring logs are to be archived under maximum encryption and physically transferred to Kori vault. No further active interrogation of the Gate permitted. Demolition charges remain on standby per prior order.\n\nPersonal addendum, August: \"The answers are under Kori. That is where the war will be decided now.\"'",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateLog3",
+  "field": "options",
+  "line": 338,
+  "en": "4:XLII_gateLog4:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateLog4",
+  "field": "text",
+  "line": 347,
+  "en": "\"Cycle 52 pre-Alliance. Auth: precursor cell, later designated Alliance Intelligence Office.\"\n\n\"'Signal Corps detachment Gatewatch formally stood down. Surviving personnel and technical assets folded into new standing formation: Alliance Intelligence Section (provisional) under Rear Admiral S. Surher's oversight.\n\nMission parameters redefined: - Acquisition, integration, and operational employment of [OCTANTIS]-derived computational systems. - Evaluation and controlled implementation of AI-core augmentation protocols previously prohibited under Sector norms. - Protection of all related programs from external compromise (Hegemony, Persean League, Tri-Tachyon, Luddic elements). - Elimination or reorientation of personnel who represent unacceptable risk to operational security.\n\nFrom this cycle forward, the Section answers only to unified command authority. Taboos are suspended for the duration of the emergency - which is now declared permanent.\n\nFinal line, unsigned but cipher-matched to August: \"You are no longer watchers. You are keepers. And you shall keep what must never be loosed upon the Sector... or what must be loosed only by our hand.\"'\n\nThey tap the console once more, locking the slate.\n\n\"Whatever [OCTANTIS] actually is... it didn't come through the Gate. It was already here. And it's been talking to them.\"\n\nA beat of silence on the bridge.\n\n\"Orders, Captain?\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gateLog4",
+  "field": "options",
+  "line": 347,
+  "en": "100:defaultLeave:Leave",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_branch_full",
+  "field": "text",
+  "line": 374,
+  "en": "\"Well you've read the logs.\" A measured pause. \"You know more than most officers who've served under me.\"\n\nA silence. You hear something - keys, or equipment - before he continues.\n\n\"Certain precautions are required for this channel, given what we're discussing.\"\n\n\"The brief the Office gave me and what the Office actually knows are not the same document. I'll tell you what I can. Which is less than you'll want.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_GateLogsBranch)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_deflect_leave",
+  "field": "text",
+  "line": 381,
+  "en": "\"Good.\" A brief pause. \"And Commander - the Alliance doesn't forget the people who handle information correctly. Safe travels.\"\n\nThe link closes cleanly.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_deflect_press",
+  "field": "text",
+  "line": 387,
+  "en": "\"Commander. I strongly suggest sealing your lips.\" The voice is flat. \"We shall continue this another time.\"\n\nThe link terminates.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_q1_opt",
+  "field": "options",
+  "line": 393,
+  "en": "1:gate_logs_q1:Why did you stop trying to open the Gate?",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_q2_opt",
+  "field": "options",
+  "line": 395,
+  "en": "2:gate_logs_q2:Why does the AIO have so much control?",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_q3_opt",
+  "field": "options",
+  "line": 397,
+  "en": "3:gate_logs_q3:What did you find under Kori?",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_q_continue",
+  "field": "options",
+  "line": 399,
+  "en": "10:gate_logs_finale:I think I understand the shape of it.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_q1_sel",
+  "field": "text",
+  "line": 405,
+  "en": "\"Because the Gate was never the source.\" A pause. \"The pings stopped the moment we cracked Kori's surface. Whatever was responding - it didn't come through gates. It was already here.\"\n\nThe encryption holds. He doesn't move.\n\n\"The Gate was a receiver. A way of asking whether something was listening. Once we understood that, continuing at the Gate was redundant. The conversation had already moved.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_q1_sel",
+  "field": "options",
+  "line": 405,
+  "en": "1:gate_logs_q_return:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_q2_sel",
+  "field": "text",
+  "line": 411,
+  "en": "\"I gave them a mandate and they filled it.\" His tone lays flat. No defensiveness. \"Counterintelligence. Then signals. Then guarding Kori. Each expansion seemed reasonable at the time, inside the emergency we were managing.\"\n\nA brief silence.\n\n\"By the time I understood what they'd become, reversing it would have required options I no longer had. The Office knows too much. The Office does too much. And the Alliance depends on both.\" He pauses. \"Some blindspots are chosen, Commander. You'll learn that if you haven't already.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_q2_sel",
+  "field": "options",
+  "line": 411,
+  "en": "1:gate_logs_q_return:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_q3_sel",
+  "field": "text",
+  "line": 417,
+  "en": "\"Our key to survival.\" A pause. \"That's what I told myself.\"\n\nHe shifts. The encryption distorts around the motion.\n\n\"A Domain-era computational device. Designated OCTANTIS. Built to coordinate colonial infrastructure across multiple systems - resource allocation, logistics, production planning. Never finished. Sealed when the Collapse severed its purpose.\"\n\nHe is quiet for a moment.\n\n\"Then the Office woke it.\" Another pause, heavier. \"And that's where the fog of war begins. I know the outline. The Office knows the rest.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_q3_sel",
+  "field": "options",
+  "line": 417,
+  "en": "1:gate_logs_q_return:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_finale_sel",
+  "field": "text",
+  "line": 427,
+  "en": "The line is quiet for a moment. Longer than it needs to be.\n\n\"You've heard more than most, Commander.\" His voice is measured and deliberate. \"Let me ask you something in return.\"\n\nA pause.\n\n\"Given everything you know - the Gate, Kori, the Office, what was necessary to keep this system alive - what would you have done in my position?\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_finale_sel",
+  "field": "options",
+  "line": 427,
+  "en": "1:gate_logs_ans_same:I would've done the same as you.\n2:gate_logs_ans_understand:I would've tried harder to understand it first.\n3:gate_logs_ans_aio:I wouldn't have let the AIO get that far.\n4:gate_logs_ans_athebyne:I would've bombed Athebyne again.\n5:gate_logs_ans_dontknow:I don't know.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_ans_same",
+  "field": "text",
+  "line": 439,
+  "en": "\"I'm so surrounded by yes-men that it is hard to believe it, but given the benefit of doubt.\"\n\nHe is still for a moment.\n\n\"Good...\" The word lands without inflection. \"That's the correct answer, and the honest one.\"\n\nA pause.\n\n\"Survival doesn't come with clean choices. Anyone who tells you otherwise has never been responsible for something that cannot be allowed to fail.\"\n\n\"I'm glad we understand each other.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_ans_same",
+  "field": "options",
+  "line": 439,
+  "en": "1:gate_logs_closing:It's been an instructive conversation.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_ans_understand",
+  "field": "text",
+  "line": 451,
+  "en": "\"Yes.\" He doesn't dismiss it. \"You might have.\"\n\nA pause.\n\n\"I've had that thought myself. In the years after Kori went active - what might we have learned, if we'd moved more slowly. If we'd been less desperate.\"\n\nThe encrypted silhouette is still.\n\n\"But the war didn't give us time for philosophy, Commander. It rarely does. We understood enough to survive. I'm not certain understanding more would have made us safer.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_ans_understand",
+  "field": "options",
+  "line": 451,
+  "en": "1:gate_logs_closing:It's been an instructive conversation.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_ans_aio",
+  "field": "text",
+  "line": 461,
+  "en": "\"Neither would I.\" The voice is dry. \"In principle. The problem with principle is that it requires you to identify the line before you've crossed it.\"\n\nA pause.\n\n\"The Office was useful. Then it was necessary. Then it was irreplaceable. Each transition seemed logical at the time. The war makes everything seem logical.\" He is quiet for a moment. \"If you find a way to draw that line clearly, Commander, let me know. I've been looking for it for thirty years.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_ans_aio",
+  "field": "options",
+  "line": 461,
+  "en": "1:gate_logs_closing:It's been an instructive conversation.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_ans_athebyne",
+  "field": "text",
+  "line": 467,
+  "en": "He stares at you for a moment. Then he laughs.\n\nBrief. Unguarded. He doesn't appear to have expected it any more than you did.\n\nA pause.\n\nThe silence that follows is almost thoughtful.\n\n\"...Right.\"\n\nHe moves on as if it didn't happen.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_ans_athebyne",
+  "field": "options",
+  "line": 467,
+  "en": "1:gate_logs_closing:It's been an instructive conversation.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_ans_dontknow",
+  "field": "text",
+  "line": 479,
+  "en": "\"Good.\" A pause. \"That's a more honest answer than most.\"\n\nHe is quiet.\n\n\"Neither did I, at the time. That's the truth of it. The Gate responded, and we followed the thread because we were losing and we needed anything we could use. And we accepted it because the alternative was starvation and slow defeat.\" The encrypted silhouette is still. \"I made decisions under uncertainty and they kept the Alliance alive. I don't know if they were right. But I know they were necessary.\"\n\nA brief pause.\n\n\"That distinction gets heavier every year.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_ans_dontknow",
+  "field": "options",
+  "line": 479,
+  "en": "1:gate_logs_closing:It's been an instructive conversation.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_gate_logs_closing",
+  "field": "text",
+  "line": 489,
+  "en": "\"Likewise, Commander.\"\n\nHe keys something. The encrypted image holds for a moment, then clears.\n\n\"We'll be in touch.\"\n\nThe link closes.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_blind_eye_note_start",
+  "field": "script(AddText)",
+  "line": 501,
+  "en": "AddText \"An uniformed officer - Alliance security, shoulder patch of the XLII - falls into step alongside you as you move through the docking concourse. He doesn't slow. He doesn't look at you. Something is pressed into your hand. He keeps walking.\"",
+  "zh": "",
+  "note": "[AddText 指令单元: 只译引号内显示文字, 保留 AddText/颜色参数/引号] 对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=MarketPostDock)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_blind_eye_note_start",
+  "field": "options",
+  "line": 501,
+  "en": "1:blind_eye_look:Look at the note.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_blind_eye_note_look",
+  "field": "script(AddText)",
+  "line": 506,
+  "en": "AddText \"A folded slip. No name. No signature.\"\nAddText \"Three lines, printed.\"\nAddText \"Ring-Port. Transponder off. Ask for Korrin.\"\nAddText \"By the time you look up, the officer has cleared the checkpoint and is gone.\"",
+  "zh": "",
+  "note": "[AddText 指令单元: 只译引号内显示文字, 保留 AddText/颜色参数/引号] 对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_blind_eye_note_look",
+  "field": "options",
+  "line": 506,
+  "en": "1:blind_eye_pocket:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_intro_continue",
+  "field": "text",
+  "line": 530,
+  "en": "The feed resolves after a moment - no ident header, no station routing tag. A young man, background dark. He looks at the pickup. \"Commander.\" A pause. \"Korrin.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_EliasIntro)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_intro_continue",
+  "field": "options",
+  "line": 530,
+  "en": "1:elias_continue:Continue.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_briefing",
+  "field": "text",
+  "line": 531,
+  "en": "'You received the note?\" He follows up before you can answer. \"Good. Apologies for the secrecy - this operation is too important to risk on sloppiness.\"\n\n\"I've been told to brief you on our operation, so to cut it short - the Fleet Admiral sent me to prepare the station for a change of hands. The operational specifics are recent.\"\n\n\"August wants Ring-Port back, but not via our usual channels. And until now we haven't been able to commit Alliance assets without AIO oversight, and the Office's involvement would mean documentation, a review and secure process, and a multi-cycle delay while the Office investigates every nook and cranny of this facility before they even considered a direct assault.\" A pause. \"You are not subject to that oversight.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_opt_why",
+  "field": "options",
+  "line": 536,
+  "en": "1:elias_why:Why Ring-Port? Why now?",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_opt_occupants",
+  "field": "options",
+  "line": 537,
+  "en": "2:elias_occupants:The station's current occupants.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_opt_accept",
+  "field": "options",
+  "line": 538,
+  "en": "3:elias_accept:I'll do it.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_opt_decline",
+  "field": "options",
+  "line": 539,
+  "en": "4:elias_decline:Not yet.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_why",
+  "field": "text",
+  "line": 540,
+  "en": "\"Two main reasons, firstly, the logistical output of Ring-Port is not insignificant, and we need all the help we can get. Secondly, it's a matter of optics; we may be a small fish in a large pond, but this reflects poorly on the Alliance for not being able to take back such an important asset. Those are the official reasons, anyway; in reality, we need the free operating space to work without oversight. August has been assembling a contingent of those loyal to him and wants to seize control of the Office.\"\n\n\"The plan is straightforward. When the station changes hands, the AIO will arrive quickly after. That is expected. But our people are already embedded here - dock workers, transit staff, maintenance contractors, the list goes on - but the important detail is we've already prepared and secured this station before the AIO can sterilise it. If Alliance personnel hold the facility before the Office arrives, they hold it on the Admiral's terms.\"\n\nA moment's pause as Korrin leans back, as he takes a moment for himself.\n\n\"The timing was mine to judge. I sent the signal when the station's current commander was between reliable subordinates. This window is narrow.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_occupants",
+  "field": "text",
+  "line": 548,
+  "en": "He nods as he considers the question.\n\n\"Well, originally, First Fleet veterans who refused integration after the armistice. The originals are mostly old now. Their children and the people those children trained are running the operation now.\"\n\n\"They are technically proficient. They have survived in a hostile system on ingenuity and deterrence. They understand that the Alliance cannot absorb them without political consequence.\" He stops there. \"But this operation isn't about petty revenge. Besides, their lives will be better under Alliance Control...\"\n\nHe trails off on the last sentence, clearly not sold on his own words. But he catches himself.\n\n\"The important bit is they are proficient but underfunded fighters, Commander.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_accept",
+  "field": "text",
+  "line": 558,
+  "en": "He scans his terminal display. \"That's what I need to hear. My people are staged - the watch rotation on the cargo lock is clear, the maintenance window holds for another six hours. You have a window and the force to use it.\" He closes the feed channel. \"The moment you launch, I'm inside with you.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_accept_nomines",
+  "field": "text",
+  "line": 560,
+  "en": "He shakes his head. \"Not yet. The garrison runs thick for its size - First Fleet veterans who've spent two decades hardening that station against exactly this kind of assault. Five hundred marines minimum, and that's assuming everything I've arranged goes right. Come back when you have the numbers.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_decline",
+  "field": "text",
+  "line": 562,
+  "en": "\"Noted...\" He opens the datapad again. \"I'll be here.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_return",
+  "field": "text",
+  "line": 564,
+  "en": "He answers without delay. The expression is the same as when you left it - almost. \"Commander.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenCDE)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_return_opt_accept",
+  "field": "options",
+  "line": 569,
+  "en": "1:elias_return_accept:I'll do it.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_return_opt_leave",
+  "field": "options",
+  "line": 570,
+  "en": "2:elias_return_leave:Not yet.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_return_accept",
+  "field": "text",
+  "line": 571,
+  "en": "He scans his terminal display. \"That's what I need to hear. My people are staged - the watch rotation on the cargo lock is clear, the maintenance window holds for another six hours. You have a window and the force to use it.\" He closes the feed channel. \"The moment you launch, I'm inside with you.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_return_accept_nomines",
+  "field": "text",
+  "line": 574,
+  "en": "He shakes his head. \"Not yet. The garrison runs thick for its size - First Fleet veterans who've spent two decades hardening that station against exactly this kind of assault. Five hundred marines minimum, and that's assuming everything I've arranged goes right. Come back when you have the numbers.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_confirm_launch_opt",
+  "field": "options",
+  "line": 577,
+  "en": "1:elias_confirm_launch:Launch the assault.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_confirm_wait_opt",
+  "field": "options",
+  "line": 578,
+  "en": "2:elias_confirm_wait:Not yet.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_marines_ack_opt",
+  "field": "options",
+  "line": 581,
+  "en": "1:elias_marines_ack:Understood.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_active",
+  "field": "text",
+  "line": 583,
+  "en": "He answers on the second ping. \"Nothing new from my end. The situation holds.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenCDE)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_active_ack",
+  "field": "options",
+  "line": 587,
+  "en": "1:elias_ack:Understood.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_victory",
+  "field": "text",
+  "line": 592,
+  "en": "You comm Korrin from the dock. The line connects without routing delay - Ring-Port's comms infrastructure already back under Alliance administration. The station is different. Same bulkheads, same corridors. Different faces at every checkpoint.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenCDE)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_victory_intro",
+  "field": "text",
+  "line": 597,
+  "en": "\"It's done. Good job.\" \n\nHe says it without embellishment.\n\n\"August's contingent moved in within the hour. They'll be staged two berths over, waiting on their signal, but for all intents and purposes, the station is already under Alliance administration.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_EliasVictoryIntro)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_victory_intro",
+  "field": "options",
+  "line": 597,
+  "en": "1:elias_victory_what:What happens next?\n2:elias_victory_ack:Understood.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_victory_what",
+  "field": "text",
+  "line": 603,
+  "en": "\"August's people hold the station before the Office arrives. That was the point.\" He closes the terminal display. \"The Fleet Admiral will know what was accomplished here. Whatever the Office makes of that is their concern.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_victory_what",
+  "field": "options",
+  "line": 603,
+  "en": "1:elias_victory_close:Understood.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_contact",
+  "field": "text",
+  "line": 608,
+  "en": "The line connects. \"Commander.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenCDE)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_elias_contact_opt",
+  "field": "options",
+  "line": 613,
+  "en": "1:elias_contact_leave:Nothing right now.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_debrief_opt",
+  "field": "options",
+  "line": 618,
+  "en": "1:ring_port_debrief:About Ring-Port.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_debrief_open_precise",
+  "field": "text",
+  "line": 623,
+  "en": "\"Clean operation. Precise. However, don't mistake that for a compliment without conditions.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AugustDebriefOpening)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_debrief_open_costly",
+  "field": "text",
+  "line": 624,
+  "en": "\"The casualty count is significant.\" He does not minimize it. \"But Ring-Port is held. That was the objective, good job.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AugustDebriefOpening)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_debrief_open_accept",
+  "field": "text",
+  "line": 625,
+  "en": "\"Ring-Port is secured. The count is filed.\" A pause. \"We have what we came for.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AugustDebriefOpening)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_debrief_beat3risky",
+  "field": "text",
+  "line": 626,
+  "en": "\"I heard there were civilian causalities in the lower decks.\" A pause as he leans back, static darting across his figure, as he makes a movement that can only be considered smoking. \"This is an issue Korrin will have to fix. He has had worse. But he will carry it regardless. This does, however, reflect poorly on all of us.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AugustDebriefContent)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_debrief_beat5sp",
+  "field": "text",
+  "line": 627,
+  "en": "\"The inner sanctum's surrender was formal - observed, documented, clean under the Transit Accords.\" A pause. \"That was the outcome I was hoping for.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AugustDebriefContent)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_debrief_beat5risky",
+  "field": "text",
+  "line": 628,
+  "en": "\"No prisoners from the inner sanctum. I knew some of them, personally, they were not going to surrender to a foreign commission. Not after twenty years of spitting in my face. I had accounted for the possibility. Clean work.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AugustDebriefContent)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_debrief_beat5safe",
+  "field": "text",
+  "line": 629,
+  "en": "\"The inner sanctum's veterans - most of them - are in custody. That is workable. Less clean than a formal surrender. Korrin will manage the transition regardless.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AugustDebriefContent)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_debrief_korrin",
+  "field": "text",
+  "line": 630,
+  "en": "He keys something on the console - not looking at you now.\n\n\"I have your transfer ready, $global.XLII_raidCreditRewardFormatted credits, I'm sure you'll appreciate. The Alliance does not forget its contracts.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AugustDebriefContent)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_debrief_korrin",
+  "field": "options",
+  "line": 630,
+  "en": "1:debrief_elias:About Korrin.\n2:debrief_ack:Understood.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_debrief_elias",
+  "field": "text",
+  "line": 638,
+  "en": "A pause that runs a half-second longer than it needs to, you could almost mistake it as a sigh.\n\n\"That place was personal to him; that's why he was there, but that's not the relevant fact. He'll be fine, Commander.\"\n\nHe trails off, nothing in his expression. Nothing in his voice.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_debrief_elias_text",
+  "field": "options",
+  "line": 644,
+  "en": "1:debrief_elias_close:Understood.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_ext_prequest_opt",
+  "field": "options",
+  "line": 652,
+  "en": "1:ring_port_ext_prequest:About Ring-Port Station.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_ext_midquest_opt",
+  "field": "options",
+  "line": 656,
+  "en": "1:ring_port_ext_midquest:About Ring-Port.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_ext_prequest_init",
+  "field": "text",
+  "line": 660,
+  "en": "\"Ring-Port is no longer in hostile hands.\" A pause. The distorted figure is still for a moment longer than usual. \"We are aware. The circumstances are not what I had planned, but the outcome serves the Alliance regardless.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_ext_prequest_body",
+  "field": "text",
+  "line": 662,
+  "en": "\"The Office will need to establish presence before the situation calcifies. My people were not in position.\" He does not elaborate further. \"That is a complication I will manage.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AugustExtPrequestContent)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_ext_prequest_body",
+  "field": "options",
+  "line": 662,
+  "en": "1:ring_port_ext_helped:I had a hand in that.\n2:ring_port_ext_info:Thought you should know.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_ext_prequest_helped",
+  "field": "text",
+  "line": 664,
+  "en": "\"Then I suppose Alliance owes you a debt that predates the paperwork.\" A beat. \"I had an operation planned for that station. Months of preparation. You have made it unnecessary.\"\n\nYou detect the hint of frustration, however faint as he keys something on his console.\n\n\"Some credits and a marker of trust. For your 'initiate'...\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_ext_prequest_info",
+  "field": "text",
+  "line": 670,
+  "en": "\"Noted.\" The distorted figure makes a gesture that might be acknowledgment. \"The Alliance benefits regardless of who held the blade.\"\n\nHe keys something on the console.\n\n\"A small transfer. For services rendered to the Alliance - whether you intended them or not.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_admiral_ext_midquest_init",
+  "field": "text",
+  "line": 682,
+  "en": "The line is quiet for a few brief seconds. When he speaks, the modulated voice carries something that might be controlled anger, might be exhaustion.\n\n\"Ring-Port has changed hands.\" A pause. \"Not through the channels I arranged. Not through my terms. Not through any of the infrastructure my people spent months embedding in that station.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_ext_midquest_body",
+  "field": "text",
+  "line": 686,
+  "en": "He leans back. The encryption ripples.\n\n\"The Office arrived to a situation already in motion. My contingent was not in position. The embedded personnel - Loss. The operational security we built - compromised.\" He does not raise his voice.\n\n\"I do not question the outcome. Ring-Port is out of hostile hands. But the operation I designed was not about the station, Commander. It was about who controlled the transition. That window is closed.\"\n\nHe keys something on the console. The gesture is clipped.\n\n\"Credits. The contract rate for the outcome, absent the method. Take it. Consider the matter closed.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AugustExtMidquestContent)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_august_ext_midquest_body",
+  "field": "options",
+  "line": 686,
+  "en": "1:ring_port_ext_mid_ack:Understood.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_aio_operative_init",
+  "field": "text",
+  "line": 707,
+  "en": "The link connects without delay. No routing header, no station tag - the origin is absent by design. Vasner is already looking at you when the feed connects.\n\n\"Commander.\" A pause that holds something back. \"What do you need?\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenCDE)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_aio_operative_main_opt_buy",
+  "field": "options",
+  "line": 713,
+  "en": "1:XLII_aio_buy_sp_opt:Exchange credits for a story point.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_aio_operative_main_opt_leave",
+  "field": "options",
+  "line": 714,
+  "en": "99:aio_dismiss:That's all.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_aio_buy_sp_sel",
+  "field": "options",
+  "line": 715,
+  "en": "1:aio_sp_confirm:Accept.\n2:aio_sp_cancel:Decline.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_aio_sp_result_success",
+  "field": "text",
+  "line": 723,
+  "en": "\"Logged.\" He makes a brief note. \"The Office maintains certain developmental resources. Consider this a reallocation.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=XLII_AIOOperativeSPResult)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_aio_operative_dismiss",
+  "field": "text",
+  "line": 728,
+  "en": "\"The directory stays active.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_nanoforge_discuss_eligible",
+  "field": "text",
+  "line": 732,
+  "en": "\"There is one thing.\" A brief pause that, for once, doesn't feel like a tactic. \"Something the Alliance needs - not just for the war effort. But for what comes after it.\n\nKori's yards can produce hulls well enough. But what we cannot produce - not yet - is the precision manufacturing infrastructure we lost during the civil war. A Pristine Nanoforge. Domain-era. Undamaged.\n\nIf you come across one, bring it to me directly.\" The encrypted silhouette leans forward slightly. \"I won't ask where you found it. You won't need to ask what we intend to do with it.\"\n\nA brief pause.\n\n\"The Alliance does not forget its debts, Commander.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_nanoforge_discuss_eligible",
+  "field": "options",
+  "line": 732,
+  "en": "1:return_to_main_menu:Understood.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_nanoforge_discuss_fallback",
+  "field": "text",
+  "line": 744,
+  "en": "\"You've served us well enough, Commander - that's not in question.\" A measured pause. \"But some matters I hold in reserve for those who've given the Alliance more... comprehensive proof of commitment.\n\nKeep doing what you're doing. That conversation will happen when the time is right.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_nanoforge_discuss_fallback",
+  "field": "options",
+  "line": 744,
+  "en": "1:return_to_main_menu:Understood.",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_nanoforge_deliver_success",
+  "field": "text",
+  "line": 748,
+  "en": "The silhouette on the screen is still for a long moment.\n\n\"Some things are better kept off the record. But thank you, truly.\"\n\nYou hear something being keyed in the background.\n\n\"The forge goes to Kori. What it produces will outlast both of us.\" A pause - the first one that doesn't feel calculated. \"I have something for you, in return. A part of what the Alliance Intelligence Office has held since end of the war.\"\n\nData streams to your command console - encrypted manifests, operational assessments, a transfer authorization bearing August's personal cipher.\n\n\"Octantis, or at least a uplink to it. I've been advised not to speculate - but it will serve your fleet well. I have it on authority that it performs.\" A brief silence before the connection modulates.\n\n\"Needless to say, do not lose it, Commander. We try to avoid giving these out freely.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_nanoforge_deliver_success",
+  "field": "options",
+  "line": 748,
+  "en": "1:dismiss:End transmission",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_alpha_open",
+  "field": "text",
+  "line": 771,
+  "en": "Stellar Array Alpha, first of the three stations spaced evenly around this orbit, each of them holding its face to Fafnir.\n\nEdge-on it does not exist. Your sensor officer finds it by the hole it leaves in the starfield - a band of absent light eleven kilometres across and, by the return, no thicker than a few hundred molecules.\n\nIt keeps its angle as you close. Nothing in the motion suggests machinery.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenInteractionDialog)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_bravo_open",
+  "field": "text",
+  "line": 777,
+  "en": "Stellar Array Bravo rides the same orbit as Alpha and Charlie, a third of the way around the star from each of them, on the same unwavering bearing.\n\nEleven kilometres of foil, and no way onto it. No docking collar, no berthing spar, no service gantry, no hatch on any surface your scopes can resolve.\n\nWhatever built this array did not expect anyone to come back to it.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenInteractionDialog)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_charlie_open",
+  "field": "text",
+  "line": 783,
+  "en": "Stellar Array Charlie holds the last of the three stations on this orbit, identical to Alpha and Bravo in every dimension your instruments can measure.\n\nIt takes your sensor officer several minutes to say what is wrong with the returns, because the problem is not something present in them.\n\nThe hull is clean. Not maintained - clean. Thirty cycles of war in this system, and the surface reads as though nothing has ever been near it.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenInteractionDialog)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_opts_alpha",
+  "field": "options",
+  "line": 789,
+  "en": "1:XLII_mirrorAlphaSurvey:Run a collection survey",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_opts_bravo",
+  "field": "options",
+  "line": 791,
+  "en": "1:XLII_mirrorBravoSurvey:Run a collection survey",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_opts_charlie",
+  "field": "options",
+  "line": 793,
+  "en": "1:XLII_mirrorCharlieSurvey:Run a collection survey",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_opts_crossref",
+  "field": "options",
+  "line": 795,
+  "en": "2:XLII_mirrorCrossRef:Cross-reference the returns from all three arrays",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_opts_leave",
+  "field": "options",
+  "line": 799,
+  "en": "100:defaultLeave:Leave",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_alpha_survey",
+  "field": "text",
+  "line": 800,
+  "en": "Your team spends four hours on the collector spine. Your Ops Chief reads the returns twice before speaking.\n\n\"It's not a reflector, $PlayerSirOrMadam. There's no focal assembly, and there's nothing downrange to reflect onto. It's aimed at the star, and the star is the only thing it has ever been aimed at.\"\n\nThey set the slate down.\n\n\"And it's drawing. I can't tell you from what. Thermal's dead, no plasma tap, no corona intercept - it isn't a shunt, before you ask, I checked that first. But the collection budget on this one array runs to eleven figures and I've nowhere to put the decimal.\"\n\nA pause.\n\n\"Historians called these mirrors. Whoever wrote that never came out here.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_alpha_survey",
+  "field": "options",
+  "line": 800,
+  "en": "1:XLII_mirrorPost:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_bravo_survey",
+  "field": "text",
+  "line": 811,
+  "en": "Six hours on the spine and your team finds no way inside. What they find instead is a housekeeping channel, unencrypted, broadcasting to nobody.\n\n\"Alignment log, $PlayerSirOrMadam. It corrects itself. Sub-arcsecond, continuous, and it has been doing it without interruption for as far back as the buffer runs.\"\n\nYour Ops Chief scrolls, and keeps scrolling.\n\n\"Last correction was fourteen minutes ago.\"\n\nA beat.\n\n\"There's no crew. Nothing seems to have docked here since the end of their war. I had the Sustainment archive queried on the way out - there is no maintenance contract for these arrays, there has never been a maintenance contract for these arrays, and Acquisitions has a form for that. It's the one you file when the asset does not require servicing.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_bravo_survey",
+  "field": "options",
+  "line": 811,
+  "en": "1:XLII_mirrorPost:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_charlie_survey",
+  "field": "text",
+  "line": 822,
+  "en": "Your team walks the full face and reports no impact scarring. No micrometeorite pitting. No weapons burns.\n\n\"The Gate took a beating and the Gate wasn't even a target, $PlayerSirOrMadam. This thing sat through the entire war.\"\n\nYour Ops Chief has the fleet archive open.\n\n\"Athebyne's bombardment groups transited inside weapons range of this array on eleven recorded occasions. Nobody fired. Not a warning shot, not a ranging round. It isn't on anyone's target list, and I can't find the order that took it off.\"\n\nThey hesitate over the last of it.\n\n\"One more thing. Whatever this array does, it doesn't do it at a constant rate. The housekeeping buffer keeps the peaks - it ramps when something downrange calls for it, and holds until whatever that is has had its fill. The longest on record runs seventy-two hours.\"\n\nNobody on the bridge asks which seventy-two hours.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_charlie_survey",
+  "field": "options",
+  "line": 822,
+  "en": "1:XLII_mirrorPost:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_post_challenge",
+  "field": "text",
+  "line": 835,
+  "en": "Comms flags an inbound hail on an Alliance military band. No fleet on the scope. No origin marker.\n\nThe voice is unhurried, and slightly bored.\n\n\"Vessel at close station on the collector array. You are logged. Survey activity in this orbit is prohibited under standing instruction - reference is not provided. Confirm you are departing.\"\n\nA pause, exactly as long as courtesy requires.\n\n\"Your inquiry is noted.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_post_challenge",
+  "field": "options",
+  "line": 835,
+  "en": "1:XLII_mirrorReplyConfirm:Confirm departure\n2:XLII_mirrorReplyAsk:Ask which standing instruction\n3:XLII_mirrorReplySilent:Say nothing",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_post_plain",
+  "field": "text",
+  "line": 847,
+  "en": "No hail this time. Whatever is listening has already made its position clear, and does not appear to feel the need to repeat itself.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_reply_confirm",
+  "field": "text",
+  "line": 849,
+  "en": "\"Noted.\"\n\nThe link cuts.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_reply_ask",
+  "field": "text",
+  "line": 852,
+  "en": "\"Which instruction?\"\n\nA silence. Not hesitation - a decision.\n\n\"The instruction is standing. That is the whole of what I have.\"\n\nThe link cuts.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_reply_silent",
+  "field": "text",
+  "line": 859,
+  "en": "The channel stays open for eleven seconds. Then: \"Understood.\"\n\nIt closes.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_crossref_logs",
+  "field": "text",
+  "line": 862,
+  "en": "Three sets of returns on one plot. Your Ops Chief runs the vectors out and does not need long.\n\n\"They don't converge on a planet, $PlayerSirOrMadam. They converge under one.\"\n\nThe intersect resolves kilometres beneath Kori's ice, well below the shipyards, in a volume that appears on no Alliance survey chart at any classification your fleet is cleared to read.\n\n\"The Gate cache had a codeword for whatever's down there.\"\n\nA pause.\n\n\"It didn't mention that the thing needs feeding.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_crossref_logs",
+  "field": "options",
+  "line": 862,
+  "en": "1:XLII_mirrorRemainder:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_crossref_nologs",
+  "field": "text",
+  "line": 874,
+  "en": "Three sets of returns on one plot. Your Ops Chief runs the vectors out and does not need long.\n\n\"They don't converge on a planet, $PlayerSirOrMadam. They converge under one.\"\n\nThe intersect resolves kilometres beneath Kori's ice, well below the shipyards, in a volume that appears on no Alliance survey chart at any classification your fleet is cleared to read.\n\n\"So it all goes there. Three arrays' worth, into a hole under their own headquarters.\"\n\nA pause.\n\n\"I'd very much like to know what's using it.\"",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_crossref_nologs",
+  "field": "options",
+  "line": 874,
+  "en": "1:XLII_mirrorRemainder:Continue",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_mirror_remainder",
+  "field": "text",
+  "line": 886,
+  "en": "Your Ops Chief is still working. Something in their posture changes.\n\n\"It doesn't balance.\"\n\nThey turn the plot. \"Whatever's down there is taking a fraction. A large fraction - but a fraction. You cannot siphon on this scale and not shed the remainder somewhere, and the remainder is the larger number.\"\n\n\"It's been called a hyperspace anomaly since before the Alliance,\" your sensor officer says. \"It's in the pilot notes. There's a defence doctrine built on it.\"\n\nNobody finishes the thought aloud.\n\nThe Rift is not weather. The Rift is exhaust - and the machinery that makes it has been running, without interruption or supervision, since long before anyone in Fafnir was born.\n\nWhich leaves one question, and your Ops Chief has the good sense not to ask it. What becomes of the wall, if the machinery ever stops.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=DialogOptionSelected)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_rift_beacon_dialog",
+  "field": "text",
+  "line": 903,
+  "en": "The beacon is old. Domain-pattern casing, pitted grey by cycles of particle wash, its solar collectors long since scoured blind. Its transmitter is not old at all.\n\nThe loop is Alliance-issue.\n\n\"NAVIGATIONAL HAZARD. Particle flux beyond this marker exceeds survivable tolerance for unshielded hulls. Turn back.\"\n\n\"The Fafnir system is closed to unauthorised traffic by standing order of the Draconis Defence Alliance. Vessels attempting transit without current approach data will be intercepted. Consider this your notification.\"\n\nUnderneath it, on a subcarrier nobody troubled to strip out, the buoy's original signal is still running. Survey-standard, pre-Collapse, patient as anything.\n\n\"...unresolved anomaly. Origin unknown. Do not approach. Do not approach. Do not...\"\n\nYour comms officer holds the second channel a moment longer than necessary, then closes it.",
+  "zh": "",
+  "note": "对话/事件显示文本 (可自由口语化); 保留 $变量 (trigger=OpenInteractionDialog)"
+ },
+ {
+  "file": "data/campaign/rules.csv",
+  "id": "XLII_rift_beacon_dialog",
+  "field": "options",
+  "line": 903,
+  "en": "beaconLeave:Leave",
+  "zh": "",
+  "note": "选项列表 (num:optionId:标签 或 optionId:标签; 只译标签部分, 保留 id/序号/引号)"
+ },
+ {
+  "file": "data/missions/highorbit/descriptor.json",
+  "id": "highorbit",
+  "field": "title",
+  "line": 2,
+  "en": "High Orbit",
+  "zh": "",
+  "note": "任务选单 标题"
+ },
+ {
+  "file": "data/missions/highorbit/descriptor.json",
+  "id": "highorbit",
+  "field": "difficulty",
+  "line": 3,
+  "en": "MEDIUM",
+  "zh": "",
+  "note": "难度标签 (确认界面是否显示后再定)"
+ },
+ {
+  "file": "data/missions/highorbit/mission_text.txt",
+  "id": "highorbit",
+  "field": "text",
+  "line": 1,
+  "en": "Location: Kori High Orbit, Fafnir System\nDate: 199.11.03\n\nAuxiliary Inspector arrived at Kori Station six weeks ago with a writ of inspection, a platoon of marines, and the quiet confidence of a man backed by the largest navy in the sector. Fleet Admiral August received him in the command centre, offered him coffee, and told him, politely, that no Hegemony personnel would be setting foot in the refinery complexes.\n\nThe cores stayed - The Inspector left. Three days later, a Hegemony Battlegroup translated in-system at the Fafnir jump point.\n\nThe formal communication used the term \"compliance action.\" The kind you send when you've already decided how negotiations will end.\n\nAugust's response was simple: \"All ships, this is Admiral. The enemy is at anchor and aware. We will engage now. Batteries released. Open fire.\"",
+  "zh": "",
+  "note": "任务简报全文 (保留段落格式; Location/Date 行可意译)"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "tagline@19",
+  "line": 19,
+  "en": "Admiral August's Strike Fleet",
+  "zh": "",
+  "source": "new",
+  "note": "任务选单舰队标语"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "tagline@20",
+  "line": 20,
+  "en": "Hegemony Inspection Fleet Battlegroup",
+  "zh": "",
+  "source": "new",
+  "note": "任务选单舰队标语"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "briefing@23",
+  "line": 23,
+  "en": "Defend Draconis' right to operate AI cores freely",
+  "zh": "",
+  "source": "new",
+  "note": "任务简报条目"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "briefing@24",
+  "line": 24,
+  "en": "Achieve a decisive victory to deter future Hegemony interference",
+  "zh": "",
+  "source": "new",
+  "note": "任务简报条目"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@28",
+  "line": 28,
+  "en": "Kori's Wrath",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@31",
+  "line": 31,
+  "en": "Abstract Endurance",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@32",
+  "line": 32,
+  "en": "Apostle's Creed",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@35",
+  "line": 35,
+  "en": "Steadfast Resolve",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@36",
+  "line": 36,
+  "en": "Defiant",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@37",
+  "line": 37,
+  "en": "Atlas",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@40",
+  "line": 40,
+  "en": "Iron Curtain",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@41",
+  "line": 41,
+  "en": "Vengeance",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@42",
+  "line": 42,
+  "en": "Calcutta",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@43",
+  "line": 43,
+  "en": "Thunderbolt",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@46",
+  "line": 46,
+  "en": "Swift Justice",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@47",
+  "line": 47,
+  "en": "Dark Was the Night",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@48",
+  "line": 48,
+  "en": "Do You Feel Lucky?",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@52",
+  "line": 52,
+  "en": "Hegemon's Will",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@55",
+  "line": 55,
+  "en": "Babylonian",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@56",
+  "line": 56,
+  "en": "All Of Our Hopes",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@59",
+  "line": 59,
+  "en": "Joseph",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@60",
+  "line": 60,
+  "en": "Enforcer",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@61",
+  "line": 61,
+  "en": "Voyageur",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@62",
+  "line": 62,
+  "en": "Home Away",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@63",
+  "line": 63,
+  "en": "Compliance",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@64",
+  "line": 64,
+  "en": "Authority",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@67",
+  "line": 67,
+  "en": "Retribution",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@68",
+  "line": 68,
+  "en": "Bright Tide",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@69",
+  "line": 69,
+  "en": "Lawbringer",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@70",
+  "line": 70,
+  "en": "Storm",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@73",
+  "line": 73,
+  "en": "Watchful",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "shipName@74",
+  "line": 74,
+  "en": "Guardian",
+  "zh": "",
+  "source": "new",
+  "note": "任务舰船名（可意译或保留原文）"
+ },
+ {
+  "file": "data/missions/highorbit/MissionDefinition.java",
+  "id": "highorbit",
+  "field": "other@86",
+  "line": 86,
+  "en": "frozen",
+  "zh": "",
+  "source": "new",
+  "note": "待人工核对"
+ },
+ {
+  "file": "data/strings/strings.json",
+  "id": "CHM.chm_draconis0",
+  "field": "chm_draconis0",
+  "line": 3,
+  "en": "\"Diplomacy is great when it works, but difficult when everyone already perceives you as a threat.\"",
+  "zh": "",
+  "source": "new",
+  "note": "CHM 委托船插 tooltip 外置文本（getString(\"CHM\",\"chm_draconis0\")）"
+ },
+ {
+  "file": "data/strings/strings.json",
+  "id": "CHM.chm_draconis1",
+  "field": "chm_draconis1",
+  "line": 4,
+  "en": "         - Fleet Admiral Emil August",
+  "zh": "",
+  "source": "new",
+  "note": "CHM 委托船插 tooltip 外置文本（getString(\"CHM\",\"chm_draconis1\")）"
+ }
+]

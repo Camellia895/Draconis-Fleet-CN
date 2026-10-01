@@ -303,8 +303,8 @@ public class DraconisFleetHostileActivityFactor extends BaseHostileActivityFacto
         params.raidParams.tryToCaptureObjectives = false;
         params.raidParams.allowedTargets.add(target);
         params.raidParams.allowNonHostileTargets = true;
-        params.raidParams.raidApproachText = "moving to bombard";
-        params.raidParams.raidActionText = "bombarding";
+        params.raidParams.raidApproachText = "正在移向轰炸阵位";
+        params.raidParams.raidActionText = "轰炸中";
         params.raidParams.raidsPerColony = 1;
 
         params.style = FleetStyle.QUALITY;
@@ -361,7 +361,7 @@ public class DraconisFleetHostileActivityFactor extends BaseHostileActivityFacto
                 @Override
                 public void createTooltip(TooltipMakerAPI tooltip, boolean expanded, Object tooltipParam) {
                     Color h = Misc.getHighlightColor();
-                    tooltip.addPara(AIOStrings.HAE_AI_CORE_TIP_PARA, 0f, h, "AI cores");
+                    tooltip.addPara(AIOStrings.HAE_AI_CORE_TIP_PARA, 0f, h, "AI 核心");
                 }
             }, TooltipLocation.RIGHT, false);
         }
